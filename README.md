@@ -124,12 +124,107 @@ MIT。
 
 ---
 
+
+## Monthly Full-Site Audit Workflow
+
+> **Battle-tested 2026-05-07** on a 58-page blog. Caught 43 SERP-truncating titles + 36 schema warns + 27 stop-word slugs in a single 30-min run. One layout-level commit fixed 20 of 43 titles. **Use for any Jekyll / Hugo / Next.js blog with 30+ posts.**
+
+A repeatable 6-stage workflow you can run on any site. Powered by 4 scripts (see attribution below).
+
+### Stage 1 — Discovery (5 min)
+Pull all blog URLs from your sitemap:
+```python
+import urllib.request, re
+sm = urllib.request.urlopen("https://your-site.com/sitemap.xml").read().decode()
+urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/blog/" in u]
+```
+
+### Stage 2 — Parallel Audit (20 min for 60 pages)
+Run two audit scripts per URL in 4-thread parallel:
+
+```bash
+pip install requests
+python3 skills/gr-seo-patrol/scripts/check-page.py URL --timeout 20
+python3 skills/gr-seo-patrol/scripts/check-schema.py URL --timeout 20
+```
+
+Each script outputs a structured JSON envelope (`status: pass|warn|fail|info` per check).
+
+### Stage 3 — Aggregate Findings
+Bucket issues by type:
+- **Title length** > 70 chars (SERP truncation risk)
+- **H1 length** > 70 chars (mobile readability)
+- **Meta description** outside 80-170 chars
+- **Schema warns** by `@type` (BlogPosting / Article / Organization)
+- **Canonical mismatches**, **slug stop words**, **missing alt text**
+
+Save aggregated counts + per-URL lists to `findings.json`.
+
+### Stage 4 — Layered Fix Strategy (HIGH ROI ORDER)
+
+| Order | Layer | Scope | Typical commits | ROI |
+|---|---|---|---|---|
+| 1️⃣ | **Layout** (`_layouts/default.html`) | Schema bugs, title suffix, dateModified injection | 1 | 🔥 fixes 20+ pages at once |
+| 2️⃣ | **Config** (`_config.yml`) | Logo URL, twitter, social, author structure | 1 | fixes site-wide |
+| 3️⃣ | **Per-article batch** | Trim long titles/H1s, expand short meta | 10-20 | per-file, parallelizable |
+| 4️⃣ | **Skip** | Slug stop words (changing breaks 301), low-traffic old articles | 0 | low ROI |
+
+### Stage 5 — Verify
+After Jekyll/Hugo rebuild (~60-90s), re-run `check-schema.py` on a sample page.
+All schema types should show `status: pass`:
+Article · BlogPosting · Organization · FAQPage
+
+### Stage 6 — Archive + Trend Track
+Commit `findings.json` to `data/audit-{YYYY-MM-DD}.json` for month-over-month trend analysis.
+Add 2-5 atoms to `知识库/原子库/atoms.jsonl` documenting any new lessons.
+
+### Schedule it
+Add a monthly cron to auto-run before your Phase 2 / quarterly checkpoint:
+```bash
+# In Claude Code's scheduled-tasks
+cronExpression: "0 10 1 * *"   # 10am on day 1 of each month
+prompt: "Run Monthly Full-Site Audit per gr-seo-patrol/SKILL.md workflow..."
+```
+
+### What you'll typically find on your first run
+
+Real numbers from gingiris.github.io/growth-tools 2026-05-07 run:
+
+| Issue | Count | Resolution path |
+|---|---|---|
+| Title >70 chars | 43/58 | Layout-level (-20 chars suffix) + 13 per-article retrim |
+| Schema warns | 36 | Layout-level (dateModified + publisher.logo + contactPoint) |
+| H1 >70 chars | 23 | Per-article trim (paired with title) |
+| Meta too short/long | 20 | Per-article (i18n posts often hit this) |
+| Slug stop words | 27 | **SKIP** (would break 301 redirects) |
+| HTTP errors | 2 | Investigate (likely deleted/renamed) |
+
+**Total time**: ~30 min audit + 90 min fixes = **2 hours for site-wide SEO health refresh**.
+
+### HARD RULE (anti-hallucination guardrail)
+
+⛔ **Output ONLY the checks defined in the script's JSON envelope.**
+- Do NOT add "bonus" checks not in the script output
+- Do NOT contradict the script's `status` field without observable evidence
+- Do NOT invent metrics like "EEAT score 89" — third-party scoring is unofficial per Google 2026 guidance
+- If `llm_review_required: true`, make explicit judgment + document reasoning + update status
+
+The script envelope is **the single source of truth**. Treat as strict whitelist.
+
+### Script attribution
+
+The 4 audit scripts (`check-page.py`, `check-schema.py`, `check-site.py`, `check-social.py`) in `skills/gr-seo-patrol/scripts/` are **adapted from** [JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) (MIT). Original repo focused on single-page client-presentable HTML reports; we adapted them for orchestrated batch audit + Jekyll/GitHub Pages site analysis. Original license terms preserved in each file header.
+
+---
 ## 关联 repo
 
 - [Gingiris/growth-tools](https://github.com/Gingiris/growth-tools) — 主 blog，所有 skill 的实战场
 - [Gingiris/gingiris-launch](https://github.com/Gingiris/gingiris-launch) — PH launch playbook 内容源
 - [Gingiris/awesome-agent-skills](https://github.com/Gingiris/awesome-agent-skills) — skills 生态索引
 - [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) — 框架灵感来源
+- [JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) — 单页 SEO 审计脚本来源（4 scripts adapted）
+- [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — 25-skill SEO 全套（含外链分析，可作 Tier 3 扩展）
+- [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) — GEO 0-100 评分体系（可作 gr-geo-cite 增强）
 
 ---
 
