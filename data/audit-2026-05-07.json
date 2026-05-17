@@ -1,0 +1,566 @@
+{
+  "audit_date": "2026-05-07",
+  "total_pages": 58,
+  "summary": {
+    "title_too_long": 43,
+    "h1_too_long": 23,
+    "meta_missing": 0,
+    "meta_too_short": 10,
+    "meta_too_long": 10,
+    "canonical_issues": 0,
+    "slug_stop_words": 27,
+    "img_alt_issues": 0,
+    "schema_warns": {
+      "BlogPosting": 24,
+      "Article": 12
+    }
+  },
+  "title_too_long_list": [
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study",
+      "len": 106,
+      "value": "How to Get GitHub Stars for Open Source Projects in 2026 (AFFiNE 33k → 60k Case "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks",
+      "len": 90,
+      "value": "AFFiNE GitHub Stars: 60,000+ and How We Got There (Founder's Playbook) | Growth "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth",
+      "len": 95,
+      "value": "GitHub Stars History: 5 Free Tools to Track & Analyze Any Repo (2026 Guide) | Gr"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner",
+      "len": 100,
+      "value": "Product Hunt Launch Playbook for B2B SaaS in 2026: 30x #1 Winner's 6-Week Sprint"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide",
+      "len": 106,
+      "value": "GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Ex"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide",
+      "len": 91,
+      "value": "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster | Growth"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users",
+      "len": 78,
+      "value": "Startup Marketing Strategy: From Zero to First 1,000 Users | Growth Tools Blog"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned",
+      "len": 130,
+      "value": "Reddit Marketing for B2B SaaS in 2026: How to Promote Without Getting Banned (Su"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide",
+      "len": 92,
+      "value": "GitHub Issue Template: How to Get More Contributions and Build Community | Growt"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026",
+      "len": 104,
+      "value": "Best Social Listening Tools Under $100/mo for B2B SaaS Startups (2026 Buyer's Gu"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-growth-tools-for-saas-2026",
+      "len": 84,
+      "value": "Best Growth Tools for SaaS Startups in 2026: 100+ Verified Tools | Growth Tools "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/kol-marketing-strategy",
+      "len": 89,
+      "value": "KOL Marketing Strategy: How to Find and Work with Influencers in 2026 | Growth T"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/word-of-mouth-marketing",
+      "len": 89,
+      "value": "Word of Mouth Marketing: The Complete Guide for SaaS Startups in 2026 | Growth T"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide",
+      "len": 85,
+      "value": "Developer Advocate: The Complete Career & Strategy Guide for 2026 | Growth Tools"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups",
+      "len": 81,
+      "value": "Growth Hacking for Startups: 20 Proven Tactics (2026 Edition) | Growth Tools Blo"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/generative-engine-optimization-tools",
+      "len": 81,
+      "value": "Generative Engine Optimization Tools: Best GEO Stack for 2026 | Growth Tools Blo"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences",
+      "len": 81,
+      "value": "Developer Marketing: How to Reach Technical Audiences in 2026 | Growth Tools Blo"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups",
+      "len": 103,
+      "value": "Go-to-Market Strategy for B2B SaaS in 2026: 7-Stage Playbook with Real Case Stud"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups",
+      "len": 98,
+      "value": "Content Marketing for Startups: From 0 to 10k Monthly Visitors (Real Playbook) |"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist",
+      "len": 97,
+      "value": "Product-Market Fit: 25 Signs You Have It + The Complete Measurement Checklist | "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas",
+      "len": 105,
+      "value": "How to Find Beta Users for Your SaaS in 2026: 12 Channels Ranked by Cost & Conve"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/cold-outreach-email-templates-saas",
+      "len": 108,
+      "value": "Cold Email Templates for SaaS: 10 Copy-Paste Scripts That Get Replies (+ Softwar"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/saas-marketing-guide",
+      "len": 113,
+      "value": "SaaS Marketing for Indie Founders (2026): Channels by Stage, Real Examples, $0-B"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026",
+      "len": 90,
+      "value": "Developer Marketing Playbook: How to Reach Technical Audiences in 2026 | Growth "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026",
+      "len": 101,
+      "value": "App Store Optimization Tools: Best ASO Stack for 2026 (+ Complete Strategy Guide"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr",
+      "len": 90,
+      "value": "SaaS Go-to-Market Strategy: The Complete Framework from $0 to $10M ARR | Growth "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/startup-launch-checklist-47-tasks-before-during-after-launch-day",
+      "len": 88,
+      "value": "Startup Launch Checklist: 47 Tasks Before, During & After Launch Day | Growth To"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf",
+      "len": 96,
+      "value": "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF | G"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-kol-marketing-tools-2026",
+      "len": 97,
+      "value": "Best KOL Marketing Tools in 2026: How to Find and Manage Influencers for SaaS | "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1",
+      "len": 73,
+      "value": "Product Hunt Launch: The 2026 Playbook for Winning #1 | Growth Tools Blog"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents",
+      "len": 122,
+      "value": "Meet TEN, the World's First Truly Real-time Multimodal Agent Framework for Creat"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project",
+      "len": 81,
+      "value": "Developer Marketing 101: How to Grow Your Open Source Project | Growth Tools Blo"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars",
+      "len": 97,
+      "value": "AFFiNE GitHub Stars: How We Grew to 33,000+ (10 Tactics with Real Data, 2026) | "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars",
+      "len": 87,
+      "value": "GitHub README Best Practices: How to Write a README That Gets Stars | Growth Too"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner",
+      "len": 85,
+      "value": "How to Launch on Product Hunt: Step-by-Step Guide (30x #1 Winner) | Growth Tools"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience",
+      "len": 105,
+      "value": "Product Hunt Launch Checklist: The Complete 2026 Guide (From 30x Daily #1 Experi"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/31/product-hunt-launch-checklist-30time-1-winners-playbook",
+      "len": 79,
+      "value": "Product Hunt Launch Checklist: 30-Time #1 Winner's Playbook | Growth Tools Blog"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr",
+      "len": 80,
+      "value": "SaaS Growth Strategy: Complete Framework from $0 to $10M ARR | Growth Tools Blog"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum",
+      "len": 106,
+      "value": "After Product Hunt Launch: How to Stop the 80% Traffic Drop (7-Step Recovery Pla"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026",
+      "len": 81,
+      "value": "B2B SaaS Growth: From 0 to $10M ARR — The Playbook That Works | Growth Tools Blo"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending",
+      "len": 96,
+      "value": "How to Get on GitHub Trending: The Algorithm, the Tactics, and the Real Data | G"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide",
+      "len": 111,
+      "value": "Show HN Guide: How to Launch on Hacker News in 2026 (Frontpage Tactics + Best Ti"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja",
+      "len": 72,
+      "value": "日本のエンジニアコミュニティ完全ガイド：海外スタートアップが知るべき15のプラットフォーム（2026年） | Growth Tools Blog"
+    }
+  ],
+  "h1_too_long_list": [
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study",
+      "len": 86,
+      "value": "How to Get GitHub Stars for Open Source Projects in 2026 (AFFiNE 33k → 60k Case Study)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth",
+      "len": 75,
+      "value": "GitHub Stars History: 5 Free Tools to Track & Analyze Any Repo (2026 Guide)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner",
+      "len": 80,
+      "value": "Product Hunt Launch Playbook for B2B SaaS in 2026: 30x #1 Winner's 6-Week Sprint"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-readme-template-guide",
+      "len": 86,
+      "value": "GitHub README Template (2026): The Complete Best-Practices Guide with 12 Real Examples"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-pr-template-guide",
+      "len": 71,
+      "value": "GitHub PR Template: How to Write PR Descriptions That Get Merged Faster"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned",
+      "len": 110,
+      "value": "Reddit Marketing for B2B SaaS in 2026: How to Promote Without Getting Banned (Subreddit-by"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/github-issue-template-guide",
+      "len": 72,
+      "value": "GitHub Issue Template: How to Get More Contributions and Build Community"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026",
+      "len": 84,
+      "value": "Best Social Listening Tools Under $100/mo for B2B SaaS Startups (2026 Buyer's Guide)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups",
+      "len": 83,
+      "value": "Go-to-Market Strategy for B2B SaaS in 2026: 7-Stage Playbook with Real Case Studies"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups",
+      "len": 78,
+      "value": "Content Marketing for Startups: From 0 to 10k Monthly Visitors (Real Playbook)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist",
+      "len": 77,
+      "value": "Product-Market Fit: 25 Signs You Have It + The Complete Measurement Checklist"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas",
+      "len": 85,
+      "value": "How to Find Beta Users for Your SaaS in 2026: 12 Channels Ranked by Cost & Conversion"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/cold-outreach-email-templates-saas",
+      "len": 88,
+      "value": "Cold Email Templates for SaaS: 10 Copy-Paste Scripts That Get Replies (+ Software Guide)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/saas-marketing-guide",
+      "len": 93,
+      "value": "SaaS Marketing for Indie Founders (2026): Channels by Stage, Real Examples, $0-Budget Tact"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026",
+      "len": 81,
+      "value": "App Store Optimization Tools: Best ASO Stack for 2026 (+ Complete Strategy Guide)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf",
+      "len": 76,
+      "value": "User Interview Questions: 50+ Templates + The 9:3:7 Framework That Found PMF"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-kol-marketing-tools-2026",
+      "len": 77,
+      "value": "Best KOL Marketing Tools in 2026: How to Find and Manage Influencers for SaaS"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents",
+      "len": 102,
+      "value": "Meet TEN, the World's First Truly Real-time Multimodal Agent Framework for Creating Next-G"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/27/github-star-growth-10-proven-tactics-that-got-us-33k-stars",
+      "len": 77,
+      "value": "AFFiNE GitHub Stars: How We Grew to 33,000+ (10 Tactics with Real Data, 2026)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience",
+      "len": 85,
+      "value": "Product Hunt Launch Checklist: The Complete 2026 Guide (From 30x Daily #1 Experience)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum",
+      "len": 86,
+      "value": "After Product Hunt Launch: How to Stop the 80% Traffic Drop (7-Step Recovery Playbook)"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending",
+      "len": 76,
+      "value": "How to Get on GitHub Trending: The Algorithm, the Tactics, and the Real Data"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide",
+      "len": 91,
+      "value": "Show HN Guide: How to Launch on Hacker News in 2026 (Frontpage Tactics + Best Time to Post"
+    }
+  ],
+  "meta_too_short_list": [
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-strategy-2026-ja",
+      "len": 74,
+      "value": "AFFiNEでProduct Hunt #1を30回以上獲得した元COOによるPH攻略完全ガイド2026年版。日本人ファウンダー向け実践マニュアル。"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-increase-guide-ja",
+      "len": 77,
+      "value": "AFFiNEのCOOがGitHub Stars 60,000件達成の実体験を公開。Trending 28回、実証済みの増やし方を日本語で解説。開発者必読。"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/github-trending-guide-ja",
+      "len": 70,
+      "value": "AFFiNEのCOOが公開。5ヶ月でGitHub Trendingに28回登場した実際の戦略。スター獲得からREADME最適化まで完全解説。"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-show-hn-guide-ja",
+      "len": 77,
+      "value": "Hacker News Show HNでフロントページに載るための投稿方法と攻略法を日本語で解説。AFFiNEの実体験を基にしたエンジニア向け完全ガイド。"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/github-stars-guide-ko",
+      "len": 77,
+      "value": "AFFiNE COO가 공개하는 GitHub 스타 늘리는 방법. README 최적화부터 커뮤니티 구축까지, 실제로 효과 있었던 7가지 전략."
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/japan-developer-communities-ja",
+      "len": 79,
+      "value": "海外スタートアップが日本のエンジニアコミュニティに参入する方法。Zenn、Qiita、connpassなど15プラットフォームの特徴と活用法を実体験から解説。"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/hacker-news-guide-ko",
+      "len": 78,
+      "value": "Hacker News Show HN에서 프론트페이지에 오른 경험을 바탕으로 한 완전 가이드. 제목 작성법, 타이밍, 커뮤니티 참여 전략까지."
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/product-hunt-guide-ko",
+      "len": 74,
+      "value": "Product Hunt에서 #1을 30번 달성한 팀의 실제 전략. 헌터 선정부터 댓글 관리, 출시 후 모멘텀 유지까지 단계별 가이드."
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/korea-developer-communities-ko",
+      "len": 72,
+      "value": "해외 스타트업이 한국 개발자 커뮤니티에 진입하는 방법. OKKY, 카카오테크, 네이버 개발자 블로그 등 15개 플랫폼 완전 분석."
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/github-trending-guide-ko",
+      "len": 76,
+      "value": "AFFiNE이 5개월간 GitHub Trending에 28번 등록된 실제 전략. 점화 타이밍, README 최적화, 커뮤니티 활용법까지."
+    }
+  ],
+  "meta_too_long_list": [
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-growth-tools-for-saas-2026",
+      "len": 231,
+      "value": "The definitive list of growth tools for SaaS startups in 2026. Covering social listening, KOL manage"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/word-of-mouth-marketing",
+      "len": 200,
+      "value": "How to engineer word of mouth marketing for SaaS. Real tactics for referral loops, viral coefficient"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-advocate-guide",
+      "len": 208,
+      "value": "Everything about developer advocacy — what a developer advocate does, how to become one, and how to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups",
+      "len": 200,
+      "value": "The definitive growth hacking guide for startups in 2026. 20 real tactics covering product-led growt"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/generative-engine-optimization-tools",
+      "len": 176,
+      "value": "The best generative engine optimization tools for 2026. Get your content cited in ChatGPT, Perplexit"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups",
+      "len": 232,
+      "value": "The complete content marketing guide for startups — how to go from zero traffic to 10k+ monthly visi"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/product-market-fit-checklist",
+      "len": 187,
+      "value": "How to measure product-market fit: the Sean Ellis 40% rule, NPS benchmarks, retention curves, and a "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/cold-outreach-email-templates-saas",
+      "len": 175,
+      "value": "The best cold email templates for SaaS — beta invites, partnerships, investor outreach, and KOL cold"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/aso-guide-app-store-optimization-complete-guide-2026",
+      "len": 193,
+      "value": "The best app store optimization tools for 2026, plus a complete ASO strategy guide. Rank higher in A"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending",
+      "len": 172,
+      "value": "How GitHub Trending actually works — and how AFFiNE appeared on it 28 times in 5 months. The velocit"
+    }
+  ],
+  "slug_stop_words_list": [
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study",
+      "detail": "Stop words in slug: ['to', 'the']. Remove unnecessary stop words (a, the, and, o"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/07/i-led-affine-from-0-to-60k-github-stars-here-are-my-open-source-growth-playbooks",
+      "detail": "Stop words in slug: ['from', 'to']. Remove unnecessary stop words (a, the, and, "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/github-stars-history-how-to-track-and-analyze-repository-growth",
+      "detail": "Stop words in slug: ['to', 'and']. Remove unnecessary stop words (a, the, and, o"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/product-hunt-launch-playbook-the-definitive-guide-30x-1-winner",
+      "detail": "Stop words in slug: ['the']. Remove unnecessary stop words (a, the, and, of…) to"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/01/startup-marketing-strategy-from-zero-to-first-1000-users",
+      "detail": "Stop words in slug: ['from', 'to']. Remove unnecessary stop words (a, the, and, "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/30/reddit-marketing-guide-how-to-promote-without-getting-banned",
+      "detail": "Stop words in slug: ['to']. Remove unnecessary stop words (a, the, and, of…) to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/02/best-growth-tools-for-saas-2026",
+      "detail": "Stop words in slug: ['for']. Remove unnecessary stop words (a, the, and, of…) to"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/word-of-mouth-marketing",
+      "detail": "Stop words in slug: ['of']. Remove unnecessary stop words (a, the, and, of…) to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/growth-hacking-for-startups",
+      "detail": "Stop words in slug: ['for']. Remove unnecessary stop words (a, the, and, of…) to"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/developer-marketing-how-to-reach-technical-audiences",
+      "detail": "Stop words in slug: ['to']. Remove unnecessary stop words (a, the, and, of…) to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups",
+      "detail": "Stop words in slug: ['to', 'the', 'for']. Remove unnecessary stop words (a, the,"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/content-marketing-for-startups",
+      "detail": "Stop words in slug: ['for']. Remove unnecessary stop words (a, the, and, of…) to"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/how-to-find-beta-users-for-your-saas",
+      "detail": "Stop words in slug: ['to', 'for']. Remove unnecessary stop words (a, the, and, o"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/03/open-source-marketing-the-complete-guide",
+      "detail": "Stop words in slug: ['the']. Remove unnecessary stop words (a, the, and, of…) to"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/24/developer-marketing-playbook-how-to-reach-technical-audiences-in-2026",
+      "detail": "Stop words in slug: ['to', 'in']. Remove unnecessary stop words (a, the, and, of"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr",
+      "detail": "Stop words in slug: ['the', 'from', 'to']. Remove unnecessary stop words (a, the"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/how-to-conduct-user-interviews-the-937interview-framework-that-found-pmf",
+      "detail": "Stop words in slug: ['to', 'the']. Remove unnecessary stop words (a, the, and, o"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/18/product-hunt-launch-the-2026-playbook-for-winning-1",
+      "detail": "Stop words in slug: ['the', 'for']. Remove unnecessary stop words (a, the, and, "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2024/09/23/meet-ten-the-worlds-first-truly-realtime-multimodal-agent-framework-for-creating-nextgen-ai-agents",
+      "detail": "Stop words in slug: ['the', 'for']. Remove unnecessary stop words (a, the, and, "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/25/developer-marketing-101-how-to-grow-your-open-source-project",
+      "detail": "Stop words in slug: ['to']. Remove unnecessary stop words (a, the, and, of…) to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/github-readme-best-practices-how-to-write-a-readme-that-gets-stars",
+      "detail": "Stop words in slug: ['to', 'a']. Remove unnecessary stop words (a, the, and, of…"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/how-to-launch-on-product-hunt-stepbystep-guide-30x-1-winner",
+      "detail": "Stop words in slug: ['to', 'on']. Remove unnecessary stop words (a, the, and, of"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/product-hunt-launch-checklist-the-complete-2026-guide-from-30x-daily-1-experience",
+      "detail": "Stop words in slug: ['the', 'from']. Remove unnecessary stop words (a, the, and,"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/03/29/saas-growth-strategy-complete-framework-from-0-to-10m-arr",
+      "detail": "Stop words in slug: ['from', 'to']. Remove unnecessary stop words (a, the, and, "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/after-product-hunt-launch-7-ways-to-keep-momentum",
+      "detail": "Stop words in slug: ['to']. Remove unnecessary stop words (a, the, and, of…) to "
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/06/how-to-get-on-github-trending",
+      "detail": "Stop words in slug: ['to', 'on']. Remove unnecessary stop words (a, the, and, of"
+    },
+    {
+      "url": "https://gingiris.github.io/growth-tools/blog/2026/04/07/how-to-launch-on-hacker-news-show-hn-guide",
+      "detail": "Stop words in slug: ['to', 'on']. Remove unnecessary stop words (a, the, and, of"
+    }
+  ]
+}
