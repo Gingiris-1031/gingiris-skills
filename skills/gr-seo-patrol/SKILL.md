@@ -131,3 +131,104 @@ def serp(kw, loc=2840, lang="en", depth=100):
 - ❌ 不要在生产环境直接 `git push` —— 用 Contents API 的 PUT
 - ❌ 不要一次 serp 50 个关键词 —— 批量过大易触发 rate limit，按 6-10 个一批
 - ❌ canonical 改到 master 后不要立刻 force Google 重新索引 —— 等 3-7 天自然爬取
+
+
+---
+
+## Monthly Full-Site Audit Workflow
+
+> **Validated 2026-05-07 on 58 pages**: caught 43 SERP-truncating titles + 36 schema warns + 27 stop-word slugs in a single 30-min pass. Single layout-level fix (commit `24a0410e`) resolved 20 of 43 title issues.
+
+Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report + machine-readable findings.json archived to `gingiris-skills/data/audit-{YYYY-MM-DD}.json`.
+
+### Stage 1 — Discovery (5 min)
+
+```python
+import urllib.request, re
+sm = urllib.request.urlopen("https://gingiris.github.io/growth-tools/sitemap.xml").read().decode()
+urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/blog/" in u]
+# typically 50-70 URLs
+```
+
+### Stage 2 — Parallel Audit (20 min for 60 pages, 4 threads)
+
+Use the **adopted seo-audit-skill scripts** in `scripts/`:
+
+```bash
+# For each URL — run 2 scripts in parallel
+python3 scripts/check-page.py URL --timeout 20    # title, H1, meta, canonical, slug, alt, keyword placement
+python3 scripts/check-schema.py URL --timeout 20  # JSON-LD validation
+```
+
+Or batch with Python's `concurrent.futures.ThreadPoolExecutor(max_workers=4)`. Don't go higher than 4 — GitHub Pages CDN throttles aggressive parallel hits.
+
+Each script outputs structured JSON envelope:
+```json
+{"field": {"status": "pass|warn|fail|info", "detail": "...", "llm_review_required": false}}
+```
+
+### Stage 3 — Aggregate Findings
+
+Bucket by category:
+- **Title length** > 70 chars (SERP truncation risk)
+- **H1 length** > 70 chars (mobile readability)
+- **Meta description** < 80 or > 170 chars
+- **Schema warns** by @type (BlogPosting, Article, Organization)
+- **Canonical issues** (mismatch with final URL)
+- **Slug issues** (stop words, uppercase, missing keyword)
+- **Image alt text** missing on content images
+
+Save aggregated counts + per-issue URL lists to `findings.json`.
+
+### Stage 4 — Layered Fix Strategy (HIGH ROI ORDER)
+
+**1️⃣ Layout-level fixes first** (1 commit, fixes 20+ pages):
+- Schema bugs in `_layouts/default.html`
+- Site-name suffix in `<title>` tag
+- Missing `dateModified` from `last_modified_at` frontmatter
+- Organization / Publisher / contactPoint completeness
+
+**2️⃣ Config-level fixes** (1 commit, fixes site-wide):
+- `_config.yml` — logo URL (must be absolute), twitter, social, author structure
+
+**3️⃣ Per-article batch fixes** (1 commit per file, parallelizable):
+- Trim long titles while preserving keyword (target ≤ 70 chars, ideal 50-60)
+- Trim long H1s (target ≤ 70 chars)
+- Expand short meta descriptions (target 120-160 chars)
+- Add missing Citable Statistics blocks for top GSC-impression pages
+
+**4️⃣ Skip these (low ROI):**
+- Slug stop words (changing breaks 301)
+- Old articles with <50 imp/month (low traffic = low fix priority)
+
+### Stage 5 — Verify (after Jekyll rebuild ~60-90s)
+
+Re-run `check-schema.py` on a sample page. Confirm `status: pass` for at least:
+Article · BlogPosting · Organization · FAQPage
+
+### Stage 6 — Archive
+
+Commit `findings.json` to `gingiris-skills/data/audit-{YYYY-MM-DD}.json` for trend tracking.
+Add 2-5 atoms documenting any new lessons learned.
+
+---
+
+## HARD RULE (anti-hallucination guardrail)
+
+> Adopted from [JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) — strict whitelist pattern.
+
+⛔ **Output ONLY the checks defined in the audit script's JSON envelope.**
+- Do NOT add "bonus" checks not in the script output
+- Do NOT contradict the script's `status` field unless you have additional observable evidence
+- Do NOT invent metrics like "EEAT score 89" — third-party scoring tools are unofficial (per Google's 2026 guidance)
+- Do NOT include checks marked `llm_review_required: false` in your judgment commentary — the script's `status` is final
+- If `llm_review_required: true`, make explicit judgment, document reasoning, then update status
+
+The script envelope is the **single source of truth**. Treat it as a strict whitelist.
+
+---
+
+## Companion skill
+
+For single-page audits (not full-site), the same scripts power **[JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill)** which produces a polished HTML audit report.
+Install as a complementary skill if you want client-presentable per-page audits.
