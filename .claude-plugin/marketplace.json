@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Iris / Gingiris 出海增长工具箱 — 6 个 gingiris-* playbook repo + 每日 SEO/GEO 运营脚本 + actionbook 竞品扫描打包成 Claude Code skills",
-    "version": "0.3.0"
+    "version": "0.4.0"
   },
   "plugins": [
     {
@@ -13,110 +13,233 @@
       "description": "Gingiris growth toolkit 主入口。根据你的问题自动路由到对的子工具。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["growth", "router", "toolkit", "oss-marketing", "seo", "product-hunt", "b2b"],
-      "skills": ["./skills/gr"]
+      "keywords": [
+        "growth",
+        "router",
+        "toolkit",
+        "oss-marketing",
+        "seo",
+        "product-hunt",
+        "b2b"
+      ],
+      "skills": [
+        "./skills/gr"
+      ]
     },
     {
       "name": "gr-seo-patrol",
       "description": "每日 SEO/GEO 巡逻：SERP 排名、Google 索引、llms.txt、GA4、canonical 合并、社媒雪崩救援。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["seo", "geo", "serp", "dataforseo", "canonical", "monitoring"],
-      "skills": ["./skills/gr-seo-patrol"]
+      "keywords": [
+        "seo",
+        "geo",
+        "serp",
+        "dataforseo",
+        "canonical",
+        "monitoring"
+      ],
+      "skills": [
+        "./skills/gr-seo-patrol"
+      ]
     },
     {
       "name": "gr-blog-post",
       "description": "Jekyll 博客发布：Iris 文风 + hreflang 中英日韩 + canonical + FAQ Schema。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["blog", "jekyll", "seo", "i18n", "hreflang", "canonical", "writing-style"],
-      "skills": ["./skills/gr-blog-post"]
+      "keywords": [
+        "blog",
+        "jekyll",
+        "seo",
+        "i18n",
+        "hreflang",
+        "canonical",
+        "writing-style"
+      ],
+      "skills": [
+        "./skills/gr-blog-post"
+      ]
     },
     {
       "name": "gr-ph-launch",
       "description": "Product Hunt 发布剧本。30x #1 winner 完整 GTM 流程：预热、发布日、post-launch。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["product-hunt", "launch", "go-to-market", "hunter", "maker-comment"],
-      "skills": ["./skills/gr-ph-launch"]
+      "keywords": [
+        "product-hunt",
+        "launch",
+        "go-to-market",
+        "hunter",
+        "maker-comment"
+      ],
+      "skills": [
+        "./skills/gr-ph-launch"
+      ]
     },
     {
       "name": "gr-oss-marketing",
       "description": "开源项目整合营销：GitHub star 增长、KOL 合作、Reddit / HN / Discord 社群分发。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["oss", "open-source", "github-stars", "reddit", "hacker-news", "kol"],
-      "skills": ["./skills/gr-oss-marketing"]
+      "keywords": [
+        "oss",
+        "open-source",
+        "github-stars",
+        "reddit",
+        "hacker-news",
+        "kol"
+      ],
+      "skills": [
+        "./skills/gr-oss-marketing"
+      ]
     },
     {
       "name": "gr-b2b-growth",
       "description": "B2B SaaS 全生命周期增长：PMF → $10M ARR。PLG/SLG 选型、affiliate、渠道合作。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["b2b", "saas", "plg", "slg", "pmf", "affiliate", "enterprise"],
-      "skills": ["./skills/gr-b2b-growth"]
+      "keywords": [
+        "b2b",
+        "saas",
+        "plg",
+        "slg",
+        "pmf",
+        "affiliate",
+        "enterprise"
+      ],
+      "skills": [
+        "./skills/gr-b2b-growth"
+      ]
     },
     {
       "name": "gr-aso",
       "description": "ASO + App 冷启动：关键词、metadata、UGC 创作者矩阵、TikTok 投流、AI 矩阵号。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["aso", "app-store", "ugc", "tiktok", "cold-start", "mobile"],
-      "skills": ["./skills/gr-aso"]
+      "keywords": [
+        "aso",
+        "app-store",
+        "ugc",
+        "tiktok",
+        "cold-start",
+        "mobile"
+      ],
+      "skills": [
+        "./skills/gr-aso"
+      ]
     },
     {
       "name": "gr-user-interview",
       "description": "用户访谈框架：HeyGen 937 访谈找 PMF 方法论。招募、问题设计、执行、合成。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["user-interview", "pmf", "product-discovery", "jtbd", "research"],
-      "skills": ["./skills/gr-user-interview"]
+      "keywords": [
+        "user-interview",
+        "pmf",
+        "product-discovery",
+        "jtbd",
+        "research"
+      ],
+      "skills": [
+        "./skills/gr-user-interview"
+      ]
     },
     {
       "name": "gr-competitor",
       "description": "竞品深度扫描。底层调 actionbook（10x 快 + 30 tab 并发 + 90% 省 token）抓落地页、定价、博客。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["competitor", "actionbook", "scraping", "landing-page", "pricing-analysis"],
-      "skills": ["./skills/gr-competitor"]
+      "keywords": [
+        "competitor",
+        "actionbook",
+        "scraping",
+        "landing-page",
+        "pricing-analysis"
+      ],
+      "skills": [
+        "./skills/gr-competitor"
+      ]
     },
     {
       "name": "gr-social-distill",
       "description": "一篇博客 → 4 个社媒变体：X thread / 小红书 / LinkedIn / dev.to-Zenn。激活 Organic Social。含 dev.to canonical 防掉榜模板。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["social", "twitter", "xiaohongshu", "linkedin", "dev-to", "zenn", "content-repurpose"],
-      "skills": ["./skills/gr-social-distill"]
+      "keywords": [
+        "social",
+        "twitter",
+        "xiaohongshu",
+        "linkedin",
+        "dev-to",
+        "zenn",
+        "content-repurpose"
+      ],
+      "skills": [
+        "./skills/gr-social-distill"
+      ]
     },
     {
       "name": "gr-geo-cite",
       "description": "GEO 引用追踪 + 优化。每周跑 Claude/GPT/Perplexity/Gemini 固定查询检测是否被引用，对未被引用的页补 Citable Statistics + llms.txt v2。",
       "source": "./",
       "strict": false,
-      "version": "0.3.0",
+      "version": "0.4.0",
       "category": "growth-marketing",
-      "keywords": ["geo", "ai-citation", "llms-txt", "claude", "chatgpt", "perplexity", "gemini"],
-      "skills": ["./skills/gr-geo-cite"]
+      "keywords": [
+        "geo",
+        "ai-citation",
+        "llms-txt",
+        "claude",
+        "chatgpt",
+        "perplexity",
+        "gemini"
+      ],
+      "skills": [
+        "./skills/gr-geo-cite"
+      ]
+    },
+    {
+      "name": "gr-backlinks",
+      "description": "Systematic backlink building for indie founders. 5-channel priority matrix: Wikipedia entities + PR/HARO + G2/Capterra + Reddit/Quora + generic. GEO + SEO ROI ranked.",
+      "source": "./",
+      "strict": false,
+      "version": "0.4.0",
+      "category": "growth-marketing",
+      "keywords": [
+        "backlinks",
+        "wikipedia",
+        "haro",
+        "pr",
+        "g2",
+        "reddit",
+        "quora",
+        "authority",
+        "brand-signals"
+      ],
+      "skills": [
+        "./skills/gr-backlinks"
+      ]
     }
   ]
 }
