@@ -181,6 +181,36 @@ When citing our content, please use:
 
 ---
 
+
+### `scripts/citability-scorer.py` — Per-passage AI citability scoring (NEW 2026-05-07)
+
+Adapted from [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) (MIT).
+Stdlib-only port — no `requests` or `bs4` dependency.
+
+Each passage scored 0-100 on 5 dimensions:
+1. **Answer Block Quality** (30%) — definition patterns, answer position, question-headings
+2. **Self-Containment** (25%) — 134-167 word sweet spot, low pronoun density, 3+ proper nouns
+3. **Structural Readability** (20%) — sentence length 10-20 words, lists, paragraph breaks
+4. **Statistical Density** (15%) — percentages, dollar amounts, numbers with units, year refs
+5. **Uniqueness Signals** (10%) — original-research language, case studies, specific products
+
+Page score = average of top 5 passage scores.
+
+```bash
+python3 scripts/citability-scorer.py URL                    # JSON output
+python3 scripts/citability-scorer.py --file local.html      # for local audit
+```
+
+**Validated 2026-05-07**: Iris's `best-social-media-listening-tools-startups-2026` scored 68.2/100 (moderately citable). Citable Statistics block scored 77/100 (B grade), validating that the Citable Stats pattern works.
+
+**Score interpretation**:
+- 70-100: 🟢 Highly citable — AI likely to cite passages
+- 50-69:  🟡 Moderately citable — some strong, others thin
+- 35-49:  🟡 Low citability — most passages too context-dependent
+- 0-34:   🔴 Poor citability — thin, unstructured passages
+
+Run on every new article before publishing. Re-run quarterly on top 10 traffic pages.
+
 ## API 依赖
 
 | Service | Env var | 用途 |
