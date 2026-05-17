@@ -8,7 +8,7 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 
 ---
 
-## 工具箱（v0.3.0 — 11 个 skill）
+## 工具箱（v0.4.0 — 12 个 skill）
 
 | Skill | 做什么 |
 |---|---|
@@ -23,6 +23,8 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 | `/gr-competitor` | 竞品扫描 — 底层调 [actionbook](https://actionbook.dev)，10x 快，30 tab 并发 |
 | `/gr-social-distill` | 博客 → 4 社媒变体（X / 小红书 / LinkedIn / dev.to-Zenn），激活 Organic Social |
 | `/gr-geo-cite` | GEO 引用追踪 — 每周跑 4 大 AI 查 gingiris 引用率 + llms.txt v2 自动生成 |
+
+| `/gr-backlinks` | 系统化外链建设 — Wikipedia / PR-HARO / G2 / Reddit-Quora 5 通道，0→1 站点 GEO + SEO 共升 |
 
 ### Roadmap（0.3+）
 
