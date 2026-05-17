@@ -31,6 +31,7 @@ metadata:
 | "分析对手 / 竞品扫描 / 定价对比 / 对手博客" | `gr-competitor` |
 | "博客拆成推特 / 小红书 / LinkedIn / dev.to 二发 / 社媒分发" | `gr-social-distill` |
 | "AI 引用 / GEO / llms.txt / Citable Statistics / Perplexity" | `gr-geo-cite` |
+| "外链 / Wikipedia / HARO / G2 / 媒体报道 / PR / Reddit AMA" | `gr-backlinks` |
 
 ---
 
