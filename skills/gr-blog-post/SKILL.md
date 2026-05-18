@@ -109,3 +109,88 @@ faq:
 |---|---|
 | GitHub PAT | `GITHUB_TOKEN` |
 | DeepSeek / Teamo（翻译） | `DEEPSEEK_API_KEY` / `TEAMOROUTER_API_KEY` |
+
+
+---
+
+## Citability-by-Design Spec (mandatory for NEW articles, 2026-05-18+)
+
+**Rationale**: Verified 2026-05-07 that retrofitting old articles hits a ~65-68/100 citability ceiling no matter what (booster passages, surgical rewrites, splitting all produce diminishing returns). **Writing new articles from this spec produces 75-85 baseline directly.** Spec saves ~3 hours of post-hoc citability fixing per article.
+
+### Per-section structural requirements
+
+Every H2/H3 section must satisfy ALL of:
+
+1. **Word count: 134-167** (the AI-extraction sweet spot validated by zubair-trabzada/geo-seo-claude scoring)
+   - Under 134 → self_containment drops below 10/25
+   - Over 167 → same penalty for being too long for AI chunks
+   - Use a word counter as you draft
+
+2. **Opening sentence = definition pattern**, one of:
+   - `[Thing] is [definition]`
+   - `[Thing] refers to [scope]`
+   - `[Thing] means [unpacking]`
+   - `In other words, [Thing] is...`
+   - `[Thing] can be defined as...`
+
+3. **Section contains at least ONE of each**:
+   - ✅ Original research signal: "Our X-launch dataset", "We tracked", "Our 2026 audit measured", "Our analysis of N samples"
+   - ✅ Specific number with unit: "60K stars", "30 launches", "$79/mo", "67%"
+   - ✅ Specific named product/tool: "Taplio ($39/mo)", "Surfe", "PH Deck", "Loom" — by name not "[the tool]"
+
+### Heading conventions
+
+- H1 = page title (≤ 70 chars after title-suffix fix from 2026-05-07)
+- H2 should be **question form** ~40% of the time:
+  - ✅ "How do I get cited by Perplexity in 2026?"
+  - ✅ "What is the GEO three-piece set?"
+  - ❌ "Perplexity citation strategy"
+
+- Each H2 should contain primary keyword **or** clear question intent
+
+### Article-level requirements
+
+- 5-12 H2 sections (sweet spot: 7-8)
+- TL;DR or "Citable Statistics" block IN FIRST H2 (becomes top-scored passage)
+- FAQ Schema JSON-LD at end (5+ Q&A using exact User-Search-Form questions)
+- `last_modified_at:` frontmatter (flows through to dateModified schema)
+- canonical_url self-reference
+- hreflang_ja / hreflang_ko if multilingual variants exist
+
+### Citability self-check before publishing
+
+Run **before** committing the article:
+
+```bash
+python3 skills/gr-geo-cite/scripts/citability-scorer.py /local/path/to/draft.html
+```
+
+Target: page score ≥ 75. If under 70, revise top 2 weakest passages.
+
+### Anti-patterns (avoid)
+
+- ❌ Long expository paragraphs (200+ words) — split into 2 sections at 134-167 each
+- ❌ Generic transitions ("Now let's discuss...") — replace with definition pattern
+- ❌ Marketing fluff ("the best way to") — replace with measured claims with data
+- ❌ "[Tool name]" placeholders — always cite the specific tool by name + price
+- ❌ Bullet lists with single words — combine into prose with definition + example pattern
+
+### Real-data benchmark
+
+Articles from 2026-05-07 audit (without this spec):
+
+| Article (old, retrofit) | Score | Pattern |
+|---|---|---|
+| PH playbook master | 65 | Top passage 74, dragged by 62s |
+| Social listening | 68 | Best of the 5 (early Citable Stats) |
+| Community directory | 62 | Lifted from 54 via booster (+12% from 0 to 1 sweet-spot passage) |
+
+Predicted from spec (NEW articles):
+
+| Spec compliance | Predicted score |
+|---|---|
+| All sections 134-167 + definition pattern + 1 original signal | **78-85** |
+| 80% sections compliant, 20% legacy structure | 72-77 |
+| 50% compliant | 65-70 (same as retrofit ceiling) |
+
+The marginal value of strict compliance is **~10 points** vs partial compliance.
