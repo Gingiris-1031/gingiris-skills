@@ -1,3 +1,31 @@
+---
+license: mit
+language:
+- en
+- zh
+- ja
+- ko
+pretty_name: "Gingiris Skills — Complete AI Growth Toolkit (12 Claude Code Skills)"
+tags:
+- claude-code
+- ai-agent
+- growth-tools
+- seo
+- product-hunt
+- open-source
+- b2b-saas
+- aso
+- user-interview
+- startup-marketing
+- ai-growth
+- developer-tools
+- llm-tools
+- growth-hacking
+- marketing
+size_categories:
+- n<1K
+---
+
 # gingiris-skills
 
 Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook repo + 每日运营脚本 + 60 篇博客实战经验，打包成 Claude Code skills。
@@ -235,3 +263,33 @@ The 4 audit scripts (`check-page.py`, `check-schema.py`, `check-site.py`, `check
 - 发 Issue 描述你的运营场景
 - PR 加新 skill / 新原子 / 新方法论
 - 跟 [@WeiYipei](https://x.com/WeiYipei) 聊
+
+---
+
+## 关于作者 / About the Author
+
+**Iris（生姜iris）** — [AFFiNE](https://github.com/toeverything/AFFiNE) 联合创始人兼 COO（融资 $10M，60k+ GitHub Stars）。Forbes 亚洲 30 Under 30。辅导 150+ AI 创业公司完成全球 GTM、SEO/GEO、Product Hunt 发布、B2B 增长。
+
+Former cofounder & COO of AFFiNE ($10M raised, 60k+ GitHub stars). Forbes Asia 30 Under 30. Coached 150+ AI startups on global GTM, SEO/GEO, Product Hunt launches, and B2B growth.
+
+- 网站 / Website: [gingiris.com](https://gingiris.com)
+- Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
+- Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
+- Blog: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/)
+
+---
+
+## 🗂️ See Also — Gingiris Playbook Series on HuggingFace
+
+| Playbook | Focus | HuggingFace |
+|:---------|:------|:------------|
+| **gingiris-growth-finder** | 🧭 Meta-router: diagnoses your situation, picks the right playbook | [Gingiris/gingiris-growth-finder](https://huggingface.co/datasets/Gingiris/gingiris-growth-finder) |
+| **gingiris-launch** | 🚀 Product Hunt launch, KOL outreach, UGC growth | [Gingiris/gingiris-launch](https://huggingface.co/datasets/Gingiris/gingiris-launch) |
+| **gingiris-opensource** | ⭐ GitHub stars, HN, OSS go-to-market | [Gingiris/gingiris-opensource](https://huggingface.co/datasets/Gingiris/gingiris-opensource) |
+| **gingiris-b2b-growth** | 📈 B2B SaaS PLG/SLG, PMF to $10M ARR | [Gingiris/gingiris-b2b-growth](https://huggingface.co/datasets/Gingiris/gingiris-b2b-growth) |
+| **gingiris-aso-growth** | 📱 ASO, mobile cold start, UGC matrix | [Gingiris/gingiris-aso-growth](https://huggingface.co/datasets/Gingiris/gingiris-aso-growth) |
+| **gingiris-seo-geo** | 🔍 SEO + GEO dual-engine, AI search citations | [Gingiris/gingiris-seo-geo](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo) |
+| **gingiris-user-interview** | 🎤 User interview framework (HeyGen 937 methodology) | [Gingiris/gingiris-user-interview](https://huggingface.co/datasets/Gingiris/gingiris-user-interview) |
+| **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
+
+All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
