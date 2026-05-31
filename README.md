@@ -30,7 +30,7 @@ size_categories:
 
 Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook repo + 每日运营脚本 + 60 篇博客实战经验，打包成 Claude Code skills。
 
-**作者**：[Iris](https://x.com/WeiYipei) · [Gingiris 博客](https://gingiris.github.io/growth-tools/)
+**作者**：[Iris](https://x.com/WeiYipei) · [Gingiris 博客](https://gingiris.tools/blog/)
 
 **所有内容开放**，可以整套装，也可以只拿一部分。Skill、知识包、原子库、单个脚本都能单独用。
 
@@ -58,9 +58,9 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 
 | Skill | 来源 |
 |---|---|
-| `/gr-ph-comment` | 包装 `Gingiris/ph-comment-generator` |
-| `/gr-gh-outreach` | 包装 `Gingiris/github-issue-generator` |
-| `/gr-readme` | 包装 `Gingiris/github-readme-generator` |
+| `/gr-ph-comment` | 包装 [PH Comment Generator](https://gingiris.tools/tools/ph-comment-generator/) |
+| `/gr-gh-outreach` | 包装 [GitHub Issue Generator](https://gingiris.tools/tools/github-issue-generator/) |
+| `/gr-readme` | 包装 [GitHub README Generator](https://gingiris.tools/tools/github-readme-generator/) |
 | `/gr-hunter-radar` | 结合 actionbook 扫 PH hunter 活跃度 |
 
 ---
@@ -93,7 +93,7 @@ Skill 之间会自动推荐下一步。比如：
 **推荐：Claude Code 插件市场**
 
 ```bash
-claude plugin marketplace add Gingiris/gingiris-skills
+claude plugin marketplace add Gingiris-1031/gingiris-skills
 claude plugin install gr@gingiris-skills
 ```
 
@@ -218,7 +218,7 @@ prompt: "Run Monthly Full-Site Audit per gr-seo-patrol/SKILL.md workflow..."
 
 ### What you'll typically find on your first run
 
-Real numbers from gingiris.github.io/growth-tools 2026-05-07 run:
+Real numbers from gingiris.tools 2026-05-07 run:
 
 | Issue | Count | Resolution path |
 |---|---|---|
@@ -248,9 +248,8 @@ The 4 audit scripts (`check-page.py`, `check-schema.py`, `check-site.py`, `check
 ---
 ## 关联 repo
 
-- [Gingiris/growth-tools](https://github.com/Gingiris/growth-tools) — 主 blog，所有 skill 的实战场
-- [Gingiris/gingiris-launch](https://github.com/Gingiris/gingiris-launch) — PH launch playbook 内容源
-- [Gingiris/awesome-agent-skills](https://github.com/Gingiris/awesome-agent-skills) — skills 生态索引
+- [Gingiris-1031/growth-tools](https://github.com/Gingiris-1031/growth-tools) — 主 blog，所有 skill 的实战场（线上 [gingiris.tools](https://gingiris.tools/blog/)）
+- [gingiris-launch on HuggingFace](https://huggingface.co/datasets/Gingiris/gingiris-launch) — PH launch playbook 内容源
 - [dontbesilent2025/dbskill](https://github.com/dontbesilent2025/dbskill) — 框架灵感来源
 - [JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill) — 单页 SEO 审计脚本来源（4 scripts adapted）
 - [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — 25-skill SEO 全套（含外链分析，可作 Tier 3 扩展）
@@ -268,14 +267,14 @@ The 4 audit scripts (`check-page.py`, `check-schema.py`, `check-site.py`, `check
 
 ## 关于作者 / About the Author
 
-**Iris（生姜iris）** — [AFFiNE](https://github.com/toeverything/AFFiNE) 联合创始人兼 COO（融资 $10M，60k+ GitHub Stars）。Forbes 亚洲 30 Under 30。辅导 150+ AI 创业公司完成全球 GTM、SEO/GEO、Product Hunt 发布、B2B 增长。
+**Iris（生姜iris）** — Analook 创始人，此前是 [AFFiNE](https://github.com/toeverything/AFFiNE) 联合创始人兼 COO。专注 AI 创业公司的全球 GTM、SEO/GEO、Product Hunt 发布与 B2B 增长。
 
-Former cofounder & COO of AFFiNE ($10M raised, 60k+ GitHub stars). Forbes Asia 30 Under 30. Coached 150+ AI startups on global GTM, SEO/GEO, Product Hunt launches, and B2B growth.
+Founder of Analook. Previously cofounder & COO of AFFiNE. Works with AI startups on global GTM, SEO/GEO, Product Hunt launches, and B2B growth.
 
 - 网站 / Website: [gingiris.com](https://gingiris.com)
 - Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/)
+- Blog: [gingiris.tools/blog](https://gingiris.tools/blog/)
 
 ---
 
