@@ -5,7 +5,7 @@ language:
 - zh
 - ja
 - ko
-pretty_name: "Gingiris Skills — Complete AI Growth Toolkit (12 Claude Code Skills)"
+pretty_name: "Gingiris Skills — Complete AI Growth Toolkit (16 Claude Code Skills)"
 tags:
 - claude-code
 - ai-agent
@@ -36,7 +36,7 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 
 ---
 
-## 工具箱（v0.4.0 — 12 个 skill）
+## 工具箱（v0.5.0 — 16 个 skill）
 
 | Skill | 做什么 |
 |---|---|
@@ -53,6 +53,10 @@ Iris / Gingiris 的出海增长工具箱 —— 把 6 个 gingiris-* playbook re
 | `/gr-geo-cite` | GEO 引用追踪 — 每周跑 4 大 AI 查 gingiris 引用率 + llms.txt v2 自动生成 |
 
 | `/gr-backlinks` | 系统化外链建设 — Wikipedia / PR-HARO / G2 / Reddit-Quora 5 通道，0→1 站点 GEO + SEO 共升 |
+| `/gr-competitor-research` | 竞品深度调研 — Wayback 快照、X 传播链路、增长飞轮评分 |
+| `/gr-community-ambassador` | 社区/大使运营 — 招募、分层管理、留存、治理全 SOP |
+| `/gr-seo-geo-agent` | SEO/GEO Agent 自动化运营 — 月产 32K 曝光的执行 SOP |
+| `/gr-product-dev-ops` | 产研运协同 — 10 天迭代、看板、三方对齐、一票否决 |
 
 ### Roadmap（0.3+）
 
@@ -291,4 +295,24 @@ Founder of Analook. Previously cofounder & COO of AFFiNE. Works with AI startups
 | **gingiris-user-interview** | 🎤 User interview framework (HeyGen 937 methodology) | [Gingiris/gingiris-user-interview](https://huggingface.co/datasets/Gingiris/gingiris-user-interview) |
 | **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
 
-All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris-1031/gingiris-skills](https://skills.sh/Gingiris-1031/gingiris-skills).
+
+---
+
+## 🔗 Platform Links
+
+| Platform | Link |
+|:---------|:-----|
+| **ClawHub** (main install) | [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris) |
+| **HuggingFace** (datasets) | [huggingface.co/Gingiris](https://huggingface.co/Gingiris) |
+| **skills.sh** (Claude Code) | [skills.sh/Gingiris-1031/gingiris-skills](https://skills.sh/Gingiris-1031/gingiris-skills) |
+| **Blog** | [gingiris.tools/blog](https://gingiris.tools/blog/) |
+
+### New Playbooks (June 2026)
+
+| Playbook | ClawHub | HuggingFace |
+|:---------|:--------|:------------|
+| **competitor-research-playbook** — 竞品调研 SOP | [Install](https://clawhub.ai/gingiris/competitor-research-playbook) | [Dataset](https://huggingface.co/datasets/Gingiris/competitor-research-playbook) |
+| **community-ambassador-playbook** — 社区大使运营 SOP | [Install](https://clawhub.ai/gingiris/community-ambassador-playbook) | [Dataset](https://huggingface.co/datasets/Gingiris/community-ambassador-playbook) |
+| **product-dev-ops-playbook** — 产研运协同 SOP | [Install](https://clawhub.ai/gingiris/product-dev-ops-playbook) | [Dataset](https://huggingface.co/datasets/Gingiris/product-dev-ops-playbook) |
+| **gingiris-seo-geo-agent** — SEO/GEO Agent 运营 | [Install](https://clawhub.ai/gingiris/gingiris-seo-geo-agent) | [Dataset](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo-agent) |
