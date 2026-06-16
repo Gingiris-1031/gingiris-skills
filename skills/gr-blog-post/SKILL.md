@@ -7,6 +7,7 @@ description: >
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-blog-post
 ---
 
 # gr-blog-post — Jekyll 博客发布

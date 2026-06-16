@@ -7,6 +7,7 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   homepage: https://github.com/Gingiris/gingiris-skills
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr
 ---
 
 # gr — Gingiris Growth 主路由

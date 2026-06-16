@@ -38,6 +38,7 @@ tags:
   - indie-hacker
   - KOL-marketing
   - SEO
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor-research
 ---
 
 # Competitor Research & Growth Flywheel Playbook — Full SOP

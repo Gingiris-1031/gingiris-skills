@@ -7,7 +7,7 @@ description: >
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-b2b-growth
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-b2b-growth
 ---
 
 # gr-b2b-growth — B2B SaaS 增长

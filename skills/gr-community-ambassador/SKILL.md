@@ -40,6 +40,7 @@ tags:
   - user-engagement
   - community-operations
   - growth-hacking
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-community-ambassador
 ---
 
 # Community & Ambassador Program Playbook — Full SOP

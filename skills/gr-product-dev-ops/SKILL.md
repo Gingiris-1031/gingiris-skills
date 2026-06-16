@@ -39,6 +39,7 @@ tags:
   - startup-operations
   - team-alignment
   - commercialization
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-product-dev-ops
 ---
 
 > 🌍 **Language / 语言**: [中文](#中文版) | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)

@@ -10,6 +10,7 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   phase: Phase 2 main line 4 (added 2026-05-07)
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-backlinks
 ---
 
 # gr-backlinks — Systematic Backlink Building

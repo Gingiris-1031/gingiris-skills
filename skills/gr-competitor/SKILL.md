@@ -8,6 +8,7 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   underlying: actionbook
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor
 ---
 
 # gr-competitor — 竞品扫描

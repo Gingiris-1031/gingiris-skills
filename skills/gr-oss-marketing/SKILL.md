@@ -7,7 +7,7 @@ description: >
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-opensource
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-oss-marketing
 ---
 
 # gr-oss-marketing — 开源营销

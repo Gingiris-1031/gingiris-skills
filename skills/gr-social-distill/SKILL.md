@@ -8,6 +8,7 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   companion-to: gr-blog-post
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
 ---
 
 # gr-social-distill — 博客到社媒复用

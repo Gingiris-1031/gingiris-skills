@@ -8,6 +8,7 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   phase: Phase 2 main line 3
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-geo-cite
 ---
 
 # gr-geo-cite — GEO 引用追踪
