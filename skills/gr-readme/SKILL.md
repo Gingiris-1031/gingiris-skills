@@ -130,7 +130,8 @@ Derived from analysis of insforge (agentic coding backend), dify (60K+ star LLM 
 [Contributing]                  ← short, link to CONTRIBUTING.md
 [Community & Support]           ← Discord / X / Discussions
 [License]
-[Star History]                  ← social proof, bottom only
+[Star CTA GIF]                  ← ❗️ FIRST 3 SCREENS — inline with hero or after Quick Start
+[Star History]                  ← social proof, bottom (optional extra)
 ```
 
 ---
@@ -420,19 +421,48 @@ A short GIF showing the mouse clicking the ★ Star button converts passers-by i
 - File size: keep under 1MB (GitHub CDN limit for smooth load)
 - Optimize with [Ezgif](https://ezgif.com/optimize) if over 1MB
 
-**Placement in README:**
+**Placement in README: First 3 screens, not the bottom**
 
-Add just above or inside the Star History section, with a one-line CTA:
+> ❗️ Most repos bury the star CTA at the bottom. By then, 80%+ of visitors have already left.
+> Put it where people actually see it.
+
+**Option A — Inline with Hero (recommended):**
+Right after the tagline + badges, before Quick Start. Catches visitors while they’re still deciding whether to care.
 
 ```markdown
-## ⭐ Support this project
+## About
 
-If this project helped you, a star means a lot — it helps others discover it too.
+Open source Notion alternative. [tagline...]
+
+⭐ **If this looks useful, star it** — it helps others find the project.
 
 ![Star this repo](./assets/star-demo.gif)
+```
+
+**Option B — After Quick Start (second-best):**
+After users successfully run the project, strike while the iron is hot.
+
+```markdown
+## Quick Start
+
+```bash
+npm install yourproject
+```
+
+It works? ⭐ [Star this repo](https://github.com/yourorg/yourrepo) — takes 2 seconds.
+
+![Star this repo](./assets/star-demo.gif)
+```
+
+**Option C — Star History at the bottom (in addition to A or B, not instead):**
+
+```markdown
+## ⭐ Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=yourorg/yourrepo&type=Date)](https://star-history.com/#yourorg/yourrepo&Date)
 ```
+
+**Rule: always use A or B. C is optional extra.**
 
 **Store the GIF in your repo:**
 ```
@@ -609,7 +639,7 @@ Run before every README publish or major update.
 - [ ] License badge present
 - [ ] CI / build status badge present *and passing*
 - [ ] Star history chart at the bottom
-- [ ] Star CTA GIF added (assets/star-demo.gif, <1MB, 3–5s loop)
+- [ ] Star CTA GIF in first 3 screens (assets/star-demo.gif, <1MB, 3–5s loop) — NOT at the bottom
 - [ ] Discord / community link in the README
 - [ ] If star count >500, visible in badges
 
