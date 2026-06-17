@@ -4,10 +4,15 @@ description: >
   每日 SEO/GEO 巡逻。覆盖：SERP 关键词排名追踪（DataForSEO）、Google 索引数统计、llms.txt 可达性、
   GA4 tag 部署检测、PH canonical 合并修复、社媒关键词雪崩救援（title 重写 + 内链注入）。
   当用户说"跑 SEO 日报"、"检查排名"、"某关键词掉了"、"修 canonical"、"加内链"时调用。
+when_to_use: |
+  Use this skill when you need to: run daily SEO/GEO patrol, track SERP keyword rankings,
+  fix canonical issues, inject internal links to rescue underperforming posts, check GA4
+  tag deployment, verify llms.txt accessibility, or diagnose why a keyword ranking dropped.
+  Trigger phrases: "SEO日报" | "跟踪排名" | "SEO patrol" | "canonical修复" |
+  "加内链" | "keyword dropped" | "GA4检查" | "llms.txt" | "搜索排名跟踪"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-seo-patrol
 ---
 
 # gr-seo-patrol — SEO/GEO 日常巡逻
@@ -17,7 +22,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-seo
 | 场景 | 动作 |
 |---|---|
 | "跑今日 SEO 日报" | 执行完整巡逻（scripts/daily-report.py） |
-| "某关键词排名掉了" | 单词诊断（scripts/diag-keyword.py） |
+| "某关键词排名掉了" | 单词诊断（Claude 直接执行下方诊断流程） |
 | "修 canonical" | 批量合并（scripts/canonical-fix.py） |
 | "救一下这篇文章" | 社媒救援（scripts/rescue-post.py）—— title 前置 + 3 个高权重内链 |
 | "检查 GA4 部署" | 扫 HTML 里的 G-XXXXX tag |
@@ -103,7 +108,7 @@ def serp(kw, loc=2840, lang="en", depth=100):
 - `daily-report.py` — 完整日报
 - `canonical-fix.py` — canonical 批量合并
 - `rescue-post.py` — 社媒文章救援
-- `diag-keyword.py` — 单关键词诊断
+- `diag-keyword.py` — 单关键词诊断（roadmap，暂用下方「单词诊断」流程替代）
 
 每个脚本独立可跑。调用时优先用 Bash 工具，不要重写脚本。
 
@@ -140,13 +145,13 @@ def serp(kw, loc=2840, lang="en", depth=100):
 
 > **Validated 2026-05-07 on 58 pages**: caught 43 SERP-truncating titles + 36 schema warns + 27 stop-word slugs in a single 30-min pass. Single layout-level fix (commit `24a0410e`) resolved 20 of 43 title issues.
 
-Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report + machine-readable findings.json archived to `gingiris-skills/data/audit-{YYYY-MM-DD}.json`.
+Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report + machine-readable findings.json archived to `~/Downloads/seo-audit/audit-{YYYY-MM-DD}.json`.
 
 ### Stage 1 — Discovery (5 min)
 
 ```python
 import urllib.request, re
-sm = urllib.request.urlopen("https://gingiris.github.io/growth-tools/sitemap.xml").read().decode()
+sm = urllib.request.urlopen("https://gingiris.tools/sitemap.xml").read().decode()
 urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/blog/" in u]
 # typically 50-70 URLs
 ```
@@ -209,7 +214,7 @@ Article · BlogPosting · Organization · FAQPage
 
 ### Stage 6 — Archive
 
-Commit `findings.json` to `gingiris-skills/data/audit-{YYYY-MM-DD}.json` for trend tracking.
+Commit `findings.json` to `~/Downloads/seo-audit/audit-{YYYY-MM-DD}.json` for trend tracking.
 Add 2-5 atoms documenting any new lessons learned.
 
 ---

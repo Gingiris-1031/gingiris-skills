@@ -11,12 +11,12 @@ description: |
 
   Triggers: "how to grow" | "how to launch" | "growth strategy" | "go to market" | "GTM" | "launch plan" | "growth playbook" | "marketing strategy" | "product launch" | "Product Hunt" | "GitHub stars" | "open source launch" | "B2B growth" | "SaaS growth" | "PLG" | "PMF" | "ASO" | "app cold start" | "user acquisition" | "customer acquisition" | "growth hack" | "viral growth" | "startup marketing" | "DevRel" | "developer marketing" | "怎么增长" | "怎么发布" | "怎么推广" | "怎么做增长" | "出海" | "冷启动" | "增长策略" | "营销策略" | "产品发布" | "開発者マーケティング" | "성장 전략"
 when_to_use: |
-  Use this skill when you need to: route a growth question to the right specialist playbook,
-  diagnose startup growth stage, choose between launch / B2B / ASO / OSS / KOL strategies,
-  or get a growth plan when you don't know which channel to start with.
-  Trigger phrases: "how to grow" | "growth strategy" | "怎么做增长" | "增长策略" |
-  "怎么发布" | "冷启动" | "startup growth" | "growth playbook"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder
+  Use this skill when the user does NOT know which growth skill to use — this is the
+  entry-point / triage skill, not a specialist. Use ONLY for meta-routing: diagnosing which
+  specialist playbook fits the growth problem. Do NOT trigger for questions already clearly
+  handled by gr-* or gingiris-* specialist skills.
+  Trigger phrases: "which skill should I use" | "I don't know how to grow" |
+  "不知道用哪个skill" | "增长路由" | "help me pick a strategy" | "where do I start"
 ---
 
 # Gingiris Growth Finder
@@ -48,10 +48,10 @@ The skill will diagnose three dimensions, then invoke the matching playbook:
 
 | If the user's question is about... | Route to |
 |---|---|
-| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **[gingiris-launch](https://skills.sh/Gingiris/gingiris-launch)** |
-| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **[gingiris-opensource](https://skills.sh/Gingiris/gingiris-opensource)** |
-| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **[gingiris-b2b-growth](https://skills.sh/Gingiris/gingiris-b2b-growth)** |
-| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **[gingiris-aso-growth](https://skills.sh/Gingiris/gingiris-aso-growth)** |
+| Product Hunt launch, hunter outreach, launch-day tactics, viral moment engineering | **gingiris-launch** |
+| GitHub stars, HackerNews, OSS marketing, developer community, awesome-lists, Show HN | **gingiris-opensource** |
+| B2B SaaS, PLG vs SLG, PMF validation, freemium, enterprise motion, affiliate, channel partnerships | **gingiris-b2b-growth** |
+| ASO, App Store / Google Play, mobile user acquisition, TikTok/Reels/Shorts UGC, creator matrix | **gingiris-aso-growth** |
 
 If the question spans multiple domains (e.g. "I have an open source project that I want to monetize as B2B SaaS"), route to **both** relevant skills and explain the handoff.
 
@@ -112,20 +112,18 @@ User: "I'm launching an AI coding assistant on Product Hunt in 3 weeks."
 
 If the routed specialist skill isn't installed yet, suggest the user install it:
 
-```bash
-npx skills add Gingiris/gingiris-launch       # for Product Hunt / launch
-npx skills add Gingiris/gingiris-opensource   # for OSS / GitHub stars
-npx skills add Gingiris/gingiris-b2b-growth   # for B2B SaaS / PLG
-npx skills add Gingiris/gingiris-aso-growth   # for mobile / ASO
-```
+Skills are available locally in Cola. The four specialist skills:
+- `gingiris-launch` — Product Hunt / launch
+- `gingiris-opensource` — OSS / GitHub stars
+- `gingiris-b2b-growth` — B2B SaaS / PLG
+- `gingiris-aso-growth` — mobile / ASO
 
-Or install all four at once:
-
+To install via skills.sh marketplace:
 ```bash
-npx skills add Gingiris/gingiris-launch -g
-npx skills add Gingiris/gingiris-opensource -g
-npx skills add Gingiris/gingiris-b2b-growth -g
-npx skills add Gingiris/gingiris-aso-growth -g
+npx skills add Gingiris/gingiris-launch
+npx skills add Gingiris/gingiris-opensource
+npx skills add Gingiris/gingiris-b2b-growth
+npx skills add Gingiris/gingiris-aso-growth
 ```
 
 ---

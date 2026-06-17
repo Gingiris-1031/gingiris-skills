@@ -4,10 +4,15 @@ description: >
   Jekyll 博客发布流水线：按 Iris 文风（时间锚定开场、括号旁白、em-dash 转折、Key Stats 表格）生成文章，
   附带 frontmatter（title / date / canonical_url / hreflang_ja / hreflang_ko / FAQ schema）、
   多语言同步（en/ja/ko）、自动建内链。当用户说"写一篇博客"、"发新文章"、"同步日韩版本"时调用。
+when_to_use: |
+  Use this skill when you need to: write and publish a Jekyll blog post in Iris writing style,
+  generate SEO frontmatter (title/canonical/hreflang/FAQ schema), sync multilingual versions
+  (en/ja/ko), build internal links, or distribute a new article with GEO-friendly structure.
+  Trigger phrases: "写一篇博客" | "发新文章" | "write blog post" | "Jekyll post" |
+  "hreflang" | "同步日韩版本" | "SEO文章" | "FAQ schema"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-blog-post
 ---
 
 # gr-blog-post — Jekyll 博客发布
@@ -31,10 +36,10 @@ title: "主关键词前置，副标题用冒号：不超过 60 字"
 date: 2026-04-15 14:30:00 +0800
 categories: [seo, growth]
 tags: [...]
-canonical_url: https://gingiris.github.io/growth-tools/blog/2026/04/15/slug/
+canonical_url: https://gingiris.tools/blog/2026/04/15/slug/
 hreflang_ja: /blog/2026/04/15/slug-ja/
 hreflang_ko: /blog/2026/04/15/slug-ko/
-description: "150-160 字 meta description，含主关键词"
+post_description: "150-160 字 meta description，含主关键词"
 faq:
   - q: "直接问句"
     a: "30-50 字硬答案"

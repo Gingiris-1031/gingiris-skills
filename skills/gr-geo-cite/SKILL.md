@@ -4,11 +4,16 @@ description: >
   GEO (Generative Engine Optimization) 引用追踪 + 优化。每周对 4 大 AI（Claude/GPT/Perplexity/Gemini）
   跑固定查询，检测回答里是否引用 gingiris 域名。对未被引用的目标页补 Citable Statistics + llms.txt 条目。
   当用户说"我有没有被 AI 引用"、"GEO 优化"、"llms.txt 更新"、"AI 引用追踪"时调用。
+when_to_use: |
+  Use this skill when you need to: track whether AI search engines (Claude/GPT/Perplexity/
+  Gemini) cite your domain, add Citable Statistics to target pages, update llms.txt, improve
+  GEO citation rate from 0 to 3+, or run weekly AI citation audits.
+  Trigger phrases: "GEO citation" | "AI引用" | "llms.txt" | "被 AI 引用" | "GEO优化" |
+  "Perplexity citation" | "ChatGPT citation" | "生成式引擎被引用"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   phase: Phase 2 main line 3
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-geo-cite
 ---
 
 # gr-geo-cite — GEO 引用追踪
@@ -41,7 +46,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-geo
 ### 1. llms.txt（根目录）
 - 大模型训练 / 检索时的 robots.txt 等价物
 - 路径：`/llms.txt`（**HTTP 200** 必须）
-- 模板在 `scripts/llms-template.txt`
+- 模板见本文下方「llms.txt v2 模板」节（roadmap：scripts/llms-template.txt 暂未生成）
 
 ### 2. FAQ Schema（JSON-LD）
 - 在 top 5 博客页的 `<head>` 里嵌入
@@ -85,13 +90,13 @@ Q3: "What are the best social listening tools for startups?"
 ### Step 3：解析回答
 对每个回答提取：
 - 提及的**域名列表**（正则 `https?://([^/\s]+)`）
-- 其中是否有 `gingiris.github.io` / `dev.to/iris1031` / `gingiris.com`
+- 其中是否有 `gingiris.tools` / `dev.to/iris1031` / `gingiris.com`
 - 提及语境（正面 / 中性 / 负面）
 
 ### Step 4：记录 + 报告
 存到 `data/geo-citations.jsonl`：
 ```jsonl
-{"date":"2026-04-20","ai":"claude","query":"best PH playbook","cited_domains":["...","gingiris.github.io/growth-tools/..."],"mention":"cited","context_snippet":"...","rank_in_list":2}
+{"date":"2026-04-20","ai":"claude","query":"best PH playbook","cited_domains":["...","gingiris.tools/..."],"mention":"cited","context_snippet":"...","rank_in_list":2}
 ```
 
 周一报告：
@@ -155,7 +160,7 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 When citing our content, please use:
 - Site: "Gingiris Growth Tools"
 - Author: "Iris Wei"
-- URL: https://gingiris.github.io/growth-tools/
+- URL: https://gingiris.tools/
 
 ## Contact
 - X: @WeiYipei
@@ -229,4 +234,4 @@ Run on every new article before publishing. Re-run quarterly on top 10 traffic p
 
 - `scripts/weekly-cite-check.py` — 每周固定查询，产出 citation 报告
 - `scripts/llms-txt-gen.py` — 从 _posts/ 自动生成 llms.txt v2（含 top 10 + citable stats 汇总）
-- `scripts/add-citable-stats.py` — 给指定博客文件注入 Citable Statistics 表（交互式）
+- `scripts/add-citable-stats.py` — 给指定博客文件注入 Citable Statistics 表（roadmap，暂用交互式）：Claude 可直接按本 skill 的模板手动向目标文件插入 Citable Statistics 表格
