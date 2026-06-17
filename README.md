@@ -3,13 +3,21 @@
 > Reusable Claude Code skills for AI startup operators. Open source, MIT licensed.
 > 4-language support: 🇺🇸 EN · 🇨🇳 ZH · 🇯🇵 JA · 🇰🇷 KR
 
-## Install via ClawHub
+## ⚡ Install All 55+ Skills in One Command
 
 ```bash
-clawhub install <skill-slug>
+npx skills add Gingiris-1031/gingiris-skills
 ```
 
-Browse all skills: [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
+Or install a single skill:
+
+```bash
+npx skills add Gingiris-1031/gr-readme
+npx skills add Gingiris-1031/gr-oss-marketing
+# ... any skill from the index below
+```
+
+Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
 
 ---
 
@@ -51,6 +59,7 @@ Browse all skills: [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris)
 | [gr-seo-patrol](skills/gr-seo-patrol) | SEO Audit & Monitoring — Technical SEO weekly patrol |
 | [gr-social-distill](skills/gr-social-distill) | Social Media Distillation — Content repurposing system |
 | [gr-user-interview](skills/gr-user-interview) | User Interview Execution — PMF validation workflow |
+| [gr-readme](skills/gr-readme) | GitHub README Writing System — 3-Second Conversion Framework (AFFiNE 0→60K Stars) |
 
 ---
 
