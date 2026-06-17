@@ -390,6 +390,67 @@ A steep upward curve signals "this project is real." Investors use this too.
 
 ---
 
+### Section 11: Star CTA GIF — The Most Underused Conversion Trick
+
+A short GIF showing the mouse clicking the ★ Star button converts passers-by into stargazers. It sounds trivial. It works.
+
+**Why it works:**
+- Removes ambiguity: many first-time visitors don’t know *where* to click to star
+- Creates micro-commitment: watching the animation primes the action
+- Feels human, not spammy — unlike a bold "PLEASE STAR US" text block
+
+**How to make the GIF (3 options):**
+
+| Option | Tool | Time | Quality |
+|--------|------|------|---------|
+| Screen record + convert | QuickTime (Mac) + Gifox / LICEcap / ScreenToGif | 5 min | ★★★★ |
+| Browser extension | [Screencastify](https://www.screencastify.com/) or [Loom](https://www.loom.com/) → export GIF | 3 min | ★★★ |
+| Online recorder | [Giphy Capture](https://giphy.com/apps/giphycapture) (Mac) | 3 min | ★★★ |
+
+**What to record (exact steps):**
+1. Open your repo in browser, zoom to 125%
+2. Slowly move mouse to the ★ Star button (top right area)
+3. Pause 1 second
+4. Click — let the animation play (star turns yellow)
+5. Total duration: 3–5 seconds, loop seamlessly
+
+**GIF specs:**
+- Size: 400–600px wide, auto height
+- Duration: 3–5 seconds, looping
+- File size: keep under 1MB (GitHub CDN limit for smooth load)
+- Optimize with [Ezgif](https://ezgif.com/optimize) if over 1MB
+
+**Placement in README:**
+
+Add just above or inside the Star History section, with a one-line CTA:
+
+```markdown
+## ⭐ Support this project
+
+If this project helped you, a star means a lot — it helps others discover it too.
+
+![Star this repo](./assets/star-demo.gif)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yourorg/yourrepo&type=Date)](https://star-history.com/#yourorg/yourrepo&Date)
+```
+
+**Store the GIF in your repo:**
+```
+yourrepo/
+└── assets/
+    └── star-demo.gif   ← commit this
+```
+
+**Tone guidance:**
+- ✅ `"If this project helped you, a star means a lot"`
+- ✅ `"Star us to stay updated"`
+- ❌ `"PLEASE GIVE US A STAR!!!"`
+- ❌ `"Don’t forget to star!"` (implies obligation)
+
+> The GIF does the asking so the text doesn’t have to.
+
+---
+
 ## Badge 使用原则 / Badge Usage Principles
 
 Badges are **signals**, not decoration. Each badge answers a developer question.
@@ -548,6 +609,7 @@ Run before every README publish or major update.
 - [ ] License badge present
 - [ ] CI / build status badge present *and passing*
 - [ ] Star history chart at the bottom
+- [ ] Star CTA GIF added (assets/star-demo.gif, <1MB, 3–5s loop)
 - [ ] Discord / community link in the README
 - [ ] If star count >500, visible in badges
 
