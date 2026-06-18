@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "product launch" | "Product Hunt" | "GTM" | "launch strategy" |
   "发布策略" | "产品发布" | "发PH" | "找hunter" | "출시 전략"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch
+tags:
+  - product-hunt
+  - launch
+  - startup-launch
+  - ph-strategy
+  - daily-1
+  - hunter
+  - upvotes
+  - launch-day
+  - go-to-market
+  - product-launch
+  - claude-code
+  - ai-agent-skill
+  - maker-comment
+  - multi-channel
+  - latest
 ---
 
 # Product Launch — GTM Strategy & Product Hunt #1 Playbook

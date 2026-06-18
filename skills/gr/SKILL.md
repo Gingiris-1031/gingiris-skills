@@ -8,6 +8,19 @@ metadata:
   version: "0.1.0"
   homepage: https://github.com/Gingiris/gingiris-skills
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr
+tags:
+  - router
+  - skill-router
+  - ai-agent
+  - growth-strategy
+  - saas
+  - startup
+  - marketing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - meta
+  - latest
 ---
 
 # gr — Gingiris Growth 主路由

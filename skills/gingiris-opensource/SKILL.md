@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "open source launch" | "GitHub stars" | "Show HN" | "OSS marketing" |
   "开源发布" | "GitHub star增长" | "开源营销" | "开发者营销" | "오픈소스 성장"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource
+tags:
+  - github-stars
+  - open-source
+  - oss-marketing
+  - developer-marketing
+  - readme
+  - product-hunt
+  - github-trending
+  - cold-start
+  - community
+  - developer-growth
+  - claude-code
+  - ai-agent-skill
+  - show-hn
+  - hacker-news
+  - latest
 ---
 
 # Open-Source Marketing — GitHub Stars Growth System

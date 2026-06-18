@@ -3,6 +3,22 @@ name: ai-product-launch
 description: |
   First AI Product Launch — Zero to Live in 30 Days. Step-by-step guide for shipping your first AI product from idea validation to paying customers. Includes day-by-day timeline and real examples. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/ai-product-launch
+tags:
+  - startup-launch
+  - product-launch
+  - go-to-market
+  - mvp
+  - startup
+  - saas
+  - early-stage
+  - growth-hacking
+  - startup-marketing
+  - ai-tools
+  - claude-code
+  - ai-agent-skill
+  - zero-to-launch
+  - traction
+  - latest
 ---
 
 # First AI Product Launch — Zero to Live in 30 Days

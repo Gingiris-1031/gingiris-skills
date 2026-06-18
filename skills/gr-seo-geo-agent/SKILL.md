@@ -15,6 +15,20 @@ description: |
 
   Triggers: "SEO agent" | "SEO automation" | "SEO Agent SOP" | "autonomous SEO" | "SEO daily report" | "SEO Agent运营" | "SEO自动化" | "GEO agent" | "32K impressions" | "3.2万曝光" | "keyword mapping" | "CTA conversion SOP" | "SEO报告模板" | "IndexNow setup" | "AI crawler robots.txt" | "DataForSEO" | "SEO工具链" | "SEO Agent 日报"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-seo-geo-agent
+tags:
+  - seo-agent
+  - geo-agent
+  - seo-automation
+  - ai-seo
+  - seo-audit
+  - technical-seo
+  - content-seo
+  - generative-engine-optimization
+  - ai-search-optimization
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # SEO/GEO Agent 运营 SOP

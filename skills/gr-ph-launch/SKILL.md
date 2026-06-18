@@ -8,6 +8,21 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ph-launch
+tags:
+  - product-hunt
+  - launch
+  - ph-strategy
+  - daily-1
+  - hunter
+  - upvotes
+  - launch-day
+  - startup-launch
+  - go-to-market
+  - product-launch
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-ph-launch — Product Hunt 发布

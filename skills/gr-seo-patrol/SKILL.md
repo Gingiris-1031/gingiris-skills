@@ -13,6 +13,18 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
+tags:
+  - seo-audit
+  - seo-monitoring
+  - seo-automation
+  - technical-seo
+  - site-audit
+  - broken-links
+  - schema-markup
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-seo-patrol — SEO/GEO 日常巡逻

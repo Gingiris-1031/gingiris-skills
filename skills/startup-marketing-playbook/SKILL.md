@@ -3,6 +3,21 @@ name: startup-marketing-playbook
 description: |
   Marketing playbook for bootstrapped startups with zero budget. Covers organic-only channels including SEO, community building, social media, and word-of-mouth tactics that cost nothing but time. Follow @WeiYipei on X.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/startup-marketing-playbook
+tags:
+  - startup-marketing
+  - content-marketing
+  - growth-hacking
+  - product-led-growth
+  - seo
+  - social-media
+  - community
+  - b2b
+  - saas
+  - demand-generation
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

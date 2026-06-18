@@ -15,6 +15,21 @@ description: |
 
   Triggers: "Product Hunt" | "PH launch" | "Product Hunt #1" | "PH ranking" | "Product Hunt strategy" | "PH upvotes" | "launch day" | "PH打榜" | "Product Hunt攻略" | "PH ranking algorithm"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/product-hunt-playbook
+tags:
+  - product-hunt
+  - launch
+  - ph-strategy
+  - daily-1
+  - hunter
+  - upvotes
+  - product-launch
+  - startup-launch
+  - makers
+  - go-to-market
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

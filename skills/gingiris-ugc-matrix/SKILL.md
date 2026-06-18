@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "UGC matrix" | "creator program" | "user generated content" |
   "矩阵号" | "UGC运营" | "创作者招募" | "内容矩阵" | "病毒传播"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-ugc-matrix
+tags:
+  - ugc
+  - user-generated-content
+  - creator-program
+  - viral-marketing
+  - growth-hacking
+  - saas
+  - startup
+  - tiktok-marketing
+  - creator-economy
+  - content-matrix
+  - claude-code
+  - ai-agent-skill
+  - ai-ugc
+  - mobile-growth
+  - latest
 ---
 
 # UGC 矩阵号增长实操手册

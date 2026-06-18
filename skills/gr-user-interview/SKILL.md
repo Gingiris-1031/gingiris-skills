@@ -7,6 +7,20 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-user-interview
+tags:
+  - user-interview
+  - user-research
+  - pmf
+  - product-market-fit
+  - jtbd
+  - jobs-to-be-done
+  - customer-discovery
+  - qualitative-research
+  - startup
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-user-interview — 用户访谈

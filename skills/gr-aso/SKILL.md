@@ -3,6 +3,22 @@ name: gr-aso
 description: >
   ASO（App Store Optimization）+ App 冷启动。覆盖关键词研究、metadata 优化、UGC 创作者矩阵、
   TikTok 投流、AI 多账号矩阵、多语言本地化。从 gingiris-aso-growth 提炼。
+tags:
+  - aso
+  - app-store-optimization
+  - mobile-growth
+  - app-marketing
+  - app-store
+  - ios
+  - android
+  - app-ranking
+  - organic-growth
+  - ugc-creator
+  - claude-code
+  - ai-agent-skill
+  - tiktok-marketing
+  - app-cold-start
+  - latest
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"

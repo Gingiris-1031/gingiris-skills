@@ -3,6 +3,22 @@ name: github-stars-playbook
 description: |
   A 14-day sprint to rapidly grow GitHub stars for your repository. Tactical day-by-day plan covering Show HN, Reddit, Twitter/X threads, and GitHub Trending mechanics. Follow @WeiYipei on X for developer marketing tips.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/github-stars-playbook
+tags:
+  - github-stars
+  - open-source
+  - oss-marketing
+  - developer-marketing
+  - readme
+  - product-hunt
+  - github-trending
+  - cold-start
+  - community
+  - developer-growth
+  - claude-code
+  - ai-agent-skill
+  - show-hn
+  - 14-day-sprint
+  - latest
 ---
 # Get GitHub Stars Fast — 14-Day Growth Sprint
 

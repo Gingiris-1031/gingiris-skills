@@ -3,6 +3,22 @@ name: aso-playbook
 description: |
   Beginner-friendly App Store Optimization guide covering keyword research, screenshot design, rating management, and A/B testing for iOS and Android. By @WeiYipei — practical ASO for indie developers and small teams.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/aso-playbook
+tags:
+  - aso
+  - app-store-optimization
+  - mobile-growth
+  - keyword-research
+  - app-marketing
+  - app-store
+  - ios
+  - android
+  - app-ranking
+  - organic-growth
+  - claude-code
+  - ai-agent-skill
+  - indie-developer
+  - conversion-optimization
+  - latest
 ---
 
 ## 📦 Install

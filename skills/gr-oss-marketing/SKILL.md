@@ -8,6 +8,21 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-oss-marketing
+tags:
+  - open-source-marketing
+  - github-stars
+  - oss
+  - developer-marketing
+  - product-hunt
+  - show-hn
+  - cold-start
+  - community
+  - kol-outreach
+  - launch-strategy
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-oss-marketing — 开源营销

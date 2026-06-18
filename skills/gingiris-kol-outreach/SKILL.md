@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "KOL outreach" | "influencer marketing" | "creator partnership" |
   "KOL ROI" | "红人营销" | "KOL合作" | "达人合作" | "KOL筛选"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-kol-outreach
+tags:
+  - kol
+  - influencer-marketing
+  - creator-marketing
+  - outreach
+  - b2b-influencer
+  - developer-kol
+  - partnership
+  - content-creator
+  - social-media
+  - brand-awareness
+  - claude-code
+  - ai-agent-skill
+  - kol-roi
+  - creator-economy
+  - latest
 ---
 
 # KOL 外联与红人营销实战手册

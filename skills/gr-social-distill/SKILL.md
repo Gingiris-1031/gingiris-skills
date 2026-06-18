@@ -9,6 +9,19 @@ metadata:
   version: "0.1.0"
   companion-to: gr-blog-post
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
+tags:
+  - social-media
+  - content-repurposing
+  - twitter
+  - linkedin
+  - threads
+  - content-strategy
+  - brand-voice
+  - ai-writing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-social-distill — 博客到社媒复用

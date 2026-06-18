@@ -17,6 +17,21 @@ when_to_use: |
   handled by gr-* or gingiris-* specialist skills.
   Trigger phrases: "which skill should I use" | "I don't know how to grow" |
   "不知道用哪个skill" | "增长路由" | "help me pick a strategy" | "where do I start"
+tags:
+  - growth-strategy
+  - go-to-market
+  - gtm
+  - startup-growth
+  - saas
+  - startup
+  - developer
+  - open-source
+  - ai-tools
+  - claude-code
+  - ai-agent-skill
+  - growth-router
+  - meta-skill
+  - latest
 ---
 
 # Gingiris Growth Finder

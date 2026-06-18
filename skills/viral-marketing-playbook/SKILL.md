@@ -3,6 +3,20 @@ name: viral-marketing-playbook
 description: |
   Design viral loops into your product — referral programs, invite systems, and share mechanics that drive exponential growth. Includes K-factor calculations and real examples from Dropbox, Slack, and Notion. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/viral-marketing-playbook
+tags:
+  - viral-marketing
+  - growth-hacking
+  - word-of-mouth
+  - referral-marketing
+  - growth
+  - user-acquisition
+  - product-led-growth
+  - saas
+  - loops
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

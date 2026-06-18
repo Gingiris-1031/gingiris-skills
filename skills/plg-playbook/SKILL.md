@@ -3,6 +3,20 @@ name: plg-playbook
 description: |
   The complete Product-Led Growth playbook covering freemium model design, self-serve onboarding, activation metrics, and the transition from individual users to enterprise accounts. Follow @WeiYipei on X for PLG insights.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/plg-playbook
+tags:
+  - plg
+  - product-led-growth
+  - freemium
+  - free-trial
+  - saas
+  - activation
+  - onboarding
+  - revenue-expansion
+  - b2b-saas
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

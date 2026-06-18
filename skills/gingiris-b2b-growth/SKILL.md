@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "B2B growth" | "PLG vs SLG" | "SaaS pricing" | "enterprise sales" |
   "ARR growth" | "B2B增长" | "PLG还是SLG" | "SaaS定价" | "渠道合作"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth
+tags:
+  - b2b-growth
+  - plg
+  - slg
+  - saas
+  - saas-marketing
+  - product-led-growth
+  - sales-led-growth
+  - b2b-saas
+  - startup-growth
+  - go-to-market
+  - revenue-growth
+  - mrr
+  - claude-code
+  - ai-agent-skill
+  - latest
 ---
 
 # B2B SaaS Growth — PLG / SLG Playbook

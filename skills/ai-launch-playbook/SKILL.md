@@ -8,6 +8,17 @@ tags:
   - launch
   - startup
   - global
+  - product-launch
+  - go-to-market
+  - gtm
+  - startup-launch
+  - startup-marketing
+  - saas
+  - ai-tools
+  - claude-code
+  - ai-agent-skill
+  - waitlist
+  - latest
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/ai-launch-playbook
 ---
 

@@ -3,6 +3,22 @@ name: go-to-market-playbook
 description: |
   A reusable Go-to-Market strategy template for both B2B and B2C launches. Covers positioning, messaging, ICP definition, channel selection, and competitive analysis frameworks. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/go-to-market-playbook
+tags:
+  - go-to-market
+  - gtm
+  - product-launch
+  - startup-launch
+  - positioning
+  - icp
+  - b2b-saas
+  - saas
+  - startup
+  - competitive-analysis
+  - claude-code
+  - ai-agent-skill
+  - messaging
+  - channel-selection
+  - latest
 ---
 
 ## 📦 Install

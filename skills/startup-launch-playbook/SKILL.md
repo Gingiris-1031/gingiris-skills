@@ -3,6 +3,21 @@ name: startup-launch-playbook
 description: |
   A step-by-step playbook for early-stage startups going from pre-seed to their first 1000 users. Covers MVP validation, initial traction channels, and founder-led growth tactics. By @WeiYipei — follow on X for more startup growth insights.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/startup-launch-playbook
+tags:
+  - startup-launch
+  - launch-checklist
+  - go-to-market
+  - gtm
+  - product-launch
+  - mvp
+  - traction
+  - first-1000-users
+  - distribution
+  - marketing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 # Early-Stage Startup Launch — Pre-Seed to First 1000 Users
 

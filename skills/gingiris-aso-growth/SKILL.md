@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "ASO" | "App Store Optimization" | "app cold start" | "mobile app growth" |
   "UGC creator matrix" | "应用商店优化" | "App冷启动" | "UGC矩阵" | "矩阵号运营"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth
+tags:
+  - aso
+  - app-store-optimization
+  - mobile-growth
+  - app-marketing
+  - app-store
+  - ios
+  - android
+  - app-ranking
+  - organic-growth
+  - ugc-creator
+  - claude-code
+  - ai-agent-skill
+  - tiktok-marketing
+  - app-cold-start
+  - latest
 ---
 
 # ASO 增长与 App 冷启动权威指南

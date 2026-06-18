@@ -3,6 +3,22 @@ name: b2b-marketing-playbook
 description: |
   Complete B2B marketing pipeline combining LinkedIn content, cold email sequences, and webinar funnels. Designed for SaaS founders doing $0–$1M ARR who need predictable lead generation. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/b2b-marketing-playbook
+tags:
+  - b2b-marketing
+  - lead-generation
+  - cold-email
+  - linkedin
+  - b2b-saas
+  - saas-marketing
+  - saas
+  - startup
+  - revenue-growth
+  - abm
+  - claude-code
+  - ai-agent-skill
+  - webinar-funnel
+  - pipeline
+  - latest
 ---
 
 ## 📦 Install

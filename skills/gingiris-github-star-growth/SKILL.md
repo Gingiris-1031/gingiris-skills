@@ -16,6 +16,22 @@ when_to_use: |
   an open-source project from 1K to 60K+ stars long-term.
   Trigger phrases: "GitHub star growth" | "monthly stars" | "contributor system" |
   "open source community" | "Star持续增长" | "开源社区运营" | "贡献者体系"
+tags:
+  - github-stars
+  - open-source
+  - oss-marketing
+  - developer-marketing
+  - community
+  - developer-growth
+  - github-trending
+  - contributor-system
+  - ambassador-program
+  - open-source-community
+  - claude-code
+  - ai-agent-skill
+  - monthly-star-growth
+  - developer
+  - latest
 metadata:
   version: 1.0.1
   author: Iris (生姜iris)

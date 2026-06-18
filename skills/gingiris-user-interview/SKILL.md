@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "user interview" | "PMF" | "customer discovery" | "beta test" |
   "用户访谈" | "冷启动运营" | "PMF验证" | "流失分析" | "JTBD"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview
+tags:
+  - user-interview
+  - user-research
+  - pmf
+  - product-market-fit
+  - jtbd
+  - jobs-to-be-done
+  - customer-discovery
+  - qualitative-research
+  - product-development
+  - startup
+  - claude-code
+  - ai-agent-skill
+  - beta-testing
+  - cold-start
+  - latest
 ---
 
 # 用户访谈与冷启动运营实战手册

@@ -9,6 +9,19 @@ metadata:
   version: "0.1.0"
   underlying: actionbook
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor
+tags:
+  - competitor-analysis
+  - competitive-intelligence
+  - market-research
+  - competitive-strategy
+  - saas
+  - startup
+  - business-intelligence
+  - product-strategy
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-competitor — 竞品扫描

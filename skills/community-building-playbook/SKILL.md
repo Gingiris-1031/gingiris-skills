@@ -11,6 +11,22 @@ description: >
   Slack, or Lark communities; running developer relations (DevRel); or when the user asks
   about community operations, ambassador programs, CLG, user advocacy, KOC/KOL cultivation,
   UGC flywheels, community monetization, or any variation of "how do I grow my community".
+tags:
+  - community-building
+  - community-led-growth
+  - ambassador-program
+  - devrel
+  - open-source
+  - saas
+  - startup
+  - developer-community
+  - ugc-flywheel
+  - community-growth
+  - claude-code
+  - ai-agent-skill
+  - discord-slack
+  - event-ops
+  - latest
 metadata:
   category: growth
 ---

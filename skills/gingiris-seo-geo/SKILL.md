@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "SEO" | "GEO" | "AI search" | "keyword strategy" | "schema markup" |
   "搜索优化" | "GEO优化" | "AI搜索引用" | "生成式引擎优化" | "内容SEO"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-seo-geo
+tags:
+  - seo
+  - geo
+  - generative-engine-optimization
+  - ai-search-optimization
+  - content-seo
+  - technical-seo
+  - e-e-a-t
+  - json-ld
+  - schema-markup
+  - indexnow
+  - saas-seo
+  - startup-marketing
+  - claude-code
+  - ai-agent-skill
+  - latest
 ---
 
 # SEO & GEO 双引擎增长手册

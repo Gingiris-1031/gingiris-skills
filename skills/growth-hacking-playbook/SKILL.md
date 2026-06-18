@@ -3,6 +3,20 @@ name: growth-hacking-playbook
 description: |
   50 growth hacking tactics ranked by effort vs impact. Each experiment includes setup instructions, expected timeline, and success metrics. Data-driven prioritization for resource-constrained startups. Follow @WeiYipei on X.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/growth-hacking-playbook
+tags:
+  - growth-hacking
+  - viral-growth
+  - growth-strategy
+  - startup-growth
+  - user-acquisition
+  - retention
+  - saas
+  - product-led-growth
+  - a-b-testing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

@@ -3,6 +3,21 @@ name: startup-launch
 description: |
   Startup Launch Day Playbook — Hour-by-hour execution checklist for your big launch day. Covers timezone timing, channel sequencing, real-time crisis management, and post-launch momentum. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/startup-launch
+tags:
+  - startup-launch
+  - launch-strategy
+  - go-to-market
+  - gtm
+  - product-launch
+  - mvp
+  - traction
+  - first-users
+  - early-stage
+  - distribution
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # Startup Launch Day Playbook — Hour-by-Hour Checklist

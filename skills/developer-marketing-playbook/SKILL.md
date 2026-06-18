@@ -3,6 +3,22 @@ name: developer-marketing-playbook
 description: |
   Complete developer marketing playbook covering DevRel programs, documentation as marketing, API developer experience, community building, and hackathon strategy. For dev-tool founders who need to reach engineers. Follow @WeiYipei on X.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/developer-marketing-playbook
+tags:
+  - developer-marketing
+  - devrel
+  - developer-community
+  - documentation
+  - open-source
+  - developer
+  - api
+  - sdk
+  - developer-experience
+  - developer-relations
+  - claude-code
+  - ai-agent-skill
+  - hackathon
+  - dev-tool
+  - latest
 ---
 # Developer Marketing Playbook — DevRel, Docs & Community Funnels
 

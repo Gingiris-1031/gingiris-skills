@@ -13,6 +13,20 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
+tags:
+  - blog-post
+  - content-marketing
+  - seo-writing
+  - technical-writing
+  - content-strategy
+  - copywriting
+  - blogging
+  - jekyll
+  - frontmatter
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-blog-post — Jekyll 博客发布

@@ -18,6 +18,22 @@ when_to_use: |
   Trigger phrases: "go global" | "出海" | "overseas GTM" | "international expansion" |
   "出海SOP" | "出海打法" | "海外冷启动" | "글로벌 진출"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-go-global
+tags:
+  - go-global
+  - international-expansion
+  - localization
+  - global-marketing
+  - saas-globalization
+  - cross-border
+  - go-to-market
+  - asia
+  - startup
+  - gtm
+  - claude-code
+  - ai-agent-skill
+  - overseas-expansion
+  - japan-korea
+  - latest
 ---
 
 # AI 产品/SaaS 企业出海完整 SOP

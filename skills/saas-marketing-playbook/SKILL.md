@@ -3,6 +3,20 @@ name: saas-marketing-playbook
 description: |
   A curated marketing stack guide for SaaS startups — tools, channels, and metrics organized by growth stage. Know exactly which tools to adopt and when. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/saas-marketing-playbook
+tags:
+  - saas-marketing
+  - content-marketing
+  - seo
+  - product-led-growth
+  - email-marketing
+  - b2b-saas
+  - startup
+  - growth-hacking
+  - demand-generation
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 # SaaS Marketing Stack — Tools + Channels + Metrics
 

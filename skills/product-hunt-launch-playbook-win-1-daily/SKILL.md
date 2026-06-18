@@ -20,6 +20,21 @@ when_to_use: |
   Trigger phrases: "Product Hunt #1" | "PH launch" | "win Product Hunt" | "hunter selection" |
   "PH ranking algorithm" | "Product Hunt打榜" | "发PH" | "maker comment"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/product-hunt-launch-playbook-win-1-daily
+tags:
+  - product-hunt
+  - launch
+  - daily-1
+  - ph-strategy
+  - hunter
+  - upvotes
+  - launch-day
+  - startup-launch
+  - makers
+  - community
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # Product Hunt Launch Playbook

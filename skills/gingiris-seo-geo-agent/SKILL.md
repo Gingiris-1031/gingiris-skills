@@ -17,6 +17,22 @@ when_to_use: |
   Trigger phrases: "SEO agent" | "SEO automation" | "SEO日报" | "SEO自动化" |
   "keyword mapping" | "IndexNow" | "SEO Agent运营" | "3.2万曝光"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-seo-geo-agent
+tags:
+  - seo
+  - geo
+  - generative-engine-optimization
+  - ai-search-optimization
+  - content-seo
+  - technical-seo
+  - e-e-a-t
+  - json-ld
+  - schema-markup
+  - indexnow
+  - saas-seo
+  - startup-marketing
+  - claude-code
+  - ai-agent-skill
+  - latest
 ---
 
 # SEO/GEO Agent 运营 SOP

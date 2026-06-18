@@ -11,6 +11,21 @@ metadata:
   version: "0.1.0"
   phase: Phase 2 main line 4 (added 2026-05-07)
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-backlinks
+tags:
+  - backlinks
+  - link-building
+  - seo
+  - off-page-seo
+  - domain-authority
+  - featured-com
+  - haro-alternative
+  - digital-pr
+  - content-marketing
+  - saas-seo
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-backlinks — Systematic Backlink Building

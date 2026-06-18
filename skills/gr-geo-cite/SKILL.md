@@ -14,6 +14,21 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   phase: Phase 2 main line 3
+tags:
+  - geo
+  - generative-engine-optimization
+  - ai-search
+  - ai-citations
+  - perplexity
+  - chatgpt
+  - claude
+  - seo
+  - schema-markup
+  - e-e-a-t
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-geo-cite — GEO 引用追踪

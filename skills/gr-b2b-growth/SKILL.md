@@ -8,6 +8,22 @@ metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-b2b-growth
+tags:
+  - b2b-growth
+  - plg
+  - slg
+  - saas
+  - product-led-growth
+  - sales-led-growth
+  - b2b-saas
+  - revenue-growth
+  - arr
+  - go-to-market
+  - startup-growth
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-b2b-growth — B2B SaaS 增长

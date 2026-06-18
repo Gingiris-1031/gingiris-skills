@@ -3,6 +3,21 @@ name: saas-growth-playbook
 description: |
   The revenue-focused SaaS playbook for going from $0 to $50K MRR. Covers pricing experiments, churn reduction, activation optimization, and expansion revenue tactics. Follow @WeiYipei on X for SaaS growth insights.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/saas-growth-playbook
+tags:
+  - saas-growth
+  - b2b-saas
+  - mrr
+  - arr
+  - churn
+  - retention
+  - activation
+  - onboarding
+  - revenue-growth
+  - product-led-growth
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## 📦 Install

@@ -3,6 +3,19 @@ name: kol-outreach
 description: |
   Ready-to-use KOL cold outreach templates — DM scripts for Twitter, email pitches, and follow-up sequences designed to get replies from busy influencers. Tested across 500+ creator partnerships. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/kol-outreach
+tags:
+  - kol-outreach
+  - influencer-marketing
+  - creator-marketing
+  - b2b-influencer
+  - developer-kol
+  - outreach-templates
+  - partnership
+  - cold-outreach
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 # KOL Cold Outreach Templates — DM Scripts That Get Replies
 

@@ -3,6 +3,22 @@ name: devrel-playbook
 description: |
   Complete Developer Relations playbook — from community building to documentation strategy to event planning. Covers Discord/Slack management, conference speaking, hackathon sponsorship, and measuring DevRel ROI. By @WeiYipei.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/devrel-playbook
+tags:
+  - developer-relations
+  - devrel
+  - developer-community
+  - technical-content
+  - open-source
+  - documentation
+  - api
+  - sdk
+  - developer-experience
+  - developer-marketing
+  - claude-code
+  - ai-agent-skill
+  - conference
+  - hackathon
+  - latest
 ---
 # DevRel Playbook — Developer Relations: Community, Docs & Events SOP
 

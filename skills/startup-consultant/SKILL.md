@@ -3,6 +3,20 @@ name: startup-consultant
 description: |
   Startup growth consulting agent specializing in Product Hunt launches, open-source marketing, and Go-to-Market audits. Get expert-level strategic reviews and actionable recommendations. By @WeiYipei — fractional growth lead for AI startups.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/startup-consultant
+tags:
+  - startup-consulting
+  - startup-strategy
+  - go-to-market
+  - product-market-fit
+  - fundraising
+  - growth-strategy
+  - saas
+  - b2b
+  - founder
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 # Startup Growth Consultant — PH Launch, OSS, GTM Audits
 
