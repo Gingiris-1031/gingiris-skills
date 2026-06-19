@@ -274,10 +274,10 @@ Use this for:
 ## Anti-patterns (avoid)
 
 - ❌ **Paid agency Wikipedia services** — sockpuppet farms, articles deleted
-- ❌ **Reddit account farming** — gets you banned permanently
+- ❌ **Reddit coordinated fake accounts** — gets you banned permanently
 - ❌ **Generic HARO replies** — quote rate <2% without specific credentials
 - ❌ **Buying links** — Google's algorithm now flags within days
-- ❌ **Asking friends to write fake reviews on G2** — flagged + removed
+- ❌ **Asking friends to write inauthentic reviews on G2** — flagged + removed
 - ❌ **Guest posting on link farms** — negative SEO
 
 ---

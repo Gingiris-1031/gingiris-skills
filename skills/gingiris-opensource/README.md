@@ -58,7 +58,7 @@ Unlike "post on HN and pray" advice, this playbook provides **specific timing, t
 - **Show HN playbook** — Timing, framing, comment response strategy, what gets to front page vs. dies at #30
 - **Reddit seeding** — Which subreddits, how to frame without being flagged as spam, community norms for r/programming, r/webdev, r/MachineLearning
 - **KOL outreach for devs** — Finding the 20 developers whose tweets drive 10k stars; cold DM templates
-- **GitHub Trending strategy** — How to coordinate a star spike to break into Trending (and why organic > fake stars)
+- **GitHub Trending strategy** — How to coordinate a star spike to break into Trending (and why organic growth beats artificial inflation)
 - **Community flywheel** — Discord server setup, onboarding automation, turning contributors into advocates
 - **Content SEO for OSS** — Documentation as SEO, tutorial content, changelog as blog posts
 - **Global distribution** — Chinese developer community (Gitee, CSDN, 掘金), Japanese/Korean developer channels

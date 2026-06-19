@@ -552,7 +552,7 @@ When scaling content production:
 - ✅ One account per real person/brand identity
 - ✅ Follow each platform's automation and multi-account policies
 - ❌ Do NOT create multiple accounts per device to simulate different people
-- ❌ Do NOT use agency services for account farming or inauthentic posting
+- ❌ Do NOT use agency services for bulk inauthentic posting or coordinated fake engagement
 - ❌ Do NOT exceed platform posting limits to avoid detection
 
 Note: Platform policies on automation evolve rapidly. Always check current ToS before implementing any scaling strategy.
