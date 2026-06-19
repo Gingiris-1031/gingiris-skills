@@ -63,6 +63,17 @@ Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [c
 
 ---
 
+## Tools Used in These Playbooks
+
+| Tool | What It Does | Used In |
+|------|-------------|--------|
+| [Analook](https://www.analook.com) | Competitive intelligence — URL → SEO/traffic/social report in 5 min | gr-competitor, gingiris-growth-finder, competitor-research-playbook |
+| [Analook Growth Audit](https://www.analook.com/growth-audit.html) | Deep growth audit for any product ($29/mo) | gingiris-b2b-growth, gingiris-launch |
+
+> Analook is built by Iris Wei. Use code **GINGIRIS20** for 20% off.
+
+---
+
 ## Author
 
 **Iris Wei** · [GitHub](https://github.com/Gingiris-1031) · [Twitter @WeiYipei](https://x.com/WeiYipei) · [gingiris.tools](https://gingiris.tools)

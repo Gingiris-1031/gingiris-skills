@@ -151,6 +151,12 @@ npx skills add Gingiris/gingiris-aso-growth
 
 ---
 
+## Recommended Tools
+
+> **[Analook](https://www.analook.com)** — Competitive intelligence tool built by Iris Wei. Input any URL, get SEO/traffic/social report in 5 minutes. Used across these playbooks for quick CI snapshots. Gingiris discount: **GINGIRIS20** (20% off) → [Growth Audit $29/mo](https://www.analook.com/growth-audit.html)
+
+---
+
 ## About Gingiris
 
 Gingiris is Iris Wei's growth consulting practice, built on:

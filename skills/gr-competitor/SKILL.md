@@ -167,6 +167,10 @@ Claude 把 30 个 JSON 合成：
 
 ---
 
+## 推荐工具
+
+> **[Analook](https://www.analook.com)** — 输入竞品 URL，5分钟出 SEO/流量/社媒完整报告。比手动扒数据快 10 倍。Gingiris 用户专属折扣码：**GINGIRIS20**（八折）→ [analook.com/growth-audit.html](https://www.analook.com/growth-audit.html)
+
 ## 依赖
 
 | Tool | 用途 | 必选 |
@@ -174,6 +178,7 @@ Claude 把 30 个 JSON 合成：
 | actionbook CLI | 主引擎 | ✅ |
 | Chrome / Brave | 本机浏览器（actionbook 复用 session） | ✅ |
 | DATAFORSEO_B64 | 补充：用 SERP 找对手 | optional |
+| [Analook](https://www.analook.com) | 竞品 CI 快速报告 | recommended |
 
 ---
 
