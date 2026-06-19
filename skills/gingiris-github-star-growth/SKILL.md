@@ -73,7 +73,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingir
 | 渠道 | 频率 | 策略 | 转化效率 |
 |:---|:---|:---|:---|
 | **Reddit** | 每周 2-3 帖 | r/selfhosted, r/programming, r/MachineLearning | 帖子→Star 直接转化（AFFiNE 累计 2000+ stars） |
-| **Hacker News** | 每月 1-2 次 | Content submission via agency ($500/post, ensure HN guidelines compliance — submissions must be genuine and relevant) | 爆发式，单帖可带 200-500 stars |
+| **Hacker News** | 每月 1-2 次 | Organic content submission — author submits directly, genuine and relevant posts only (HN guidelines require real authorship and disclosure) | 爆发式，单帖可带 200-500 stars |
 | **Discord/Telegram** | 每天 | 日常互动、问题解答 | 社区留存、口碑传播 |
 | **Dev.to / Hashnode** | 每周 1 篇 | 跨平台分发 | SEO + 开发者发现 |
 
@@ -121,7 +121,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingir
 | 渠道 | 适用阶段 | 效率指标 | 优先级 |
 |:---|:---|:---|:---|
 | Reddit | 全周期 | 帖子→Star 直接转化 | ⭐⭐⭐ |
-| Hacker News | 爆发期 | $500/帖, 30 points | ⭐⭐⭐ |
+| Hacker News | 爆发期 | 自主投稿，真实内容 | ⭐⭐⭐ |
 | Twitter/X | 全周期 | DM回复率 3-5% | ⭐⭐⭐ |
 | LinkedIn | B2B获客 | DM回复率 10-15% | ⭐⭐ |
 | YouTube | 内容沉淀 | 30 SGD 推流有效 | ⭐⭐ |
@@ -133,7 +133,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingir
 
 | 项目 | 预算 | 预期产出 |
 |:---|:---|:---|
-| HN Agency | $500-1000 | 1-2 帖, 各 30+ points |
+| HN 自主投稿 | $0 | 1-2 帖，自写真实内容 |
 | YouTube 推流 | $100-300 | 视频曝光 + 网站点击 |
 | KOL 合作 | $500-2000 | 5-10 个中腰部 KOL |
 | 活动费用 | $200-500 | 1次线上 + 物料 |
@@ -161,7 +161,7 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingir
 | 项目 | 成果 | 时间线 | 关键策略 |
 |:---|:---|:---|:---|
 | AFFiNE | 10K stars in 43 days, 60K+ total | 2023-2026 | Reddit(2000+ stars) + HN + KOL + Contributor体系 |
-| Client Project A | 0→10K stars | 8 个月 | 月度300 SOP + HN Agency + YouTube |
+| Client Project A | 0→10K stars | 8 个月 | 月度300 SOP + HN 自主投稿 + YouTube |
 
 ---
 
