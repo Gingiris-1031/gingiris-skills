@@ -11,28 +11,12 @@ description: |
 
   Triggers: "SEO agent" | "SEO automation" | "SEO Agent SOP" | "autonomous SEO" | "SEO daily report" | "SEO Agent运营" | "SEO自动化" | "GEO agent" | "32K impressions" | "3.2万曝光" | "keyword mapping" | "CTA conversion SOP" | "SEO报告模板" | "IndexNow setup" | "AI crawler robots.txt" | "DataForSEO" | "SEO工具链" | "SEO Agent 日报"
 when_to_use: |
-  Use this skill when you need to: operate an autonomous SEO agent (32K impressions/month),
-  run daily/weekly/monthly SEO SOPs, map keywords to landing pages, set up CTA conversion
-  blocks, configure IndexNow + robots.txt for AI crawlers, or build SEO reporting templates.
-  Trigger phrases: "SEO agent" | "SEO automation" | "SEO日报" | "SEO自动化" |
-  "keyword mapping" | "IndexNow" | "SEO Agent运营" | "3.2万曝光"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-seo-geo-agent
-tags:
-  - seo
-  - geo
-  - generative-engine-optimization
-  - ai-search-optimization
-  - content-seo
-  - technical-seo
-  - e-e-a-t
-  - json-ld
-  - schema-markup
-  - indexnow
-  - saas-seo
-  - startup-marketing
-  - claude-code
-  - ai-agent-skill
-  - latest
+  Use to operate an autonomous SEO agent: daily/weekly/monthly SOPs, keyword→landing-page
+  mapping, CTA conversion blocks, IndexNow + robots.txt for AI crawlers, SEO reporting templates.
+  Enforces 2026-06-24 standards: keyword filter volume 300-1000/KD 5-35, internal links
+  ≤2-3 per paragraph, title must contain best/free/top/guide+year, actively cite competitor
+  blogs as external links, BreadcrumbList schema, $20-30 quality backlink outreach SOP,
+  Bing IndexNow for GEO, GA4 AI traffic channel grouping.
 ---
 
 # SEO/GEO Agent 运营 SOP
@@ -69,29 +53,39 @@ tags:
 ### Week 0 — 地基与基线
 - 完成 Owner Checklist（GSC/GA4/API/域名/CTA页）
 - robots.txt 开放 AI 爬虫 + sitemap 提交
-- IndexNow 配置
-- 关键词种子表 30-50 词（标注 Volume/KD/意图）
+- **Bing IndexNow** 配置（不局限于 Google，让大模型更快 discover/index）
+- 关键词种子表 30-50 词，筛选标准：**volume 300–1,000 / KD 5–35 / traffic potential 300+**
+- 属意图判断：先看 Google top-10（忽略 Sponsored）再写，内容必须对齐意图
+- 扒竞品 blog 最新文找还没被爬到的新词
 - 记录基线
 
 ### Week 1 — BOFU 落地页
-- 产品核心页 + 定价页（带 FAQ Schema）
+- 产品核心页 + 定价页（带 FAQ Schema，FAQPage JSON-LD 5–8 题）
 - 前 3-5 个竞品对比页
-- 每页必带 CTA 块 + IndexNow 推送
+- 每页必带 CTA 块 + Bing IndexNow 推送
+- **标题套路**：必含 best / free / top / guide + 年份
+- **面包屑导航**：BreadcrumbList schema + 页面内可见
+- **Meta description**：关键词 rephrase（不是重复关键词，是改说法）
 
 ### Week 2 — 内链结构 + 分发铺面
 - Topic Cluster：1 支柱页 + 4-6 集群页互链
+- **内链密度瓦特：每段 ≤ 2-3 个**（达到上限 → Google spam 信号 → 降 ranking）
+- **主动 cite 竞品 blog 外链**（Google 视为客观 → 信用分上升 → ranking 上升）
 - 分发平台同步（dev.to 等，canonical 指回主站）
 - 给已有排名页加内链
 
 ### Week 3 — GEO 强化
-- FAQPage JSON-LD（5-8题）
+- FAQPage JSON-LD（5–8题）——问题必须是用户真实搜索句，不是营销话术
 - 文章开头「一句话回答 + Key Stats 表格」
+- 添加/更新【最后更新日期】freshness 标记
+- GA4 配置 AI 来源 channel grouping（ChatGPT/Perplexity/Claude referral 单独追踪）
 - 监控 AI Overview 引用
 
 ### Week 4 — CTR 榨取 + 规模化
-- 高曝光低点击页面重写标题/描述
+- 高曝光低点击页面重写标题/描述，应用 best/free/top/guide+年份 公式
 - 排名 11-20 冲首页
-- 维持每周 4 篇长尾内容
+- **外链建设：reach out 评测站（Product Hunt 等），$20–30 招招 20–30 条高质量外链**，避开论坛批量外链（penalty 风险）
+- 维持每周 4 篇长尾内容（KD 5–35 区间）
 
 ---
 
@@ -193,6 +187,18 @@ CTA 4要素：承接上文 / 降低门槛 / 明确动作 / 可追踪
 | SerpApi | SERP/索引计数 | 可选 |
 | SEO Review Tools | 外链/DA | 可选 |
 | Brave Search API | GEO/AI摘要 | 可选 |
+
+---
+
+## Platform Description
+
+**EN:** SEO/GEO Agent Operations SOP — Day-by-day autonomous agent SOP for ~32K impressions/month. Enforces 2026-06-24 standards: keyword filter volume 300–1,000 / KD 5–35 / traffic potential 300+, internal links ≤2–3 per paragraph, actively cite competitor blogs as external links, title must contain best/free/top/guide+year, meta description keyword rephrase, BreadcrumbList schema, $20–30 quality backlink outreach (avoid forum bulk links), Bing IndexNow for GEO indexing, GA4 AI traffic channel grouping.
+
+**ZH:** SEO/GEO Agent 运营 SOP（2026-06-24 标准）——一个 agent 跑到一个月 ~3.2 万曝光的逐日执行手册。内嵌标准：关键词 volume 300–1,000 / KD 5–35 / traffic potential 300+，内链每段 ≤2–3 个，主动 cite 竞品外链，标题必含 best/free/top/guide+年份，meta description 关键词 rephrase，面包屑 BreadcrumbList schema，$20–30 高质量外链（避开论坛批量外链），Bing IndexNow，GA4 AI 流量频道分组。
+
+**JA:** SEO/GEO エージェント運用SOP（2026-06-24基準）— 1ヶ月で約3.2万インプレッションを達成する自律型SOP。キーワード基準: volume 300–1,000/KD 5–35/トラフィックポテンシャル300+。内部リンクは段落あたり≤2–3個、競合ブログへの外部リンク、タイトルにbest/free/top/guide+年、BreadcrumbListスキーマ、$20–30外部リンク獲得、Bing IndexNow、GA4 AIトラフィック分析。
+
+**KO:** SEO/GEO 에이전트 운영 SOP（2026-06-24 기준）— 한 달 만에 ~3.2만 노출을 달성하는 자율형 SOP. 키워드 기준: volume 300–1,000/KD 5–35/traffic potential 300+. 내부링크 단락당 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목 best/free/top/guide+연도, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, GA4 AI 트래픽 추적.
 
 ---
 

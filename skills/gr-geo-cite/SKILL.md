@@ -1,34 +1,23 @@
 ---
 name: gr-geo-cite
 description: >
-  GEO (Generative Engine Optimization) 引用追踪 + 优化。每周对 4 大 AI（Claude/GPT/Perplexity/Gemini）
-  跑固定查询，检测回答里是否引用 gingiris 域名。对未被引用的目标页补 Citable Statistics + llms.txt 条目。
+  GEO (Generative Engine Optimization) 引用追踪 + 优化（2026-06-24 标准）。每周对 4 大 AI（Claude/GPT/Perplexity/Gemini）
+  跑固定查询，检测回答里是否引用目标域名。对未被引用的页面补 Citable Statistics + AI 友好格式（一句话答+表格+FAQ）。
+  Bing IndexNow 推送确保大模型快速 discover/index。GA4 AI 来源流量监控。
   当用户说"我有没有被 AI 引用"、"GEO 优化"、"llms.txt 更新"、"AI 引用追踪"时调用。
 when_to_use: |
   Use this skill when you need to: track whether AI search engines (Claude/GPT/Perplexity/
-  Gemini) cite your domain, add Citable Statistics to target pages, update llms.txt, improve
-  GEO citation rate from 0 to 3+, or run weekly AI citation audits.
+  Gemini) cite your domain, add Citable Statistics (5–10 rows with source URLs) to target
+  pages, update llms.txt v2, improve GEO citation rate, run weekly AI citation audits,
+  push Bing IndexNow after content updates, or configure GA4 AI traffic channel grouping.
+  Enforces 2026-06-24 GEO standards: AI-friendly format (1-sentence answer + table + FAQ
+  JSON-LD 5–8 Q&As), BreadcrumbList schema, freshness date display.
   Trigger phrases: "GEO citation" | "AI引用" | "llms.txt" | "被 AI 引用" | "GEO优化" |
-  "Perplexity citation" | "ChatGPT citation" | "生成式引擎被引用"
+  "Perplexity citation" | "ChatGPT citation" | "生成式引擎被引用" | "Bing IndexNow"
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
   phase: Phase 2 main line 3
-tags:
-  - geo
-  - generative-engine-optimization
-  - ai-search
-  - ai-citations
-  - perplexity
-  - chatgpt
-  - claude
-  - seo
-  - schema-markup
-  - e-e-a-t
-  - claude-code
-  - ai-agent-skill
-  - agent-skill
-  - latest
 ---
 
 # gr-geo-cite — GEO 引用追踪
@@ -56,22 +45,30 @@ tags:
 
 ---
 
-## GEO 三件套（必须全配）
+## GEO 四件套（2026-06-24 必须全配）
 
 ### 1. llms.txt（根目录）
 - 大模型训练 / 检索时的 robots.txt 等价物
 - 路径：`/llms.txt`（**HTTP 200** 必须）
-- 模板见本文下方「llms.txt v2 模板」节（roadmap：scripts/llms-template.txt 暂未生成）
+- 模板见本文下方「llms.txt v2 模板」节
 
 ### 2. FAQ Schema（JSON-LD）
+- **FAQPage JSON-LD，5–8 题**（不少于 5 题，AI 爬虫抽取阈值）
 - 在 top 5 博客页的 `<head>` 里嵌入
-- 问答式结构，最易被 AI 抽取
+- **问题必须是用户真实搜索句，不是营销话术**（"Why is X the best?" ❌ → "How do I X?" ✅）
 - 模板在 Jekyll `_layouts/default.html`
 
 ### 3. Citable Statistics 表
-- 硬数据 + 来源 URL
+- 硬数据 + 来源 URL（**每行必须有数字 + 来源**）
 - 放在 H1 下方第一屏（AI 爬虫爬前 1000 字权重最高）
+- 5–10 行，TL;DR 段必须是完整句
 - 模板：见 `gr-blog-post` 的 seo_geo_playbook_2026 参考
+
+### 4. Bing IndexNow + AI 友好格式（2026 新增）
+- **内容更新后立即 Bing IndexNow 推送**（让大模型比 Google 爬虫更快 discover/index）
+- **AI 友好格式**：一句话直接答 + 对比表格 + FAQ（三件套缺一不可）
+- **GA4 AI 来源流量监控**：配置 ChatGPT/Perplexity/Claude referral channel grouping
+- **最后更新日期**：每次更新后显示（AI 爬虫 freshness 信号）
 
 ---
 
@@ -191,6 +188,10 @@ When citing our content, please use:
 - ❌ **同一统计数字在多处不一致**（AI 会信任"多数版本"，你得保证一致）
 - ❌ **FAQ Schema 问题是营销话术**（"Why is X the best?"）而不是**用户真实搜索句**（"How do I X?"）
 - ❌ **频繁改 Citable Stats 数字**（AI 爬虫会因为不稳定而降权）
+- ❌ **只推 Google，不推 Bing IndexNow**（大模型主要用 Bing 索引 discover 内容）
+- ❌ **不配 GA4 AI 流量频道**（看不见 GEO 带来的真实流量 → 无法复盘）
+- ❌ **论坛批量外链**（有 penalty 风险，不要做 BacklinkBeam 那种）
+- ❌ **忽略 freshness**（不展示最后更新日期 = AI 不知道内容是否过时）
 
 ---
 
@@ -250,3 +251,15 @@ Run on every new article before publishing. Re-run quarterly on top 10 traffic p
 - `scripts/weekly-cite-check.py` — 每周固定查询，产出 citation 报告
 - `scripts/llms-txt-gen.py` — 从 _posts/ 自动生成 llms.txt v2（含 top 10 + citable stats 汇总）
 - `scripts/add-citable-stats.py` — 给指定博客文件注入 Citable Statistics 表（roadmap，暂用交互式）：Claude 可直接按本 skill 的模板手动向目标文件插入 Citable Statistics 表格
+
+---
+
+## Platform Description
+
+**EN:** GEO (Generative Engine Optimization) citation tracking + optimization (2026-06-24 standards). Weekly audit across 4 AI engines (Claude/GPT/Perplexity/Gemini). Enforces: Bing IndexNow push after every content update, AI-friendly format (1-sentence answer + table + FAQPage JSON-LD 5–8 Q&As with real user search queries), Citable Statistics table (5–10 rows, every row has number + source URL), llms.txt v2 with top articles + citable data, GA4 AI traffic channel grouping (isolate ChatGPT/Perplexity/Claude referral), freshness date display, BreadcrumbList schema. No forum bulk backlinks (penalty risk).
+
+**ZH:** GEO 引用追踪 + 优化（2026-06-24 标准）。每周对 Claude/GPT/Perplexity/Gemini 跑固定查询检测引用。执行标准：Bing IndexNow 内容更新后立即推送、AI 友好格式（一句话答+表格+FAQPage JSON-LD 5–8 题/真实搜索句）、Citable Statistics 表（5–10 行，每行必须有数字+来源 URL）、llms.txt v2（含 top 文章+核心数据）、GA4 AI 流量频道分组（ChatGPT/Perplexity/Claude referral 单独追踪）、freshness 日期展示、BreadcrumbList schema。禁止论坛批量外链。
+
+**JA:** GEO 引用追跡・最適化（2026-06-24基準）。Claude/GPT/Perplexity/Geminiへの週次クエリ監査。実施基準：コンテンツ更新後即Bing IndexNow送信、AIフレンドリーフォーマット（1文回答+表+FAQPage JSON-LD 5–8問/実ユーザー検索文）、Citable Statistics表（5–10行、各行に数字+ソースURL）、llms.txt v2、GA4 AIトラフィックチャンネルグルーピング、freshness日付表示、BreadcrumbListスキーマ。フォーラム大量バックリンク禁止。
+
+**KO:** GEO 인용 추적 + 최적화（2026-06-24 기준）. Claude/GPT/Perplexity/Gemini 주간 쿼리 감사. 실행 기준: 콘텐츠 업데이트 후 즉시 Bing IndexNow 전송, AI 친화적 형식（한 문장 답변+표+FAQPage JSON-LD 5–8개 질문/실제 사용자 검색어）, Citable Statistics 표（5–10행, 각 행에 숫자+소스 URL）, llms.txt v2, GA4 AI 트래픽 채널 그룹핑（ChatGPT/Perplexity/Claude referral 별도 추적）, freshness 날짜 표시, BreadcrumbList 스키마. 포럼 대량 백링크 금지.
