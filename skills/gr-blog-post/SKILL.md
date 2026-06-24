@@ -13,20 +13,6 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-tags:
-  - blog-post
-  - content-marketing
-  - seo-writing
-  - technical-writing
-  - content-strategy
-  - copywriting
-  - blogging
-  - jekyll
-  - frontmatter
-  - claude-code
-  - ai-agent-skill
-  - agent-skill
-  - latest
 ---
 
 # gr-blog-post — Jekyll 博客发布
@@ -106,12 +92,22 @@ faq:
 
 ---
 
+## dev.to 二发规则（⚠️ canonical 红线）
+
+- ✅ **dev.to 文章 canonical_url 必须指向 dev.to 自身**（self-canonical），绝不指向 gingiris.tools
+  - 正确：`canonical_url: https://dev.to/iris1031/article-slug-xxxx`
+  - 错误：`canonical_url: https://gingiris.tools/blog/...`（会让 dev.to 文章被 Google 视为副本，不参与 SERP）
+- ✅ **发布时间差 ≥7 天**（不要和 gingiris.tools 同天发）
+- ✅ 末尾加 "Originally published at gingiris.tools" 建立双向 reference
+- ❌ **不要从 Jekyll frontmatter 直接复制 canonical_url 到 dev.to**，那个是 gingiris.tools 的地址
+
 ## 反模式
 
 - ❌ 不要用 AI 味重的模板（"In today's digital landscape..."）—— 过不了 `dbs-ai-check`
 - ❌ 不要 H1 堆关键词
 - ❌ 不要忘记 hreflang —— 已发布的旧文补翻译时要回改原文 frontmatter
 - ❌ 不要同一关键词发 3 篇 —— cannibalization 立刻找上门
+- ❌ **dev.to canonical 指向 gingiris.tools** —— 死链或副本问题，永远 self-canonical
 
 ---
 
