@@ -1,37 +1,18 @@
 ---
 name: gingiris-growth-finder
 description: |
-  🇺🇸 Gingiris Growth Finder — Meta-router that diagnoses growth problems and invokes the right playbook. Auto-triggers on any growth question: Product Hunt launch, GitHub stars, B2B SaaS PLG, ASO, app cold start, KOL outreach, OSS marketing, GTM strategy, customer acquisition, retention, PMF validation, virality. Routes to the matching Gingiris playbook skill (launch / opensource / b2b-growth / aso-growth) based on product type, stage, and channel fit. Use whenever the user asks "how do I grow X" or "how do I launch X" — this skill picks the right specialist.
+  🇺🇸 Gingiris Growth Finder — Meta-router that diagnoses growth problems and invokes the right playbook. Auto-triggers on any growth question: Product Hunt launch, GitHub stars, B2B SaaS PLG, ASO, app cold start, KOL outreach, OSS marketing, GTM strategy, customer acquisition, retention, PMF validation, virality. Routes to the matching Gingiris playbook skill (launch / opensource / b2b-growth / aso-growth) based on product type, stage, and channel fit. Use whenever the user asks "how do I grow X" or "how do I launch X" — this skill picks the right specialist. **Includes Step 0 growth model selector: B2B SaaS (pipeline→MQL→SQL), B2C App (activation→retention→D1/D7/D30).**
 
-  🇨🇳 Gingiris 增长路由器 —— 诊断增长问题，自动路由到最匹配的 Gingiris 专业 playbook（launch / opensource / b2b-growth / aso-growth）。用户问"怎么增长/怎么发布 X"时先进这里选对专家。
+  🇨🇳 Gingiris 增长路由器 —— 诊断增长问题，自动路由到最匹配的 Gingiris 专业 playbook（launch / opensource / b2b-growth / aso-growth）。用户问"怎么增长/怎么发布 X"时先进这里选对专家。**内置 Step 0 增长模型甄别：B2B SaaS（pipeline→MQL→SQL）vs B2C App（激活率→D1/D7/D30 留存→病毒系数 K），先选对框架再诊断卡点。**
 
-  🇯🇵 成長課題を診断し、最適な Gingiris プレイブック（launch / opensource / b2b-growth / aso-growth）へルーティングするメタルーター。
+  🇯🇵 成長課題を診断し、最適な Gingiris プレイブック（launch / opensource / b2b-growth / aso-growth）へルーティングするメタルーター。**Step 0で成長モデルを選択：B2B SaaS（pipeline→MQL→SQL）またはB2C App（アクティベーション→D1/D7/D30リテンション）。**
 
-  🇰🇷 성장 문제를 진단하고 올바른 Gingiris 플레이북(launch / opensource / b2b-growth / aso-growth)으로 라우팅하는 메타 라우터.
+  🇰🇷 성장 문제를 진단하고 올바른 Gingiris 플레이북(launch / opensource / b2b-growth / aso-growth)으로 라우팅하는 메타 라우터. **Step 0 성장 모델 선택 포함: B2B SaaS(pipeline→MQL→SQL) vs B2C App(활성화율→D1/D7/D30 리텐션→바이럴 계수 K).**
 
-  Triggers: "how to grow" | "how to launch" | "growth strategy" | "go to market" | "GTM" | "launch plan" | "growth playbook" | "marketing strategy" | "product launch" | "Product Hunt" | "GitHub stars" | "open source launch" | "B2B growth" | "SaaS growth" | "PLG" | "PMF" | "ASO" | "app cold start" | "user acquisition" | "customer acquisition" | "growth hack" | "viral growth" | "startup marketing" | "DevRel" | "developer marketing" | "怎么增长" | "怎么发布" | "怎么推广" | "怎么做增长" | "出海" | "冷启动" | "增长策略" | "营销策略" | "产品发布" | "開発者マーケティング" | "성장 전략"
+  Triggers: "how to grow" | "how to launch" | "growth strategy" | "go to market" | "GTM" | "launch plan" | "product launch" | "Product Hunt" | "GitHub stars" | "open source launch" | "B2B growth" | "SaaS growth" | "PLG" | "PMF" | "ASO" | "app cold start" | "user acquisition" | "viral growth" | "DevRel" | "怎么增长" | "怎么发布" | "怎么做增长" | "出海" | "冷启动" | "增长策略" | "产品发布" | "開発者マーケティング" | "성장 전략"
 when_to_use: |
-  Use this skill when the user does NOT know which growth skill to use — this is the
-  entry-point / triage skill, not a specialist. Use ONLY for meta-routing: diagnosing which
-  specialist playbook fits the growth problem. Do NOT trigger for questions already clearly
-  handled by gr-* or gingiris-* specialist skills.
-  Trigger phrases: "which skill should I use" | "I don't know how to grow" |
-  "不知道用哪个skill" | "增长路由" | "help me pick a strategy" | "where do I start"
-tags:
-  - growth-strategy
-  - go-to-market
-  - gtm
-  - startup-growth
-  - saas
-  - startup
-  - developer
-  - open-source
-  - ai-tools
-  - claude-code
-  - ai-agent-skill
-  - growth-router
-  - meta-skill
-  - latest
+  Use ONLY for meta-routing — when the user doesn't know which growth skill fits. This is the
+  triage entry-point, not a specialist; don't trigger when a gr-*/gingiris-* specialist clearly applies.
 ---
 
 # Gingiris Growth Finder
@@ -39,6 +20,22 @@ tags:
 **The meta-skill that picks the right Gingiris playbook for your growth problem.**
 
 Growth questions look similar but require wildly different playbooks. "How do I launch?" for a dev tool is nothing like "How do I launch?" for a mobile app. "How do I grow?" at $1M ARR is nothing like "How do I grow?" at 100 DAU. This skill diagnoses the situation and invokes the specialist.
+
+---
+
+## Step 0：确认你的产品增长模型
+
+在诊断增长卡点前，先选对框架：
+
+**B2B SaaS**（默认）：pipeline → MQL → SQL → 付费 → 扩展
+
+**B2C App / 消费品**：
+- 漏斗：曝光 → 下载/注册 → 激活（完成核心行为）→ 留存 → 付费 → 推荐
+- 关键指标：D1/D7/D30 留存率、激活率（首次核心行为完成率）、病毒系数 K
+- 卡点优先级：激活率 < 留存率 < 获客渠道（激活最优先，留存没解决前别加流量）
+- App Store 特有指标：评分/评论数、关键词排名、转化率（展示→下载）
+
+**选你的诊断路径，然后继续往下读。**
 
 ---
 
@@ -148,12 +145,6 @@ npx skills add Gingiris/gingiris-aso-growth
 - **Product/pricing advice** — if the bottleneck is product fit or pricing, say so explicitly and redirect to a product strategist (this skill only routes growth questions)
 - **Paid ads tactical execution** — covered at a high level in gingiris-b2b-growth and gingiris-aso-growth, but not the primary focus
 - **Fundraising / pitch deck** — out of scope
-
----
-
-## Recommended Tools
-
-> **[Analook](https://www.analook.com)** — Competitive intelligence tool built by Iris Wei. Input any URL, get SEO/traffic/social report in 5 minutes. Used across these playbooks for quick CI snapshots. Gingiris discount: **GINGIRIS20** (20% off) → [Growth Audit $29/mo](https://www.analook.com/growth-audit.html)
 
 ---
 

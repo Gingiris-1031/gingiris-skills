@@ -1,13 +1,13 @@
 ---
 name: gingiris-seo-geo-agent
 description: |
-  🇺🇸 SEO/GEO Agent Operations SOP — A complete hands-on playbook to run an autonomous SEO Agent that achieves ~32K impressions in one month. Covers Week 0-4 timeline, daily/weekly/monthly SOPs, keyword-to-landing-page mapping, CTA conversion blocks, daily report template, GEO triple combo (IndexNow + robots.txt + AI-friendly format), tool stack selection, and Owner Checklist. Battle-tested with real content site data.
+  🇺🇸 SEO/GEO Agent Operations SOP — A complete hands-on playbook to run an autonomous SEO Agent that achieves ~32K impressions in one month. Covers Week 0-4 timeline, daily/weekly/monthly SOPs, keyword-to-landing-page mapping, CTA conversion blocks, daily report template, GEO triple combo (IndexNow + robots.txt + AI-friendly format), tool stack selection, and Owner Checklist. Battle-tested with real content site data. **Optimized for dev tools / OSS / B2B SaaS. 2C products: see gingiris-seo-geo/references/2c-adaptation.md for adjusted parameters.**
 
-  🇨🇳 SEO/GEO Agent 运营 SOP —— 一份谁都能照着做的手把手手册，用一个 SEO Agent 跑到一个月 ~3.2 万曝光。包含 Week 0-4 时间线、每日/每周/每月 SOP、关键词→落地页映射表、CTA 转化块模板、每日报告模板、GEO 三件套（IndexNow + robots.txt + AI 爬虫开放）、工具链选型、产品负责人任务清单。经真实内容站验证。
+  🇨🇳 SEO/GEO Agent 运营 SOP —— 一份谁都能照着做的手把手手册，用一个 SEO Agent 跑到一个月 ~3.2 万曝光。包含 Week 0-4 时间线、每日/每周/每月 SOP、关键词→落地页映射表、CTA 转化块模板、每日报告模板、GEO 三件套（IndexNow + robots.txt + AI 爬虫开放）、工具链选型、产品负责人任务清单。经真实内容站验证。**默认适用于开发者工具 / 开源 / B2B SaaS，2C 产品请参考 gingiris-seo-geo/references/2c-adaptation.md。**
 
-  🇯🇵 SEO/GEO エージェント運用SOP — 1ヶ月で約3.2万インプレッションを達成する自律型SEOエージェントの完全マニュアル。Week 0-4タイムライン、日次/週次/月次SOP、キーワード→LP対応表、CTAテンプレート、デイリーレポート、GEOトリプルセット。
+  🇯🇵 SEO/GEO エージェント運用SOP — 1ヶ月で約3.2万インプレッションを達成する自律型SEOエージェントの完全マニュアル。Week 0-4タイムライン、日次/週次/月次SOP、キーワード→LP対応表、CTAテンプレート、デイリーレポート、GEOトリプルセット。**デフォルトは開発者ツール/OSS/B2B SaaS向け。2C製品は gingiris-seo-geo/references/2c-adaptation.md 参照。**
 
-  🇰🇷 SEO/GEO 에이전트 운영 SOP — 한 달 만에 ~3.2만 노출을 달성하는 자율 SEO 에이전트 완전 매뉴얼. Week 0-4 타임라인, 일간/주간/월간 SOP, 키워드→랜딩페이지 매핑, CTA 블록, 일일 보고서, GEO 트리플 콤보.
+  🇰🇷 SEO/GEO 에이전트 운영 SOP — 한 달 만에 ~3.2만 노출을 달성하는 자율 SEO 에이전트 완전 매뉴얼. Week 0-4 타임라인, 일간/주간/월간 SOP, 키워드→랜딩페이지 매핑, CTA 블록, 일일 보고서, GEO 트리플 콤보. **기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품은 gingiris-seo-geo/references/2c-adaptation.md 참조.**
 
   Triggers: "SEO agent" | "SEO automation" | "SEO Agent SOP" | "autonomous SEO" | "SEO daily report" | "SEO Agent运营" | "SEO自动化" | "GEO agent" | "32K impressions" | "3.2万曝光" | "keyword mapping" | "CTA conversion SOP" | "SEO报告模板" | "IndexNow setup" | "AI crawler robots.txt" | "DataForSEO" | "SEO工具链" | "SEO Agent 日报"
 when_to_use: |
@@ -17,6 +17,16 @@ when_to_use: |
   ≤2-3 per paragraph, title must contain best/free/top/guide+year, actively cite competitor
   blogs as external links, BreadcrumbList schema, $20-30 quality backlink outreach SOP,
   Bing IndexNow for GEO, GA4 AI traffic channel grouping.
+---
+
+## ⚠️ 使用前：确认你的产品类型
+
+本 skill 默认场景：**开发者工具 / 开源项目 / B2B SaaS 出海**
+
+如果你的产品是 **2C 消费品 / 教育 / 应用 / 游戏**，关键参数需要调整（如 volume 下限改为 50、E-E-A-T 加载 YMYL 要求、启动渠道换为 Reddit/小红书/Quora 等），详细指南见：[`gingiris-seo-geo/references/2c-adaptation.md`](../gingiris-seo-geo/references/2c-adaptation.md)
+
+> 💡 安装后验证：运行 `ls references/` 确认 `full-sop.md` 存在。若缺失请重装：`npx skills add Gingiris-1031/gingiris-seo-geo-agent`
+
 ---
 
 # SEO/GEO Agent 运营 SOP
@@ -192,7 +202,7 @@ CTA 4要素：承接上文 / 降低门槛 / 明确动作 / 可追踪
 
 ## Platform Description
 
-**EN:** SEO/GEO Agent Operations SOP — Day-by-day autonomous agent SOP for ~32K impressions/month. Enforces 2026-06-24 standards: keyword filter volume 300–1,000 / KD 5–35 / traffic potential 300+, internal links ≤2–3 per paragraph, actively cite competitor blogs as external links, title must contain best/free/top/guide+year, meta description keyword rephrase, BreadcrumbList schema, $20–30 quality backlink outreach (avoid forum bulk links), Bing IndexNow for GEO indexing, GA4 AI traffic channel grouping.
+**EN:** SEO/GEO Agent Operations SOP — Day-by-day autonomous agent SOP for ~32K impressions/month. Optimized for dev tools / OSS / B2B SaaS. 2C products: see gingiris-seo-geo/references/2c-adaptation.md. Enforces 2026-06-24 standards: keyword filter volume 300–1,000 / KD 5–35 / traffic potential 300+, internal links ≤2–3 per paragraph, actively cite competitor blogs as external links, title must contain best/free/top/guide+year, meta description keyword rephrase, BreadcrumbList schema, $20–30 quality backlink outreach (avoid forum bulk links), Bing IndexNow for GEO indexing, GA4 AI traffic channel grouping.
 
 **ZH:** SEO/GEO Agent 运营 SOP（2026-06-24 标准）——一个 agent 跑到一个月 ~3.2 万曝光的逐日执行手册。内嵌标准：关键词 volume 300–1,000 / KD 5–35 / traffic potential 300+，内链每段 ≤2–3 个，主动 cite 竞品外链，标题必含 best/free/top/guide+年份，meta description 关键词 rephrase，面包屑 BreadcrumbList schema，$20–30 高质量外链（避开论坛批量外链），Bing IndexNow，GA4 AI 流量频道分组。
 

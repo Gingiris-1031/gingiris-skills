@@ -1,13 +1,13 @@
 ---
 name: gingiris-seo-geo
 description: |
-  🇺🇸 SEO & GEO Dual-Engine Playbook 2026 — Rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Battle-tested from AFFiNE (60k GitHub stars in 24 months) and 150+ AI startup consultations. E-E-A-T writing voice system, keyword funnel strategy, JSON-LD schema templates, comparison page SOP, IndexNow setup, Generative Engine Optimization content patterns.
+  🇺🇸 SEO & GEO Dual-Engine Playbook 2026 — Rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Battle-tested from AFFiNE (60k GitHub stars in 24 months) and 150+ AI startup consultations. E-E-A-T writing voice system, keyword funnel strategy, JSON-LD schema templates, comparison page SOP, IndexNow setup, Generative Engine Optimization content patterns. **Optimized for dev tools / OSS / B2B SaaS. 2C products (education, apps, games): see 2c-adaptation guide in references/.**
 
-  🇨🇳 SEO & GEO 双引擎增长手册 —— 同时拿下 Google 排名和 AI 搜索引用（ChatGPT、Perplexity、Claude、文心一言）的完整方法论。AFFiNE 60k stars 与 150+ AI 创业公司咨询实战验证。E-E-A-T 写作声音系统、关键词漏斗、JSON-LD 结构化数据、竞品对比页 SOP、IndexNow 推送、生成式引擎优化内容模式。
+  🇨🇳 SEO & GEO 双引擎增长手册 —— 同时拿下 Google 排名和 AI 搜索引用（ChatGPT、Perplexity、Claude、文心一言）的完整方法论。AFFiNE 60k stars 与 150+ AI 创业公司咨询实战验证。E-E-A-T 写作声音系统、关键词漏斗、JSON-LD 结构化数据、竞品对比页 SOP、IndexNow 推送、生成式引擎优化内容模式。**默认适用于开发者工具 / 开源项目 / B2B SaaS，2C 产品（教育/应用/游戏）请参考 references/2c-adaptation.md。**
 
-  🇯🇵 SEO & GEO デュアルエンジングロースプレイブック — Google検索とAI検索（ChatGPT、Perplexity、Claude）の両方で評価される手法。AFFiNE 60k starsと150社以上のAIスタートアップコンサルティングで検証。E-E-A-Tライティング、キーワードファネル、Schema.org構造化データ、比較ページSOP。
+  🇯🇵 SEO & GEO デュアルエンジングロースプレイブック — Google検索とAI検索（ChatGPT、Perplexity、Claude）の両方で評価される手法。AFFiNE 60k starsと150社以上のAIスタートアップコンサルティングで検証。E-E-A-Tライティング、キーワードファネル、Schema.org構造化データ、比較ページSOP。**デフォルトは開発者ツール／OSS／B2B SaaS向け。2C製品（教育・アプリ・ゲーム）はreferences/2c-adaptation.mdを参照。**
 
-  🇰🇷 SEO & GEO 듀얼 엔진 성장 플레이북 — 구글 검색과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 모두에서 인용되는 방법론. AFFiNE 60k 스타와 150+ AI 스타트업 컨설팅으로 검증. E-E-A-T 글쓰기, 키워드 퍼널, Schema.org 구조화 데이터, 비교 페이지 SOP.
+  🇰🇷 SEO & GEO 듀얼 엔진 성장 플레이북 — 구글 검색과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 모두에서 인용되는 방법론. AFFiNE 60k 스타와 150+ AI 스타트업 컨설팅으로 검증. E-E-A-T 글쓰기, 키워드 퍼널, Schema.org 구조화 데이터, 비교 페이지 SOP. **기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품(교육·앱·게임)은 references/2c-adaptation.md 참조.**
 
   Triggers: "SEO" | "GEO" | "Generative Engine Optimization" | "AI search optimization" | "ChatGPT SEO" | "Perplexity SEO" | "Claude SEO" | "search optimization" | "content SEO" | "technical SEO" | "schema markup" | "JSON-LD" | "structured data" | "IndexNow" | "E-E-A-T" | "keyword strategy" | "keyword funnel" | "comparison page" | "programmatic SEO" | "SaaS SEO" | "搜索优化" | "AI 搜索" | "内容 SEO" | "GEO 优化" | "生成式引擎优化"
 when_to_use: |
@@ -16,6 +16,25 @@ when_to_use: |
   comparison pages, IndexNow. Enforces 2026-06-24 execution standards:
   internal links ≤2-3/para, cite competitor blogs as external links, title contains
   best/free/top/guide+year, breadcrumb schema, Bing IndexNow for GEO indexing.
+---
+
+## ⚠️ 使用前：确认你的产品类型
+
+本 skill 默认场景：**开发者工具 / 开源项目 / B2B SaaS 出海**
+
+如果你的产品是 **2C 消费品 / 教育 / 应用 / 游戏**，以下参数需要调整：
+
+| 参数 | 默认值（B2B/开源）| 2C 建议值 |
+|------|------|------|
+| 关键词 volume 下限 | 300 | 50（长尾高转化词量少但值得做）|
+| E-E-A-T 要求 | 创始人真实声音 | YMYL 品类（教育/医疗/金融）需可验证资质 + 方法论透明页 |
+| 启动渠道 | PH / GitHub / HN | Reddit 垂类社区 / 小红书 / TikTok / 知乎 / Quora |
+| 程序化页面风险 | 低 | 需"每页独有价值"，防 doorway page penalty |
+| 关键词策略 | 单轨 BOFU + 长尾 | 加"时间窗口红利词"（如"2026 新规/改革/新题型"）|
+| 外链获取渠道 | 技术媒体 / dev blog | 行业媒体 / 学校机构 / 垂直 KOL |
+
+详细 2C 使用指南见 → [`references/2c-adaptation.md`](references/2c-adaptation.md)
+
 ---
 
 # SEO & GEO 双引擎增长手册
@@ -198,4 +217,4 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 
 **JA:** SEO & GEO デュアルエンジン成長プレイブック（2026-06-24基準）— Google検索とAI検索（ChatGPT、Perplexity、Claude）の両方を攻略。キーワード選定基準：volume 300–1,000 / KD 5–35 / traffic potential 300+。実行ルール：内部リンクは段落あたり≤2–3個、競合ブログへの外部リンク、タイトルにbest/free/top/guide+年、meta descriptionのキーワードrephrase、BreadcrumbListスキーマ、$20–30外部リンク獲得、Bing IndexNow、AI対応フォーマット（一文回答+表+FAQ）、GA4 AIトラフィック追跡。
 
-**KO:** SEO & GEO 듀얼 엔진 성장 플레이북（2026-06-24 기준）— 구글과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 동시 공략. 키워드 선정 기준: volume 300–1,000 / KD 5–35 / traffic potential 300+. 실행 규칙: 단락당 내부링크 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목에 best/free/top/guide+연도, meta description 키워드 rephrase, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, AI 친화적 포맷(한 문장 답변+표+FAQ), GA4 AI 트래픽 추적.
+**KO:** SEO & GEO 듀얼 엔진 성장 플레이북（2026-06-24 기준）— 구글과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 동시 공략. 기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품은 references/2c-adaptation.md 참조. 키워드 선정 기준: volume 300–1,000 / KD 5–35 / traffic potential 300+. 실행 규칙: 단락당 내부링크 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목에 best/free/top/guide+연도, meta description 키워드 rephrase, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, AI 친화적 포맷(한 문장 답변+표+FAQ), GA4 AI 트래픽 추적.

@@ -1,13 +1,13 @@
 ---
 name: gingiris-launch
 description: |
-  🇺🇸 Product Launch & Product Hunt #1 Playbook — Multi-channel launch timing and sequencing. T-14 warm-up → T-0 launch day → T+7 momentum. Hunter selection, maker comment templates, comment cadence, anti-shadowban rules. Distilled from 30+ Product Hunt #1 daily launches across 150+ AI startups.
+  🇺🇸 Product Launch & Product Hunt #1 Playbook — Multi-channel launch timing and sequencing. T-14 warm-up → T-0 launch day → T+7 momentum. Hunter selection, maker comment templates, comment cadence, anti-shadowban rules. Distilled from 30+ Product Hunt #1 daily launches across 150+ AI startups. **Supports 3 product paths: developer/maker (PH+GitHub), B2C consumer (Reddit/communities/TikTok, skip PH), B2B (LinkedIn+media).**
 
-  🇨🇳 产品发布与 Product Hunt 夺冠手册 — 多渠道发布的时序与节奏。T-14 预热 → T-0 发布日 → T+7 后续。Hunter 选择、maker comment 模板、评论节奏、防 shadowban。提炼自 30+ 次 Product Hunt 日冠、150+ AI 创业公司实战。
+  🇨🇳 产品发布与 Product Hunt 夺冠手册 — 多渠道发布的时序与节奏。T-14 预热 → T-0 发布日 → T+7 后续。Hunter 选择、maker comment 模板、评论节奏、防 shadowban。提炼自 30+ 次 Product Hunt 日冠、150+ AI 创业公司实战。**支持三种产品路径：开发者/maker（PH+GitHub）、2C 消费者（社区种子/TikTok，跳过 PH）、B2B（LinkedIn+媒体）。**
 
-  🇯🇵 プロダクトローンチ＆Product Hunt 1位プレイブック — マルチチャネルのローンチ時系列。T-14準備→T-0当日→T+7モメンタム。ハンター選定、メーカーコメント、コメントリズム、シャドウバン回避。
+  🇯🇵 プロダクトローンチ＆Product Hunt 1位プレイブック — マルチチャネルのローンチ時系列。T-14準備→T-0当日→T+7モメンタム。ハンター選定、メーカーコメント、コメントリズム、シャドウバン回避。**3つの製品パス対応：開発者/maker（PH+GitHub）、2C消費者（コミュニティ種・TikTok、PHスキップ）、B2B（LinkedIn+メディア）。**
 
-  🇰🇷 제품 출시 & Product Hunt 1위 플레이북 — 멀티채널 출시 타이밍과 시퀀싱. T-14 워밍업 → T-0 출시일 → T+7 모멘텀. 헌터 선정, 메이커 코멘트, 댓글 리듬, 섀도밴 방지.
+  🇰🇷 제품 출시 & Product Hunt 1위 플레이북 — 멀티채널 출시 타이밍과 시퀀싱. T-14 워밍업 → T-0 출시일 → T+7 모멘텀. 헌터 선정, 메이커 코멘트, 댓글 리듬, 섀도밴 방지. **3가지 제품 경로 지원: 개발자/maker(PH+GitHub), 2C 소비자(커뮤니티 씨드/TikTok, PH 건너뜀), B2B(LinkedIn+미디어).**
 
   Triggers: "product launch" | "launch strategy" | "Product Hunt" | "PH launch" | "how to launch" | "go to market" | "GTM" | "launch day" | "find a hunter" | "maker comment" | "launch sequencing" | "发布策略" | "产品发布" | "发 PH" | "Product Hunt 准备" | "找 hunter" | "ローンチ" | "출시 전략"
 when_to_use: |
@@ -16,28 +16,32 @@ when_to_use: |
   engagement, or build cold-start momentum for a new product.
   Trigger phrases: "product launch" | "Product Hunt" | "GTM" | "launch strategy" |
   "发布策略" | "产品发布" | "发PH" | "找hunter" | "출시 전략"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch
-tags:
-  - product-hunt
-  - launch
-  - startup-launch
-  - ph-strategy
-  - daily-1
-  - hunter
-  - upvotes
-  - launch-day
-  - go-to-market
-  - product-launch
-  - claude-code
-  - ai-agent-skill
-  - maker-comment
-  - multi-channel
-  - latest
 ---
 
 # Product Launch — GTM Strategy & Product Hunt #1 Playbook
 
 > 🌍 **Language / 语言**: [English](#english-version) | [中文](#中文版)
+
+## 产品类型分岔：先选你的路径
+
+**你的产品主要用户是谁？**
+
+### 路径 A：开发者 / maker（默认）
+→ Product Hunt + GitHub + HN + dev 社区
+→ 继续阅读下面的 Launch SOP
+
+### 路径 B：普通消费者（学生/上班族/游戏玩家等）
+→ App Store + 垂类社区种子 + 内容获客
+→ **跳过 Product Hunt**（受众错配，ROI 极低）
+→ 冷启动渠道：Reddit 垂类 / 小红书 / TikTok / Quora / 知乎
+→ 免费产品当钉子（PLG）：先拿到前 100 个真实用户再放量
+→ 前 100 用户 SOP：在目标社区找近期抒怨同类问题的人 → 私信邀请免费试用 → 用户访谈固化 PMF
+
+### 路径 C：B2B 决策者
+→ LinkedIn 精准建联 + 行业媒体 + HARO
+→ 继续阅读下面的 Launch SOP，重点看 B2B 部分
+
+---
 
 A launch is a *sequence*, not an event. The teams that win Product Hunt rarely have the best product that day — they have the best **timing, comment cadence, and pre-seeded audience**. This playbook is the 14-day operating timeline distilled from 30+ #1 daily launches.
 
