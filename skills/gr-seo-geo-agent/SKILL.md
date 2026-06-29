@@ -11,7 +11,7 @@ description: |
   • IndexNow integration for instant indexing on publish
   • Week 0-4 ramp-up timeline (from zero to ~32K impressions)
 
-  Built from: Designed for Claude Code / OpenClaw / Cursor autonomous execution. Validated with real content site data.
+  Built from: Designed for Claude Code / OpenClaw / Cursor autonomous execution. Validated with real content site data. Optimized for dev tools / OSS / B2B SaaS; 2C products (education, apps, games) see references/2c-adaptation.md.
 
   Triggers: "SEO agent" | "SEO automation" | "SEO Agent SOP" | "autonomous SEO" | "SEO daily report" | "SEO Agent运营" | "SEO自动化" | "GEO agent" | "32K impressions" | "3.2万曝光" | "keyword mapping" | "CTA conversion SOP" | "SEO报告模板" | "IndexNow setup" | "AI crawler robots.txt" | "DataForSEO" | "SEO工具链" | "SEO Agent 日报"
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-seo-geo-agent
@@ -29,6 +29,25 @@ tags:
   - ai-agent-skill
   - agent-skill
   - latest
+---
+
+## ⚠️ 使用前：确认你的产品类型
+
+本 skill 默认场景：**开发者工具 / 开源项目 / B2B SaaS 出海**。如果你的产品是 **2C 消费品 / 教育 / 应用 / 游戏**，以下参数需要调整：
+
+| 参数 | 默认值（B2B/开源）| 2C 建议值 |
+|------|------|------|
+| 关键词 volume 下限 | 300 | 50（长尾高转化词量少但值得做）|
+| E-E-A-T 要求 | 创始人真实声音 | YMYL 品类（教育/医疗/金融）需可验证资质 + 方法论透明页 |
+| 启动渠道 | PH / GitHub / HN | Reddit 垂类社区 / 小红书 / TikTok / 知乎 / Quora |
+| 程序化页面风险 | 低 | 需"每页独有价值"，防 doorway page penalty |
+| 关键词策略 | 单轨 BOFU + 长尾 | 加"时间窗口红利词"（如"2026 新规/改革/新题型"）|
+| 外链获取渠道 | 技术媒体 / dev blog | 行业媒体 / 学校机构 / 垂直 KOL |
+
+详细 2C 使用指南见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
+> 安装提示：本 skill 已嵌套在 `skills/<name>/`，`npx skills add` 会一并安装。若用单文件方式只拿到 SKILL.md，请改用 `npx skills add Gingiris-1031/gingiris-skills` 获取完整 references。
+
 ---
 
 # SEO/GEO Agent 运营 SOP

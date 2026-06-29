@@ -2,9 +2,9 @@
 name: gingiris-go-global
 version: 1.0.0
 description: |
-  🇺🇸 AI Product / SaaS Go-Global Complete SOP — From competitor research to launch to monetization. A full-cycle playbook covering Phase 0-5 (market validation, positioning, first 100 users, user interviews, beta-to-growth) plus open-source launch, Product Hunt, Reddit, SEO/GEO, conversion, and org principles.
+  🇺🇸 AI Product / SaaS Go-Global Complete SOP — From competitor research to launch to monetization. A full-cycle playbook covering Phase 0-5 (market validation, positioning, first 100 users, user interviews, beta-to-growth) plus open-source launch, Product Hunt, Reddit, SEO/GEO, conversion, and org principles. **Defaults to dev tools / OSS / B2B SaaS; for 2C products (education, apps, games) the launch channels & metrics differ — see gingiris-seo-geo/references/2c-adaptation.md.**
 
-  🇨🇳 AI 产品 / SaaS 企业出海完整 SOP — 从竞品调研到 Launch 到商业化的全流程操作手册。覆盖 Phase 0-5（市场验证、定位、前100用户、用户访谈、Beta转增长）+ 开源发布、Product Hunt、Reddit、SEO/GEO、转化与组织原则。
+  🇨🇳 AI 产品 / SaaS 企业出海完整 SOP — 从竞品调研到 Launch 到商业化的全流程操作手册。覆盖 Phase 0-5（市场验证、定位、前100用户、用户访谈、Beta转增长）+ 开源发布、Product Hunt、Reddit、SEO/GEO、转化与组织原则。**默认面向开发者工具/开源/B2B SaaS；2C 产品（教育/应用/游戏）的启动渠道与指标不同，见 gingiris-seo-geo/references/2c-adaptation.md。**
 
   🇯🇵 AI製品/SaaS海外展開フルサイクルSOP — 競合調査からローンチ、マネタイズまで。Phase 0-5（市場検証、ポジショニング、最初の100ユーザー、ユーザーインタビュー、ベータから成長）＋オープンソース、Product Hunt、Reddit、SEO/GEO、コンバージョン、組織原則。
 
@@ -34,6 +34,24 @@ tags:
   - overseas-expansion
   - japan-korea
   - latest
+---
+
+## ⚠️ 使用前：确认你的产品类型
+
+本 SOP 默认场景：**开发者工具 / 开源 / B2B SaaS 出海**（Phase 渠道默认 Product Hunt / HN / Reddit / GitHub）。
+
+如果你的产品是 **2C 消费品 / 教育 / 应用 / 游戏**，以下必须替换：
+
+| 环节 | 默认（B2B/开源）| 2C 建议 |
+|------|------|------|
+| 前 100 用户渠道 | PH / HN / GitHub / LinkedIn | 垂类社区(Reddit/小红书/知乎/Naver 카페) + 短视频(TikTok/抖音/YouTube) + 垂直 KOL |
+| Launch 打法 | Product Hunt 打榜 | 2C 下 PH 受众错配、ROI 低；改"红利内容 + 免费钩子 + 社区分发" |
+| 核心指标 | MRR / CAC / LTV | D1/D7/D30 留存、激活率、病毒系数 K |
+| 增长引擎 | Freemium 试用 → 销售 | 免费产品当钩子(PLG)，先拿 100 真实用户再放量 |
+| 选渠道方法 | 按"科技人聚集地" | 按地区公开数据选第一平台(如印尼/泰国短视频已反超 Facebook) |
+
+完整 2C 渠道数据库（各国 MAU + 公开来源）见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
 ---
 
 # AI 产品/SaaS 企业出海完整 SOP

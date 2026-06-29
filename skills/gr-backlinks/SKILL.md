@@ -6,6 +6,7 @@ description: >
   Reddit/Quora discussions, and HARO/Featured.com expert quotes. Designed for 0→1 sites where
   domain authority is the bottleneck. Aligns with 2026 Google/Bing GEO guidance: backlinks are
   the strongest brand-authority signal AI search engines use to decide citations.
+  Defaults to dev/B2B link sources; for 2C products (education, consumer apps) authority links differ — see gingiris-seo-geo/references/2c-adaptation.md.
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
@@ -26,6 +27,19 @@ tags:
   - ai-agent-skill
   - agent-skill
   - latest
+---
+
+## ⚠️ 2C 产品的外链调整
+
+本 skill 的 5 类渠道（Wikipedia / 媒体 PR / G2 评测 / Reddit-Quora / HARO）偏 dev/B2B。**2C 消费品 / 教育** 的权威链接来源不同：
+
+- **教育**：学校 / 留学机构 / 考试论坛 / 教育媒体 > 普通付费外链。
+- **通用 2C**：行业垂直媒体、地区 KOL、社区高赞帖。
+- **G2 / Capterra**（B2B 软件评测站）对 2C 基本无效 → 换 App Store 评分 + 垂类榜单 + 应用媒体测评。
+- **YMYL 品类**：权威机构背书的链接权重远高于数量；切勿买链/造评（Google 数天内识别）。
+
+完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
 ---
 
 # gr-backlinks — Systematic Backlink Building

@@ -5,6 +5,7 @@ description: >
   跑固定查询，检测回答里是否引用目标域名。对未被引用的页面补 Citable Statistics + AI 友好格式（一句话答+表格+FAQ）。
   Bing IndexNow 推送确保大模型快速 discover/index。GA4 AI 来源流量监控。
   当用户说"我有没有被 AI 引用"、"GEO 优化"、"llms.txt 更新"、"AI 引用追踪"时调用。
+  默认 B2B/开源；2C 产品（教育/应用）的查询选题与 Citable Stats 来源不同，见 gingiris-seo-geo/references/2c-adaptation.md。
 when_to_use: |
   Use this skill when you need to: track whether AI search engines (Claude/GPT/Perplexity/
   Gemini) cite your domain, add Citable Statistics (5–10 rows with source URLs) to target
@@ -18,6 +19,21 @@ metadata:
   author: Iris / Gingiris
   version: "0.2.0"
   phase: Phase 2 main line 3
+---
+
+## ⚠️ 2C 产品的 GEO 调整
+
+本 skill 默认 B2B/开源场景。**2C 消费品 / 教育 / 应用** 做 GEO 时按下表调整：
+
+| 维度 | 默认 | 2C 建议 |
+|------|------|------|
+| 固定查询选题 | 产品类目词 | 用户真实提问句（"2026 托福口语怎么练" 而非 "best X tool"）|
+| Citable Stats 来源 | 行业/产品数据 | 权威机构/官方（考试局/政府/平台财报），YMYL 品类准确性是命门 |
+| FAQ 问题 | "Why is X best" | 考生/用户真实搜索句 |
+| 被引用后动作 | "As cited by" 角标 | 同左 + 强化作者资质（YMYL E-E-A-T，Google：Trust 是核心）|
+
+完整 2C 指南 + 公开数据来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
 ---
 
 # gr-geo-cite — GEO 引用追踪

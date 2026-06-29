@@ -4,6 +4,7 @@ description: >
   Jekyll 博客发布流水线：按 Iris 文风（时间锚定开场、括号旁白、em-dash 转折、Key Stats 表格）生成文章，
   附带 frontmatter（title / date / canonical_url / hreflang_ja / hreflang_ko / FAQ schema）、
   多语言同步（en/ja/ko）、自动建内链。当用户说"写一篇博客"、"发新文章"、"同步日韩版本"时调用。
+  默认 dev/B2B 读者；2C 教育/医疗/金融（YMYL）内容的 E-E-A-T 与分发渠道不同，见 gingiris-seo-geo/references/2c-adaptation.md。
 when_to_use: |
   Use this skill when you need to: write and publish a Jekyll blog post in Iris writing style,
   generate SEO frontmatter (title/canonical/hreflang/FAQ schema), sync multilingual versions
@@ -13,6 +14,19 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
+---
+
+## ⚠️ 2C 产品的写作调整
+
+本 skill 默认 dev/B2B 读者。写 **2C 教育/医疗/金融（YMYL）** 内容时：
+
+- **E-E-A-T 加重**：需可验证作者/审核资质 + 方法论透明页，不能只靠"团队"署名（Google：Trust 是 E-E-A-T 核心）。
+- **选题双轨**：红利词（政策/改革/新版）+ 长尾高转化词（题型/场景/分数级）。
+- **Key Stats 表格的数字必须有权威来源、前后一致**——YMYL 品类不可编造，否则排名修复极难。
+- **分发渠道换成 2C 社区/短视频**（小红书/Reddit/TikTok/Naver 카페），而非 dev blog。
+
+完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
 ---
 
 # gr-blog-post — Jekyll 博客发布
