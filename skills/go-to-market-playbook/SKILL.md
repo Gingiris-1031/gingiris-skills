@@ -21,6 +21,12 @@ tags:
   - latest
 ---
 
+## ⚠️ 区分 B2B 与 2C
+
+本 skill 默认偏 dev / 开源 / B2B SaaS。若产品是 **2C 消费品 / 教育 / 应用 / 游戏**：核心指标换成 D1/D7/D30 留存、激活率、病毒系数 K（非 MRR/CAC/LTV）；冷启动渠道换成垂类社区 / 短视频 / 垂直 KOL（非 PH/HN/LinkedIn）。完整 2C 适配指南 + 各国渠道公开数据见 → `gingiris-seo-geo/references/2c-adaptation.md`。
+
+---
+
 ## 📦 Install
 
 ```bash

@@ -35,6 +35,12 @@ tags:
   - latest
 ---
 
+## ⚠️ 2C 产品的渠道调整
+
+本 skill 默认 dev / B2B 渠道。**2C 消费品 / 教育 / 应用**：获客主战场是 **垂类社区 + 短视频 + 垂直 KOL**，按地区公开数据选第一平台（如印尼/泰国短视频已反超 Facebook）。KOL 优先 nano / micro 垂类——粉丝越多互动率越低，micro > mega 性价比更高。完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`。
+
+---
+
 # 用户访谈与冷启动运营实战手册
 
 > 🌍 **Language / 语言**: 中文 | [Interview Guide](references/interview-guide.md) | [Cold-Start Ops](references/cold-start-ops.md)

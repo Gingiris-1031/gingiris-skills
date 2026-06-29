@@ -20,6 +20,12 @@ tags:
   - latest
 ---
 
+## ⚠️ 2C 产品慎用 Product Hunt
+
+本 skill 默认 dev / maker / B2B 受众。**2C 消费品 / 教育 / 应用 / 游戏**：Product Hunt 受众是 maker/科技人，与普通消费者错配、ROI 极低——最多发一次拿个 badge。请把精力换到 **垂类社区（Reddit / 小红书 / 知乎 / Naver 카페）+ 短视频（TikTok / 抖音 / YouTube）+ 垂直 KOL**，并用"免费产品当钩子"做转化。完整 2C 渠道数据库（各国 MAU + 公开来源）+ 三路 Launch 分叉见 → `gingiris-seo-geo/references/2c-adaptation.md`（及 `gingiris-launch`）。
+
+---
+
 ## 📦 Install
 
 ```bash
