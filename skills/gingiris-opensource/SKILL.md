@@ -16,23 +16,6 @@ when_to_use: |
   run KOL outreach for dev tools, or build a 6-month OSS growth loop.
   Trigger phrases: "open source launch" | "GitHub stars" | "Show HN" | "OSS marketing" |
   "开源发布" | "GitHub star增长" | "开源营销" | "开发者营销" | "오픈소스 성장"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource
-tags:
-  - github-stars
-  - open-source
-  - oss-marketing
-  - developer-marketing
-  - readme
-  - product-hunt
-  - github-trending
-  - cold-start
-  - community
-  - developer-growth
-  - claude-code
-  - ai-agent-skill
-  - show-hn
-  - hacker-news
-  - latest
 ---
 
 # Open-Source Marketing — GitHub Stars Growth System
@@ -66,6 +49,33 @@ Stars don't come from a great repo — they come from **a great repo placed in f
 - [ ] Turn GitHub Issues into content (user questions → FAQ → posts).
 - [ ] Monthly update (mailing list + Discord).
 - [ ] Localize for going global (Japan/Korea first).
+
+### Star Region Distribution (GitHub Trending unlock)
+
+- No single country/region should exceed **20%** of your total stars.
+- Global healthy split reference: China 19-21%, US 19-21%, rest scattered across Europe / Russia / Canada / Indonesia.
+- Tools: **star-history.com** (trend chart) · **oss.cool / OSS Insight** (per-country breakdown, built by Chinese devs)
+- **Launch sequence**: Week 1 → overseas-only outreach. Week 2 → domestic (Chinese) outreach. Reversing this breaks the distribution and kills Trending eligibility.
+- AFFiNE real case: deliberately skipped WeChat Moments / Chinese community posts in week 1.
+
+### README essentials (conversion checklist)
+
+- [ ] Structure: big logo → one-liner → badges → short description (reference: Dify, Lobechat, AFFiNE).
+- [ ] **≤ 8 screens** — dev docs go in a separate link, not inline.
+- [ ] Add a **"⭐ star reminder" GIF** (same psychology as Bilibili "like / coin / collect" prompt — users need a nudge).
+- [ ] **Backlinks loop**: every outbound link (website, blog, docs) must have a visible GitHub link back. Don't let traffic escape with no return path.
+
+### PR article strategy
+
+- Publish one authoritative article (official blog / Medium / dev.to) that fully explains the project's value.
+- Purpose: give anyone who wants to spread your project a ready-made script. They will use it without asking.
+- AFFiNE case: a German user independently posted to 40+ forums with no prior contact — only possible because a clear reference article existed.
+
+### Competitor follower DMs
+
+- DM followers of your top competitors on Twitter/X (Notion, Miro, etc.).
+- Real benchmark: ~hundreds of DMs → ~hundreds of star conversions.
+- Target: users who actively complain about the competitor — they already have switching intent.
 
 ### Channel order that works
 
@@ -110,6 +120,33 @@ Stars don't come from a great repo — they come from **a great repo placed in f
 - [ ] GitHub Issues → 内容素材（用户问题变 FAQ）。
 - [ ] 每月 1 次 update（邮件列表 + Discord）。
 - [ ] 出海本地化（日韩先）。
+
+### Star 地区分布 & 发布时序
+
+- 同一国家/地区 star 占比不超过 **20%**，否则难上 Trending。
+- 健康分布参考：中国19-21%、美国19-21%，其余分散欧洲/俄罗斯/加拿大/印尼。
+- 工具：**star-history.com**（涨幅趋势）· **OSS Insight**（国家分布，国人开发）
+- **发布时序**：第一周只做海外宣发，第二周才做国内。顺序反了会破坏分布比例。
+- AFFiNE 真实案例：开源第一周故意不发朋友圈、不进国内社群。
+
+### README 优化要点
+
+- [ ] 结构：大logo + 一句话介绍 + badges + 简短介绍（参考 Dify / Lobechat / AFFiNE）
+- [ ] **不超过 8 屏**，开发者文档单独一个链接，不塞进 README
+- [ ] 加**提醒点 star 的小动图**（类比B站UP主「一键三连」——用户需要被提醒）
+- [ ] **backlinks 循环**：所有跳出去的链接（官网/博客/文档站）必须能跳回 GitHub，流量不能有去无回
+
+### PR 文章策略
+
+- 准备一篇阐述项目优势的完整文章（官网 Blog / Medium / dev.to）
+- 目的：给所有想帮你传播的人一把枪，他们可以直接引用，不需要自己想怎么介绍
+- AFFiNE 案例：一个德国用户发了 40 多个论坛，没打招呼就发了——能发出去，是因为有参考文章
+
+### 竞品 follower 私信
+
+- 给竞品（Notion / Miro 等）的 Twitter follower 发私信
+- 实战数据：几百条私信 → 几百个 star 转化
+- 优先找「吐槽竞品」的用户，他们已经有切换意愿
 
 ### 渠道顺序
 

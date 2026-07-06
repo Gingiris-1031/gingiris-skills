@@ -4,25 +4,16 @@ description: >
   开源项目发布整合营销。覆盖 GitHub star 增长、KOL 合作、Reddit / HN / Discord / Telegram 社群分发、
   多语言落地（中英日韩）。从 gingiris-opensource 提炼。适用场景：要发布一个开源项目，
   想在 6 个月内冲 10k star，或已发布但流量卡住要破局。
+when_to_use: |
+  Use this skill when you need to: launch an open-source project for maximum GitHub star
+  burst, distribute across Reddit / HN / Discord / Telegram, partner with developer KOLs,
+  build multilingual content matrix (en/ja/ko), or break through a star-growth plateau.
+  Trigger phrases: "开源项目发布" | "GitHub star增长" | "Show HN" | "Reddit launch" |
+  "OSS marketing" | "dev.to" | "开发者KOL" | "open source growth" | "HN怎么发"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-oss-marketing
-tags:
-  - open-source-marketing
-  - github-stars
-  - oss
-  - developer-marketing
-  - product-hunt
-  - show-hn
-  - cold-start
-  - community
-  - kol-outreach
-  - launch-strategy
-  - claude-code
-  - ai-agent-skill
-  - agent-skill
-  - latest
+  source: https://skills.sh/Gingiris-1031
 ---
 
 # gr-oss-marketing — 开源营销
@@ -65,7 +56,7 @@ tags:
 
 所有细节、KOL 清单、话术模板、案例库在 upstream repo：
 
-📂 **https://github.com/Gingiris/gingiris-opensource**
+📂 **https://skills.sh/Gingiris-1031**
 
 - `references/preparation.md` — Pre-launch 完整清单
 - `references/channels.md` — 分发渠道矩阵
@@ -84,6 +75,31 @@ tags:
 - 发现对手新打法 → `gr-competitor` 深挖
 
 ---
+
+## Star 地区分布 & 发布时序
+
+- 同一国家/地区 star 占比不超过 **20%**，否则难上 GitHub Trending。
+- 工具：**star-history.com**（涨幅趋势）、**OSS Insight**（国家分布，国人开发）
+- 发布时序：**第一周只做海外宣发**，第二周才做国内。顺序反了会破坏分布。
+  - AFFiNE 真实案例：开源第一周拿 6000 star，故意不发朋友圈 / 不进国内社群。
+
+## README 优化要点
+
+- [ ] **不超过 8 屏**，开发者文档单独链接，不塞进 README
+- [ ] 加**提醒点 star 小动图**（类比B站一键三连，用户需要被提醒）
+- [ ] **backlinks 循环**：所有跳出链接（官网/博客/文档）必须能跳回 GitHub
+
+## PR 文章策略
+
+- 准备一篇完整阐述项目优势的文章（官网 Blog / Medium / dev.to）
+- 目的：给所有想帮你传播的人一把枪
+- 案例：德国用户主动发了40多个论坛，没打招呼就发了——能发出去是因为有参考文章
+
+## 竞品 follower 私信
+
+- 给竞品（Notion / Miro 等）的 Twitter follower 发私信
+- 实战数据：几百条私信 → 几百个 star 转化
+- 优先找吐槽竞品的用户，已有切换意愿
 
 ## 反模式
 
