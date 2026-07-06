@@ -4,16 +4,24 @@ description: >
   把一篇已发布的博客拆成 4 个社媒变体：X thread（10-15 推）、小红书笔记（3-5 图）、LinkedIn carousel、
   dev.to / Zenn 二发。目标：在不新写博客的前提下激活 Organic Social 分发渠道。
   当用户说"把这篇博客改成推特"、"做小红书版本"、"社媒分发"、"复用博客到多平台"时调用。
-when_to_use: |
-  Use this skill when you need to: repurpose a blog post into social media variants (X thread,
-  Xiaohongshu, LinkedIn carousel, dev.to/Zenn), maximize content ROI without writing new
-  articles, or distribute existing content across 4 platforms from a single source.
-  Trigger phrases: "博客改推特" | "做小红书版本" | "社媒分发" | "social media repurpose" |
-  "X thread" | "LinkedIn carousel" | "dev.to二发" | "复用博客" | "content distribution"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   companion-to: gr-blog-post
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
+tags:
+  - social-media
+  - content-repurposing
+  - twitter
+  - linkedin
+  - threads
+  - content-strategy
+  - brand-voice
+  - ai-writing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## ⚠️ 2C 产品的渠道调整

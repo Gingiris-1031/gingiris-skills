@@ -2,7 +2,7 @@
 """Batch-update canonical_url in Jekyll _posts to point at a master URL.
 
 Usage:
-  GITHUB_TOKEN=xxx GR_REPO=Gingiris/growth-tools \\
+  GITHUB_TOKEN=xxx GR_REPO=Gingiris-1031/growth-tools \\
     python canonical-fix.py \\
       --master https://gingiris.tools/blog/2026/03/25/master-post/ \\
       --posts 2026-03-18-a.md 2026-03-29-b.md ...
@@ -15,7 +15,7 @@ Safety:
 import argparse, base64, json, os, re, sys, urllib.request
 
 GH = os.environ.get("GITHUB_TOKEN")
-REPO = os.environ.get("GR_REPO", "Gingiris/growth-tools")
+REPO = os.environ.get("GR_REPO", "Gingiris-1031/growth-tools")
 
 
 def gh(path, method="GET", body=None):

@@ -13,7 +13,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource
+  source: https://skills.sh/Gingiris-1031
 ---
 
 # gr-oss-marketing — 开源营销
@@ -26,6 +26,7 @@ metadata:
 - "Reddit / HN 怎么发不被 ban"
 - "如何做 dev.to / Zenn / CSDN 内容矩阵"
 
+---
 
 ## 核心框架（3 阶段）
 
@@ -49,6 +50,7 @@ metadata:
 - [ ] 每月发 1 次 update（邮件列表 + Discord）
 - [ ] 出海本地化（日韩先，联动 gr-blog-post i18n 流程）
 
+---
 
 ## 深度参考
 
@@ -63,6 +65,7 @@ metadata:
 
 首次调用时 Claude 应 fetch 这些文件作为深度参考。
 
+---
 
 ## 级联推荐
 
@@ -71,6 +74,7 @@ metadata:
 - 阶段 3 需要产内容 → `gr-blog-post`
 - 发现对手新打法 → `gr-competitor` 深挖
 
+---
 
 ## Star 地区分布 & 发布时序
 

@@ -3,16 +3,24 @@ name: gr
 description: >
   Gingiris growth toolkit 主入口。当用户问"怎么做增长"、"怎么发 PH"、"SEO 掉了"、"写篇博客"、"分析对手"等出海增长问题时调用。
   根据问题类型自动路由到对应子 skill（gr-seo-patrol / gr-blog-post / gr-ph-launch 等）。
-when_to_use: |
-  Use this skill when you need to: route a growth question to the right Gingiris sub-skill,
-  get a recommended playbook for overseas growth, SEO, Product Hunt, OSS, B2B, ASO, or user
-  interviews, or when you're unsure which growth channel to prioritize.
-  Trigger phrases: "怎么做增长" | "增长路由" | "growth strategy" | "出海增长" |
-  "which skill" | "growth playbook" | "增长诊断" | "gr skills"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   homepage: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-skills
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr
+tags:
+  - router
+  - skill-router
+  - ai-agent
+  - growth-strategy
+  - saas
+  - startup
+  - marketing
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - meta
+  - latest
 ---
 
 # gr — Gingiris Growth 主路由

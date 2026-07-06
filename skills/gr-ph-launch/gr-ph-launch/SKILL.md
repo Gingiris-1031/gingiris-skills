@@ -4,16 +4,25 @@ description: >
   Product Hunt 发布剧本。从 30x 日冠经验提炼的完整 GTM 流程：T-14 预热 → T-0 发布日 → T+7 post-launch。
   覆盖 hunter 选择、maker comment、community seeding、评论节奏、防踩雷。当用户说"我要发 PH"、
   "Product Hunt 准备"、"找 hunter"、"写 maker comment"时调用。
-when_to_use: |
-  Use this skill when you need to: execute a Product Hunt launch (T-14 to T+7), select a
-  hunter, write maker comments, seed community upvotes, set 00:01 PST timing, or avoid
-  PH shadowban and maximize upvote velocity on launch day.
-  Trigger phrases: "发PH" | "Product Hunt准备" | "hunter选择" | "maker comment" |
-  "PH发布" | "Product Hunt launch" | "community seeding" | "PH打榜方法"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-ph-launch
+tags:
+  - product-hunt
+  - launch
+  - ph-strategy
+  - daily-1
+  - hunter
+  - upvotes
+  - launch-day
+  - startup-launch
+  - go-to-market
+  - product-launch
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## ⚠️ 2C 产品慎用 Product Hunt

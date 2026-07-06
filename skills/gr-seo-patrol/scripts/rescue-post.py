@@ -4,7 +4,7 @@
   2) Inject 3 internal links from high-authority posts
 
 Usage:
-  GITHUB_TOKEN=xxx GR_REPO=Gingiris/growth-tools \\
+  GITHUB_TOKEN=xxx GR_REPO=Gingiris-1031/growth-tools \\
     python rescue-post.py \\
       --target 2026-04-02-best-social-media-listening-tools.md \\
       --url https://gingiris.tools/blog/2026/04/02/.../  \\
@@ -16,7 +16,7 @@ Usage:
 import argparse, base64, json, os, re, sys, urllib.request
 
 GH = os.environ.get("GITHUB_TOKEN")
-REPO = os.environ.get("GR_REPO", "Gingiris/growth-tools")
+REPO = os.environ.get("GR_REPO", "Gingiris-1031/growth-tools")
 
 
 def gh(path, method="GET", body=None):

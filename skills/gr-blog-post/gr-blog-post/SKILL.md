@@ -27,6 +27,7 @@ metadata:
 
 完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
 
+---
 
 # gr-blog-post — Jekyll 博客发布
 
@@ -43,6 +44,7 @@ metadata:
 ### 技术 frontmatter 模板
 
 ```yaml
+---
 layout: post
 title: "主关键词前置，副标题用冒号：不超过 60 字"
 date: 2026-04-15 14:30:00 +0800
@@ -55,8 +57,10 @@ post_description: "150-160 字 meta description，含主关键词"
 faq:
   - q: "直接问句"
     a: "30-50 字硬答案"
+---
 ```
 
+---
 
 ## 发布流程
 
@@ -147,6 +151,7 @@ done
 - 加入 `gr-seo-patrol` 监控名单
 - 社交平台分发（推特 / LinkedIn / dev.to，走 `gr-social-distill`）
 
+---
 
 ## dev.to 二发规则（⚠️ canonical 红线）
 
@@ -165,6 +170,7 @@ done
 - ❌ 不要同一关键词发 3 篇 —— cannibalization 立刻找上门
 - ❌ **dev.to canonical 指向 gingiris.tools** —— 死链或副本问题，永远 self-canonical
 
+---
 
 ## 级联推荐
 
@@ -172,6 +178,7 @@ done
 - 发现是系列稿 → `gr-blog-post` 继续产第 2 篇并设 canonical
 - 英文发完 24h → 手动触发日韩翻译
 
+---
 
 ## API 依赖
 
@@ -181,6 +188,7 @@ done
 | DeepSeek / Teamo（翻译） | `DEEPSEEK_API_KEY` / `TEAMOROUTER_API_KEY` | 同上 |
 
 
+---
 
 ## Citability-by-Design Spec (mandatory for NEW articles, 2026-05-18+)
 

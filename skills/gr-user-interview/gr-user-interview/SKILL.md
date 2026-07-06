@@ -3,16 +3,24 @@ name: gr-user-interview
 description: >
   用户访谈框架。HeyGen 做 937 次访谈找到 PMF 的完整方法论。覆盖访谈招募、问题设计、
   访谈执行、数据合成、决策驱动。从 gingiris-user-interview 提炼。
-when_to_use: |
-  Use this skill when you need to: conduct user interviews to discover PMF, design interview
-  question frameworks (behavior not opinion), recruit interview participants, synthesize
-  insights from 10+ sessions, or avoid confirmation bias in customer discovery.
-  Trigger phrases: "用户访谈" | "PMF验证" | "customer discovery" | "user research" |
-  "怎么问用户" | "interview framework" | "JTBD" | "用户反馈合成"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-user-interview
+tags:
+  - user-interview
+  - user-research
+  - pmf
+  - product-market-fit
+  - jtbd
+  - jobs-to-be-done
+  - customer-discovery
+  - qualitative-research
+  - startup
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## ⚠️ 2C 产品的渠道调整

@@ -4,16 +4,24 @@ description: >
   竞品深度扫描。批量抓取对手落地页（title/h1/intro/pricing）、定价页、博客 top 10、
   变更历史（Wayback）。底层调 actionbook（并发 30 tab + 省 90% token）。
   当用户说"分析对手"、"看看竞品在做啥"、"找对标"、"扫一下 top 10"时调用。
-when_to_use: |
-  Use this skill when you need to: scan competitor landing pages, pricing, and blog content
-  in bulk, track website changes via Wayback Machine, analyze competitor feature sets,
-  or benchmark top-10 competitors across 30 concurrent tabs with minimal token usage.
-  Trigger phrases: "分析对手" | "竞品扫描" | "competitor analysis" | "competitive scan" |
-  "看看竞品在做啊" | "找对标" | "pricing teardown" | "top 10 competitors"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   underlying: actionbook
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor
+tags:
+  - competitor-analysis
+  - competitive-intelligence
+  - market-research
+  - competitive-strategy
+  - saas
+  - startup
+  - business-intelligence
+  - product-strategy
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-competitor — 竞品扫描
@@ -25,6 +33,7 @@ metadata:
 - "这 5 个竞品博客最近 30 天发了什么"
 - "对标一下产品的 features"
 
+---
 
 ## 底层：actionbook
 
@@ -53,6 +62,7 @@ actionbook --version  # 应输出 0.x.x
 actionbook browser start  # 启动 local browser server
 ```
 
+---
 
 ## 调用流程（4 步）
 
@@ -97,6 +107,7 @@ Claude 把 30 个 JSON 合成：
 - 共同 CTA 动词（"get started" vs "book demo" vs "try free"）
 - 差异点 → 我们可钻的空隙
 
+---
 
 ## 常用 prompt 模板
 
@@ -136,6 +147,7 @@ Claude 把 30 个 JSON 合成：
 汇总成对比表，标出"市场中位数"和"我们的相对位置"
 ```
 
+---
 
 ## 级联推荐
 
@@ -144,6 +156,7 @@ Claude 把 30 个 JSON 合成：
 - 发现对手被用户吐槽 → `gr-user-interview` 访谈吐槽用户验证
 - 扫描结果加入监控 → 建 scheduled task 每周重扫
 
+---
 
 ## 反模式
 
@@ -152,6 +165,7 @@ Claude 把 30 个 JSON 合成：
 - ❌ 不要抓定价页截图替代数据（OCR 不准，直接拿 text）
 - ❌ 不要忘记 Wayback Machine（actionbook 可以 extract archive.org 的历史版本）
 
+---
 
 ## 推荐工具
 
@@ -166,6 +180,7 @@ Claude 把 30 个 JSON 合成：
 | DATAFORSEO_B64 | 补充：用 SERP 找对手 | optional |
 | [Analook](https://www.analook.com) | 竞品 CI 快速报告 | recommended |
 
+---
 
 ## 未来扩展（v0.3+）
 

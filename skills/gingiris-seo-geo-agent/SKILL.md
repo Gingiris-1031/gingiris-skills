@@ -81,7 +81,7 @@ when_to_use: |
 - Topic Cluster：1 支柱页 + 4-6 集群页互链
 - **内链密度铁律：每段 ≤ 2-3 个**（达到上限 → Google spam 信号 → 降 ranking）
 - **主动 cite 竞品 blog 外链**（Google 视为客观 → 信用分上升 → ranking 上升）
-- 分发平台同步（dev.to 等，canonical 指回主站）
+- 分发平台同步（dev.to 等，self-canonical，≥7 天后发布 + "Originally published at" 互链——与 gr-blog-post 红线对齐 2026-07-06）
 - 给已有排名页加内链
 
 ### Week 3 — GEO 强化

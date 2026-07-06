@@ -25,10 +25,10 @@ our analytics, happy to share.
 
 — Iris Wei
    Ex-COO @ AFFiNE → growth consulting @ Gingiris
-   https://gingiris.tools
+   Site: https://gingiris.tools
    X: @WeiYipei
 
-[Disclosure: I run gingiris.tools and write at gingiris.tools/.
+[Disclosure: I run gingiris.tools and analook.com.
  No expectation of a link in your article — providing this quote because the
  data is unique and the topic matches my domain.]
 ```

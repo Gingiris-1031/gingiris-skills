@@ -6,16 +6,27 @@ description: >
   Reddit/Quora discussions, and HARO/Featured.com expert quotes. Designed for 0→1 sites where
   domain authority is the bottleneck. Aligns with 2026 Google/Bing GEO guidance: backlinks are
   the strongest brand-authority signal AI search engines use to decide citations.
-when_to_use: |
-  Use this skill when you need to: build backlinks systematically, improve domain authority,
-  get cited on Wikipedia, earn media mentions, submit to G2/Capterra/Product Hunt,
-  participate in HARO/Featured.com, or strengthen GEO brand-authority signals for AI search.
-  Trigger phrases: "backlinks" | "link building" | "domain authority" | "Wikipedia citation" |
-  "外链建设" | "反链接" | "HARO" | "SEO权重" | "GEO品牌信号"
+  Defaults to dev/B2B link sources; for 2C products (education, consumer apps) authority links differ — see gingiris-seo-geo/references/2c-adaptation.md.
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
   phase: Phase 2 main line 4 (added 2026-05-07)
+source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-backlinks
+tags:
+  - backlinks
+  - link-building
+  - seo
+  - off-page-seo
+  - domain-authority
+  - featured-com
+  - haro-alternative
+  - digital-pr
+  - content-marketing
+  - saas-seo
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 ## ⚠️ 2C 产品的外链调整
@@ -29,6 +40,7 @@ metadata:
 
 完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
 
+---
 
 # gr-backlinks — Systematic Backlink Building
 
@@ -40,6 +52,7 @@ Iris now runs **two independent domains**: **gingiris.tools** (content/blog, Ver
 
 **Before planning any backlink work, read `data/backlinks-status.md` first** — it records what's already been spent/submitted (directory batches, refunds, pending claims) so we don't re-buy or re-submit.
 
+---
 
 ## The 5-Channel Priority Matrix
 
@@ -55,6 +68,7 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 
 **Rule**: Start from highest GEO value. SEO-only signals (DA passing) are less leveraged than 2-3 years ago.
 
+---
 
 ## When to use this skill
 
@@ -65,6 +79,7 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 - "How do I get into G2 / Capterra?"
 - Phase 2 monthly checkpoint shows domain authority capping ranking
 
+---
 
 ## Channel 1: Wikipedia (highest GEO leverage)
 
@@ -104,6 +119,7 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 - [ ] All paid contributors disclosed
 - [ ] Article has 600-1,500 words (too short = "stub" rejection)
 
+---
 
 ## Channel 2: PR / Authoritative Media
 
@@ -155,6 +171,7 @@ For deep-dive features, not 1-line quotes.
 - "Why most OSS marketing playbooks are wrong" (Wired / The Verge)
 - "Real data: 30 Product Hunt #1 launches in 4 years" (Fast Company / Forbes)
 
+---
 
 ## Channel 3: Industry Reviews (G2 / Capterra / Product Hunt / SourceForge)
 
@@ -171,6 +188,7 @@ For deep-dive features, not 1-line quotes.
 
 **Once submitted, ask early users for genuine reviews** (5-10 reviews unlocks featured placement on most platforms).
 
+---
 
 ## Channel 4: Reddit / Quora / Hacker News
 
@@ -204,6 +222,7 @@ LLMs heavily weight Reddit / Quora content during training:
 - Perplexity grounds 18% of answers in Reddit/Quora
 - Claude weights Quora answers for "how to" queries
 
+---
 
 ## Channel 5: Generic Backlinks (skip until Channels 1-4 maxed)
 
@@ -211,6 +230,7 @@ Directories, guest posts on low-DA sites, blogger network exchanges. **Low GEO v
 
 Don't waste time here until Channels 1-4 are mature.
 
+---
 
 ## Workflow: First 30 days for Iris
 
@@ -241,6 +261,7 @@ Don't waste time here until Channels 1-4 are mature.
 - [ ] First AfC Wikipedia submission (if 5+ independent sources accumulated)
 - [ ] Reddit AMA in 1 high-fit sub
 
+---
 
 ## Scripts
 
@@ -257,6 +278,7 @@ Run monthly to track growth.
 - Auto-suggest which to respond to (based on Iris credentials)
 - Draft 3-sentence answer skeletons
 
+---
 
 ## Tracking
 
@@ -270,6 +292,7 @@ Use this for:
 - Phase 2 checkpoint (correlate backlink growth with SERP rank changes)
 - Wikipedia case file building
 
+---
 
 ## Anti-patterns (avoid)
 
@@ -280,6 +303,7 @@ Use this for:
 - ❌ **Asking friends to write inauthentic reviews on G2** — flagged + removed
 - ❌ **Guest posting on link farms** — negative SEO
 
+---
 
 ## Cascade recommendations
 
@@ -288,6 +312,7 @@ Use this for:
 - Wikipedia entity created → update `gr-geo-cite` to track Wikipedia citations in AI responses (highest-priority test)
 - Backlinks accumulated → re-run `gr-seo-patrol` to measure rank impact
 
+---
 
 ## API dependencies
 
