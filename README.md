@@ -42,6 +42,7 @@ Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [c
 | [community-ambassador-playbook](skills/community-ambassador-playbook) | Community Ambassador Playbook — Recruitment to Retention SOP + **Hardware Brand Cases (Insta360 4-tier creator system, DJI 3-track model, Official Takeover mechanism)** | [↗](https://clawhub.ai/gingiris/community-ambassador-playbook) |
 | [competitor-research-playbook](skills/competitor-research-playbook) | Competitor Research Playbook — CI to GTM | [↗](https://clawhub.ai/gingiris/competitor-research-playbook) |
 | [product-hunt-launch-playbook-win-1-daily](skills/product-hunt-launch-playbook-win-1-daily) | Product Hunt Launch Playbook — Win #1 Daily | [↗](https://clawhub.ai/gingiris/product-hunt-launch-playbook-win-1-daily) |
+| [hardware-saas-gtm](skills/hardware-saas-gtm) | Hardware + SaaS GTM Playbook — Crowdfunding Engineering, KOL Matrix & Device-as-Funnel Subscription (Plaud/Insta360/DJI cases) | [↗](https://clawhub.ai/gingiris/hardware-saas-gtm) |
 
 ### Execution Skills (`gr-*`)
 
