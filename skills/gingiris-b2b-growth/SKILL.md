@@ -73,6 +73,52 @@ tags:
 | **Scale** | $5M–$10M | Enterprise team, compliance (SOC 2), channel acceleration |
 | **Ecosystem** | $10M+ | Open platform, investor / agency distribution |
 
+### Enterprise deal execution (private deployment & custom 2B)
+
+Winning the contract is half the job — getting paid in full is the other half. Distilled from a Multi-Agent open-source commercialization project retro.
+
+#### Payment structure & final-installment defense
+
+| Rule | Detail |
+|:---|:---|
+| Staged payments | Private deployment splits **3:4:3** or **4:4:2** — first features live / full deployment / final payment after 3–6 months of ops |
+| Collect on signature | **30% due the day the contract is signed** |
+| Late penalty | Written into the contract: **0.5% per day** overdue |
+| Final-payment leverage | Keep 1–2 features deployed on **your own servers** until the last payment clears — say it before signing, write it into the terms |
+| Who to chase | Chase the tail payment with the **highest-ranking contact**; if your champion stalls, escalate to the CEO once or twice |
+| Long-term direction | Every new deal: prepayment up, tail payment down |
+
+#### Scope control: SOR / SOW / CCB
+
+- Keep **SOR** (customer's raw asks) separate from **SOW** (acceptance criteria + delivery milestones + change terms); **sign the SOW together with the contract**.
+- All changes go through a **CCB**: customer initiates in writing → both PMs assess impact (cost / schedule) → both sides sign a change confirmation.
+- Leave a paper trail for everything; name the **acceptance contact** in the contract.
+- Customer gets excited on a call and promises the moon? **Only paperwork counts.**
+
+#### Commercial push-pull
+
+- Customer asks for 50 features and you could do 40 → "we can commit to 10, and because we want this to succeed we'll stretch to 15." Turn concessions into favors.
+- Requests you don't want → **price them up** (pad the person-days) instead of refusing outright.
+- Private deployment has only **two legitimate drivers**: data privacy + internal permission-system integration. Everything else belongs on SaaS.
+- SaaS customization → sell a **License**. SSO and similar integrations → open API + standard docs, let the customer build it themselves.
+
+#### Revenue & channel math
+
+| Path to $1M ARR | Breakdown |
+|:---|:---|
+| Enterprise route | 9 × $100k 2B customers |
+| Subscription route | 500 × $200/yr subscribers |
+
+| Channel tier | Terms |
+|:---|:---|
+| Reseller | 10–20% referral fee |
+| Silver (>$100k/yr sales) | 15% |
+| Gold (>$300k/yr sales) | 20% |
+
+Reseller due diligence — three questions: what did you resell before? where do your customers come from? reseller or service partner?
+
+**2B content formula**: 80% how you helped customers succeed + 20% about the customer. Deck narrative: pain first, then the fix.
+
 ### B2B content is different from B2C
 
 - **Must** have a case study (ROI / time saved / headcount saved).
@@ -125,6 +171,52 @@ tags:
 | **Growth** | $1M–$5M | 引入 affiliate + 集成伙伴，PLG 加 sales-assist |
 | **Scale** | $5M–$10M | Enterprise 团队、合规（SOC 2）、渠道加码 |
 | **Ecosystem** | $10M+ | 开放平台、investor / agency 分销 |
+
+### 2B 打单与交付（私有化 & 定制）
+
+签下合同只是一半，全额收回款才是另一半。提炼自某 Multi-Agent 开源商业化项目复盘。
+
+#### 付款结构与尾款防御
+
+| 规则 | 细节 |
+|:---|:---|
+| 分段付款 | 私有化部署 **3:4:3** 或 **4:4:2** —— 第一批功能上线 / 全部部署完 / 运维 3–6 个月后付尾款 |
+| 签约即收款 | **签合同当天收 30%** |
+| 违约金 | 直接写进合同：**拖一天多付 0.5%** |
+| 尾款筹码 | 交付时留 1–2 个功能部署在**自己服务器**，尾款结清才迁 —— 签合同前说清楚、条款里写清楚 |
+| 找谁要 | 尾款直接找**对接的最高的人**；对接人推诿可问 1–2 次 CEO |
+| 长期方向 | 每一单：预付款越来越高、尾款越来越少 |
+
+#### 需求边界管理：SOR / SOW / CCB
+
+- **SOR**（客户原始输入）与 **SOW**（验收标准 + 交付节点 + 变更条款）分开；**合同和 SOW 一起签**。
+- 变更一律走 **CCB**：客户先书面发起 → 双方项目经理评估影响（金额 / 工期）→ 双方签变更确认文件。
+- 一切留痕（会议 / 对话 / 验收记录）；合同指明"项目验收对接人"。
+- 客户聊嗨了拍胸脯？**只有 paperwork 有效。**
+
+#### 商务推拉
+
+- 客户提 50 个需求、内部判断 40 能做 →"先答应 10 个，因为想帮你所以做到 15 个"——把让步做成人情。
+- 不想做的需求**抬价过滤**（人/天多标几天），不用直接拒绝。
+- 私有化需求只有**两个真点**：数据隐私 + 接内部权限系统，其他都该买 SaaS。
+- SaaS 二开 → 直接卖 **License**；SSO 等集成 → 开放 API + 标准手册，让客户自己做。
+
+#### 营收与渠道账
+
+| $1M ARR 拆解 | 组成 |
+|:---|:---|
+| 2B 路线 | 9 个 $10 万企业客户 |
+| 订阅路线 | 500 个 $200/年订阅用户 |
+
+| 代理分层 | 条件 |
+|:---|:---|
+| Reseller | 10–20% 推荐费 |
+| 银牌（年销 >$10 万）| 15% |
+| 金牌（年销 >$30 万）| 20% |
+
+代理尽调三问：之前代理过什么产品？客户从哪来？Reseller 还是 Service Partner？
+
+**2B 内容公式**：80% 讲自己如何帮客户成功 + 20% 讲客户；deck 叙事"先讲怎么痛，再说怎么好"。
 
 ### B2B 内容特殊要求
 
