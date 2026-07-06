@@ -1,7 +1,7 @@
 # gr-seo-patrol scripts
 
 ## Original scripts (gingiris-built)
-- `daily-report.py` — DataForSEO SERP rank patrol (gingiris.github.io + dev.to/iris1031)
+- `daily-report.py` — DataForSEO SERP rank patrol (gingiris.tools + dev.to/iris1031)
 - `canonical-fix.py` — Batch canonical URL fix on Jekyll _posts
 - `rescue-post.py` — Social rescue (title rewrite + internal link injection)
 

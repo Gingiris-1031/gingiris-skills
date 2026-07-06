@@ -79,7 +79,7 @@ when_to_use: |
 
 ### Week 2 — 内链结构 + 分发铺面
 - Topic Cluster：1 支柱页 + 4-6 集群页互链
-- **内链密度瓦特：每段 ≤ 2-3 个**（达到上限 → Google spam 信号 → 降 ranking）
+- **内链密度铁律：每段 ≤ 2-3 个**（达到上限 → Google spam 信号 → 降 ranking）
 - **主动 cite 竞品 blog 外链**（Google 视为客观 → 信用分上升 → ranking 上升）
 - 分发平台同步（dev.to 等，canonical 指回主站）
 - 给已有排名页加内链
@@ -94,7 +94,7 @@ when_to_use: |
 ### Week 4 — CTR 榨取 + 规模化
 - 高曝光低点击页面重写标题/描述，应用 best/free/top/guide+年份 公式
 - 排名 11-20 冲首页
-- **外链建设：reach out 评测站（Product Hunt 等），$20–30 招招 20–30 条高质量外链**，避开论坛批量外链（penalty 风险）
+- **外链建设：向评测/目录站提交 listing（提交费 $20–30/批），获取自然收录外链**——不是购买 dofollow 链接（买链见 gr-backlinks 反模式：数天内被 Google 标记），避开论坛批量外链（penalty 风险）
 - 维持每周 4 篇长尾内容（KD 5–35 区间）
 
 ---

@@ -172,7 +172,7 @@ Multilingual is the only reason to pay early.
 
 14/ Full breakdown with pricing table, free tier limits, and multilingual comparison:
 
-→ https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
+→ https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/
 
 15/ If this helped, I write weekly about indie founder SEO + AI distribution.
 Follow @WeiYipei for more.

@@ -1,5 +1,5 @@
 ---
-name: product-dev-ops-playbook
+name: gr-product-dev-ops
 description: |
   🇺🇸 Your dev team ships features nobody asked for while user-reported bugs pile up for months. Operations blames engineering for ignoring users; engineering blames operations for not understanding technical constraints. This gives you the complete Product × Engineering × Operations alignment SOP — from unified backlog to 10-day sprint cadence to veto power rules.
 

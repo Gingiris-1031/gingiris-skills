@@ -24,7 +24,7 @@ metadata:
 
 **Phase 2 missing piece**: We do title/content/schema/cluster optimization but have **zero systematic backlink work**. Article research (2026-05): backlinks are the #1 GEO signal — LLMs decide citations partly by brand authority, which is downstream of backlink graph.
 
-For Iris's site (gingiris.github.io, subpath under GitHub Pages), the domain authority ceiling is **fundamentally capped without external backlinks**. No on-page work can beat Wikipedia / Hootsuite / Wired for head terms — only backlink quality + count can.
+For Iris's site (gingiris.tools, subpath under GitHub Pages), the domain authority ceiling is **fundamentally capped without external backlinks**. No on-page work can beat Wikipedia / Hootsuite / Wired for head terms — only backlink quality + count can.
 
 ---
 
@@ -251,7 +251,7 @@ Run monthly to track growth.
 
 Maintain `data/backlinks.jsonl` (one line per backlink):
 ```jsonl
-{"date":"2026-05-15","from":"techcrunch.com","to":"gingiris.github.io","anchor":"AFFiNE","channel":"PR","tier":1,"context":"60k stars article"}
+{"date":"2026-05-15","from":"techcrunch.com","to":"gingiris.tools","anchor":"AFFiNE","channel":"PR","tier":1,"context":"60k stars article"}
 ```
 
 Use this for:
@@ -264,10 +264,10 @@ Use this for:
 ## Anti-patterns (avoid)
 
 - ❌ **Paid agency Wikipedia services** — sockpuppet farms, articles deleted
-- ❌ **Reddit account farming** — gets you banned permanently
+- ❌ **Reddit coordinated fake accounts** — gets you banned permanently
 - ❌ **Generic HARO replies** — quote rate <2% without specific credentials
 - ❌ **Buying links** — Google's algorithm now flags within days
-- ❌ **Asking friends to write fake reviews on G2** — flagged + removed
+- ❌ **Asking friends to write inauthentic reviews on G2** — flagged + removed
 - ❌ **Guest posting on link farms** — negative SEO
 
 ---

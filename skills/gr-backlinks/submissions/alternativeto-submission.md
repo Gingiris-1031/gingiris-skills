@@ -46,5 +46,5 @@
 
 ## After submission
 - Ask 5-10 users to upvote AFFiNE on the listing
-- Add comparison content from gingiris.github.io growth-tools blog posts
+- Add comparison content from gingiris.tools growth-tools blog posts
 

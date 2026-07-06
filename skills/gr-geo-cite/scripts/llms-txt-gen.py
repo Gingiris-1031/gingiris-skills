@@ -7,7 +7,7 @@ Aggregates:
   - Site metadata
 
 Usage:
-  GITHUB_TOKEN=xxx GR_REPO=Gingiris/growth-tools \
+  GITHUB_TOKEN=xxx GR_REPO=Gingiris-1031/growth-tools \
     python llms-txt-gen.py --top 10 > llms.txt
 """
 import argparse, base64, json, os, re, sys, urllib.request, urllib.parse
@@ -80,11 +80,11 @@ def url_from_filename(filename, site_base):
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--top", type=int, default=10)
-    p.add_argument("--site", default="https://gingiris.github.io/growth-tools")
+    p.add_argument("--site", default="https://gingiris.tools")
     args = p.parse_args()
 
     token = os.environ.get("GITHUB_TOKEN")
-    repo = os.environ.get("GR_REPO", "Gingiris/growth-tools")
+    repo = os.environ.get("GR_REPO", "Gingiris-1031/growth-tools")
     if not token:
         sys.exit("GITHUB_TOKEN missing")
 

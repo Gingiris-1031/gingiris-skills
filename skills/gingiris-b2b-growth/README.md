@@ -156,7 +156,7 @@ A: Partner quality > partner quantity. The playbook covers how HeyGen and Deel v
 - Website: [gingiris.com](https://gingiris.com)
 - Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/)
+- Blog: [gingiris.tools](https://gingiris.tools/)
 
 ---
 

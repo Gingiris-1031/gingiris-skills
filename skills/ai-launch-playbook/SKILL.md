@@ -1,5 +1,5 @@
 ---
-name: "AI Product Global Launch Playbook"
+name: ai-launch-playbook
 version: 1.0.0
 description: Launch your AI product to global attention — the playbook behind Manus, Devin, and AFFiNE's breakout launches. Covers AI-specific GTM strategy, hype cycle management, waitlist tactics, and multi-market rollout for maximum day-one impact.
 author: Gingiris
@@ -78,8 +78,8 @@ Sanity ratio before you allocate: PH exposure→upvote ≈ 1%, while Reddit expo
 ## 📚 Free Resources
 
 **GitHub Playbook (Free):**
-- [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch) - Complete launch strategy
-- [Gingiris Open Source Marketing](https://github.com/Gingiris/gingiris-opensource) - OSS marketing tactics
+- [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch) - Complete launch strategy
+- [Gingiris Open Source Marketing](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource) - OSS marketing tactics
 
 ## 💎 Premium Resources
 

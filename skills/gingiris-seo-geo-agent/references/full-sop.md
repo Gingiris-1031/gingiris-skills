@@ -110,7 +110,7 @@
 ### Week 2 —— 内链结构 + 分发铺面
 
 - 搭 Topic Cluster：1 个支柱页 + 4–6 个集群页互链（§7.4）
-- 主站文章同步到 `[SYNDICATION]`（dev.to 等），用 canonical 指回主站，记录 article ID
+- 主站文章同步到 `[SYNDICATION]`（dev.to 等），记录 article ID。**dev.to 文章必须 self-canonical（canonical_url 指向 dev.to 自身，不指回主站）**——canonical 指回主站会让 dev.to 文章被 Google 视为副本、不参与 SERP；改为发布时间差 ≥7 天 + 末尾加 "Originally published at 主站" 建立双向 reference（与 gr-blog-post 红线对齐 2026-07-06）
 - 给已有排名页加 2–3 条内链（把权重导向冲首页的目标页）
 - **预期**：索引页跳增（这一步通常是曝光第一次大涨的来源）；分发平台开始单独贡献排名
 

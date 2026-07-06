@@ -3,7 +3,7 @@
 ## ⚠️ 2026-04-20 血泪教训（必读）
 
 **错误做法**：
-- dev.to 文章 frontmatter 设 `canonical_url: https://gingiris.github.io/...`
+- dev.to 文章 frontmatter 设 `canonical_url: https://gingiris.tools/...`
 - 结果：Google 把 dev.to 版视为副本 → 不参与独立 SERP → 掉出 top 100
 
 **正确做法**：
@@ -49,7 +49,7 @@ series: [可选 — 如果是系列稿]
 ```markdown
 ---
 
-*Originally I wrote a longer version of this on my blog at [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/). dev.to version is lighter with more code-focused examples.*
+*Originally I wrote a longer version of this on my blog at [gingiris.tools](https://gingiris.tools/). dev.to version is lighter with more code-focused examples.*
 
 *Found this useful? I write weekly about SEO and distribution for indie devs.*
 ```
@@ -114,7 +114,7 @@ published: true
 
 ---
 
-参考：[元の英語版記事 at gingiris.github.io](https://gingiris.github.io/growth-tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
+参考：[元の英語版記事 at gingiris.tools](https://gingiris.tools/blog/2026/04/02/best-social-media-listening-tools-startups-2026/)
 ```
 
 ---
@@ -140,7 +140,7 @@ published: true
 
 ## 检查清单（发布前）
 
-- [ ] canonical_url 不指向 gingiris.github.io
+- [ ] canonical_url 不指向 gingiris.tools
 - [ ] 前 3 段与原博客不同
 - [ ] 日期没有写"March 2026"这种会让新读者觉得过时的时间
 - [ ] tags ≤ 4（dev.to）/ ≤ 5（Zenn）

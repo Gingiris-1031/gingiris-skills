@@ -16,7 +16,7 @@
 ```bash
 clawhub install gingiris-launch
 ```
-または: [Gingiris ローンチ・プレイブック](https://github.com/Gingiris/gingiris-launch)
+または: [Gingiris ローンチ・プレイブック](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)
 
 ## 💎 プレミアム・ディープダイブ
 
@@ -42,9 +42,9 @@ clawhub install gingiris-launch
 
 ## 関連スキル
 
-- [gingiris-launch](https://github.com/Gingiris/gingiris-launch) — フル GTM プレイブック
-- [gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — OSS マーケティング
-- [gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS グロース
+- [gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch) — フル GTM プレイブック
+- [gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource) — OSS マーケティング
+- [gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth) — B2B SaaS グロース
 
 ---
 

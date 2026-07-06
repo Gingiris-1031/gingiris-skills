@@ -4,7 +4,7 @@
 Usage:
   GITHUB_TOKEN=xxx GR_REPO=Gingiris/growth-tools \\
     python canonical-fix.py \\
-      --master https://gingiris.github.io/growth-tools/blog/2026/03/25/master-post/ \\
+      --master https://gingiris.tools/blog/2026/03/25/master-post/ \\
       --posts 2026-03-18-a.md 2026-03-29-b.md ...
 
 Safety:

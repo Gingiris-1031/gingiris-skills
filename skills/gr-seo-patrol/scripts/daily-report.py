@@ -5,13 +5,13 @@ Env vars required:
   DATAFORSEO_B64   Basic-auth b64 for DataForSEO
   GITHUB_TOKEN     PAT for repo reads (optional but recommended)
   GR_KEYWORDS      comma-separated keyword overrides (optional)
-  GR_SITE          site domain (default: gingiris.github.io/growth-tools)
+  GR_SITE          site domain (default: gingiris.tools)
   GR_GA4_ID        GA4 measurement ID to verify (default: G-QKPQFJD1FH)
 """
 import os, sys, json, time, urllib.request, urllib.error
 
 API = os.environ.get("DATAFORSEO_B64")
-SITE = os.environ.get("GR_SITE", "gingiris.github.io/growth-tools")
+SITE = os.environ.get("GR_SITE", "gingiris.tools")
 GA4 = os.environ.get("GR_GA4_ID", "G-QKPQFJD1FH")
 
 DEFAULT_KEYWORDS = [

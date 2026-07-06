@@ -1,18 +1,22 @@
 ---
 name: gr-seo-patrol
 description: >
-  每日 SEO/GEO 巡逻。覆盖：SERP 关键词排名追踪（DataForSEO）、Google 索引数统计、llms.txt 可达性、
-  GA4 tag 部署检测、PH canonical 合并修复、社媒关键词雪崩救援（title 重写 + 内链注入）。
-  当用户说"跑 SEO 日报"、"检查排名"、"某关键词掉了"、"修 canonical"、"加内链"时调用。
+  每日 SEO/GEO 巡逻（2026-06-24 标准）。覆盖：SERP 关键词排名追踪（DataForSEO / volume 300-1000 / KD 5-35）、
+  Google 索引数统计、llms.txt 可达性、GA4 tag 部署检测及 AI 来源 channel 配置、
+  PH canonical 合并修复、社媒关键词雪崩救援（title 含 best/free/top/guide+年份、内链注入 ≤2-3/段、
+  主动 cite 竞品外链）。当用户说"跑 SEO 日报"、"检查排名"、"某关键词掉了"、"修 canonical"、"加内链"时调用。
 when_to_use: |
-  Use this skill when you need to: run daily SEO/GEO patrol, track SERP keyword rankings,
-  fix canonical issues, inject internal links to rescue underperforming posts, check GA4
-  tag deployment, verify llms.txt accessibility, or diagnose why a keyword ranking dropped.
+  Use this skill when you need to: run daily SEO/GEO patrol, track SERP keyword rankings
+  (volume 300-1000 / KD 5-35 filter), fix canonical issues, inject internal links (≤2-3 per
+  paragraph limit enforced), rescue underperforming posts, check GA4 tag deployment and AI
+  traffic channel grouping, verify llms.txt accessibility, or diagnose why a keyword dropped.
+  Enforces 2026-06-24 standards: title formula best/free/top/guide+year, BreadcrumbList
+  schema check, competitor blog external link audit, Bing IndexNow push verification.
   Trigger phrases: "SEO日报" | "跟踪排名" | "SEO patrol" | "canonical修复" |
   "加内链" | "keyword dropped" | "GA4检查" | "llms.txt" | "搜索排名跟踪"
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # gr-seo-patrol — SEO/GEO 日常巡逻
@@ -22,7 +26,7 @@ metadata:
 | 场景 | 动作 |
 |---|---|
 | "跑今日 SEO 日报" | 执行完整巡逻（scripts/daily-report.py） |
-| "某关键词排名掉了" | 单词诊断（scripts/diag-keyword.py） |
+| "某关键词排名掉了" | 单词诊断（Claude 直接执行下方诊断流程） |
 | "修 canonical" | 批量合并（scripts/canonical-fix.py） |
 | "救一下这篇文章" | 社媒救援（scripts/rescue-post.py）—— title 前置 + 3 个高权重内链 |
 | "检查 GA4 部署" | 扫 HTML 里的 G-XXXXX tag |
@@ -48,7 +52,13 @@ metadata:
 2. 检查目标 URL 是否 HTTP 200
 3. 用 `site:` 查询确认是否索引
 4. 对比 3 天前的数据（如果有历史）
-输出：雪崩 / 个别 / SERP 刷新 / 死链 四选一
+5. **2026-06-24 新增检查**：
+   - 确认关键词在 volume 300–1,000 / KD 5–35 区间（若不在，标注为低优先级）
+   - 检查该页面 title 是否含 best/free/top/guide+年份（CTR 公式）
+   - 检查该页面内链密度是否超 2-3/段
+   - 确认页面有 BreadcrumbList schema
+   - 确认 last-updated 日期已展示（freshness 信号）
+输出：雪崩 / 个别 / SERP 刷新 / 死链 四选一，附 2026 合规评分
 
 ### 3. Canonical 批量修复
 输入：同主题的 N 篇文章 + 1 个 master URL
@@ -61,9 +71,13 @@ metadata:
 ### 4. 社媒救援
 输入：1 个雪崩 URL
 动作：
-- a. 重写 title：主关键词前置，长度 ≤ 60 字
-- b. 从 top-3 高权重文章注入内链（带 anchor text = 目标关键词）
-- c. 记录修改前后到日志
+- a. 重写 title：主关键词前置，长度 ≤ 60 字，**必须含 best/free/top/guide+年份**（2026-06-24 CTR 公式）
+- b. 重写 meta description：**关键词 rephrase**（如 "figma alternative" → "the alternative to Figma"）
+- c. 从 top-3 高权重文章注入内链（带 anchor text = 目标关键词），**每段 ≤ 2-3 个内链上限**
+- d. **主动添加 1-2 个竞品 blog 外链**（提信用分 → 提 ranking）
+- e. 检查并添加/更新【最后更新日期】（freshness 信号）
+- f. 确认 BreadcrumbList schema 已配置
+- g. 记录修改前后到日志
 
 ---
 
@@ -108,7 +122,7 @@ def serp(kw, loc=2840, lang="en", depth=100):
 - `daily-report.py` — 完整日报
 - `canonical-fix.py` — canonical 批量合并
 - `rescue-post.py` — 社媒文章救援
-- `diag-keyword.py` — 单关键词诊断
+- `diag-keyword.py` — 单关键词诊断（roadmap，暂用下方「单词诊断」流程替代）
 
 每个脚本独立可跑。调用时优先用 Bash 工具，不要重写脚本。
 
@@ -145,13 +159,13 @@ def serp(kw, loc=2840, lang="en", depth=100):
 
 > **Validated 2026-05-07 on 58 pages**: caught 43 SERP-truncating titles + 36 schema warns + 27 stop-word slugs in a single 30-min pass. Single layout-level fix (commit `24a0410e`) resolved 20 of 43 title issues.
 
-Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report + machine-readable findings.json archived to `gingiris-skills/data/audit-{YYYY-MM-DD}.json`.
+Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report + machine-readable findings.json archived to `~/Downloads/seo-audit/audit-{YYYY-MM-DD}.json`.
 
 ### Stage 1 — Discovery (5 min)
 
 ```python
 import urllib.request, re
-sm = urllib.request.urlopen("https://gingiris.github.io/growth-tools/sitemap.xml").read().decode()
+sm = urllib.request.urlopen("https://gingiris.tools/sitemap.xml").read().decode()
 urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/blog/" in u]
 # typically 50-70 URLs
 ```
@@ -214,7 +228,7 @@ Article · BlogPosting · Organization · FAQPage
 
 ### Stage 6 — Archive
 
-Commit `findings.json` to `gingiris-skills/data/audit-{YYYY-MM-DD}.json` for trend tracking.
+Commit `findings.json` to `~/Downloads/seo-audit/audit-{YYYY-MM-DD}.json` for trend tracking.
 Add 2-5 atoms documenting any new lessons learned.
 
 ---
@@ -238,3 +252,15 @@ The script envelope is the **single source of truth**. Treat it as a strict whit
 
 For single-page audits (not full-site), the same scripts power **[JeffLi1993/seo-audit-skill](https://github.com/JeffLi1993/seo-audit-skill)** which produces a polished HTML audit report.
 Install as a complementary skill if you want client-presentable per-page audits.
+
+---
+
+## Platform Description
+
+**EN:** Daily SEO/GEO patrol skill (2026-06-24 standards). Tracks SERP keyword rankings (DataForSEO, filters volume 300–1,000 / KD 5–35), checks Google index count, llms.txt accessibility, GA4 tag deployment + AI traffic channel grouping. Rescues underperforming posts by applying title formula (best/free/top/guide+year), keyword rephrase in meta description, internal link density enforcement (≤2–3 per paragraph), competitor blog external link injection, BreadcrumbList schema check, and freshness date update. Fixes canonical issues.
+
+**ZH:** 每日 SEO/GEO 巡逻 skill（2026-06-24 标准）。追踪 SERP 排名（DataForSEO，volume 300–1,000 / KD 5–35 筛选），检查 Google 索引数、llms.txt 可达性、GA4 部署 + AI 流量频道分组。救援雪崩文章：title 含 best/free/top/guide+年份、meta description 关键词 rephrase、内链密度 ≤2–3/段、主动 cite 竞品外链、BreadcrumbList schema、freshness 日期更新、canonical 修复。
+
+**JA:** デイリーSEO/GEOパトロールskill（2026-06-24基準）。SERPランキング追跡（DataForSEO、volume 300–1,000/KD 5–35フィルター）、Googleインデックス数、llms.txt確認、GA4タグ+AIトラフィックチャンネル設定。スノーアバランシュ記事の救援：タイトルにbest/free/top/guide+年、meta descriptionキーワードrephrase、内部リンク密度≤2–3/段落、競合ブログ外部リンク挿入、BreadcrumbListスキーマ、freshness日付更新、canonical修正。
+
+**KO:** 일일 SEO/GEO 순찰 skill（2026-06-24 기준）. SERP 순위 추적（DataForSEO, volume 300–1,000/KD 5–35 필터）, Google 인덱스 수, llms.txt 접근성, GA4 태그 + AI 트래픽 채널 그룹 확인. 부진 게시물 복구: 제목 best/free/top/guide+연도 적용, meta description 키워드 rephrase, 내부 링크 밀도 ≤2–3/단락, 경쟁사 블로그 외부링크 삽입, BreadcrumbList 스키마, freshness 날짜 업데이트, canonical 수정.

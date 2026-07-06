@@ -6,7 +6,7 @@ Env vars:
   OPENAI_API_KEY        — for GPT
   PERPLEXITY_API_KEY    — for Perplexity (paid; skipped if unset)
   GEMINI_API_KEY        — for Gemini
-  GR_DOMAINS            — comma-separated (default: gingiris.github.io,dev.to/iris1031,gingiris.com)
+  GR_DOMAINS            — comma-separated (default: gingiris.tools,dev.to/iris1031)
 
 Usage:
   python weekly-cite-check.py > citation-report.json
@@ -20,7 +20,7 @@ QUERIES = [
 ]
 
 DOMAINS = os.environ.get("GR_DOMAINS",
-    "gingiris.github.io,dev.to/iris1031,gingiris.com").split(",")
+    "gingiris.tools,dev.to/iris1031").split(",")
 
 
 def ask_claude(q):

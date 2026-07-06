@@ -34,13 +34,13 @@ size_categories:
 
 ### The complete SEO & GEO (Generative Engine Optimization) strategy guide — rank on Google AND get cited by AI search engines
 
-[![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-seo-geo?style=social)](https://github.com/Gingiris/gingiris-seo-geo/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-seo-geo?style=social)](https://github.com/Gingiris/gingiris-seo-geo/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/gingiris-seo-geo?style=social)](https://github.com/Gingiris/gingiris-seo-geo/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
+[![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
+[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-seo-geo/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/Gingiris/gingiris-seo-geo?color=blue)](https://github.com/Gingiris/gingiris-seo-geo/commits/main)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
+[![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-skills?color=blue)](https://github.com/Gingiris-1031/gingiris-skills)
 
 **[English](#english) | [中文](#中文版)**
 
@@ -233,10 +233,10 @@ If you find this playbook useful, a GitHub Star helps others discover it!
 
 | Playbook | Focus |
 |:---------|:------|
-| [gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth) | B2B SaaS full-lifecycle growth |
-| [gingiris-launch](https://github.com/Gingiris/gingiris-launch) | AI product global launch strategy |
-| [gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) | Open source growth playbook |
-| [growth-tools](https://github.com/Gingiris/growth-tools) | Growth tools blog & resource hub |
+| [gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth) | B2B SaaS full-lifecycle growth |
+| [gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch) | AI product global launch strategy |
+| [gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource) | Open source growth playbook |
+| [growth-tools](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/growth-tools) | Growth tools blog & resource hub |
 
 ---
 
@@ -247,7 +247,7 @@ If you find this playbook useful, a GitHub Star helps others discover it!
 - Twitter: [@WeiYipei](https://x.com/WeiYipei)
 - LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/)
+- Blog: [gingiris.tools](https://gingiris.tools/)
 
 ---
 
@@ -257,9 +257,9 @@ MIT License - Use and adapt for your own SEO/GEO growth!
 
 ## Full Guides & Blog Posts
 
-- [SaaS Growth Strategy: 0 to $10M ARR Framework](https://gingiris.github.io/growth-tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/)
-- [B2B SaaS Growth Playbook](https://gingiris.github.io/growth-tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/)
-- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.github.io/growth-tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [SaaS Growth Strategy: 0 to $10M ARR Framework](https://gingiris.tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/)
+- [B2B SaaS Growth Playbook](https://gingiris.tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/)
+- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
 
 ---
 
@@ -284,11 +284,11 @@ A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of 
 
 ## 🔗 Related Gingiris Skills
 
-- **[gingiris-growth-finder](https://github.com/Gingiris/gingiris-growth-finder)** — Meta-router that picks the right growth playbook for your situation
-- **[gingiris-launch](https://github.com/Gingiris/gingiris-launch)** — Product Hunt launch (pair SEO content with launch momentum)
-- **[gingiris-opensource](https://github.com/Gingiris/gingiris-opensource)** — OSS marketing (SEO is the OSS evergreen channel)
-- **[gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth)** — B2B SaaS PLG/SLG full lifecycle
-- **[gingiris-aso-growth](https://github.com/Gingiris/gingiris-aso-growth)** — Mobile app store optimization (ASO is mobile SEO)
+- **[gingiris-growth-finder](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder)** — Meta-router that picks the right growth playbook for your situation
+- **[gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)** — Product Hunt launch (pair SEO content with launch momentum)
+- **[gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource)** — OSS marketing (SEO is the OSS evergreen channel)
+- **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** — B2B SaaS PLG/SLG full lifecycle
+- **[gingiris-aso-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth)** — Mobile app store optimization (ASO is mobile SEO)
 
 All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 
@@ -303,7 +303,7 @@ All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
   "operatingSystem": "Any (Claude Code, Cursor, Codex, Amp, Cline)",
   "description": "SEO & GEO dual-engine playbook for 2026. Rank on Google and get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). E-E-A-T writing voice, keyword funnel, JSON-LD schema, comparison pages, IndexNow, Generative Engine Optimization patterns.",
   "url": "https://skills.sh/Gingiris/gingiris-seo-geo",
-  "downloadUrl": "https://github.com/Gingiris/gingiris-seo-geo",
+  "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-seo-geo",
   "installUrl": "https://skills.sh/Gingiris/gingiris-seo-geo",
   "license": "https://opensource.org/licenses/MIT",
   "author": {

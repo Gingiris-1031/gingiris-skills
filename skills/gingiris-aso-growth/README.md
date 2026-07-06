@@ -34,14 +34,14 @@ size_categories:
 
 ### Complete ASO guide + mobile app cold start strategy — keyword research, UGC growth, TikTok/Instagram/YouTube marketing
 
-[![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-aso-growth?style=social)](https://github.com/Gingiris/gingiris-aso-growth/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-aso-growth?style=social)](https://github.com/Gingiris/gingiris-aso-growth/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/gingiris-aso-growth?style=social)](https://github.com/Gingiris/gingiris-aso-growth/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
+[![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
+[![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-aso-growth/pulls)
-[![Last Commit](https://img.shields.io/github/last-commit/Gingiris/gingiris-aso-growth?color=blue)](https://github.com/Gingiris/gingiris-aso-growth/commits/main)
-[![Contributors](https://img.shields.io/github/contributors/Gingiris/gingiris-aso-growth?color=orange)](https://github.com/Gingiris/gingiris-aso-growth/graphs/contributors)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
+[![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-skills?color=blue)](https://github.com/Gingiris-1031/gingiris-skills)
+[![Contributors](https://img.shields.io/github/contributors/Gingiris-1031/gingiris-skills?color=orange)](https://github.com/Gingiris-1031/gingiris-skills)
 
 **[English](#english) | [中文](#中文版)**
 
@@ -140,7 +140,7 @@ Real app store optimization results from developers using this playbook:
 
 **Featured Apps**: Spark Lab • Bonjour! • Nomofly • PaperGen • Kigland • EezyCollab • KusaPics • Trickle • Buddie • Jazz • 万物时 • Sheet0 • Teabie • MolyPix.AI • TANKA • BoomCut • Wegic • Kuse • 观擦 • Medeo • memU • CAMEL-AI • Second Me • Leapility • OpenAgents • TEN-framework • Datastrato • 小浣熊 *and more...*
 
-> 📢 **Grew your app with this playbook?** We'd love to feature your story! [Submit your case study](https://github.com/Gingiris/gingiris-aso-growth/issues/new?labels=success-story&title=🎉+Success+Story:+[Your+App])
+> 📢 **Grew your app with this playbook?** We'd love to feature your story! [Submit your case study](https://github.com/Gingiris-1031/gingiris-skills)
 
 ---
 
@@ -307,10 +307,10 @@ Want all four playbooks in one comprehensive package? Get the **Open-Source Proj
 
 | Playbook | Focus | Link |
 |:---------|:------|:-----|
-| gingiris-launch | Go-to-Market Strategy Playbook | [GitHub](https://github.com/Gingiris/gingiris-launch) |
-| gingiris-opensource | Open Source Launch Marketing | [GitHub](https://github.com/Gingiris/gingiris-opensource) |
-| gingiris-b2b-growth | B2B SaaS Growth Playbook | [GitHub](https://github.com/Gingiris/gingiris-b2b-growth) |
-| gingiris-user-interview | User Interview Playbook | [GitHub](https://github.com/Gingiris/gingiris-user-interview) |
+| gingiris-launch | Go-to-Market Strategy Playbook | [GitHub](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch) |
+| gingiris-opensource | Open Source Launch Marketing | [GitHub](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource) |
+| gingiris-b2b-growth | B2B SaaS Growth Playbook | [GitHub](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth) |
+| gingiris-user-interview | User Interview Playbook | [GitHub](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview) |
 
 ---
 
@@ -344,10 +344,10 @@ A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of 
 
 ## 🔗 Related Gingiris Skills
 
-- **[gingiris-growth-finder](https://github.com/Gingiris/gingiris-growth-finder)** — Meta-router that picks the right growth playbook
-- **[gingiris-launch](https://github.com/Gingiris/gingiris-launch)** — Mobile app launch on Product Hunt (yes, mobile-only PH launches work — the skill knows how)
-- **[gingiris-opensource](https://github.com/Gingiris/gingiris-opensource)** — OSS mobile apps (Bitwarden, Signal pattern)
-- **[gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth)** — Mobile B2B SaaS (sales productivity, field tools)
+- **[gingiris-growth-finder](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder)** — Meta-router that picks the right growth playbook
+- **[gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)** — Mobile app launch on Product Hunt (yes, mobile-only PH launches work — the skill knows how)
+- **[gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource)** — OSS mobile apps (Bitwarden, Signal pattern)
+- **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** — Mobile B2B SaaS (sales productivity, field tools)
 
 All five at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 
@@ -362,7 +362,7 @@ All five at [skills.sh/Gingiris](https://skills.sh/Gingiris).
   "operatingSystem": "Any (Claude Code, Cursor, Codex, Amp, Cline)",
   "description": "ASO and mobile app growth playbook for 2026. Complete App Store Optimization guide. ASO keyword ranking, App Store and Google Play listing optimization, app cold start, UGC creator operations, TikTok/Instagram Reels/YouTube Shorts marketing, AI-matrix content scaling, mobile user acquisition.",
   "url": "https://skills.sh/Gingiris/gingiris-aso-growth",
-  "downloadUrl": "https://github.com/Gingiris/gingiris-aso-growth",
+  "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth",
   "installUrl": "https://skills.sh/Gingiris/gingiris-aso-growth",
   "license": "https://opensource.org/licenses/MIT",
   "author": {

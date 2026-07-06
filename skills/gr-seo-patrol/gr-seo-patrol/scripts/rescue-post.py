@@ -7,7 +7,7 @@ Usage:
   GITHUB_TOKEN=xxx GR_REPO=Gingiris/growth-tools \\
     python rescue-post.py \\
       --target 2026-04-02-best-social-media-listening-tools.md \\
-      --url https://gingiris.github.io/growth-tools/blog/2026/04/02/.../  \\
+      --url https://gingiris.tools/blog/2026/04/02/.../  \\
       --title "Best Social Listening Tools 2026: Free & Multilingual for Startups" \\
       --anchor "best social listening tools for startups" \\
       --referrers 2026-03-25-ph-master.md 2026-03-30-reddit.md 2026-04-03-saas.md \\

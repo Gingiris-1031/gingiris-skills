@@ -130,8 +130,8 @@ metadata:
 **适用**：原博客是技术向（SEO / GEO / API / 代码 / 工具）
 
 **关键规则**（从 2026-04-20 dev.to 掉榜事件学到）：
-- ⚠️ **canonical_url 必须指向 dev.to 自身**，不要指向 gingiris.github.io
-  - 错误做法：`canonical_url: https://gingiris.github.io/growth-tools/...`
+- ⚠️ **canonical_url 必须指向 dev.to 自身**，不要指向 gingiris.tools
+  - 错误做法：`canonical_url: https://gingiris.tools/...`
   - 正确做法：`canonical_url: https://dev.to/iris1031/...` 或留空
   - 原因：canonical 指向主站 → Google 把 dev.to 版视为副本 → 不参与独立 SERP
 - **发布时间差 ≥ 7 天**（不要同天发，避免 Google 认为 copy）

@@ -1,5 +1,5 @@
 ---
-name: "Product Hunt Launch Playbook — Win #1 Daily"
+name: product-hunt-launch-playbook-win-1-daily
 version: 1.2.0
 description: |
   Win #1 Product of the Day on Product Hunt. Completely reverse-engineered from 30x daily winner and 3x weekly winner campaigns — ranking algorithm decoded, launch timing optimized, hunter selection guide, community engagement approach, and post-launch momentum playbook.

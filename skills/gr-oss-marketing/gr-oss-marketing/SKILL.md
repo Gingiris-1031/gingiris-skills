@@ -13,7 +13,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-opensource
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource
 ---
 
 # gr-oss-marketing — 开源营销
@@ -56,7 +56,7 @@ metadata:
 
 所有细节、KOL 清单、话术模板、案例库在 upstream repo：
 
-📂 **https://github.com/Gingiris/gingiris-opensource**
+📂 **https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource**
 
 - `references/preparation.md` — Pre-launch 完整清单
 - `references/channels.md` — 分发渠道矩阵

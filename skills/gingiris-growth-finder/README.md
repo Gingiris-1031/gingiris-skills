@@ -40,7 +40,7 @@ size_categories:
 ## ⚡ One-line install
 
 ```bash
-npx skills add Gingiris/gingiris-growth-finder -g
+npx skills add Gingiris-1031/gingiris-growth-finder -g
 ```
 
 That's it. The skill auto-loads in Claude Code, Cursor, Codex, Amp, Cline, and 7 other Agent Skills runtimes.
@@ -85,11 +85,11 @@ The skill responds with a diagnosis, then suggests installing the matching speci
 ## 🤝 Install all five Gingiris skills
 
 ```bash
-npx skills add Gingiris/gingiris-growth-finder -g     # this meta-router
-npx skills add Gingiris/gingiris-launch -g            # Product Hunt
-npx skills add Gingiris/gingiris-opensource -g        # OSS / GitHub stars
-npx skills add Gingiris/gingiris-b2b-growth -g        # B2B SaaS
-npx skills add Gingiris/gingiris-aso-growth -g        # ASO / mobile
+npx skills add Gingiris-1031/gingiris-growth-finder -g     # this meta-router
+npx skills add Gingiris-1031/gingiris-launch -g            # Product Hunt
+npx skills add Gingiris-1031/gingiris-opensource -g        # OSS / GitHub stars
+npx skills add Gingiris-1031/gingiris-b2b-growth -g        # B2B SaaS
+npx skills add Gingiris-1031/gingiris-aso-growth -g        # ASO / mobile
 ```
 
 ---
@@ -115,10 +115,10 @@ A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of 
 
 ## 🔗 Related Gingiris Skills
 
-- **[gingiris-launch](https://github.com/Gingiris/gingiris-launch)** — Product Hunt launch playbook (Manus, Devin, AFFiNE case studies)
-- **[gingiris-opensource](https://github.com/Gingiris/gingiris-opensource)** — Open source marketing for 10k+ GitHub stars
-- **[gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth)** — B2B SaaS PLG/SLG from PMF to $10M ARR
-- **[gingiris-aso-growth](https://github.com/Gingiris/gingiris-aso-growth)** — ASO and mobile app cold start
+- **[gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)** — Product Hunt launch playbook (Manus, Devin, AFFiNE case studies)
+- **[gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource)** — Open source marketing for 10k+ GitHub stars
+- **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** — B2B SaaS PLG/SLG from PMF to $10M ARR
+- **[gingiris-aso-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth)** — ASO and mobile app cold start
 
 All five live at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 
@@ -126,9 +126,9 @@ All five live at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 
 ## 📖 Read more
 
-- Blog: [I Shipped 4 Gingiris Claude Skills to skills.sh](https://gingiris.github.io/growth-tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
+- Blog: [I Shipped 4 Gingiris Claude Skills to skills.sh](https://gingiris.tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
 - Iris on consulting: [gingiris.com](https://gingiris.com)
-- Growth tools directory: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools)
+- Growth tools directory: [gingiris.tools](https://gingiris.tools)
 
 ---
 
@@ -147,7 +147,7 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris)
   "operatingSystem": "Any (runs in Claude Code, Cursor, Codex, Amp, Cline)",
   "description": "Meta-skill that diagnoses growth problems and routes to the right Gingiris playbook (Product Hunt launch, GitHub stars, B2B SaaS PLG, ASO).",
   "url": "https://skills.sh/Gingiris/gingiris-growth-finder",
-  "downloadUrl": "https://github.com/Gingiris/gingiris-growth-finder",
+  "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
   "installUrl": "https://skills.sh/Gingiris/gingiris-growth-finder",
   "softwareVersion": "1.0",
   "license": "https://opensource.org/licenses/MIT",

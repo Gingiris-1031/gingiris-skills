@@ -5,9 +5,9 @@ Tier-0 backlinks audit — uses Common Crawl + DataForSEO (if available).
 No paid APIs required for Tier 0. Outputs structured JSON envelope.
 
 Usage:
-    python3 backlinks-audit.py --domain gingiris.github.io
-    python3 backlinks-audit.py --domain gingiris.github.io --known-links links.txt
-    DATAFORSEO_B64=xxx python3 backlinks-audit.py --domain gingiris.github.io  # adds Tier 3
+    python3 backlinks-audit.py --domain gingiris.tools
+    python3 backlinks-audit.py --domain gingiris.tools --known-links links.txt
+    DATAFORSEO_B64=xxx python3 backlinks-audit.py --domain gingiris.tools  # adds Tier 3
 
 Tier 0 (always available):
     - Common Crawl index lookup (CDX) — free
@@ -118,7 +118,7 @@ def dataforseo_backlinks(domain: str) -> Optional[dict]:
 
 def main():
     p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument("--domain", required=True, help="Domain to audit (e.g. gingiris.github.io)")
+    p.add_argument("--domain", required=True, help="Domain to audit (e.g. gingiris.tools)")
     p.add_argument("--known-links", help="Optional file with known inbound links, one per line")
     args = p.parse_args()
 

@@ -12,7 +12,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-aso-growth
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth
 ---
 
 # gr-aso — ASO 与 App 冷启动
@@ -55,7 +55,7 @@ metadata:
 
 ## 深度参考
 
-📂 **https://github.com/Gingiris/gingiris-aso-growth**
+📂 **https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth**
 
 - `references/full-guide-zh.md` — 完整中文指南（含王恒加老师 2026-03 会议纪要）
 

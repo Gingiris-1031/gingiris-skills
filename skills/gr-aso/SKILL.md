@@ -65,7 +65,7 @@ metadata:
 
 ## 深度参考
 
-📂 **https://github.com/Gingiris/gingiris-aso-growth**
+📂 **https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth**
 
 - `references/full-guide-zh.md` — 完整中文指南（含王恒加老师 2026-03 会议纪要）
 

@@ -79,7 +79,7 @@ Cost: $0 (DataForSEO credits)
 
 I documented the entire process
 (including the scripts I used)
-at gingiris.github.io/growth-tools
+at gingiris.tools
 
 Follow me for more indie founder tactics:
 - Going global

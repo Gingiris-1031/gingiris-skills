@@ -28,7 +28,7 @@ our analytics, happy to share.
    https://gingiris.com
    X: @WeiYipei
 
-[Disclosure: I run gingiris.com and write at gingiris.github.io/growth-tools/.
+[Disclosure: I run gingiris.com and write at gingiris.tools/.
  No expectation of a link in your article — providing this quote because the
  data is unique and the topic matches my domain.]
 ```

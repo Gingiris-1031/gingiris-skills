@@ -16,7 +16,7 @@
 ```bash
 clawhub install gingiris-launch
 ```
-Or read: [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)
+Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)
 
 ## 💎 Premium Deep-Dive
 
@@ -42,9 +42,9 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)
 
 ## Related Skills
 
-- [gingiris-launch](https://github.com/Gingiris/gingiris-launch) — Full GTM playbook
-- [gingiris-opensource](https://github.com/Gingiris/gingiris-opensource) — OSS marketing
-- [gingiris-b2b-growth](https://github.com/Gingiris/gingiris-b2b-growth) — B2B SaaS growth
+- [gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch) — Full GTM playbook
+- [gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource) — OSS marketing
+- [gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth) — B2B SaaS growth
 
 ---
 

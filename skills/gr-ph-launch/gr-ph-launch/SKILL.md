@@ -13,7 +13,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-launch
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch
 ---
 
 ## ⚠️ 2C 产品慎用 Product Hunt

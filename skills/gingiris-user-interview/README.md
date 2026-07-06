@@ -34,11 +34,11 @@ size_categories:
 
 ### Battle-tested framework for user interviews — from HeyGen's 937 interviews to PMF
 
-[![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-user-interview?style=social)](https://github.com/Gingiris/gingiris-user-interview/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-user-interview?style=social)](https://github.com/Gingiris/gingiris-user-interview/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
+[![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-user-interview/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
 
 **[English](#why-user-interviews) | [中文](#中文版)**
 

@@ -1,6 +1,5 @@
-
 ---
-name: community-ambassador-playbook
+name: gr-community-ambassador
 version: 1.2.0
 description: |
   You launched an ambassador program. 3 applications. One ghosted after week 2. Should you lower the bar? Offer more perks? Spam influencers? This gives you the complete community & ambassador operations SOP — from pre-launch checklist to recruitment to tiered management to retention to governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K stars), Asana, and ClickUp programs. By @WeiYipei.

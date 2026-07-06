@@ -13,7 +13,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-b2b-growth
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth
 ---
 
 # gr-b2b-growth — B2B SaaS 增长
@@ -101,12 +101,8 @@ metadata:
 
 ## 深度参考
 
-📂 **https://github.com/Gingiris/gingiris-b2b-growth**
-
-- `references/foundation.md` — PMF 验证 + 定价分层
-- `references/contracts.md` — 合同/条款模板（SaaS 标准条款 + 本地化）
-- `references/seo-geo-guide.md` — B2B SEO 飞轮
-- `references/en/` — 英文版
+- `references/deal-execution.md` — 2B 打单与交付框架（六步流程 / SOW+CCB / 付款结构与尾款防御 / 渠道分层 / $1M ARR 拆解）
+- 完整实操层（合同条款速查卡、签约前 12 问 Checklist、实战话术库）见 Gingiris 付费实操手册 → gingiris.tools
 
 ---
 

@@ -19,7 +19,7 @@
 - Build comment karma to 2,000+
 
 ### Week 5-6: Selective linking (rare, valuable)
-- Link to gingiris.github.io **only when blog has the deeper answer**
+- Link to gingiris.tools **only when blog has the deeper answer**
 - Ratio: 1 self-link per 20 substantive comments
 - Self-link must be *useful*, not promotional ("here's the data table from my audit" not "check out my tool")
 

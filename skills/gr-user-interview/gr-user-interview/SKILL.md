@@ -12,7 +12,7 @@ when_to_use: |
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris/gingiris-user-interview
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview
 ---
 
 ## ⚠️ 2C 产品的渠道调整
@@ -100,7 +100,7 @@ metadata:
 
 ## 深度参考
 
-📂 **https://github.com/Gingiris/gingiris-user-interview**
+📂 **https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview**
 
 - `references/templates.md` — 不同阶段（Discovery / Validation / Retention）的问题模板
 - HeyGen 937 访谈案例拆解

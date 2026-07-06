@@ -162,7 +162,7 @@ AFFiNE 60k 스타 성장 경험과 150+ 스타트업 컨설팅으로 구축됨.
 - Website: [gingiris.com](https://gingiris.com)
 - Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.github.io/growth-tools](https://gingiris.github.io/growth-tools/)
+- Blog: [gingiris.tools](https://gingiris.tools/)
 
 ---
 
