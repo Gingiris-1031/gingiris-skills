@@ -104,7 +104,7 @@ Exposure scales non-linearly: a **weekly badge delivers ~7x** the impressions of
 | Spend level | What it realistically buys |
 |---|---|
 | ~$1,000 | A few hundred signups via micro-ads + niche communities — PH optional |
-| ~$5,000 | Daily #1 becomes contested (~1,800 votes/24h benchmark) |
+| ~$5,000 | ~1,800 votes/24h benchmark — contested #1 territory, but PH sweeps votes retroactively: a real campaign hit #1 at this level and had it revoked. Pacing > volume |
 | $10,000–20,000 | Roughly 1M impressions, low-thousands of signups |
 | Under $20,000 | A 10k-star open-source debut (lean team of ≤5) |
 

@@ -94,7 +94,7 @@ Choose by audience: dev product → #6; general → #1 or #3.
 | Budget | Realistic output |
 |:---|:---|
 | ~$1K | A few hundred signups (YouTube micro-ads + niche subreddits + topic groups) |
-| $5K | PH daily #1 within reach (~1,800 votes in 24h) |
+| $5K | ~1,800 votes/24h — #1 within reach, but a real campaign at this level had its daily #1 revoked post-hoc; respect the pacing red lines |
 | $10–20K | ~1M impressions + low-thousands signups |
 | <$20K | 10k+ star open-source launch (execution team ≤5 people) |
 
@@ -181,7 +181,7 @@ Field case (an AI Agent product, 2025-12): 500K launch-day visits = 400K Twitter
 | 预算 | 现实产出 |
 |:---|:---|
 | ~$1K | 小几百注册（YouTube 小额投流 + 垂直 subreddit + 主题群） |
-| $5K | PH 日榜第一可争（24h 约 1,800 票） |
+| $5K | 24h 约 1,800 票可达——但有实战案例冲上日榜第一后被 PH 事后清票收回，控速红线不是建议是保命 |
 | $1–2 万 | ~100 万曝光 + 小几千注册 |
 | <$2 万 | 过万 star 的开源发布（执行团队 ≤5 人） |
 

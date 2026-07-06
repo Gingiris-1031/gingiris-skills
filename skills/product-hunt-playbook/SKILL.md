@@ -109,7 +109,7 @@ Daily, weekly and monthly are not the same prize: weekly exposure ≈ 7x daily, 
 
 ### Budget reality check
 
-- ~$5K is the realistic floor at which daily #1 is contested (benchmark: ~1,800 votes in 24h).
+- ~$5K is the floor at which ~1,800 votes/24h becomes reachable — but volume without pacing is a trap: one campaign hit daily #1 at that level and had the badge revoked in a retroactive vote sweep.
 - Below that, redirect the money: ~10 Twitter KOC collabs beat a PH campaign on signups — PH exposure→upvote runs about 1%, while Reddit open-source promo converts exposure→stars at 5–8%.
 - One anonymized field case (an AI Agent product, 2025-12): a 500K-visit launch day engineered across Twitter/Reddit/YouTube/groups produced ~800 signups at $6.25 CAC. Traffic ≠ conversion — plan the funnel, not just the spike.
 

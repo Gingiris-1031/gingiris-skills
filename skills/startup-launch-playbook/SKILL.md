@@ -55,7 +55,7 @@ A tactical guide for founders who've built something and need their first real u
 ### What each budget tier realistically returns
 
 - **~$1K:** a few hundred signups — small YouTube ad tests + ~20 niche subreddits + a couple hundred topic groups worked with a DM workflow. This is the pre-seed default recipe.
-- **~$5K:** enough to contest a Product Hunt daily win (~1,800 votes in 24h) — but read the next rule before spending it there.
+- **~$5K:** enough to reach ~1,800 votes in 24h — but a campaign that did exactly that had its daily #1 revoked in a post-hoc vote sweep. Read the next rule before spending it there.
 - **$10–20K:** about a million impressions and low-four-figure signups; also the observed ballpark for a five-person team to land a 10K-star open-source launch.
 
 ### The pre-seed Product Hunt rule

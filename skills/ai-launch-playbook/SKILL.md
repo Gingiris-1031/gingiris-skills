@@ -69,7 +69,7 @@ Four forces, in causal order — skipping the first breaks the other three:
 | Ticket | Observed ceiling |
 |---|---|
 | ~$1K | Hundreds of signups — go community-led, skip the big stage |
-| ~$5K | A contested Product Hunt daily crown (~1,800 votes/24h) |
+| ~$5K | ~1,800 votes/24h — daily-crown territory, but pace it: one campaign at this level had its #1 revoked in a post-hoc vote sweep |
 | $10–20K | Seven-figure impressions, four-figure signups |
 | <$20K total | A 10K-star open-source launch with a team of ≤5 |
 

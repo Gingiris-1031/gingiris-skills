@@ -60,7 +60,7 @@ Probably just routine cleanup: PH re-validates votes on ~2-hour cycles and remov
 Know the stakes first: weekly-badge exposure is about 7x a daily badge; monthly is about 30x. First launch, small budget → pick a quieter Friday–Sunday slot and take the daily. Well-funded and patient → schedule a monthly run (second/third-week Tuesday) and plan sustained momentum.
 
 **Q: Is PH even worth it for my budget?**
-Run the numbers before committing. PH impressions→upvotes converts at around 1%. If total launch budget is under ~$5K (the realistic threshold for a contested daily #1, ≈1,800 votes/24h), the same money on a handful of Twitter micro-creators usually brings more signups — Reddit posts for open-source tools convert exposure→stars at 5–8%, several times better. Treat PH as a credibility badge, not your primary acquisition channel.
+Run the numbers before committing. PH impressions→upvotes converts at around 1%. If total launch budget is under ~$5K (the level where ≈1,800 votes/24h becomes reachable — though one campaign that hit exactly that had its daily #1 revoked in a post-hoc vote sweep), the same money on a handful of Twitter micro-creators usually brings more signups — Reddit posts for open-source tools convert exposure→stars at 5–8%, several times better. Treat PH as a credibility badge, not your primary acquisition channel.
 
 **Q: How much should I budget, and what does it buy?**
 Rough field benchmarks from 2025–2026 launches:

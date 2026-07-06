@@ -69,7 +69,7 @@ Most first launches fail on arithmetic, not effort. Three rules before spending 
 | Budget | Realistic week-4 outcome |
 |---|---|
 | ~$1K | A few hundred signups (micro-ads + niche subreddits + topic groups) |
-| ~$5K | A contested Product Hunt daily #1 (~1,800 votes/24h) |
+| ~$5K | ~1,800 votes/24h — enough to contest daily #1, but exceed the pacing red lines and PH can revoke the badge post-hoc (it has happened) |
 | $10–20K | ~1M impressions, low-thousands of signups |
 
 Below ~$5K, skip the PH leaderboard entirely — ten small Twitter creators outperform it (PH exposure→upvote converts at ~1%; Reddit converts exposure→GitHub stars at 5–8%).
