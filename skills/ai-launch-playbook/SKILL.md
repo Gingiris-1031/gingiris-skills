@@ -94,7 +94,7 @@ Sanity ratio before you allocate: PH exposure→upvote ≈ 1%, while Reddit expo
 - 60 min session: ¥1500
 - Monthly retainer: ¥7000
 
-👉 **Book now: [gingiris.com/services](https://gingiris.com/zh/services)**
+👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
 
 ---
 

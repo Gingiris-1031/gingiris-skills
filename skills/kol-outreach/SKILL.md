@@ -76,7 +76,33 @@ Figures below are *closed-deal* numbers across dozens of campaigns, not list pri
 
 **Reply-rate expectations by channel (measured):** Telegram DM 20–30% · creator email 17.3% (beats DMs — lead with email) · LinkedIn DM 10–15% · cold expert outreach ~11% · Twitter DM 1–5% (verified account required). No email reply → follow up once via LinkedIn.
 
+## Scene-Bound Hooks & AI-Assisted Pipelines (External Field Reference)
+
+> Source: Seven Wang Yue (co-founder, Superlinear — Lessie people-search AI agent ~100K users + DeepLink influencer agency, 100+ brands served, $7-8M ARR, 90%+ paid-creator fulfillment), interviewed on Monica出海说, 2026-07.
+
+**The most expensive brief mistake: cramming 6-8 selling points into a 15-60s video.** That's under 4 seconds per point — scroll-mode viewers retain none of them. The fix is *scene binding*: pick 1-2 selling points and wrap them in the creator's native scenario. A workplace creator opens with "my boss made me stay late for this — I finished it in 5 minutes"; a photography creator opens with "rescuing my ruined shots in one second." Work backwards from the scene to creator selection: office tools → workplace creators, image/video-gen tools → photography or entertainment creators. One well-bound point converts that creator's audience; eight stacked points convert nobody.
+
+**AI-assisted outreach pipeline — assistant, not replacement:**
+
+| Stage | Who does it |
+|---|---|
+| Sourcing, profile matching, first-draft personalized email | AI |
+| Sending the email (irreversible), go/no-go, final price | Human |
+
+- Measured lift: one ops person's monthly outreach went from **20 creators to 80-100** (3-4x). Old way: 20 pages of LinkedIn plus per-profile verification; new way: one prompt, a 1-2 minute wait, then human review of the list.
+- Feed rejections back into the prompt (why a creator was rejected → exclusion criteria next run). Every correction is training data.
+- Rule of thumb: anything irreversible stays human — "someone has to own the mistake."
+
+**Getting 90%+ fulfillment from paid creators (no magic):**
+- Pay + contract. Paid, signed creators delay (schedule slips happen) but rarely ghost; pure-commission and barter deals are where flaking lives.
+- Prepayment only through PayPal when unavoidable — its dispute window lets you claw back if the creator doesn't deliver.
+- Promise content quality (creator's average production level, brand-approved before publish), never promise conversion or signup numbers — those depend on landing page and checkout, not the creator.
+- Review gates: script approved before filming, video approved before publish. Brief the creator on the product first — an untrained creator produces a flat feature-list video.
+- What stays hardest to automate long-term isn't negotiation (AI handles that fine) — it's creative spark and empathy. Budget human time there.
+
+**Market read:** North America + Japan/Korea are the base; LatAm — especially Brazil's solo-operator SMBs paying for AI productivity tools — is underrated, while SEA/South Asia converts poorly. Matches our own field data (same budget: 12 LatAm conversions vs 3 US). Use AI translation for small-language outreach, but keep one culturally-native reviewer for taboos.
+
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

@@ -118,7 +118,7 @@ Q3: "What are the best social listening tools for startups?"
 ### Step 3：解析回答
 对每个回答提取：
 - 提及的**域名列表**（正则 `https?://([^/\s]+)`）
-- 其中是否有 `gingiris.tools` / `dev.to/iris1031` / `gingiris.com`
+- 其中是否有 `gingiris.tools` / `dev.to/iris1031` / `gingiris.tools`
 - 提及语境（正面 / 中性 / 负面）
 
 ### Step 4：记录 + 报告

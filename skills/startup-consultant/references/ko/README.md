@@ -53,6 +53,6 @@
 - **전환 계획**: 6~12개월에 걸쳐 내부 그로스 역량을 구축하고 풀타임 채용이 합리적일 때까지
 
 ## 관련 Gingiris Skills
-- 전체 버전: https://clawhub.ai/skill/gingiris-growth-finder
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

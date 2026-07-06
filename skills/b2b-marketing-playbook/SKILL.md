@@ -72,6 +72,6 @@ Marketing gets the meeting; these rules get the money. Distilled from a multi-ag
 - Content ratio that closes: 80% "how we made customers successful," 20% about yourself. Decks open with the buyer's pain, then the fix.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

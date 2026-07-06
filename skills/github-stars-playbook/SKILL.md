@@ -46,6 +46,6 @@ Stop waiting for organic discovery. This is the 14-day blitz to hit GitHub Trend
 - **Compounding**: How to maintain momentum after the sprint
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-opensource
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-opensource
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

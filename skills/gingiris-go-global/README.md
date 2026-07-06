@@ -112,7 +112,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Language](https://img.shields.io/badge/Language-EN%20%7C%20ZH%20%7C%20JA%20%7C%20KO-blue.svg)](#)
-[![ClawHub](https://img.shields.io/badge/ClawHub-gingiris--go--global-purple.svg)](https://clawhub.ai/skill/gingiris-go-global)
+[![ClawHub](https://img.shields.io/badge/ClawHub-gingiris--go--global-purple.svg)](https://clawhub.ai/gingiris-1031/skills/gingiris-go-global)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-Gingiris-yellow.svg)](https://huggingface.co/datasets/Gingiris/gingiris-go-global)
 
 # 🌏 Gingiris Go Global — AI Product/SaaS Go-Global Complete SOP
@@ -188,7 +188,7 @@ clawhub install gingiris-go-global
 Or install directly from GitHub:
 
 ```bash
-clawhub install github:Gingiris-1031/gingiris-go-global
+clawhub install gingiris-go-global
 ```
 
 ---

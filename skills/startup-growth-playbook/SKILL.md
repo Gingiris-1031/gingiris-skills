@@ -51,8 +51,8 @@ You have PMF but limited resources. This playbook helps you pick the ONE channel
 - **Sequencing strategy**: Which channel first, second, third — and when to switch
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)
 
 

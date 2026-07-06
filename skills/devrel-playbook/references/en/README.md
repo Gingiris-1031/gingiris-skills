@@ -53,5 +53,5 @@ DORA, community health, and attribution to revenue:
 - **Executive reporting**: Monthly summary with business impact narrative, not just vanity metrics
 
 ## Related Gingiris Skills
-- Full collection: https://clawhub.ai/user/gingiris
+- Full collection: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

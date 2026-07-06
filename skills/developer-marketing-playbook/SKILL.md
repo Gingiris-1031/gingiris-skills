@@ -46,6 +46,6 @@ Engineers don't respond to traditional marketing. Here's what actually works.
 - **Hackathon ROI**: When hackathons work, how to run them, and measuring impact
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-opensource
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-opensource
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

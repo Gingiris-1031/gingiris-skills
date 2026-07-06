@@ -53,6 +53,6 @@ Discord/Slack → 컨트리뷰터 → 챔피언 → 고객 파이프라인:
 - **비용 벤치마크**: 온라인 $5K~$20K; 100명+ 대면 $20K~$100K
 
 ## 관련 Gingiris Skills
-- 전체 버전: https://clawhub.ai/skill/gingiris-opensource
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-opensource
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

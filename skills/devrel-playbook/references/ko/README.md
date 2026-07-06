@@ -53,5 +53,5 @@ DORA, 커뮤니티 헬스, 매출 기여도:
 - **경영진 보고**: 바니티 메트릭이 아닌 비즈니스 임팩트 내러티브가 포함된 월간 요약
 
 ## 관련 Gingiris Skills
-- 전체 컬렉션: https://clawhub.ai/user/gingiris
+- 전체 컬렉션: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

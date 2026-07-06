@@ -48,6 +48,6 @@ Track pipeline health with leading and lagging indicators.
 - **Revenue attribution**: Multi-touch attribution model for accurate channel ROI
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

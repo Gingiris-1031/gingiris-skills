@@ -33,7 +33,7 @@ metadata:
 
 ## 产出的文章必须符合
 
-### Iris 文风 5 要素（详见 `知识库/Skill知识包/iris_writing_style.md`）
+### Iris 文风 5 要素（详见 `references/writing-voice-iris.md`）
 
 1. **时间锚定开场** —— 不说"SEO 很重要"，说"2026-04-10，凌晨 3 点，后台流量归零"
 2. **括号旁白** —— 正文一句，括号里挤私货（"...—— 别问怎么知道的"）
@@ -95,14 +95,61 @@ faq:
 - 人工过一遍（机翻硬伤 + 文化适配）
 - 日韩版本独立 slug，不复用英文 slug
 
-### 7. 发布
-- GitHub Contents API PUT（不要 `git push`）
-- Commit message: `post: {slug} ({lang})`
+### 7. 发布（可执行清单）
+
+**目标 repo**：`Gingiris-1031/growth-tools`（真站 gingiris.tools，Vercel 部署 `origin/main`，写入后 ~50-90s 自动构建）
+
+**⚠️ 前置：先过 Gingiris-1031 GitHub 安全规则**（memory `gingiris_1031_safety_rules.md`，P0）：
+- [ ] 提交身份 = `Iris Wei <iris.wei@gingiris.com>`（不是机器名/本机 hostname）
+- [ ] **单行 commit message**：`post: {slug} ({lang})`——无 Claude trailer、无多段正文
+- [ ] 不 burst：能合并就合并成 1 个 commit；>10 commits/小时 = 停下重排
+
+**发布 = GitHub Contents API PUT**（不要本地 `git push`）：
+
+```bash
+# token 只从 secrets.env 读，绝不内联/硬编码进脚本或 SKILL.md
+source ~/.config/gingiris/secrets.env   # 提供 GITHUB_PAT
+
+SLUG="your-post-slug"; LANG="en"
+FILE="_posts/$(date +%F)-${SLUG}.md"
+curl -s -X PUT \
+  -H "Authorization: Bearer $GITHUB_PAT" \
+  -H "Accept: application/vnd.github+json" \
+  "https://api.github.com/repos/Gingiris-1031/growth-tools/contents/${FILE}" \
+  -d "{\"message\":\"post: ${SLUG} (${LANG})\",
+       \"content\":\"$(base64 < draft.md | tr -d '\n')\",
+       \"committer\":{\"name\":\"Iris Wei\",\"email\":\"iris.wei@gingiris.com\"}}"
+```
+
+> 更新已存在的文件：先 `GET .../contents/{path}` 拿 `sha`，把 `"sha":"..."` 加进 PUT body。
+
+**发布后验证（按顺序全过才算发完）**：
+1. [ ] 等 Vercel 部署完成（~50-90s；可 `curl -sI https://gingiris.tools/` 确认站点存活）
+2. [ ] `curl -sI https://gingiris.tools/blog/{yyyy}/{mm}/{dd}/{slug}/` → **HTTP 200**（404 = permalink/date/`future: true` 配错，先修再往下）
+3. [ ] GSC 手动 Request Indexing（URL 检查 → 请求编入索引；新域抓取慢，这步不能省）
+4. [ ] IndexNow 推送到 Bing（大模型 discover 主要走 Bing 索引，见 `gr-geo-cite`）
+
+### hreflang 验收 checklist（发 ja/ko 版或补翻译时必做）
+
+> 背景：i18n 基线曾有多处 hreflang bug（KO self-loop、JA→EN 指 `/en/` 首页弱链、EN 缺 alternate），后果是日韩索引长期 0（memory `i18n_baseline.md`）。全站修复 commit b667208 后抽检全绿——**新文章不要把 bug 加回来**。
+
+- [ ] EN/JA/KO frontmatter 互指：`hreflang_ja` / `hreflang_ko` / `hreflang_en` 指向**具体对端文章**（绝不指 `/en/` 首页）
+- [ ] 每页 emit 自指 hreflang（ko 页必须有 `hreflang="ko"` 指自己，不能出现指自己的 `hreflang="ja"`）
+- [ ] `x-default` 存在且指 EN 版
+- [ ] 每页 self-canonical（ja/ko 不 canonical 到 EN；带尾斜杠，和 sitemap 一致）
+- [ ] 发布后 curl 抽验：
+
+```bash
+for u in "$EN_URL" "$JA_URL" "$KO_URL"; do
+  echo "== $u"
+  curl -s "$u" | grep -oE '<link rel="(alternate|canonical)"[^>]*>'
+done
+# 验收：每页 hreflang 完整（self + 对端 + x-default）且三页双向回链成对，canonical 自指
+```
 
 ### 8. 发布后 24h
 - 加入 `gr-seo-patrol` 监控名单
-- Google Search Console 手动提交
-- 社交平台分发（推特 / LinkedIn / dev.to）
+- 社交平台分发（推特 / LinkedIn / dev.to，走 `gr-social-distill`）
 
 ---
 
@@ -117,7 +164,7 @@ faq:
 
 ## 反模式
 
-- ❌ 不要用 AI 味重的模板（"In today's digital landscape..."）—— 过不了 `dbs-ai-check`
+- ❌ 不要用 AI 味重的模板（"In today's digital landscape..."）—— 发布前跑 `skills/gr-geo-cite/scripts/citability-scorer.py`，页面分 ≥ 75 才算过
 - ❌ 不要 H1 堆关键词
 - ❌ 不要忘记 hreflang —— 已发布的旧文补翻译时要回改原文 frontmatter
 - ❌ 不要同一关键词发 3 篇 —— cannibalization 立刻找上门
@@ -135,10 +182,10 @@ faq:
 
 ## API 依赖
 
-| Service | Env var |
-|---|---|
-| GitHub PAT | `GITHUB_TOKEN` |
-| DeepSeek / Teamo（翻译） | `DEEPSEEK_API_KEY` / `TEAMOROUTER_API_KEY` |
+| Service | Env var | 来源 |
+|---|---|---|
+| GitHub PAT | `GITHUB_PAT` | `~/.config/gingiris/secrets.env`（source 后使用，不内联） |
+| DeepSeek / Teamo（翻译） | `DEEPSEEK_API_KEY` / `TEAMOROUTER_API_KEY` | 同上 |
 
 
 ---
@@ -192,7 +239,10 @@ Every H2/H3 section must satisfy ALL of:
 Run **before** committing the article:
 
 ```bash
-python3 skills/gr-geo-cite/scripts/citability-scorer.py /local/path/to/draft.html
+# 兼容两种安装位置：优先 monorepo 相对路径，fallback 本机安装
+SCORER="skills/gr-geo-cite/scripts/citability-scorer.py"
+[ -f "$SCORER" ] || SCORER="$HOME/.claude/skills/gr-geo-cite/scripts/citability-scorer.py"
+python3 "$SCORER" --file /local/path/to/draft.html
 ```
 
 Target: page score ≥ 75. If under 70, revise top 2 weakest passages.

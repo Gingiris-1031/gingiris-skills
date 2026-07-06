@@ -53,5 +53,5 @@ DORA、コミュニティヘルス、収益への帰属：
 - **経営層レポート**: バニティメトリクスではなくビジネスインパクトのナラティブ付き月次サマリー
 
 ## 関連Gingiris Skills
-- フルコレクション: https://clawhub.ai/user/gingiris
+- フルコレクション: https://clawhub.ai/gingiris-1031
 - フォロー: [@WeiYipei on X](https://x.com/WeiYipei)

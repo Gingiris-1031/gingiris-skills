@@ -52,6 +52,6 @@
 - **승자 기준**: 95% 신뢰구간에서 5% 이상 개선이 확인된 후 승자 선언
 
 ## 관련 Gingiris 스킬
-- 전체 버전: https://clawhub.ai/skill/gingiris-aso-growth
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

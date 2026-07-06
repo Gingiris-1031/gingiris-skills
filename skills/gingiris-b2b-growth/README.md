@@ -153,7 +153,7 @@ A: Partner quality > partner quantity. The playbook covers how HeyGen and Deel v
 
 **Iris (生姜iris)** — Former cofounder & COO of [AFFiNE](https://github.com/toeverything/AFFiNE) ($10M raised, 60k+ GitHub stars). Forbes Asia 30 Under 30. Consulted 150+ AI startups across US, EU, and Asia on B2B growth strategy, PLG/SLG transitions, and international expansion (出海).
 
-- Website: [gingiris.com](https://gingiris.com)
+- Website: [gingiris.tools](https://gingiris.tools)
 - Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
 - Blog: [gingiris.tools](https://gingiris.tools/)

@@ -65,8 +65,8 @@ The PLG-to-sales handoff dies in contract mechanics more often than in product g
 **Two-leg revenue model:** self-serve PLG (target shape: 500 × $200/yr) and enterprise (nine × ~$100K/yr) both reach $1M ARR — run them as separate funnels with separate metrics until each closes its own loop. Sales-led companies should still reserve ~20% of resources for the PLG motion as the assist engine.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)
 
 

@@ -53,6 +53,6 @@ When hackathons work, how to run them, and measuring impact:
 - **Cost benchmark**: $5K–$20K for online hackathon; $20K–$100K for in-person with 100+ participants
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-opensource
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-opensource
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

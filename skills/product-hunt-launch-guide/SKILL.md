@@ -77,6 +77,6 @@ Whatever the number, define the launch-day traffic target first and split it int
 Different game, faster clock: the front page requires roughly 30 upvotes + 10 comments within the first half hour, posted during US mornings — flat at minute 40 means it's over. Prepare 2–3 different angles (an "open source X alternative" link post, a how-it-works post) so you get more than one attempt, and skip paid HN posting services (~$500/post, poor ROI).
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

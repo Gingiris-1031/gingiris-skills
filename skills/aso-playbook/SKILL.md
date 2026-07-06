@@ -47,6 +47,6 @@ The fundamentals of ASO for developers who'd rather build than market — but ne
 - **A/B testing**: What to test, how long to run, and interpreting results
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-aso-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

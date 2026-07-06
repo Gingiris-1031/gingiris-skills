@@ -6,11 +6,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Language: EN/ZH/JA/KO](https://img.shields.io/badge/Language-EN%20%7C%20ZH%20%7C%20JA%20%7C%20KO-blue.svg)](#)
-[![ClawHub Install](https://img.shields.io/badge/ClawHub-Install_Now-orange.svg)](https://clawhub.ai/user/gingiris/gingiris-seo-geo-agent)
+[![ClawHub Install](https://img.shields.io/badge/ClawHub-Install_Now-orange.svg)](https://clawhub.ai/gingiris-1031/gingiris-seo-geo-agent)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo-agent)
 [![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-seo-geo-agent?style=social)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-seo-geo-agent?style=social)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/network/members)
-[![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/pulls)
 
 **[English](#english) | [中文](#中文版) | [日本語](#日本語版) | [한국어](#한국어판)**
@@ -21,7 +21,7 @@
 
 > **Need a 1-on-1 SEO/GEO strategy call?** Book a session for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.com](https://gingiris.com/en)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://gingiris.tools)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 ---
 
@@ -259,7 +259,7 @@ A: An SEO agency costs $3,000-10,000+/month. This SOP + AI agent costs ~$50-100/
 | [gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-b2b-growth) | B2B SaaS lifecycle — SEO feeds top of funnel | `clawhub install gingiris-b2b-growth` |
 | [gingiris-aso-growth](https://github.com/Gingiris-1031/gingiris-aso-growth) | App Store Optimization — mobile growth companion | `clawhub install gingiris-aso-growth` |
 
-**All Gingiris skills:** [clawhub.ai/user/gingiris](https://clawhub.ai/user/gingiris) | [HuggingFace/Gingiris](https://huggingface.co/Gingiris)
+**All Gingiris skills:** [clawhub.ai/gingiris-1031](https://clawhub.ai/gingiris-1031) | [HuggingFace/Gingiris](https://huggingface.co/Gingiris)
 
 ---
 
@@ -267,7 +267,7 @@ A: An SEO agency costs $3,000-10,000+/month. This SOP + AI agent costs ~$50-100/
 
 **Iris (生姜iris)** — Former cofounder & COO of AFFiNE ($10M raised), Forbes Asia 30 Under 30. Led growth from 0 to 60k GitHub stars across 100+ countries. Consulted 150+ AI startups on SEO/GEO/GTM strategy.
 
-- Website: [gingiris.com](https://www.gingiris.com)
+- Website: [gingiris.tools](https://gingiris.tools)
 - Twitter: [@WeiYipei](https://x.com/WeiYipei)
 - LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
@@ -294,7 +294,7 @@ MIT License — Use and adapt for your own SEO/GEO operations!
   "description": "Complete day-by-day SOP for running an autonomous SEO/GEO Agent. Achieve ~32K Google impressions in one month. Covers content SEO automation, technical SEO, programmatic SEO, Generative Engine Optimization (GEO), Google Search Console automation, AI traffic tracking, and conversion optimization.",
   "url": "https://github.com/Gingiris-1031/gingiris-seo-geo-agent",
   "downloadUrl": "https://github.com/Gingiris-1031/gingiris-seo-geo-agent",
-  "installUrl": "https://clawhub.ai/user/gingiris/gingiris-seo-geo-agent",
+  "installUrl": "https://clawhub.ai/gingiris-1031/gingiris-seo-geo-agent",
   "license": "https://opensource.org/licenses/MIT",
   "offers": {
     "@type": "Offer",
@@ -305,7 +305,7 @@ MIT License — Use and adapt for your own SEO/GEO operations!
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜iris",
-    "url": "https://www.gingiris.com",
+    "url": "https://gingiris.tools",
     "sameAs": [
       "https://github.com/Gingiris-1031",
       "https://x.com/WeiYipei",

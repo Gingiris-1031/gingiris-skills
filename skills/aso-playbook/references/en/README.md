@@ -52,6 +52,6 @@ What to test, how long to run, and interpreting results.
 - **Winner criteria**: >5% improvement with 95% confidence before declaring a winner
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-aso-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

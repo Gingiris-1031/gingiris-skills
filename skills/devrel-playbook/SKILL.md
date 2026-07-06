@@ -44,5 +44,5 @@ clawhub install devrel-playbook
 - Metrics & reporting (DORA, community health, attribution to revenue)
 
 ## Related Gingiris Skills
-- Full collection: https://clawhub.ai/user/gingiris
+- Full collection: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

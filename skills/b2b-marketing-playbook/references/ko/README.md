@@ -48,6 +48,6 @@ B2B SaaS를 위한 3가지 검증된 채널을 하나의 반복 가능한 파이
 - **매출 어트리뷰션**: 정확한 채널 ROI를 위한 멀티터치 어트리뷰션 모델
 
 ## 관련 Gingiris 스킬
-- 전체 버전: https://clawhub.ai/skill/gingiris-b2b-growth
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

@@ -53,6 +53,6 @@ Ongoing strategic guidance without a full-time hire:
 - **Transition plan**: Build internal growth capability over 6–12 months until full-time hire makes sense
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-growth-finder
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

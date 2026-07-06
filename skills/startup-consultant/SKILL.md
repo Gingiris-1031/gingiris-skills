@@ -50,6 +50,6 @@ On-demand consulting for the three highest-leverage startup growth challenges.
 - **Fractional growth lead**: Ongoing strategic guidance without a full-time hire
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-growth-finder
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

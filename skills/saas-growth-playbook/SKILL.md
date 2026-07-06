@@ -78,6 +78,6 @@ Supply partners at ~80% of list; cap their resale at 1.2x list. Before signing a
 Bespoke requests are churn risk wearing a purchase order. Two filters: only data privacy and internal-permissions integration justify private deployment — everything else stays on cloud (customization → license; SSO-type integrations → open API + docs, customer self-serves). For asks you must decline, quote high instead of saying no; the price declines for you.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

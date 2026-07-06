@@ -38,7 +38,7 @@ clawhub install gingiris-launch
 | 60분 세션 | ¥1500 | 풀 전략 세션 |
 | 월간 리테이너 | ¥7000/월 | 지속적 런칭 지원 |
 
-👉 **지금 예약하기: [gingiris.com/services](https://gingiris.com/zh/services)**
+👉 **지금 예약하기: [gingiris.tools/services](https://gingiris.tools)**
 
 ## 관련 스킬
 
@@ -48,4 +48,4 @@ clawhub install gingiris-launch
 
 ---
 
-*저자: Iris (生姜iris) | [gingiris.com](https://gingiris.com)*
+*저자: Iris (生姜iris) | [gingiris.tools](https://gingiris.tools)*

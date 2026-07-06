@@ -51,6 +51,6 @@ Stop guessing what to try next. 50 experiments, scored and sorted so you pick th
 - **Rapid testing framework**: How to run 3 experiments per week without burning out
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

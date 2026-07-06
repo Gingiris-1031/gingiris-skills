@@ -71,6 +71,6 @@ HN can deliver your first few hundred users for $0 — if you clear the bar: rou
 The bar for "ready to launch": ten outside developers who are satisfied and still active. Until you have them, split your time 60% user conversations / 40% launch preparation. A launch amplifies what already exists — it cannot manufacture retention that isn't there.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

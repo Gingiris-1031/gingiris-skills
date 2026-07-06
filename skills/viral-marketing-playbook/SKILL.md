@@ -51,8 +51,8 @@ Products don't go viral by accident. This playbook teaches you to engineer viral
 - **Case studies**: How Dropbox, Notion, and Loom built their viral engines
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)
 
 

@@ -25,7 +25,6 @@ metadata:
 - "这 5 个竞品博客最近 30 天发了什么"
 - "对标一下产品的 features"
 
----
 
 ## 底层：actionbook
 
@@ -54,7 +53,6 @@ actionbook --version  # 应输出 0.x.x
 actionbook browser start  # 启动 local browser server
 ```
 
----
 
 ## 调用流程（4 步）
 
@@ -99,7 +97,6 @@ Claude 把 30 个 JSON 合成：
 - 共同 CTA 动词（"get started" vs "book demo" vs "try free"）
 - 差异点 → 我们可钻的空隙
 
----
 
 ## 常用 prompt 模板
 
@@ -139,7 +136,6 @@ Claude 把 30 个 JSON 合成：
 汇总成对比表，标出"市场中位数"和"我们的相对位置"
 ```
 
----
 
 ## 级联推荐
 
@@ -148,7 +144,6 @@ Claude 把 30 个 JSON 合成：
 - 发现对手被用户吐槽 → `gr-user-interview` 访谈吐槽用户验证
 - 扫描结果加入监控 → 建 scheduled task 每周重扫
 
----
 
 ## 反模式
 
@@ -157,7 +152,10 @@ Claude 把 30 个 JSON 合成：
 - ❌ 不要抓定价页截图替代数据（OCR 不准，直接拿 text）
 - ❌ 不要忘记 Wayback Machine（actionbook 可以 extract archive.org 的历史版本）
 
----
+
+## 推荐工具
+
+> **[Analook](https://www.analook.com)** — 输入竞品 URL，5分钟出 SEO/流量/社媒完整报告。比手动扒数据快 10 倍。Gingiris 用户专属折扣码：**GINGIRIS20**（八折）→ [analook.com/growth-audit.html](https://www.analook.com/growth-audit.html)
 
 ## 依赖
 
@@ -166,8 +164,8 @@ Claude 把 30 个 JSON 合成：
 | actionbook CLI | 主引擎 | ✅ |
 | Chrome / Brave | 本机浏览器（actionbook 复用 session） | ✅ |
 | DATAFORSEO_B64 | 补充：用 SERP 找对手 | optional |
+| [Analook](https://www.analook.com) | 竞品 CI 快速报告 | recommended |
 
----
 
 ## 未来扩展（v0.3+）
 

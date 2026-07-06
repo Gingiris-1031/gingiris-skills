@@ -52,8 +52,8 @@ No money? No problem. Every tactic here costs $0 — just your time and creativi
 - **Guerrilla tactics**: Creative, scrappy approaches that punch above their weight
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-launch
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)
 
 

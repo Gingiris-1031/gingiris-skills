@@ -38,7 +38,7 @@ size_categories:
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-skills?color=blue)](https://github.com/Gingiris-1031/gingiris-skills)
 [![Contributors](https://img.shields.io/github/contributors/Gingiris-1031/gingiris-skills?color=orange)](https://github.com/Gingiris-1031/gingiris-skills)
@@ -51,7 +51,7 @@ size_categories:
 
 > 💡 **Need a 1-on-1 architecture call for your B2B/Open-source launch? Book a session for $200** (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.com](https://gingiris.com/en)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://gingiris.tools)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 ## Table of Contents
 
@@ -156,7 +156,7 @@ If you find this ASO playbook useful, a GitHub Star ⭐ helps others discover it
 
 This app store optimization playbook is available as a **ClawHub Skill** — install it directly into Claude Code, OpenClaw, or any compatible AI agent:
 
-[![Install on ClawHub](https://img.shields.io/badge/Install_on-ClawHub-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://clawhub.ai/s17chgpcnapq54m54xxkc8ge4983hzj2/gingiris-aso-growth)
+[![Install on ClawHub](https://img.shields.io/badge/Install_on-ClawHub-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0id2hpdGUiPjxwYXRoIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0tMiAxNWwtNS01IDEuNDEtMS40MUwxMCAxNC4xN2w3LjU5LTcuNTlMMTkgOGwtOSA5eiIvPjwvc3ZnPg==)](https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth)
 
 ```bash
 clawhub install gingiris-aso-growth
@@ -164,7 +164,7 @@ clawhub install gingiris-aso-growth
 
 > Your AI agent can then help you optimize app store listings, research keywords, and plan UGC campaigns.
 >
-> 📦 **Also available**: [All Gingiris Growth Playbooks on ClawHub](https://clawhub.ai/u/gingiris)
+> 📦 **Also available**: [All Gingiris Growth Playbooks on ClawHub](https://clawhub.ai/gingiris-1031)
 
 ---
 
@@ -338,7 +338,7 @@ A: Yes — Google Play's algorithm weights different signals (install velocity, 
 A: That's exactly what it's optimized for. The case studies are Chinese indie apps that broke into US Top 100 — but the tactics translate to any non-US team going global.
 
 **Q: Who built this?**
-A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE), advisor to 150+ AI startups including mobile-first products, 30x #1 Product Hunt winner.
+A: [Iris Wei (生姜)](https://github.com/Gingiris-1031) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE), advisor to 150+ AI startups including mobile-first products, 30x #1 Product Hunt winner.
 
 ---
 
@@ -349,7 +349,7 @@ A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of 
 - **[gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource)** — OSS mobile apps (Bitwarden, Signal pattern)
 - **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** — Mobile B2B SaaS (sales productivity, field tools)
 
-All five at [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All five at [skills.sh/Gingiris](https://skills.sh/Gingiris-1031).
 
 <!-- JSON-LD for SEO/GEO. AI engines (ChatGPT, Perplexity, Claude, Gemini) parse this. -->
 <script type="application/ld+json">
@@ -369,8 +369,8 @@ All five at [skills.sh/Gingiris](https://skills.sh/Gingiris).
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜",
-    "url": "https://github.com/Gingiris",
-    "sameAs": ["https://gingiris.com"]
+    "url": "https://github.com/Gingiris-1031",
+    "sameAs": ["https://gingiris.tools"]
   },
   "keywords": "ASO, App Store Optimization, app cold start, mobile app growth, mobile user acquisition, UGC creator, TikTok marketing, Instagram Reels, YouTube Shorts, creator matrix, ASO keywords, App Store ranking, Google Play optimization"
 }
@@ -392,4 +392,4 @@ All five at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 | **gingiris-skills** | 🛠️ Full toolkit: 12 Claude Code skills bundled | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
 | **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
 
-All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gingiris](https://skills.sh/Gingiris-1031).

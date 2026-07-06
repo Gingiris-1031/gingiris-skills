@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-github-star-growth?style=social)](https://github.com/Gingiris-1031/gingiris-github-star-growth/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-github-star-growth?style=social)](https://github.com/Gingiris-1031/gingiris-github-star-growth/watchers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-github-star-growth/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-github-star-growth?color=blue)](https://github.com/Gingiris-1031/gingiris-github-star-growth/commits/main)
 
@@ -30,7 +30,7 @@
 
 > 💡 **Need a 1-on-1 growth strategy session?** Book for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.com](https://gingiris.com/en)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://gingiris.tools)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 ---
 
@@ -249,7 +249,7 @@ clawhub install gingiris-github-star-growth
 - 💼 LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - 💬 Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
 - 📱 即刻: 生姜iris
-- 🌐 Website: [gingiris.com](https://gingiris.com/en)
+- 🌐 Website: [gingiris.tools](https://gingiris.tools)
 
 ---
 
@@ -278,7 +278,7 @@ MIT License - Use and adapt for your own open source growth!
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜iris",
-    "url": "https://gingiris.com",
+    "url": "https://gingiris.tools",
     "jobTitle": "Open Source Growth Consultant",
     "sameAs": [
       "https://x.com/WeiYipei",

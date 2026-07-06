@@ -53,6 +53,6 @@
 - **差別化の持続性**: 差別化要因が12〜24ヶ月間防御可能かどうかをスコアリング
 
 ## 関連Gingirisスキル
-- フルバージョン: https://clawhub.ai/skill/gingiris-b2b-growth
-- 全スキル一覧: https://clawhub.ai/user/gingiris
+- フルバージョン: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- 全スキル一覧: https://clawhub.ai/gingiris-1031
 - フォロー: [@WeiYipei on X](https://x.com/WeiYipei)

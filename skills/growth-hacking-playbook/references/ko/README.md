@@ -53,6 +53,6 @@ Impact, Confidence, Ease — 즉시 우선순위를 매길 수 있도록 사전 
 - **팀 리듬**: 월요일 = 실험 계획, 금요일 = 결과 리뷰, 반복
 
 ## 관련 Gingiris 스킬
-- 전체 버전: https://clawhub.ai/skill/gingiris-launch
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

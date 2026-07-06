@@ -132,10 +132,10 @@ Skills are available locally in Cola. The four specialist skills:
 
 To install via skills.sh marketplace:
 ```bash
-npx skills add Gingiris/gingiris-launch
-npx skills add Gingiris/gingiris-opensource
-npx skills add Gingiris/gingiris-b2b-growth
-npx skills add Gingiris/gingiris-aso-growth
+npx skills add Gingiris-1031/gingiris-launch
+npx skills add Gingiris-1031/gingiris-opensource
+npx skills add Gingiris-1031/gingiris-b2b-growth
+npx skills add Gingiris-1031/gingiris-aso-growth
 ```
 
 ---

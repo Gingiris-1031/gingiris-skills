@@ -8,7 +8,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-ugc-matrix?style=social)](https://github.com/Gingiris-1031/gingiris-ugc-matrix/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-ugc-matrix?style=social)](https://github.com/Gingiris-1031/gingiris-ugc-matrix/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-ugc-matrix/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-ugc-matrix?color=blue)](https://github.com/Gingiris-1031/gingiris-ugc-matrix/commits/main)
 
@@ -251,7 +251,7 @@ clawhub install gingiris-ugc-matrix
 | 🐦 Twitter | [@WeiYipei](https://x.com/WeiYipei) |
 | 💼 LinkedIn | [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/) |
 | 💬 Telegram | [@Iris_carrot](https://t.me/Iris_carrot) |
-| 🌐 Website | [gingiris.com](https://gingiris.com/en) |
+| 🌐 Website | [gingiris.tools](https://gingiris.tools) |
 
 > 💡 **Need a 1-on-1 consultation for your UGC strategy?** Book a session — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 
@@ -284,7 +284,7 @@ MIT License - Feel free to use and adapt for your own UGC growth strategy!
   "author": {
     "@type": "Person",
     "name": "Iris (生姜iris)",
-    "url": "https://gingiris.com",
+    "url": "https://gingiris.tools",
     "jobTitle": "Growth Consultant",
     "sameAs": [
       "https://x.com/WeiYipei",
@@ -295,7 +295,7 @@ MIT License - Feel free to use and adapt for your own UGC growth strategy!
   "publisher": {
     "@type": "Organization",
     "name": "Gingiris",
-    "url": "https://gingiris.com"
+    "url": "https://gingiris.tools"
   },
   "datePublished": "2026-05-31",
   "dateModified": "2026-05-31",

@@ -16,6 +16,12 @@ metadata:
   companion-to: gr-blog-post
 ---
 
+## ⚠️ 2C 产品的渠道调整
+
+本 skill 默认 dev / B2B 渠道。**2C 消费品 / 教育 / 应用**：获客主战场是 **垂类社区 + 短视频 + 垂直 KOL**，按地区公开数据选第一平台（如印尼/泰国短视频已反超 Facebook）。KOL 优先 nano / micro 垂类——粉丝越多互动率越低，micro > mega 性价比更高。完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`。
+
+---
+
 # gr-social-distill — 博客到社媒复用
 
 ## 核心理念
@@ -136,7 +142,7 @@ metadata:
   - 原因：canonical 指向主站 → Google 把 dev.to 版视为副本 → 不参与独立 SERP
 - **发布时间差 ≥ 7 天**（不要同天发，避免 Google 认为 copy）
 - **内容做本地化变化**：改开场 hook、加 1-2 段 dev.to 用户视角的评论
-- **末尾加"Originally I wrote this for my blog at gingiris.com"**（建立双向 reference，但不用 canonical）
+- **末尾加"Originally I wrote this for my blog at gingiris.tools"**（建立双向 reference，但不用 canonical）
 
 **Zenn 特殊**：
 - frontmatter `type: tech` 技术文 / `type: idea` 观点文

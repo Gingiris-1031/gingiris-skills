@@ -12,7 +12,7 @@ tags:
 
 本 skill 已并入 **gingiris-seo-geo-agent**，请直接使用该 skill。
 
-- 完整 SOP：`gingiris-seo-geo-agent/references/full-sop.md`
+- 完整 SOP：`gingiris-seo-geo-agent/references/full-sop.md`（本目录 `references/full-sop.md` 为同步副本，以主 skill 为准）
 - 本目录不再维护内容，仅保留此指针以兼容旧引用。
 
-（Stub 化于 2026-07-06：原正文与 gingiris-seo-geo-agent 重复，且引用的 references/full-sop.md 在本目录不存在。）
+（Stub 化于 2026-07-06：原正文与 gingiris-seo-geo-agent 重复；references/full-sop.md 已于同日从主 skill 同步一份副本。）

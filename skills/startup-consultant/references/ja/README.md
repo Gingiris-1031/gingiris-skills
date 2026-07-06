@@ -53,6 +53,6 @@
 - **移行計画**: 6〜12ヶ月かけて社内グロース能力を構築し、フルタイム採用が合理的になるまで
 
 ## 関連Gingiris Skills
-- フルバージョン: https://clawhub.ai/skill/gingiris-growth-finder
-- 全スキル一覧: https://clawhub.ai/user/gingiris
+- フルバージョン: https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder
+- 全スキル一覧: https://clawhub.ai/gingiris-1031
 - フォロー: [@WeiYipei on X](https://x.com/WeiYipei)

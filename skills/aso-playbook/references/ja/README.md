@@ -52,6 +52,6 @@
 - **勝者基準**: 95%信頼区間で5%以上の改善が見られてから勝者を宣言
 
 ## 関連Gingirisスキル
-- フルバージョン: https://clawhub.ai/skill/gingiris-aso-growth
-- 全スキル一覧: https://clawhub.ai/user/gingiris
+- フルバージョン: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth
+- 全スキル一覧: https://clawhub.ai/gingiris-1031
 - フォロー: [@WeiYipei on X](https://x.com/WeiYipei)

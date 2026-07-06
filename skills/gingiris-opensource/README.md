@@ -159,7 +159,7 @@ AFFiNE 60k 스타 성장 경험과 150+ 스타트업 컨설팅으로 구축됨.
 
 **Iris (生姜iris)** — Former cofounder & COO of [AFFiNE](https://github.com/toeverything/AFFiNE) ($10M raised, 60k+ GitHub stars). Forbes Asia 30 Under 30. Led open source growth from 0 to 60k stars across 100+ countries, with organic developer acquisition as the primary channel.
 
-- Website: [gingiris.com](https://gingiris.com)
+- Website: [gingiris.tools](https://gingiris.tools)
 - Twitter/X: [@WeiYipei](https://x.com/WeiYipei)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
 - Blog: [gingiris.tools](https://gingiris.tools/)

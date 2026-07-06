@@ -18,15 +18,28 @@ metadata:
   phase: Phase 2 main line 4 (added 2026-05-07)
 ---
 
+## ⚠️ 2C 产品的外链调整
+
+本 skill 的 5 类渠道（Wikipedia / 媒体 PR / G2 评测 / Reddit-Quora / HARO）偏 dev/B2B。**2C 消费品 / 教育** 的权威链接来源不同：
+
+- **教育**：学校 / 留学机构 / 考试论坛 / 教育媒体 > 普通付费外链。
+- **通用 2C**：行业垂直媒体、地区 KOL、社区高赞帖。
+- **G2 / Capterra**（B2B 软件评测站）对 2C 基本无效 → 换 App Store 评分 + 垂类榜单 + 应用媒体测评。
+- **YMYL 品类**：权威机构背书的链接权重远高于数量；切勿买链/造评（Google 数天内识别）。
+
+完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`
+
+
 # gr-backlinks — Systematic Backlink Building
 
 ## Why this skill exists
 
 **Phase 2 missing piece**: We do title/content/schema/cluster optimization but have **zero systematic backlink work**. Article research (2026-05): backlinks are the #1 GEO signal — LLMs decide citations partly by brand authority, which is downstream of backlink graph.
 
-For Iris's site (gingiris.tools, subpath under GitHub Pages), the domain authority ceiling is **fundamentally capped without external backlinks**. No on-page work can beat Wikipedia / Hootsuite / Wired for head terms — only backlink quality + count can.
+Iris now runs **two independent domains**: **gingiris.tools** (content/blog, Vercel) and **analook.com** (product). Both are young domains with near-zero backlink profiles — gingiris.tools restarted from scratch after the 2026-05-27 migration off the banned GitHub Pages account (old github.io link equity is permanently lost, unrecoverable), and analook.com's only inbound links so far are low-DA directory submissions. On-page work alone cannot beat Wikipedia / Hootsuite / Wired for head terms on either domain — only backlink quality + count can. The upside of independent domains: every earned link now accrues to an asset we control, not to a github.io subpath.
 
----
+**Before planning any backlink work, read `data/backlinks-status.md` first** — it records what's already been spent/submitted (directory batches, refunds, pending claims) so we don't re-buy or re-submit.
+
 
 ## The 5-Channel Priority Matrix
 
@@ -42,7 +55,6 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 
 **Rule**: Start from highest GEO value. SEO-only signals (DA passing) are less leveraged than 2-3 years ago.
 
----
 
 ## When to use this skill
 
@@ -53,7 +65,6 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 - "How do I get into G2 / Capterra?"
 - Phase 2 monthly checkpoint shows domain authority capping ranking
 
----
 
 ## Channel 1: Wikipedia (highest GEO leverage)
 
@@ -93,18 +104,22 @@ Adopted from 2026-05 WeChat article + JeffLi1993 / AgriciDaniel / zubair-trabzad
 - [ ] All paid contributors disclosed
 - [ ] Article has 600-1,500 words (too short = "stub" rejection)
 
----
 
 ## Channel 2: PR / Authoritative Media
 
 ### Two paths to backlinks
 
-#### Path A: Inbound — HARO / Featured.com / Qwoted
+#### Path A: Inbound — HARO / Featured.com / Connectively / Qwoted
 Journalists request expert quotes daily. Reply with concise, citable answers → published article with backlink.
 
-- **HARO**: helpareporter.com — free, 3 emails/day, US-heavy
-- **Featured.com**: featured.com — pay-to-submit answers, US + global, higher conversion
-- **Qwoted**: qwoted.com — newer, more international
+**⚠️ Step 0 — 渠道存活验证（先做，再排周任务）**：HARO 品牌 2024-25 经历多轮重组（Connectively 一度关停后 2025-04 重开；HARO 品牌 2025-05 被 Featured.com 收购），"HARO" 老地址/老流程随时可能失效。**排任何周任务前，先逐个验证：平台还活着吗？能注册吗？注册后真的收到 query 邮件了吗？** 教训：2026-05-26 审计发现周提醒任务空跑数周——0 个订阅存在，funnel 是空的（memory `project_haro_backlinks.md`）。当前状态见 `data/backlinks-status.md`。
+
+- **Connectively**: connectively.us — 2025-04 重开，AI-spam 较多但可用（Iris expert profile 已建）
+- **Qwoted**: qwoted.com — verification-based，质量最高（Iris source profile 已建）
+- **Featured.com**: featured.com — 2025-05 收购 HARO 品牌，量最大（可选补充）
+- 免费补充：Source of Sources (sourceofsources.com) / Help a B2B Writer
+
+验证通过且 query 邮件真的进 inbox 之后，才把该平台排进 weekly cadence。
 
 **Reply template** (works ~15-25% of the time):
 ```
@@ -119,10 +134,10 @@ about [topic], here's a 3-sentence answer with concrete data:
 If you need a longer quote or follow-up, happy to share more.
 
 — Iris
-Site: https://gingiris.com
+Site: https://gingiris.tools
 Twitter: @WeiYipei
 
-[Disclosure: I run gingiris.com — no expectation of a link, just a useful quote.]
+[Disclosure: I run gingiris.tools — no expectation of a link, just a useful quote.]
 ```
 
 **Pace**: 3-5 responses/week. Time/response: 8-12 min. Expected: 1-2 links/month.
@@ -140,7 +155,6 @@ For deep-dive features, not 1-line quotes.
 - "Why most OSS marketing playbooks are wrong" (Wired / The Verge)
 - "Real data: 30 Product Hunt #1 launches in 4 years" (Fast Company / Forbes)
 
----
 
 ## Channel 3: Industry Reviews (G2 / Capterra / Product Hunt / SourceForge)
 
@@ -157,7 +171,6 @@ For deep-dive features, not 1-line quotes.
 
 **Once submitted, ask early users for genuine reviews** (5-10 reviews unlocks featured placement on most platforms).
 
----
 
 ## Channel 4: Reddit / Quora / Hacker News
 
@@ -191,7 +204,6 @@ LLMs heavily weight Reddit / Quora content during training:
 - Perplexity grounds 18% of answers in Reddit/Quora
 - Claude weights Quora answers for "how to" queries
 
----
 
 ## Channel 5: Generic Backlinks (skip until Channels 1-4 maxed)
 
@@ -199,12 +211,13 @@ Directories, guest posts on low-DA sites, blogger network exchanges. **Low GEO v
 
 Don't waste time here until Channels 1-4 are mature.
 
----
 
 ## Workflow: First 30 days for Iris
 
+**前置读入**：`data/backlinks-status.md`（已花的钱、已铺的目录、待领的资产——避免重复购买/提交）。
+
 ### Week 1
-- [ ] Sign up: HARO, Featured.com, Qwoted (Channel 2A)
+- [ ] 渠道存活验证（Channel 2A Step 0）+ 补齐缺的平台注册
 - [ ] Create 1 Featured.com answer per day = 7 responses
 - [ ] Submit AFFiNE + Gingiris to G2, Capterra, AlternativeTo, StackShare (Channel 3)
 
@@ -228,7 +241,6 @@ Don't waste time here until Channels 1-4 are mature.
 - [ ] First AfC Wikipedia submission (if 5+ independent sources accumulated)
 - [ ] Reddit AMA in 1 high-fit sub
 
----
 
 ## Scripts
 
@@ -245,7 +257,6 @@ Run monthly to track growth.
 - Auto-suggest which to respond to (based on Iris credentials)
 - Draft 3-sentence answer skeletons
 
----
 
 ## Tracking
 
@@ -259,7 +270,6 @@ Use this for:
 - Phase 2 checkpoint (correlate backlink growth with SERP rank changes)
 - Wikipedia case file building
 
----
 
 ## Anti-patterns (avoid)
 
@@ -270,7 +280,6 @@ Use this for:
 - ❌ **Asking friends to write inauthentic reviews on G2** — flagged + removed
 - ❌ **Guest posting on link farms** — negative SEO
 
----
 
 ## Cascade recommendations
 
@@ -279,7 +288,6 @@ Use this for:
 - Wikipedia entity created → update `gr-geo-cite` to track Wikipedia citations in AI responses (highest-priority test)
 - Backlinks accumulated → re-run `gr-seo-patrol` to measure rank impact
 
----
 
 ## API dependencies
 

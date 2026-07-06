@@ -53,6 +53,6 @@
 - **成果報酬型**: サインアップやコンバージョンごとに支払い; トラッキング基盤がある場合に最適
 
 ## 関連Gingiris Skills
-- フルバージョン: https://clawhub.ai/skill/gingiris-launch
-- 全スキル一覧: https://clawhub.ai/user/gingiris
+- フルバージョン: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- 全スキル一覧: https://clawhub.ai/gingiris-1031
 - フォロー: [@WeiYipei on X](https://x.com/WeiYipei)

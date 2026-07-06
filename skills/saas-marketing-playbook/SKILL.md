@@ -70,6 +70,6 @@ Anchor the annual plan to one of two $1M-ARR skeletons: nine ~$100K enterprise e
 When prospects push for custom work your roadmap doesn't want, don't refuse — quote it at a premium (pad the person-days). The quote filters; the relationship survives.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

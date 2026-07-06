@@ -80,6 +80,6 @@ A north-star metric without guardrails misallocates resources. Pair it with floo
 Conversion order across client projects: **LinkedIn > Reddit > Twitter**. LinkedIn at $10/day produced paying users at ~$30 CPA in tests, with 3-day flight cycles working best. Twitter drives awareness, not conversion — one team cut Twitter spend 32% with flat conversions. Budget it for share-of-voice only.
 
 ## Related Gingiris Skills
-- Full version: https://clawhub.ai/skill/gingiris-b2b-growth
-- All skills: https://clawhub.ai/user/gingiris
+- Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- All skills: https://clawhub.ai/gingiris-1031
 - Follow: [@WeiYipei on X](https://x.com/WeiYipei)

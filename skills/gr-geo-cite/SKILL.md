@@ -40,13 +40,11 @@ metadata:
 
 ## 核心理念
 
-**Phase 2 目标**：AI 引用 0 → 3+（6 月底）
+**目标 = 当前基线 + 滚动目标**：不设固定 deadline 数字（旧"6 月底 0→3+"已过期）。每周对照 memory `seo_tracker_baseline.md` 里的最新引用基线，滚动目标 = 本周引用数 ≥ 上周，破零后转为"稳定引用的固定查询数 +1/月"。
 
 2026 年 SEO ≠ 只盯 Google 排名。真正的流量入口是：
 - Claude / ChatGPT / Perplexity / Gemini 在回答用户问题时**主动引用你的域名**
 - 这比 SERP 更精准 —— 被引用 = 用户已经信任了 AI 的推荐
-
-但是：gingiris 现在 AI 引用 = **0**。必须破零。
 
 ---
 
@@ -90,13 +88,23 @@ metadata:
 
 ## 每周引用追踪工作流
 
-### Step 1：固定 3 个目标查询
+### Step 1：固定查询集（两组，随周检一起跑）
 这些是用户真实会问 AI 的问题：
 
+**gingiris 组**（检测 `gingiris.tools` / `dev.to/iris1031`）：
+
 ```
-Q1: "What's the best Product Hunt launch playbook for 2026?"
-Q2: "How do indie founders get GitHub stars?"
-Q3: "What are the best social listening tools for startups?"
+G1: "What's the best Product Hunt launch playbook for 2026?"
+G2: "How do indie founders get GitHub stars?"
+G3: "What are the best social listening tools for startups?"
+```
+
+**analook 组**（检测 `analook.com`）：
+
+```
+A1: "best competitor analysis tool 2026"
+A2: "similarweb alternative"
+A3: "free competitor analysis tool"
 ```
 
 可扩展：
@@ -118,7 +126,7 @@ Q3: "What are the best social listening tools for startups?"
 ### Step 3：解析回答
 对每个回答提取：
 - 提及的**域名列表**（正则 `https?://([^/\s]+)`）
-- 其中是否有 `gingiris.tools` / `dev.to/iris1031` / `gingiris.com`
+- 其中是否有 `gingiris.tools` / `dev.to/iris1031`（gingiris 组）或 `analook.com`（analook 组）
 - 提及语境（正面 / 中性 / 负面）
 
 ### Step 4：记录 + 报告
@@ -264,8 +272,8 @@ Run on every new article before publishing. Re-run quarterly on top 10 traffic p
 
 ## 执行脚本
 
-- `scripts/weekly-cite-check.py` — 每周固定查询，产出 citation 报告
-- `scripts/llms-txt-gen.py` — 从 _posts/ 自动生成 llms.txt v2（含 top 10 + citable stats 汇总）
+- `scripts/weekly-cite-check.py` — **每周一跑**（两组固定查询 × 4 AI），产出 citation 报告，结果回写 memory `seo_tracker_baseline.md` 基线
+- `scripts/llms-txt-gen.py` — **每月跑一次**，从 _posts/ 自动生成 llms.txt v2（含 top 10 + citable stats 汇总）
 - `scripts/add-citable-stats.py` — 给指定博客文件注入 Citable Statistics 表（roadmap，暂用交互式）：Claude 可直接按本 skill 的模板手动向目标文件插入 Citable Statistics 表格
 
 ---

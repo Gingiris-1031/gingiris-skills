@@ -150,7 +150,7 @@ tags:
   - 原因：canonical 指向主站 → Google 把 dev.to 版视为副本 → 不参与独立 SERP
 - **发布时间差 ≥ 7 天**（不要同天发，避免 Google 认为 copy）
 - **内容做本地化变化**：改开场 hook、加 1-2 段 dev.to 用户视角的评论
-- **末尾加"Originally I wrote this for my blog at gingiris.com"**（建立双向 reference，但不用 canonical）
+- **末尾加"Originally I wrote this for my blog at gingiris.tools"**（建立双向 reference，但不用 canonical）
 
 **Zenn 特殊**：
 - frontmatter `type: tech` 技术文 / `type: idea` 观点文
@@ -203,7 +203,7 @@ GA4 Referral 报告里按 `utm_source` 分组，判断每个渠道 ROI。
 
 - 变体发完后 24h → `gr-seo-patrol` 看 Organic Social 占比是否上涨
 - 发现某个渠道 ROI 特别高 → 下周加码（同渠道多发 2 篇）
-- 小红书爆款 → 考虑做矩阵号（联动 `gr-aso` AI 矩阵号模式）
+- 小红书爆款 → 加大 UGC 创作者合作力度（联动 `gr-aso` UGC 创作者矩阵策略）
 - dev.to 排名上来 → 确认 canonical 配置，避免重蹈覆辙
 
 ---

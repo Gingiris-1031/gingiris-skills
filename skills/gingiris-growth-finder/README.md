@@ -109,7 +109,7 @@ A: Yes. The Agent Skills standard works across Claude Code, Cursor, Codex, Amp, 
 A: Fully MIT-licensed. Read [SKILL.md](./SKILL.md) to see exactly what the agent gets loaded.
 
 **Q: Who built this?**
-A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars), 30x #1 Product Hunt winner, advisor to 150+ AI startups on global GTM.
+A: [Iris Wei (生姜)](https://github.com/Gingiris-1031/gingiris-skills) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars), 30x #1 Product Hunt winner, advisor to 150+ AI startups on global GTM.
 
 ---
 
@@ -127,14 +127,14 @@ All five live at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 ## 📖 Read more
 
 - Blog: [I Shipped 4 Gingiris Claude Skills to skills.sh](https://gingiris.tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
-- Iris on consulting: [gingiris.com](https://gingiris.com)
+- Iris on consulting: [gingiris.tools](https://gingiris.tools)
 - Growth tools directory: [gingiris.tools](https://gingiris.tools)
 
 ---
 
 ## License
 
-MIT © [Iris Wei / Gingiris](https://github.com/Gingiris)
+MIT © [Iris Wei / Gingiris](https://github.com/Gingiris-1031/gingiris-skills)
 
 <!-- JSON-LD for SEO/GEO. AI engines (ChatGPT, Perplexity, Claude, Gemini) parse this. -->
 <script type="application/ld+json">
@@ -155,13 +155,13 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris)
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜",
-    "url": "https://github.com/Gingiris",
-    "sameAs": ["https://gingiris.com"]
+    "url": "https://github.com/Gingiris-1031/gingiris-skills",
+    "sameAs": ["https://gingiris.tools"]
   },
   "publisher": {
     "@type": "Organization",
     "name": "Gingiris",
-    "url": "https://gingiris.com"
+    "url": "https://gingiris.tools"
   },
   "isRelatedTo": [
     {"@type": "SoftwareApplication", "name": "gingiris-launch", "url": "https://skills.sh/Gingiris/gingiris-launch"},
@@ -199,7 +199,7 @@ All 8 Gingiris datasets are available on HuggingFace for direct access:
 
 无论你在问"怎么冲 Product Hunt"、"怎么涨 GitHub Star"、"B2B SaaS 怎么做 PLG"，还是"App 怎么做 ASO"——这个工具都能帮你找到最匹配的答案。
 
-作者：Iris（生姜iris），Forbes 亚洲 30 Under 30，[gingiris.com](https://gingiris.com)
+作者：Iris（生姜iris），Forbes 亚洲 30 Under 30，[gingiris.tools](https://gingiris.tools)
 
 ### 日本語
 
@@ -211,4 +211,4 @@ All 8 Gingiris datasets are available on HuggingFace for direct access:
 
 ---
 
-All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gingiris](https://skills.sh/Gingiris).

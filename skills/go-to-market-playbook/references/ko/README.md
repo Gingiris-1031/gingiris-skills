@@ -53,6 +53,6 @@
 - **차별화 내구성**: 차별화 요소가 12~24개월간 방어 가능한지 스코어링
 
 ## 관련 Gingiris 스킬
-- 전체 버전: https://clawhub.ai/skill/gingiris-b2b-growth
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

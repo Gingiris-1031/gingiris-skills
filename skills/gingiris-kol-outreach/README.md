@@ -259,7 +259,7 @@ KOL (Key Opinion Leader): Paid, one-time campaigns, $50-8000/post, reach-focused
 | 🐦 Twitter | [@WeiYipei](https://x.com/WeiYipei) |
 | 💼 LinkedIn | [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/) |
 | 💬 Telegram | [@Iris_carrot](https://t.me/Iris_carrot) |
-| 🌐 Website | [gingiris.com](https://gingiris.com/en) |
+| 🌐 Website | [gingiris.tools](https://gingiris.tools) |
 
 > 💡 **Need a 1-on-1 KOL strategy session? Book for $200** — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 
@@ -299,7 +299,7 @@ MIT License — Feel free to use and adapt for your own KOL outreach campaigns!
   "author": {
     "@type": "Person",
     "name": "Iris (生姜iris)",
-    "url": "https://gingiris.com",
+    "url": "https://gingiris.tools",
     "sameAs": [
       "https://x.com/WeiYipei",
       "https://www.linkedin.com/in/yipei-wei-550825105/",
@@ -309,7 +309,7 @@ MIT License — Feel free to use and adapt for your own KOL outreach campaigns!
   "publisher": {
     "@type": "Organization",
     "name": "Gingiris",
-    "url": "https://gingiris.com"
+    "url": "https://gingiris.tools"
   },
   "url": "https://github.com/Gingiris-1031/gingiris-kol-outreach",
   "downloadUrl": "https://github.com/Gingiris-1031/gingiris-kol-outreach",

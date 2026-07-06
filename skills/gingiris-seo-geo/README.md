@@ -38,7 +38,7 @@ size_categories:
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-skills?color=blue)](https://github.com/Gingiris-1031/gingiris-skills)
 
@@ -50,7 +50,7 @@ size_categories:
 
 > **Need a 1-on-1 SEO/GEO strategy call?** Book a session for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.com](https://gingiris.com/en)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://gingiris.tools/en/)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 > **Why Star this?**
 > * **Battle-Tested**: Documents strategies behind **60k GitHub stars** and **30+ Product Hunt #1** launches.
@@ -278,7 +278,7 @@ A: Yes — with copy-paste templates for SoftwareApplication, Article, FAQ, HowT
 A: Yes. The keyword funnel section covers programmatic SEO patterns — how to identify scalable templates, generate landing pages without thin-content penalties, and structure them so they get cited in AI overviews.
 
 **Q: Who built this?**
-A: [Iris Wei (生姜)](https://github.com/Gingiris) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars in 24 months, organic SEO contributed ~40% of acquisition), advisor to 150+ AI startups on SEO/GEO/GTM.
+A: [Iris Wei (生姜)](https://github.com/Gingiris-1031/gingiris-skills) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars in 24 months, organic SEO contributed ~40% of acquisition), advisor to 150+ AI startups on SEO/GEO/GTM.
 
 ---
 
@@ -310,8 +310,8 @@ All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜",
-    "url": "https://github.com/Gingiris",
-    "sameAs": ["https://gingiris.com"]
+    "url": "https://github.com/Gingiris-1031/gingiris-skills",
+    "sameAs": ["https://gingiris.tools"]
   },
   "keywords": "SEO, GEO, Generative Engine Optimization, AI search optimization, ChatGPT SEO, Perplexity SEO, JSON-LD schema, E-E-A-T, keyword strategy, comparison page, programmatic SEO, IndexNow, dual engine SEO"
 }
@@ -332,4 +332,4 @@ All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 | **gingiris-skills** | 🛠️ Full toolkit: 12 Claude Code skills bundled | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
 | **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
 
-All playbooks live at [gingiris.com](https://gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gingiris](https://skills.sh/Gingiris).

@@ -53,6 +53,6 @@
 - **성과 기반**: 가입 또는 전환당 지불; 트래킹 인프라가 있을 때 최적
 
 ## 관련 Gingiris Skills
-- 전체 버전: https://clawhub.ai/skill/gingiris-launch
-- 모든 스킬: https://clawhub.ai/user/gingiris
+- 전체 버전: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
+- 모든 스킬: https://clawhub.ai/gingiris-1031
 - 팔로우: [@WeiYipei on X](https://x.com/WeiYipei)

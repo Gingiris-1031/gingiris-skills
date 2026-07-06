@@ -49,7 +49,7 @@
 ### Setup (1 hour, one-time)
 - Profile: full bio, credentials, role at AFFiNE / Gingiris
 - "Knows About": OSS marketing, Product Hunt, SEO, startup growth
-- Profile URL: gingiris.com
+- Profile URL: gingiris.tools
 
 ### Weekly cadence (45 min/week)
 - 3 questions/week answered
