@@ -51,6 +51,31 @@ Everything you need to know for your first Product Hunt launch, distilled into a
 - **Launch-day SOP**: Hour-by-hour engagement plan for top 5 ranking
 - **Post-launch**: Converting PH traffic into retained users
 
+## First-Timer FAQ (updated 2026)
+
+**Q: Our vote count dropped mid-day — were we penalized?**
+Probably just routine cleanup: PH re-validates votes on ~2-hour cycles and removes anything that looks coordinated. Keep supporter turnout gradual — under ~100 votes/hour overall and under ~30/hour from any single community — and ask people to vote from personal phones on cellular networks rather than one shared office connection.
+
+**Q: Daily, weekly, or monthly — which badge should a first-timer target?**
+Know the stakes first: weekly-badge exposure is about 7x a daily badge; monthly is about 30x. First launch, small budget → pick a quieter Friday–Sunday slot and take the daily. Well-funded and patient → schedule a monthly run (second/third-week Tuesday) and plan sustained momentum.
+
+**Q: Is PH even worth it for my budget?**
+Run the numbers before committing. PH impressions→upvotes converts at around 1%. If total launch budget is under ~$5K (the realistic threshold for a contested daily #1, ≈1,800 votes/24h), the same money on a handful of Twitter micro-creators usually brings more signups — Reddit posts for open-source tools convert exposure→stars at 5–8%, several times better. Treat PH as a credibility badge, not your primary acquisition channel.
+
+**Q: How much should I budget, and what does it buy?**
+Rough field benchmarks from 2025–2026 launches:
+
+| Budget | Realistic result |
+|---|---|
+| ~$1K | A few hundred signups via niche communities — take the PH badge, skip the fight |
+| ~$5K | Daily #1 within reach |
+| $10–20K | ~1M impressions plus low-thousands of signups |
+
+Whatever the number, define the launch-day traffic target first and split it into per-channel quotas with UTM links — one tracked case turned 500K engineered visits into ~800 signups ($6.25 each), a useful reminder that the funnel matters more than the firehose.
+
+**Q: Should I hit Hacker News the same week?**
+Different game, faster clock: the front page requires roughly 30 upvotes + 10 comments within the first half hour, posted during US mornings — flat at minute 40 means it's over. Prepare 2–3 different angles (an "open source X alternative" link post, a how-it-works post) so you get more than one attempt, and skip paid HN posting services (~$500/post, poor ROI).
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/skill/gingiris-launch
 - All skills: https://clawhub.ai/user/gingiris

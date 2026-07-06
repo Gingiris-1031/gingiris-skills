@@ -85,6 +85,35 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-la
 
 👉 **Book now: [gingiris.com/services](https://gingiris.com/zh/services)**
 
+## Field Notes 2026 — Algorithm-Safe Pacing & Budget Math
+
+### Velocity thresholds the algorithm punishes
+
+PH's anti-fraud sweep runs on roughly a 2-hour cycle. Even 100% genuine supporter votes get stripped if they arrive as a spike, so pace your own community:
+
+- Keep total inflow near **100 votes/hour max**; no single traffic source should push past **~30/hour**
+- Ask supporters to open PH on their **own phone over cellular data** — 50 votes from one office Wi-Fi reads as one voter
+- Fresh accounts and low-karma votes carry near-zero ranking weight and are the first to be swept
+
+### Which leaderboard is worth fighting for
+
+Exposure scales non-linearly: a **weekly badge delivers ~7x** the impressions of a daily badge, a **monthly badge ~30x**. If you can time the launch into a soft week, the weekly badge is often a better prize than grinding out daily #1 on a brutal Tuesday. Chasing monthly? Launch on a Tuesday in the second or third week of the month.
+
+### Spend-to-outcome reference (field data, 2025–2026)
+
+| Spend level | What it realistically buys |
+|---|---|
+| ~$1,000 | A few hundred signups via micro-ads + niche communities — PH optional |
+| ~$5,000 | Daily #1 becomes contested (~1,800 votes/24h benchmark) |
+| $10,000–20,000 | Roughly 1M impressions, low-thousands of signups |
+| Under $20,000 | A 10k-star open-source debut (lean team of ≤5) |
+
+**Honest math:** PH impressions convert to upvotes at roughly 1%. The same dollars spread across ~10 Twitter KOC partnerships routinely beat PH on both reach and signups (Reddit open-source promo converts exposure→stars at 5–8%). If budget is tight, PH is a badge, not a growth channel.
+
+### Hacker News sibling rule
+
+The HN front page is decided fast: you need **~30 points and ~10 comments inside the first 30 minutes** — no movement by minute 40 means it's gone. Post during US morning hours, and skip the ~$500/post HN agencies (verified poor ROI). Prepare 2–3 posts with different angles so you get more than one shot.
+
 ## Related Skills
 
 - [gingiris-launch](https://github.com/Gingiris-1031/gingiris-launch) — Full GTM playbook

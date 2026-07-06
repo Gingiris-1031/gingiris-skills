@@ -50,6 +50,26 @@ A tactical guide for founders who've built something and need their first real u
 - **Traction metrics**: What to measure at pre-seed vs seed stage
 - **Bootstrapping tactics**: Growth without paid ads or VC money
 
+## First 1000 Users on a Founder Budget (2026 benchmarks)
+
+### What each budget tier realistically returns
+
+- **~$1K:** a few hundred signups — small YouTube ad tests + ~20 niche subreddits + a couple hundred topic groups worked with a DM workflow. This is the pre-seed default recipe.
+- **~$5K:** enough to contest a Product Hunt daily win (~1,800 votes in 24h) — but read the next rule before spending it there.
+- **$10–20K:** about a million impressions and low-four-figure signups; also the observed ballpark for a five-person team to land a 10K-star open-source launch.
+
+### The pre-seed Product Hunt rule
+
+Under ~$5K, stay off the leaderboard. Measured conversion explains why: PH exposure turns into upvotes at about 1%, while Reddit posts for an open-source tool turn exposure into stars at 5–8%. Ten micro-creators on Twitter will beat a PH push on both reach and registrations at identical cost. Collect the PH badge later, when it's cheap relative to your budget.
+
+### The free channel with a stopwatch: Hacker News
+
+HN can deliver your first few hundred users for $0 — if you clear the bar: roughly 30 upvotes and 10 comments within 30 minutes of posting, during US morning hours. Stalled by minute 40 means the post is dead; keep alternate versions with different angles ready and try again another week. Translate what worked for regional developer forums and collect a free second audience.
+
+### The launch gate for first-timers
+
+The bar for "ready to launch": ten outside developers who are satisfied and still active. Until you have them, split your time 60% user conversations / 40% launch preparation. A launch amplifies what already exists — it cannot manufacture retention that isn't there.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/skill/gingiris-launch
 - All skills: https://clawhub.ai/user/gingiris

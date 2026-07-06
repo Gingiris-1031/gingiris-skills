@@ -44,6 +44,26 @@ Let your product do the selling. This playbook covers the full PLG motion.
 - **Usage-based signals**: Identifying expansion-ready accounts automatically
 - **Enterprise upsell**: When and how to layer sales onto a PLG motion
 
+## When PLG Meets the Enterprise Contract (2026 addendum)
+
+The PLG-to-sales handoff dies in contract mechanics more often than in product gaps. Field rules:
+
+**Gate custom deployment behind seats.** Set a minimum seat count before private deployment is even on the menu. Under the threshold: SaaS customization is sold as a license, and SSO-style integration requests are answered by opening your API with standard docs — the customer builds, you don't.
+
+**Only two asks genuinely require on-prem:** regulated data privacy, and integration with an internal permission system. Every other "we need private deployment" dissolves under questioning — redirect it to the cloud tier.
+
+**If you do sign a deployment deal:**
+- Tranche the cash 3:4:3 or 4:4:2 across go-live milestones, with 30% collected at signing
+- Contractual late fee: 0.5% per day overdue
+- Keep 1–2 capabilities served from your own infrastructure until the balance clears (agreed upfront, written into terms)
+- Route stalled payments upward — most senior contact first, then a nudge or two to the CEO
+
+**Scope creep is a process problem, not a personality problem.** Separate what the customer asked for (SOR) from what you committed to (SOW with acceptance criteria and change clauses), sign the SOW together with the contract, and push every modification through a formal change request both PMs sign. Calls don't bind; documents do.
+
+**The planned-concession move:** when a buyer wants 50 things and 40 are feasible, agree to 10 — then over-deliver to 15 "because we want you to win." Same output, twice the goodwill.
+
+**Two-leg revenue model:** self-serve PLG (target shape: 500 × $200/yr) and enterprise (nine × ~$100K/yr) both reach $1M ARR — run them as separate funnels with separate metrics until each closes its own loop. Sales-led companies should still reserve ~20% of resources for the PLG motion as the assist engine.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/skill/gingiris-b2b-growth
 - All skills: https://clawhub.ai/user/gingiris

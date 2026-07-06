@@ -95,6 +95,28 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris/gingiris-launch)
 
 👉 **Book now: [gingiris.com/services](https://gingiris.com/zh/services)**
 
+## Launch-Day Ops Addendum (2026 field data)
+
+### Hour-by-hour vote hygiene
+
+1. Watch your inflow **rate**, not just the total. Healthy pattern: a steady ~50 votes/hour. Danger pattern: bursts past 100/hour overall, or any one channel dumping 30+/hour.
+2. Expect the platform to prune votes about every two hours — if your count suddenly dips, that's the sweep, not a bug. Don't panic-blast your mailing list to compensate; that creates exactly the spike that gets pruned.
+3. Brief supporters *before* launch day: vote from their own device on mobile data, comment in their own words. A wall of same-minute votes from one network erases itself.
+
+### Decide which badge you're buying before you spend
+
+Daily, weekly and monthly are not the same prize: weekly exposure ≈ 7x daily, monthly ≈ 30x. Aiming monthly → launch the second or third Tuesday of the month. Only need the daily badge → Friday–Sunday competition is thinner.
+
+### Budget reality check
+
+- ~$5K is the realistic floor at which daily #1 is contested (benchmark: ~1,800 votes in 24h).
+- Below that, redirect the money: ~10 Twitter KOC collabs beat a PH campaign on signups — PH exposure→upvote runs about 1%, while Reddit open-source promo converts exposure→stars at 5–8%.
+- One anonymized field case (an AI Agent product, 2025-12): a 500K-visit launch day engineered across Twitter/Reddit/YouTube/groups produced ~800 signups at $6.25 CAC. Traffic ≠ conversion — plan the funnel, not just the spike.
+
+### Split launch day and leaderboard day
+
+Route half your amplifiers to the website on announcement day, the other half to PH on badge day. Cramming both goals into 24 hours makes each dilute the other.
+
 ## Related Skills
 
 - [gingiris-launch](https://github.com/Gingiris/gingiris-launch) — Full GTM playbook

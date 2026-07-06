@@ -16,6 +16,12 @@ metadata:
   source: https://github.com/Gingiris/gingiris-launch
 ---
 
+## ⚠️ 2C 产品慎用 Product Hunt
+
+本 skill 默认 dev / maker / B2B 受众。**2C 消费品 / 教育 / 应用 / 游戏**：Product Hunt 受众是 maker/科技人，与普通消费者错配、ROI 极低——最多发一次拿个 badge。请把精力换到 **垂类社区（Reddit / 小红书 / 知乎 / Naver 카페）+ 短视频（TikTok / 抖音 / YouTube）+ 垂直 KOL**，并用"免费产品当钩子"做转化。完整 2C 渠道数据库（各国 MAU + 公开来源）+ 三路 Launch 分叉见 → `gingiris-seo-geo/references/2c-adaptation.md`（及 `gingiris-launch`）。
+
+---
+
 # gr-ph-launch — Product Hunt 发布
 
 ## 深度参考
@@ -99,6 +105,35 @@ metadata:
 - ❌ 不要在 first comment 留外部链接（触发审核降权）
 - ❌ 不要忘记 mobile 截图（40% 流量来自手机）
 - ❌ 不要硬撑 daily #1，#2-#3 也是成功（且少被喷）
+
+---
+
+## 上票控速红线（2026 实测更新）
+
+- **总量 ≤100 票/小时、单一渠道 ≤30 票/小时**——PH 约每 2 小时清一次可疑票，突刺会被剥掉
+- 支持者用**手机 + 蜂窝数据（4G）**投票，别挤同一个办公室 Wi-Fi
+- **badge 曝光分层：周榜 ≈ 日榜 7 倍、月榜 ≈ 30 倍**——先定冲哪个榜再定节奏；冲月榜选每月第二/三周的周二
+
+---
+
+## Go / no-go：预算分级基准
+
+| 预算 | 现实产出 |
+|---|---|
+| ~$1K | 小几百注册（跳过 PH，直接 KOC + 垂直社区） |
+| $5K | PH 日榜第一可争（24h 约 1,800 票） |
+| $1–2 万 | ~100 万曝光 + 小几千注册 |
+
+**预算不高别卷 PH**：同预算给 ~10 个 Twitter KOL/KOC 曝光和注册都更高——PH 曝光→upvote 转化仅 ~1%，Reddit 开源宣发曝光→star 转化 5–8%。
+
+---
+
+## 发布日流量倒排法
+
+先定总流量盘子 → 拆每渠道硬数字 → 每渠道 UTM 短链归因。
+实测（某 AI Agent 产品，2025-12）：50 万流量 = 40 万 Twitter（40 红人 quote）+ 2 万 Reddit + 2 万 YouTube 投流 + 2 万群组 + 其余 → **约 800 注册、CAC $6.25**。
+
+进阶节奏：**双日结构**（发布日一半红人导官网、打榜日另一半导 PH）；**KOL 集中爆破**（50–100 个 KOL 约定 24–48h 内密集发布）。
 
 ---
 

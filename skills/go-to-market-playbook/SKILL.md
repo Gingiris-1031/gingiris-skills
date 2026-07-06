@@ -52,6 +52,33 @@ A structured GTM template you can fill in for any product launch — B2B or B2C.
 - **Channel-market fit**: Match distribution channels to your buyer journey
 - **Competitive analysis**: Battle cards and positioning against alternatives
 
+## Channel Sequencing by Revenue Stage (2026 consulting data)
+
+Channels unlock in order — running a $5M-ARR playbook at seed stage burns cash:
+
+| ARR stage | What unlocks | Discipline |
+|---|---|---|
+| Pre-revenue | Founder network, warm intros | First 3 customers closed personally by founders |
+| → $500K | PH, Reddit, Discord, founder brand, owned content matrix | Total acquisition spend <$20K; no scaled paid ads pre-PMF |
+| → $1M | Influencer partnerships + SEM + founder brand | Hand-test 5–10 keywords to establish CPA before scaling |
+| → $5M | SEO/SEM at matrix scale, multi-channel paid, referral loops | Systematize organic content production |
+| → $20M | PLG + SLG combined, host your own conference | — |
+
+Team rule: below ~$2–3M revenue, don't open an overseas office — let affiliates, resellers, and service partners carry international distribution (top products share up to 50% of revenue with partners).
+
+### Guardrails before north stars
+
+A north-star metric without guardrails misallocates resources. Pair it with floors — e.g. D1 activation ≥10%, a blended-CAC ceiling derived from price point, K-factor ≥0.4 — plus one hard rule: **when activation drops below threshold, automatically throttle acquisition.** Filling a leaking bucket is the most expensive way to grow. Weekly routine: cut channels above your CAC ceiling, reinvest in channels below it.
+
+### Paid acquisition red lines (field-tested)
+
+- Cost per signup: $5–8 acceptable. Cost per paying user: under $50, ideally under $30. **At $100 per paying user something is structurally broken** — stop and audit before scaling.
+- Watch for polluted-traffic signals: average session time collapsing (a real case went 189s → 8s after ads ramped) or thousands of paid-in users converting at zero.
+
+### B2B channel ranking, measured
+
+Conversion order across client projects: **LinkedIn > Reddit > Twitter**. LinkedIn at $10/day produced paying users at ~$30 CPA in tests, with 3-day flight cycles working best. Twitter drives awareness, not conversion — one team cut Twitter spend 32% with flat conversions. Budget it for share-of-voice only.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/skill/gingiris-b2b-growth
 - All skills: https://clawhub.ai/user/gingiris

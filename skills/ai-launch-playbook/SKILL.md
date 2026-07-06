@@ -55,6 +55,26 @@ clawhub install ai-launch-playbook
 - Community building in AI/ML spaces
 - Case studies: Manus, Devin, AFFiNE
 
+## What Actually Made Manus & Devin Travel (2026 analysis update)
+
+Four forces, in causal order — skipping the first breaks the other three:
+
+1. **Product depth as the narrative floor.** Hype without substance decays in ~72 hours; the story can only stand as tall as the product is deep.
+2. **Reproducibility sets the emotional ceiling.** Users could re-run Manus demos themselves, so testimonials read as discovery rather than marketing — one creator's genuine recommendation pulled 2.8M views. Devin's non-reproducible demos drew hedged, polite coverage; the same creator's favor-share managed roughly 20 likes. Design demos for screen-recording and re-creation.
+3. **The influencer flywheel.** Founders, operators, and investors with real followings are each worth ten commissioned posts. Seed genuine surprise, never obligation — the 2.8M-vs-20 gap above is exactly that difference.
+4. **The platform relay race.** Days 0–3: X/Twitter ignites the topic. Days 3–10: YouTube and Substack deepen it. Day 10+: Reddit and HN keep the long tail alive. Plan the handoffs, not just the spark.
+
+### Budget-to-outcome ladder for AI launches (observed 2025–2026)
+
+| Ticket | Observed ceiling |
+|---|---|
+| ~$1K | Hundreds of signups — go community-led, skip the big stage |
+| ~$5K | A contested Product Hunt daily crown (~1,800 votes/24h) |
+| $10–20K | Seven-figure impressions, four-figure signups |
+| <$20K total | A 10K-star open-source launch with a team of ≤5 |
+
+Sanity ratio before you allocate: PH exposure→upvote ≈ 1%, while Reddit exposure→GitHub star runs 5–8%. Small budgets belong in niche communities and micro-creators, not leaderboards. Weekly PH badge ≈ 7x the exposure of daily, monthly ≈ 30x — pick the board before picking the date.
+
 ## 📚 Free Resources
 
 **GitHub Playbook (Free):**
