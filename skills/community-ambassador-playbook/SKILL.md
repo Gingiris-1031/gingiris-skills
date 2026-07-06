@@ -1,10 +1,8 @@
 ---
 name: community-ambassador-playbook
-version: 1.1.0
+version: 1.2.8
 description: |
   You launched an ambassador program. 3 applications. One ghosted after week 2. Should you lower the bar? Offer more perks? Spam influencers? This gives you the complete community & ambassador operations SOP — from pre-launch checklist to recruitment to tiered management to retention to governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K stars), Asana, and ClickUp programs. By @WeiYipei.
-
-  Inside: pre-launch readiness checklist · 6-step community setup SOP · ambassador recruitment & scoring · 4-tier progression (Bronze→Platinum) · 5-pillar incentive framework · churn early-warning & retention · event operations SOP · health-metrics dashboard · governance & risk control · ready-to-use templates.
 
   🇨🇳 你搞了个大使计划。来了3个申请。一个第二周就消失了。该降门槛？加福利？群发KOL？这份SOP给你从启动前置条件到招募到留存到治理的完整社区/大使运营方法论。基于 Notion（2000万用户，大使真实访谈）、AFFiNE（60K stars）、Asana、ClickUp 实战案例。
 
@@ -18,17 +16,6 @@ tags:
   - ambassador-program
   - community-building
   - developer-relations
-  - community-led-growth
-  - devrel
-  - open-source
-  - saas
-  - user-retention
-  - community-growth
-  - claude-code
-  - ai-agent-skill
-  - community-ops
-  - koc-kol
-  - latest
   - DevRel
   - community-growth
   - user-retention
@@ -41,12 +28,8 @@ tags:
   - community-operations
   - growth-hacking
 when_to_use: |
-  Use this skill when you need to: launch or scale a community ambassador program, build
-  4-tier ambassador progression (Bronze→Platinum), design incentive frameworks, reduce
-  ambassador churn, run community events, or set up governance and health-metrics dashboards.
-  Trigger phrases: "ambassador program" | "community building" | "DevRel" | "community growth" |
-  "社区大使计划" | "社区运营" | "开源社区" | "用户留存" | "大使计划"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/community-ambassador-playbook
+  Use to launch or scale a community/ambassador program: 4-tier progression (Bronze→Platinum),
+  incentive frameworks, churn reduction, community events, governance and health-metrics dashboards.
 ---
 
 # Community & Ambassador Program Playbook — Full SOP
@@ -226,3 +209,103 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/commun
 ---
 
 *Built from Notion (20M users), AFFiNE (60K stars), Asana Ambassador, ClickUp Verified. By @WeiYipei.*
+
+---
+
+## 硬件品牌社区运营案例
+
+> 来源：Insta360（影石创新）IPO 招股书 / DJI 官网 / 媒体报道 / Plaud 官戦社区模式报道
+
+### 一、Insta360 四层创作者体系
+
+Insta360（影石创新）建立了一套从普通用户到官方大使的渐进式创作者成长渠道：
+
+| 层级 | 名称 | 进入门槛 | 核心权益 |
+|------|------|----------|----------|
+| **L1** | Affiliate 联盟 | 开放参与，任意用户均可申请 | 销售佣金 5%（全球线上订单） |
+| **L2** | Rising Talents | 内容质量筛选，小体量创作者 | 早期产品体验 + 官方推荐 |
+| **L3** | Campus Creator | 在校大学生，广展 / 活动运营能力 | 设备起步金支持 + 校园活动资源 |
+| **L4** | Official Ambassador | 内容质量 + 社区贡献全面评估 | 定制器材 + 影石 x 创作者联名发布 + 全球创作者活动参与 |
+
+**运营要点：**
+- Affiliate 体系让所有层级的创作者都能在早期建立商业关联，降低进入门槛
+- Rising Talents 发现机制：品牌主动监控社交媒体，主动找到得分较高的内容创作者并邀请升级
+- 认证体系制造身份认同：每个层级的 badge 和资格标识展现在公开个人资料页，加强创作者对层级的投入感
+- 上升路径清晰可见：每个创作者都能看到自己在哪个层级、升级需要什么
+
+> 🇺🇸 **Insta360 Creator Ladder**: Open Affiliate (5% commission) → Rising Talents (content-quality screened) → Campus Creator (university events) → Official Ambassador (co-branded content + global events). The open bottom rung keeps acquisition frictionless; the certification ceiling creates identity investment.
+
+---
+
+### 二、大疆三线并行社区架构
+
+大疆最高明的社区运营在于：将消费级、专业级、企业级用户完全隔离运营，避免社区氥染。
+
+| 线路 | 平台 | 对象 | 运营逻辑 |
+|------|------|------|----------|
+| **消费线** | SkyPixel | 航拍爱好者、旅行博主、小红书/YouTube 内容创作者 | 作品展示、年度大赛、课程内容 |
+| **专业线** | DJI Forum + 认证飞手 | 行业无人机操作员、行业应用开发者 | 设备添识、技术文档、认证体系 |
+| **企业线** | 授权培训计划 | 企业无人机解决方案商 | 官方授权认证、商业内容合作 |
+
+**各线路的运营要点：**
+- **SkyPixel（消费线）**：归巢策略，将全球用户 UGC 吸引到品牌自有平台；年度大赛吸引高质量创作者；平台内课程属内容变现路径
+- **Forum + 认证飞手（专业线）**：技术讨论 + 认证考试体系，将专业用户转化为的弱联却变现稳定的情感投入关系
+- **授权培训（企业线）**：将社区运营与 B2B 销售能力建设融合，一套体系内完成多段目标
+
+> 🇺🇸 **DJI Three-Track Model**: Consumer (SkyPixel) / Professional (Forum + certified pilots) / Enterprise (training program) — each audience stays in its own community, prevents noise, maximizes engagement relevance.
+
+---
+
+### 三、「官方接管」机制：NoseMode 三步进化模式
+
+> 这是硬件品牌社区运营中最有参考价値的模式之一——官方不要创造流行，而是发现并放大用户已经在做的事情。
+
+**三步进化模式：发现 → 接管 → 放大**
+
+```
+第一步：发现（Discovery）
+社区监听工具扫描到某种玩法的自发多条
+单条内容和互动率远超平均水平（门槛：>3倍平均互动率）
+特征：非病毒内容、非人为推动、纱于品牌硬件特性
+
+第二步：接管（Takeover）
+官方核心动作：为玩法命名，发布带封面标题和标准化标签
+官方发布示范视频（官方版 NoseMode）
+发起指定 hashtag 挑战赛（给于封面标题 + 各级奖励）
+将相关互动将粉双与官方转居屏联动
+
+第三步：放大（Amplification）
+头部创作者联动（Official Ambassador 层级）
+跨局域平台联动（TikTok / IG / YouTube）
+跨文化题目活化（日本单独跨线 × 动漫文化连接）
+返赠点赞率最高的用户内容（展示地位 + 特殊认证）
+```
+
+**官方接管的关键价値点：**
+- 用户感知自己的玩法被品牌「看见了」，形成极强的情感纳入
+- 官方命名赋予「社区标识」，被命名的用户成为诅传者
+- 挑战赛结构将非续购用户转化为长期 UGC 生产者
+
+> 🇺🇸 **Official Takeover Playbook**: Discover high-engagement organic UGC → Name it (give it a brand identity) → Launch hashtag challenge with tiered rewards → Amplify with Official Ambassadors + cross-region localization. The user who created it becomes the origin story of your campaign.
+
+---
+
+### 四、认证体系制造身份认同的具体做法
+
+硬件品牌的认证体系有天然优势：设备本身就是展示身份的载体。Insta360 和大疆的认证体系均采用以下机制：
+
+| 机制 | 具体做法 | 身份认同效果 |
+|------|----------|------------|
+| **小奔头项目** | 设备外包装 / 视觉废料赠送 | 所有收到设备者天然拥有展示眼秀 |
+| **公开认证标识** | 个人社交账号展示层级 badge | 每次发布内容时展示身份 |
+| **品牌共创内容** | 官方进入创作者频道联名发布 | 创作者解锁「官方审美」的删袋感 |
+| **创作者旅行/运动作品** | 邀请头部创作者参与品牌经典场景拍摄 | 内容本身成为身份刻印 |
+| **年度大赘奖励严肃** | 公开创作者大赘排川、合实奖励 | 利用公开训示效应驱动其他创作者投入 |
+
+**核心洞察：** 硬件品牌认证的身份认同不同于纯内容创作者——设备本身是「成员证」，占有和使用硬件就天然具有社区属性，再加上层级认证加持则会形成极强的层级归属感。
+
+> 🇺🇸 **Identity Engineering**: Hardware certification systems have a structural advantage over pure software — the device is a physical badge. Each certification tier should visibly upgrade the creator's public identity (profile badge, co-branded content, brand-event access), making tier progression a career milestone, not just a perk.
+
+---
+
+*硬件案例数据来源：Insta360 IPO 招股书 / 影石创新官网 / DJI SkyPixel 官网 / Forbes / 36kr 媒体报道*

@@ -1,6 +1,6 @@
 ---
 name: gingiris-go-global
-version: 1.0.0
+version: 1.0.11
 description: |
   🇺🇸 AI Product / SaaS Go-Global Complete SOP — From competitor research to launch to monetization. A full-cycle playbook covering Phase 0-5 (market validation, positioning, first 100 users, user interviews, beta-to-growth) plus open-source launch, Product Hunt, Reddit, SEO/GEO, conversion, and org principles. **Defaults to dev tools / OSS / B2B SaaS; for 2C products (education, apps, games) the launch channels & metrics differ — see gingiris-seo-geo/references/2c-adaptation.md.**
 
@@ -140,48 +140,6 @@ PMF 前不要花超过 $1000 找前 100 个用户：
 
 ---
 
-## ARR 分阶段渠道地图与增长纪律
-
-### 渠道按 ARR 阶段解锁
-
-| 阶段 | 渠道 | 纪律 |
-|:---|:---|:---|
-| 种子期 | founder 人脉、身边人 | 前 3 个客户必须创始团队亲自拿下 |
-| $50 万 ARR | PH / Reddit / Discord / 创始人 IP / 自建矩阵 | 获客总花费 <$2 万；PMF 前不做大规模投放 |
-| $100 万 ARR | 上红人 + SEM + 创始人 IP | 先自测 5–10 个词跑出 CPA 再放量 |
-| $500 万 ARR | SEO/SEM 矩阵化 + 多渠道投流 + referral | 规模化 organic content |
-| $2000 万 ARR | PLG + SLG + 办 conference | — |
-
-海外团队纪律：营收 $200–300 万以下不建海外 office，用 affiliate / reseller / service partner 生态分钱（头部产品分销分成可达 50%）。
-
-### 护栏优先于北极星
-
-- 北极星必须带护栏指标，例：D1 激活率 ≥10%、混合 CAC 上限、K 因子 ≥0.4。
-- 硬规则：**激活跌破阈值自动降拉新油门——别一边漏水一边灌水。**
-- 用 CAC 数学先证伪买不起的渠道，再定引擎组合；每周砍高 CAC 渠道、复投低 CAC 渠道。
-
-### 投流红线（实测）
-
-| 指标 | 红线 |
-|:---|:---|
-| 注册成本 | $5–8 |
-| 付费成本 | <$50（理想 <$30；到 $100 一定有问题）|
-| 污染信号 | 投流用户平均浏览时长 189s→8s、付费率 0 → 立刻停投复盘 |
-
-### B 端渠道横评（实测）
-
-- 转化率排序：**LinkedIn > Reddit > Twitter**。
-- LinkedIn：$10/天 → 196 点击 + 2 注册；$60 → 2 个付费（CPA $30）；**3 天投放周期最优**。
-- **B 端砍 Twitter 投放**：多个项目独立验证 Twitter 转化差（花费降 32% 转化持平），只用于品牌声量与造势。
-
-### 增长停滞：三层 fit 诊断
-
-Idea-market fit → Product-market fit → Product-channel fit，逐层排查——别在错的层修问题。
-
-详细版（含 CAC 证伪算例与引擎配比）→ [references/full-sop.md](references/full-sop.md) 第 13 节
-
----
-
 ## 一页作战清单
 
 | 阶段 | 关键动作 |
@@ -199,3 +157,85 @@ Idea-market fit → Product-market fit → Product-channel fit，逐层排查—
 完整 SOP 原文（含全部阶段细节、播客总结、作战清单）：
 
 → [references/full-sop.md](references/full-sop.md)
+
+---
+
+## 硬件出海市场进入策略
+
+> 来源：Plaud 官方众筹报道 / Makuake 项目页 / Insta360 IPO 招股书 / Forbes / PR Times
+
+### 一、Plaud 日本 Makuake 策略：众筹长臹法
+
+Plaud 进入日本市场的路径是硬件出海的典型模式：先在全球平台验证需求，再以本地化步骤重新进入重要市场。
+
+```
+阶段 1：全球平台验证（Kickstarter）
+2023.06 上线 Kickstarter
+$1,108,181 / 7,564 backers（来源：Kickstarter 官方）
+展示全球真实需求验证 + 建立品牌知名度
+
+阶段 2：小体量日本验证（全球采购流量监测）
+通过全球云店少量接受日本订单
+检验日本市场的真实到货率、退货率、客服需求
+
+阶段 3：本地众筹平台上线（Makuake）
+2023年底-2024年入驾 Makuake（日本最大众筹平台）
+2个月内破 2.7亿日元（升至 Makuake 商务工具类目历史第一）
+来源：PR Times / Makuake 官方公告
+
+阶段 4：本地法人建立
+在日本设立实体法人实现本地化运营
+进入山田、纳娷、亚马逊日本等本地零售渠道
+```
+
+**模式提炼：**
+- Kickstarter 不仅是单第一笔资金，更重要的是验证了全球 7,564 个付费意愿的电子邮件名单
+- 日本分阔关键：日文单独运营号 + 本地客服能力 + 日文 Landing Page SEO
+- Makuake 项目成功后，本地活跃度可以支撑第一个本地雇员
+
+> 🇺🇸 **Plaud Japan Ladder**: Kickstarter (global validation) → Monitor JP orders via global store → Launch Makuake (local crowdfunding, ¥270M raised, #1 in Business Tools category) → Establish JP legal entity + local retail. Key: each step reduces market-entry risk before the next commitment.
+
+---
+
+### 二、Insta360 区域办公室模式：运营前哨而非销售前哨
+
+Insta360 的海外团队建设遵循一个原则：
+**先活跃过一个阈值，再建本地团队**。
+
+| 办公室 | 地址 | 主要职能 | 选择逻辑 |
+|------|------|----------|----------|
+| 洛杉矶办公室 | 美国洛杉矶 | 创作者社区 + 娱乐/体育联定 | 全球最大影视内容创作者市场 |
+| 东京办公室 | 日本东京 | 日本创作者社区 + 亚太地区市场 | 日本消费级相机市场以及产品南亚辐射 |
+| 柏林办公室 | 德国柏林 | 欧洲市场运营 + 体育评歋 | 德语域 + 全欧盲盒 |
+
+**运营前哨的定义：**
+- 不是简单的销售代表处，而是能够在当地执行创作者活动、担任当地 PR、识别重要 KOL 并建立关系
+- 每个办公室的核心 KPI 不是销售额，而是创作者参与活跃度、社区编程活动数量、当地媒体覆盖数量
+- 海外营收占总营收 70%-76%（来源：36kr / KR Asia / Insta360 IPO 招股书分析）
+
+> 🇺🇸 **Insta360 Regional Office Model**: Los Angeles / Tokyo / Berlin are **operations outposts, not sales outposts**. Their primary job is creator community activation, local PR and KOL relationship-building. Revenue follows community density, not headcount.
+
+---
+
+### 三、本地化触发点：组织化本地运营升级局
+
+**市场层级升级运运标准（三级门槛）：**
+
+| 阶段 | GMV 占比阈值 | 运运动作 |
+|------|------------|----------|
+| **观察期** | <5% 全球 GMV | 全球平台统一运运，旨趣商品展示和本地语言 |
+| **验证期** | 5%-15% 全球 GMV | 开启本地语言社交运运、本地化着陆页、识别重要 KOL |
+| **组织化升级** | **>15% 全球 GMV** | **触发“组织化本地运运”升级**：雇用本地运运、进入本地众筹平台、建立当地社区 |
+
+**15% GMV 阈值的依据：**
+- 当一个市场占全球 GMV 超过 15%，说明该市场有足够的自发购买力支撑全荷本地团队成本
+- 带后察训号指标：公司内部用。Plaud 日本 + Insta360 东京都在达到超10%+ GMV 占比后才开始本地团队投入
+
+**升级后的本地化动作应包含：**
+- 本地语言社交账号独立运运
+- 本地众筹平台项目（如 Makuake、豷貗山一等）
+- 本地座谈与发布会参与
+- 本地零售/线下渠道盘点
+- 本地化 PR + 独窶策略
+
+> 🇺🇸 **15% GMV Trigger Rule**: When a single market exceeds 15% of global GMV, it has proven sufficient organic demand to justify localized org investment. Before that threshold: run on global ops + localized landing page. After: hire local, enter local crowdfunding platforms, establish legal entity.

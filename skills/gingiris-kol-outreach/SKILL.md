@@ -1,5 +1,6 @@
 ---
 name: gingiris-kol-outreach
+version: 1.0.11
 description: |
   🇺🇸 KOL Outreach & Influencer Marketing Playbook — Complete SOP from discovery to ROI tracking. Battle-tested with 200+ KOL campaigns at AFFiNE (60k stars). Includes pricing benchmarks, email templates, content packages, platform algorithm guides, and data-driven evaluation frameworks.
 
@@ -107,76 +108,6 @@ Content Package 必须包含：Product Overview、Brand Assets、Key Talking Poi
 
 ---
 
-## 全链路 10 步 SOP（2026 速查版）
-
-上面 6 步是月度节奏版，实操到单个红人时按这条流水线走：
-
-**确认预算 → 精准匹配 → 询价（邮件/DM）→ 确认价格意向 → 发 Content Package → Draft 来回 argue（砍价 1-2 轮、脚本 1-2 轮、终稿 1-2 轮）→ Invoice → 打款 → 发布 → 专属邀请码/UTM 追转化**
-
-Brief 材料包保持短：一句话介绍 + 一段话介绍 + 3 个必提亮点，最想强调的放最前面。
-
----
-
-## 价格基准表（2026 实付更新）
-
-> 上表为刊例参考价，下表为 2025-2026 多项目**实付成交价**。红人报价默认虚高，先看砍价铁律再谈。
-
-| 项目 | 实付基准 | 备注 |
-|------|----------|------|
-| Twitter Quote | $20-30（批量）/ $50 均价 | 堆量打法的基本单元 |
-| Twitter Thread | $80-200 | 万浏览量级 Thread $50-200 |
-| Quote 包月 | $100/月 4 条 | 适合高频功能更新期 |
-| Service Bundle | $150 全套（Thread + Single Post + Quote） | 优先谈 bundle 而非单条 |
-| YouTube 长视频 | 10 万粉以下 $600-800 | 封顶公式见下 |
-| Instagram Reels | $30-80 | — |
-| TikTok 短视频 | $100-300 | — |
-| UGC 素人 | $10-40/条 + 阶梯 bonus | 例：1 万 view +$20、10 万 view +$50 |
-
-**YouTube $1,500 封顶公式**：平均播放 1 万+ × 粉丝 <10 万 × 有同品类合作史——三条同时满足才值 $1,500，否则按 $600-800 谈。
-
-### 砍价铁律（2026 版）
-
-1. **报价按三折起砍、至少砍两轮**——报价默认虚高，必砍
-2. **谈 Service Bundle 不谈单条**——bundle 单位成本最低；发布前可提醒二次砍价
-3. **长期合作换折扣**：每月稳定合作 ≥3 次谈长期价；合作好的 KOL 转 Quote 包月
-4. **不用 Agency**——难按拉新量交付且贵，直连红人
-
----
-
-## Quote 堆量打法（已验证核心武器）
-
-**单条主推 + 50-120 个 Quote 可顶到 70 万级浏览，并引发自来水跟风。**
-
-- 实测：某 AI 记忆产品单条主推配 120 个 Quote → 近 70 万曝光 + 50 个自来水 Quote
-- **Quote > Thread（实测转化）**：预算从 Thread 倾斜到 Quote
-- Link 埋放规则：Main Tweet 可不带 GitHub link；**Subtweet 1 和最后一条必须带；Quote 一定带**
-- 要求红人在自己粉丝活跃时段发布；有私域群（WhatsApp/TG/FB）的要求同步分发
-
----
-
-## KOC 甜点区与筛选硬标准
-
-- **KOC 甜点区：1-3K 粉、平均播放 500-3000 的小红人**；"10 万粉以下 + 平均浏览 1 万+"是性价比甜点，转化效率常高于大 V
-- 筛选硬标准：**受众地域匹配 + 发过竞品的优先**（受众已验证）；开源项目只找有开源合作史的红人
-- **红人 list 是跨项目资产**：表现好的红人名单直接复用到新项目，边际成本递减
-- **KOL → Affiliate 漏斗**：数据好的红人沉淀为长期 affiliate（如 Rewardful），一次性投放变持续渠道
-
----
-
-## DM/触达回复率基准（2026 实测）
-
-| 渠道 | 回复率 | 备注 |
-|------|--------|------|
-| Telegram 私信 | 20-30% | 易被 ban，ROI 要算 |
-| 达人 EDM | 17.3% | **高于 DM**，红人建联首选邮件 |
-| LinkedIn DM | 10-15% | 新账号封号风险高 |
-| 专家冷 outreach | ~11% | 实测 120 触达 → 13 回复 → 3 meeting |
-| Twitter DM | 1-5% | 需蓝标 |
-
-邮件无回复 → 转 LinkedIn 私信补一轮（双通道兜底）。
-
----
-
 ## 数据评估体系
 
 | 指标 | 评估标准 |
@@ -227,3 +158,76 @@ Brief 材料包保持短：一句话介绍 + 一段话介绍 + 3 个必提亮点
 | 文档 | 内容 |
 |------|------|
 | [references/full-sop.md](references/full-sop.md) | 完整KOL运营指南（18章，含邮件模板、Content Package模板、头部KOL资源库、案例复盘、平台算法深度解析） |
+
+---
+
+## 硬件产品 KOL 策略
+
+> 来源：Plaud 官方博客 / Kickstarter 页面 / Insta360 招股书 / 媒体报道综合整理
+
+### 一、Plaud 的「中腰部垂类矩阵」策略
+
+Plaud 早期 KOL 增长路径颠覆了硬件品牌惯用的「砸大V」打法：
+
+**核心原则：垂类场景匹配 > 粉丝数**
+
+| 维度 | 传统硬件 KOL 打法 | Plaud 打法 |
+|------|-----------------|------------|
+| KOL 选择标准 | 粉丝量优先（MKBHD 等数码大V） | 垂类场景匹配度优先（律师/医生/学生/播客主） |
+| 合作方式 | 付费广告 + 指定脚本 | 免费寄送样品，换取真实测评内容 |
+| 早期规模 | 砸预算覆盖 20-50 个大V | 约 10-20 位中小创作者起步 |
+| 内容属性 | 产品功能展示 | 工作流嵌入体验（真实使用场景）|
+
+**为什么绕开 MKBHD 等数码大V？**
+- 数码大V 的受众是「科技爱好者」，而非 Plaud 的核心用户（知识工作者）
+- 律师拍 Plaud 录制庭审会议、医生测评 AI 病历记录，触达了真正有付费意愿的细分场景
+- 垂类创作者对产品感知更强，内容真实性高，转化率显著优于泛科技评测
+- 免费寄样换真实内容，成本极低，且口碑内容长期有效（vs 付费广告下架即消失）
+
+**视觉钩子设计原则（Plaud 案例）：**
+
+| 钩子元素 | 具体体现 | 分享驱动力 |
+|----------|----------|------------|
+| **信用卡厚度** | 与信用卡并排摆放的对比图 | 反直觉视觉冲击，「这么薄？」 |
+| **MagSafe 吸附** | iPhone 背面吸附的即拍即用 | 无感使用的生活流 UGC 天然场景 |
+| **AI 输出对比** | 1小时会议 → 结构化摘要的 Before/After | 功能价值即视感，强转化 |
+
+> 🇺🇸 **Plaud Mid-Tier Vertical Matrix**: Skip the tech mega-influencers. Find creators whose audience IS your ICP (lawyers, doctors, consultants, students). Send free devices, ask for honest reviews. 10-20 micro-creators with scene-matching audiences outperforms 1 MKBHD-type placement for hardware with a narrow professional use case.
+
+---
+
+### 二、Insta360 2000+ 大使体系
+
+Insta360（影石创新）建立了多层级创作者合作体系，官方公开信息显示团队约 2000 人规模全球支持创作者生态：
+
+- **四层结构**：Affiliate（5%佣金，全开放）→ Rising Talents → Campus Creator → Official Ambassador
+- **KOL 选择逻辑**：优先「视觉内容创作者」+ 「极限运动/旅行/户外」垂类，天然与硬件视觉能力强匹配
+- **降低门槛策略**：开放 Affiliate 让任何创作者都能以零摩擦加入，大规模招募「有收入驱动」的 KOL 矩阵
+- **头部资源集中**：Official Ambassador 享有联名发布、创作者活动、定制器材，是顶级激励
+
+> 🇺🇸 **Insta360 Ambassador Scale**: Open bottom (Affiliate, any creator) drives volume; selective top (Official Ambassador, co-branded content) creates prestige. The visible career ladder keeps mid-tier creators invested in climbing, not just one-shot deals.
+
+---
+
+### 三、硬件 KOL 的天然视觉钩子设计原则
+
+硬件产品的 KOL 内容效果由产品本身的「视觉钩子」决定，KOL brief 的核心是激活这些先天优势：
+
+| 原则 | 说明 | 案例 |
+|------|------|------|
+| **形态反直觉** | 产品的物理形态超出用户预期，产生「它是怎么做到的？」 | Plaud 信用卡厚度、DJI Mavic 折叠后掌心大小 |
+| **使用场景可视化** | 产品在真实使用中的样子比静态图更有传播力 | Insta360 NoseMode 极端视角、Plaud MagSafe 吸附 iPhone |
+| **Before/After 效果量化** | 清晰展示使用前后的差异，特别是 AI 功能的输出结果 | Plaud 1小时会议 → AI 摘要截图、Insta360 普通视角 vs 360° 回放 |
+| **可模仿性** | 创作者看到内容后，自己也想试一试 | NoseMode（拿起来拍就行）、Plaud 录会议（日常场景）|
+
+**Brief 指导原则：**
+1. 给 KOL 的 Brief 必须包含：3 个具体的视觉钩子场景示范
+2. 不指定脚本，但提供「推荐拍摄对比组合」（如：信用卡对比 / AI输出截图）
+3. 鼓励 KOL 嵌入自己的真实工作流，而非模拟使用
+4. 硬件 KOL 的最佳内容长度：YouTube（5-8 分钟深度测评）/ TikTok（30-60 秒视觉冲击）/ Instagram（9:16 Reel，前3秒产品亮相）
+
+> 🇺🇸 **Hardware Visual Hook Framework**: (1) Form-factor surprise (physical impossibility), (2) in-use scene visualization, (3) Before/After AI output. The best hardware KOL content doesn't need a script — it needs a creator who genuinely uses the product in their real workflow and a camera to capture what the hardware makes possible.
+
+---
+
+*硬件案例数据来源：Kickstarter 官方（Plaud KS: $1,108,181 / 7,564 backers；iZYREC: $208,713 / 2,391 backers）/ Insta360 IPO 招股书 / Forbes / 媒体报道综合整理*
