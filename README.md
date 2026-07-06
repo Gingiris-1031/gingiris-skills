@@ -21,6 +21,20 @@ Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [c
 
 ---
 
+## 🇨🇳 中文简介
+
+这是 Gingiris 增长技能 monorepo，收录 55+ 个可复用的 Claude Code skills，覆盖 SEO/GEO、产品发布、开源营销、B2B 增长、用户访谈等出海增长场景。所有内容提炼自真实操盘经验，而非二手资料汇编。一条命令安装全部：`npx skills add Gingiris-1031/gingiris-skills`，也可以按上面的索引单独安装某一个 skill。完整技能列表与使用说明见 [gingiris.tools/skills](https://gingiris.tools/skills/)。
+
+## 🇯🇵 日本語
+
+Gingiris 成長スキルのモノレポです。SEO/GEO、プロダクトローンチ、オープンソースマーケティング、B2B グロース、ユーザーインタビューなどをカバーする 55+ 個の Claude Code スキルを収録しています。`npx skills add Gingiris-1031/gingiris-skills` の 1 コマンドで一括インストールでき、個別スキルのみのインストールにも対応しています。詳しいスキル一覧は [gingiris.tools/skills](https://gingiris.tools/skills/) をご覧ください。
+
+## 🇰🇷 한국어
+
+Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소스 마케팅, B2B 성장, 사용자 인터뷰 등 글로벌 그로스 시나리오를 다루는 55+ 개의 Claude Code 스킬을 담고 있습니다. `npx skills add Gingiris-1031/gingiris-skills` 명령 하나로 전체를 설치할 수 있고, 필요한 스킬만 골라 설치할 수도 있습니다. 전체 스킬 목록과 사용법은 [gingiris.tools/skills](https://gingiris.tools/skills/)에서 확인하세요.
+
+---
+
 ## Skills Index
 
 ### Core Growth Playbooks (`gingiris-*`)
