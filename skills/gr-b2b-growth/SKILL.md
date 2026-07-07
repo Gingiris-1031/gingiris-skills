@@ -112,7 +112,7 @@ tags:
 ## 深度参考
 
 - `references/deal-execution.md` — 2B 打单与交付框架（六步流程 / SOW+CCB / 付款结构与尾款防御 / 渠道分层 / $1M ARR 拆解）
-- 完整实操层（合同条款速查卡、签约前 12 问 Checklist、实战话术库）见 Gingiris 付费实操手册 → gingiris.tools
+- 完整实操层（合同条款速查卡、签约前 12 问 Checklist、实战话术库）见 Gingiris 付费实操手册 → https://gingiris.tools/playbook/2b-deals/
 
 ---
 

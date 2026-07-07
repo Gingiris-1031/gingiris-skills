@@ -1,6 +1,6 @@
 # Enterprise Deal Execution · Framework Reference
 > Distilled from a multi-agent OSS commercialization retrospective ($0 → $500K ARR) and 2024-2026 client work across 105+ projects.
-> This is the framework layer; the full operator layer (contract-clause quick cards, the 12-question pre-signing checklist, negotiation scripts) ships with the Gingiris paid field manual → gingiris.tools
+> This is the framework layer; the full operator layer (contract-clause quick cards, the 12-question pre-signing checklist, negotiation scripts) ships with the Gingiris paid field manual → https://gingiris.tools/playbook/2b-deals/
 
 ## The six-step deal flow
 

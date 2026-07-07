@@ -155,7 +155,7 @@ Content Package 必须包含：Product Overview、Brand Assets、Key Talking Poi
 
 ## 场景绑定与 AI 建联提效（外部实战引证）
 
-> 引证：超线性 Seven 王跃访谈（Monica出海说，2026-07）。超线性 = Lessie（~10万用户的找人 AI Agent）+ DeepLink（红人营销服务），服务 100+ 出海品牌，$700-800 万美金 ARR，付费达人履约率 90%+。
+> 引证：超线性（Superlinear）Seven 王跃访谈（Monica出海说，2026-07）。超线性 = Lessie（~10万用户的找人 AI Agent）+ DeepLink（红人营销服务），服务 100+ 出海品牌，$700-800 万美金 ARR，付费达人履约率 90%+。
 
 ### 一、内容策略反模式：别把 10 个卖点塞进 15 秒视频
 

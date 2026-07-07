@@ -119,7 +119,7 @@ Reseller due diligence — three questions: what did you resell before? where do
 
 **2B content formula**: 80% how you helped customers succeed + 20% about the customer. Deck narrative: pain first, then the fix.
 
-> Deep dive: `references/deal-execution.md`. The full operator layer (contract-clause quick cards, the 12-question pre-signing checklist, negotiation scripts) ships with the Gingiris paid field manual → gingiris.tools
+> Deep dive: `references/deal-execution.md`. The full operator layer (contract-clause quick cards, the 12-question pre-signing checklist, negotiation scripts) ships with the Gingiris paid field manual → https://gingiris.tools/playbook/2b-deals/
 
 ### B2B content is different from B2C
 

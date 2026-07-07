@@ -1,6 +1,6 @@
 # 2B 打单与交付 · 框架参考
 > 提炼自某开源 Multi-Agent 框架公司 2B 商业化复盘（0→$500K ARR）及 2024-2026 多项目实战。
-> 本文是框架层；完整的合同条款速查卡、签约前 12 问 Checklist 与实战话术库见 Gingiris 付费实操手册（gingiris.tools）。
+> 本文是框架层；完整的合同条款速查卡、签约前 12 问 Checklist 与实战话术库见 Gingiris 付费实操手册（https://gingiris.tools/playbook/2b-deals/）。
 
 ## 对接六步流程
 
