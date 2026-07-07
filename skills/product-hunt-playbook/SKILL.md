@@ -1,5 +1,5 @@
 ---
-name: "Product Hunt Launch Playbook — Win #1 Daily"
+name: product-hunt-playbook
 version: 1.6.0
 description: |
   It's 11pm before your launch. Your PH page is ready but you have no idea what actually moves the ranking algorithm. Upvotes? Comments? Time-of-day? This is the hour-by-hour operations manual from someone who's coached 30+ #1 finishes.

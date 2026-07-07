@@ -194,7 +194,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 
 ---
 
-## 十二、案例：Kuse — 零广告预算，60天1000万美金ARR，7000万全球曝光
+## 十二、案例：某 AI 知识工作产品（客户，数据自报）— 零广告预算，60天1000万美金ARR，7000万全球曝光
 
 > 来源：Atom x AWS出海增长系列01（2026.05）  
 > 团队规模：2人核心团队 | 平台：Threads + Instagram | CPM：\$0.5

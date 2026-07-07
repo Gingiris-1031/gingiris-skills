@@ -31,7 +31,7 @@ description: |
 
 **GitHub Playbook (Free):**
 ```bash
-clawdhub install gingiris-launch
+clawhub install product-hunt-launch-playbook-win-1-daily
 ```
 Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-launch)
 

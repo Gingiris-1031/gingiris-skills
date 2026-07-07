@@ -43,7 +43,7 @@
 
 ## Why This Playbook?
 
-Most UGC guides are generic advice. This playbook documents the **exact operational SOP** used by Kuse to achieve:
+Most UGC guides are generic advice. This playbook documents the **exact operational SOP** used by an AI knowledge-work product (Gingiris advisory client, self-reported data) to achieve:
 
 - **$10M ARR in 60 days** — with zero funding, zero ad spend, zero sales team
 - **70M global social media impressions** — across TikTok, Instagram, Threads, YouTube
@@ -123,7 +123,7 @@ IP Account (build persona, earn trust)
 - **CPM $0.5的秘诀**：多平台分发同一内容，只付最高流量平台费用
 - **全员奖金池**：取代PK机制，优秀Creator主动帮新人
 
-### Kuse案例关键数据
+### 客户案例关键数据（某 AI 知识工作产品，团队自报）
 
 | 指标 | 数据 |
 |------|------|
@@ -220,7 +220,7 @@ clawhub install gingiris-ugc-matrix
 **A:** Currently 6:4 (60% real creators, 40% AI-generated), trending toward more AI. AI handles hooks and batch generation; real creators provide authentic use-case demos and trust signals.
 
 ### Q: How much does it cost to start?
-**A:** Minimum viable: 2-person team + $10-50/video for creators + view bonuses. The Kuse case achieved $10M ARR with essentially zero paid advertising budget.
+**A:** Minimum viable: 2-person team + $10-50/video for creators + view bonuses. The client case achieved $10M ARR with essentially zero paid advertising budget.
 
 ### Q: Which platforms should I start with?
 **A:** For AI/tech products: Threads (algorithm bonus) + Instagram (shared ecosystem). For consumer apps: TikTok (viral potential) + YouTube Shorts (highest conversion). Always multi-platform distribute the same content.

@@ -107,7 +107,7 @@ Winning the contract is half the job — getting paid in full is the other half.
 | Path to $1M ARR | Breakdown |
 |:---|:---|
 | Enterprise route | 9 × $100k 2B customers |
-| Subscription route | 500 × $200/yr subscribers |
+| Subscription route | ~~5,000 × $200/yr subscribers (≈500 per $100k) per $100k (≈5,000 for $1M) |
 
 | Channel tier | Terms |
 |:---|:---|
@@ -208,7 +208,7 @@ Reseller due diligence — three questions: what did you resell before? where do
 | $1M ARR 拆解 | 组成 |
 |:---|:---|
 | 2B 路线 | 9 个 $10 万企业客户 |
-| 订阅路线 | 500 个 $200/年订阅用户 |
+| 订阅路线 | 每 $10 万 ≈ 500 个 $200/年订阅用户（$1M ≈ 5,000） |
 
 | 代理分层 | 条件 |
 |:---|:---|

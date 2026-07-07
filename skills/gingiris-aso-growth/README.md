@@ -138,7 +138,7 @@ Real app store optimization results from developers using this playbook:
 <img src="assets/logo-wall.jpg" alt="Apps using this ASO playbook" width="100%" />
 </div>
 
-**Featured Apps**: Spark Lab • Bonjour! • Nomofly • PaperGen • Kigland • EezyCollab • KusaPics • Trickle • Buddie • Jazz • 万物时 • Sheet0 • Teabie • MolyPix.AI • TANKA • BoomCut • Wegic • Kuse • 观擦 • Medeo • memU • CAMEL-AI • Second Me • Leapility • OpenAgents • TEN-framework • Datastrato • 小浣熊 *and more...*
+**Field-tested with**: 105+ AI products across dev tools, consumer apps, AI hardware, open-source frameworks and agent platforms (2024–2026 advisory engagements, anonymized) *and counting...*
 
 > 📢 **Grew your app with this playbook?** We'd love to feature your story! [Submit your case study](https://github.com/Gingiris-1031/gingiris-skills)
 

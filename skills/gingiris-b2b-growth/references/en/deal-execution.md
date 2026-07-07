@@ -58,5 +58,5 @@ Supply at 20% off list; resale capped at 1.2× list. Due-diligence three questio
 
 ## Decomposing $1M ARR
 
-9 × $100k enterprise accounts (standard service $30–50k + implementation $30k + training $20k) or 500 × $200/yr subscribers — run a small closed loop on each leg before committing resources.
+9 × $100k enterprise accounts (standard service $30–50k + implementation $30k + training $20k) or ~5,000 × $200/yr subscribers (≈500 per $100k) — run a small closed loop on each leg before committing resources.
 Pace benchmark: a $100k deal closing in 2 months is healthy; anything not serving revenue data gets deprioritized.

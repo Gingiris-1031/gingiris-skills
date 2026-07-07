@@ -4,16 +4,26 @@ description: >
   B2B SaaS 全生命周期增长。从 PMF 验证到 $10M ARR 的完整路径。覆盖 PLG / SLG 选型、
   客户访谈、联盟营销、渠道合作、Enterprise sales。整合 HeyGen、Deel、Vercel、Supabase、AWS 案例。
   从 gingiris-b2b-growth 提炼。
-when_to_use: |
-  Use this skill when you need to: execute B2B SaaS growth from PMF to $10M ARR, choose
-  PLG vs SLG motion, build affiliate/channel partnerships, set up enterprise sales, or
-  run customer interviews to find expansion opportunities.
-  Trigger phrases: "B2B growth" | "PLG vs SLG" | "SaaS growth" | "enterprise sales" |
-  "B2B增长" | "PLG还是SLG" | "affiliate营销" | "渠道合作" | "ARR增长"
 metadata:
   author: Iris / Gingiris
   version: "0.1.0"
-  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-b2b-growth
+tags:
+  - b2b-growth
+  - plg
+  - slg
+  - saas
+  - product-led-growth
+  - sales-led-growth
+  - b2b-saas
+  - revenue-growth
+  - arr
+  - go-to-market
+  - startup-growth
+  - claude-code
+  - ai-agent-skill
+  - agent-skill
+  - latest
 ---
 
 # gr-b2b-growth — B2B SaaS 增长
@@ -92,7 +102,7 @@ metadata:
 
 ### 营收与渠道账
 
-- $100 万 ARR 拆解：9 个 $10 万 2B 客户 **或** 500 个 $200/年订阅用户
+- $100 万 ARR 拆解：9 个 $10 万 2B 客户 **或** 每 $10 万 ≈ 500 个 $200/年订阅用户（$1M ≈ 5,000）
 - 代理分层：reseller 10–20% 推荐费；年销 $10 万银牌 15%、$30 万金牌 20%
 - 代理尽调三问：代理过什么产品？客户从哪来？Reseller 还是 Service Partner？
 - 2B 内容公式：80% 讲自己如何帮客户成功 + 20% 讲客户；deck 先讲怎么痛、再说怎么好
