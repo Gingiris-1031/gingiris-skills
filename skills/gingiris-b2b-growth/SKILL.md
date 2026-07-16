@@ -73,6 +73,38 @@ tags:
 | **Scale** | $5M–$10M | Enterprise team, compliance (SOC 2), channel acceleration |
 | **Ecosystem** | $10M+ | Open platform, investor / agency distribution |
 
+### Conversion-first: grind signup-to-paid before you scale
+
+Counter-intuitive but field-proven: do not scale traffic until signup-to-paid conversion clears the bar. Below it, paid traffic is negative-ROI ("suicide marketing").
+
+| Benchmark | Threshold |
+|:---|:---|
+| ToC AI signup-to-paid | **>= 1.5%** before scaling (good products: 6-8%; best seen ~40%) |
+| ToB AI signup-to-paid | **> 10-15%** before scaling |
+| Teams that actually executed this | 4-8%+ signup-to-paid, and smoother fundraising |
+
+The SOP (200+ teams heard it; fewer than 10 executed):
+1. Freeze paid ads, influencer pushes, and launch campaigns until the benchmark is hit.
+2. Find the persona with the highest willingness to pay - talk to one user 5 times if needed.
+3. Resist FOMO from competitors' PR; hold the line for months.
+4. Proof case: one coached ToC product stayed quiet for ~6 months, reached 6-8% signup-to-paid - ~$5,000 MRR on ~10,000 registered users - then scaled, and the growth curve (and fundraising) took off.
+
+Unit economics, both ends:
+- Interview-driven path: Gamma, HeyGen, Lovable each ran ~500-1,000 user interviews within roughly half a year before scaling (self-reported industry accounts). HeyGen's 5-minute signup-to-pay flow was distilled from ~1,800 interviews - 1 free credit, paywall exactly at the aha moment.
+- Burn path (anonymized counterexample): tens of dollars per signup, hundreds of dollars per paying user.
+
+### Day-0 pricing discipline
+
+- **Charge from Day 0.** A pricing-test window is fine, but collect money - even $1 plants the "this is not a free product" perception. Paying users vote with their wallet; free users just have opinions.
+- **Don't wait for the paid tier to exist**: ship a (deliberately vague) pricing page with a contact form. Field result: dozens of price inquiries within two weeks; inquiry mix ~70% community-free / 20% personal / 10% team - and the question shifts from "is this free?" to "how much?"
+- Users genuinely pay for **at most ~3 points** in any product. Instrument usage, find them, gate there.
+
+### PLG-to-SLG watershed and lean-team benchmarks
+
+- Below **~$1M ARR**: PLG + organic + light paid marketing is enough. Above ~$1M ARR (and most ToB): you need SLG / local key-account channels to keep scaling.
+- Lean-team bar (podcast-recalled figures, treat as approximate): Notion ~4-8 people at million-user scale; ClickUp ~24 people at $1M ARR; several 8-10 person teams in the same space at $1M revenue. Operator rule: **over 25 people without $1M revenue = the org is the problem, not the market.**
+- Inbound-heavy SLG pattern (founder's own account, self-reported): Mattermost's community edition drives search ranking, self-serve trials, then inbound deals - growing from ~$100k contracts to ~$1M contracts without a large sales team. Dify sells a standardized on-prem edition at ~$30-50k per deal with a single deploy engineer, routing custom work to partner vendors.
+
 ### Enterprise deal execution (private deployment & custom 2B)
 
 Winning the contract is half the job — getting paid in full is the other half. Distilled from a Multi-Agent open-source commercialization project retro.
@@ -173,6 +205,38 @@ Reseller due diligence — three questions: what did you resell before? where do
 | **Growth** | $1M–$5M | 引入 affiliate + 集成伙伴，PLG 加 sales-assist |
 | **Scale** | $5M–$10M | Enterprise 团队、合规（SOC 2）、渠道加码 |
 | **Ecosystem** | $10M+ | 开放平台、investor / agency 分销 |
+
+### 转化优先：先磨注册→付费，再放量
+
+反常识但实战验证：注册→付费转化率没到基准线之前，不要放量——投放 ROI 打不正（"自杀式营销"）。
+
+| Benchmark | 基准线 |
+|:---|:---|
+| ToC AI 注册→付费 | **≥1.5%** 才可放量（好产品 6–8%，最好见过 ~40%） |
+| ToB AI 注册→付费 | **>10–15%** 才可放量 |
+| 真正执行者的结果 | 注册→付费 4–8%+，融资也更顺 |
+
+SOP（200+ 团队听过，真正执行完的不到 10 个）：
+1. 达标前冻结投放、红人、launch campaign。
+2. 找出当前阶段付费意愿最高的画像——必要时"和一个用户聊 5 次"。
+3. 抵抗竞品 PR 带来的 FOMO，顶住几个月。
+4. 实证：一个被辅导的 ToC 产品沉寂约半年，注册→付费做到 6–8%——约 1 万注册用户做到 ~$5,000 MRR——之后放量曲线起飞、融资顺利。
+
+单位经济学两端对照：
+- 古典产品主义：Gamma、HeyGen、Lovable 都在约半年内做了 ~500–1,000 场用户访谈再放量（口述行业参照）。HeyGen 的"注册到付费 5 分钟"链路提炼自 ~1,800 场访谈——只给 1 个 free credit，付费墙卡在 aha moment 最高点。
+- 烧钱投放反例（匿名）：单个注册成本几十美金、单个付费用户成本几百美金。
+
+### Day-0 收费纪律
+
+- **从 day 0 开始收钱。** 允许 pricing test 调整期，但要勇敢收费——哪怕收 $1，也种下"这不是免费产品"的心智。付费用户用脚投票，免费用户只是发表意见。
+- **不要等付费版做出来**：先挂一个（刻意写模糊的）pricing 页 + contact 表单。实测：两周收到几十个问价；比例约 70% community free / 20% 个人 / 10% team——用户口径从"这免费吗"变成"大概多少钱"。
+- 一个产品用户真正付费的点**不超过 3 个**。做埋点找到它们，把卡点设在那里。
+
+### PLG→SLG 分水岭与精简人效基准
+
+- **~$1M ARR 以下**：PLG + organic + 常规投放足够；~$1M ARR 以上（及多数 ToB）：必须配 SLG / 本地 KA 渠道才能持续规模化。
+- 人效基准（播客口述回忆，按约数看）：Notion 约 4–8 人时已达百万用户量级；ClickUp 约 24 人做到 $1M ARR；同赛道多个 8–10 人团队做到百万美金营收。操盘铁律：**超过 25 人还没到 $1M 营收 = 组织有问题，不是市场有问题。**
+- Inbound 型 SLG 范式（founder 面授口述）：Mattermost 社区版带搜索排名→用户自助试用→主动 inbound，从 ~$10 万一单做到 ~$100 万一单，无需养大型销售团队。Dify 只卖标准化私有部署版（~$3–5 万美金/单，派一个工程师部署），定制需求全部转给合作 vendor。
 
 ### 2B 打单与交付（私有化 & 定制）
 
