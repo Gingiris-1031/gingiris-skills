@@ -309,3 +309,58 @@ Insta360（影石创新）建立了一套从普通用户到官方大使的渐进
 ---
 
 *硬件案例数据来源：Insta360 IPO 招股书 / 影石创新官网 / DJI SkyPixel 官网 / Forbes / 36kr 媒体报道*
+
+---
+
+## 播客实录增补：Notion 生态全案 + AFFiNE 双轨运营
+
+> 来源：作者播客访谈实录（2023–2024 口述）。Notion 部分基于作者亲访 Notion 总部与 co-founder 对谈的一手信息，具体数字为口述口径；标注"二手转述"处为播客中的转述，引用前建议核实。
+
+### 一、社区冷启动三前提（顺序不可乱）
+
+做社区/大使计划之前，必须按顺序满足三个前提（师承 Notion 早期大使体系）：
+
+1. **全员自己重度使用产品**；
+2. **产品已经足够好用**；
+3. **好用到用户开始口口相传**（出现自来水口碑）。
+
+成体系的大使计划 + 分润永远是**最后一步**。时间线佐证（二手转述，年份建议核实）：Notion 2018 年拿 Product Hunt 年榜第一时团队不到 10 人、没有专门运营部门，全员做运营；直到 2020 年才启动成体系的大使计划和分润。
+
+> 🇺🇸 **Three Preconditions (in strict order)**: (1) the whole team heavily uses its own product daily; (2) the product is genuinely good; (3) it is so good that word-of-mouth has already started. A formal ambassador program with revenue share is always the LAST step. Secondhand timeline (verify before citing): when Notion won Product Hunt's product of the year in 2018, the team was reportedly under 10 people with no ops department; the formal ambassador program only launched in 2020.
+
+### 二、Notion 大使/生态全案（亲访总部一手信息，数字为口述口径）
+
+1. **从数据里挑大使**：观测谁用得最深 + 谁在社交媒体自发传播（自来水），每个国家选出第一位大使——如 Notion's first China ambassador 自带约 3 万人的 designer 社区。
+2. **Founder 亲自植入愿景**：创始人 2020 年飞遍全球，逐一见每个国家的第一位大使，**每人深谈约 4 小时**。
+3. **让大使能赚钱**：affiliate 转化年付用户给推荐人**约 50% 分成**（口述口径，为行业最高档；一般产品给 10–20% 即可）；模板经济——template gallery、Fiverr 定制模板卖 300–800 美金、东南亚头部大使靠教学+卖模板**月入约 2 万新币**。用户变成不发工资的 sales："用户就是他的 SLG"。
+4. **内测特权**：大使提前约半年使用内测功能（口述案例：2022 年 8 月大使已用上 Notion AI，2023 年 2 月才公测）；每个功能面世前都过一遍高质量用户验证与反馈打磨。
+5. **超级用户杠杆**：单个超级用户一人可转化约 1 万注册用户，且这类用户内部有 50–100 个（口述口径）。
+
+> 🇺🇸 **Notion Ecosystem Playbook** (firsthand from the author's visit to Notion HQ and co-founder conversations; figures are as-spoken, not audited): pick each country's first ambassador from usage data + organic advocacy; the founder flew around the world in 2020 and spent ~4 hours with each one to instill the vision; make ambassadors money — ~50% affiliate revenue share on converted annual users (industry-high; 10–20% is enough for most products) plus a template economy (Fiverr custom templates at $300–800, top Southeast Asia ambassadors earning ~SGD 20K/month); give ambassadors beta access ~6 months early; one super user can convert ~10K signups, and there are reportedly 50–100 such users.
+
+### 三、Social Listening Bot：全网提及即抓取
+
+- 做一个 **social listening bot**：全网任何人在任何渠道提到产品，自动抓进内部 Slack 频道，团队第一时间看到并响应。
+- 配套动作：**官方账号转发每一条用户 post**——普通用户的持续产出比 KOL 单次发布更值得放大。
+- 这是大使计划启动前就该跑起来的基础设施：它同时是候选大使的发现漏斗（谁在自发传播一目了然）。
+
+> 🇺🇸 **Social Listening Bot**: build a bot that captures every product mention across the web into an internal Slack channel, and have the official account retweet user posts. Run this BEFORE launching any ambassador program — it doubles as your ambassador discovery funnel, surfacing organic advocates automatically.
+
+### 四、贡献者双轨分层运营（AFFiNE 一手实战）
+
+严格区分 **code contributor** 和 **general open source believer（大使）**，两套完全不同的运营模式、两个团队分管：
+
+| 轨道 | 归属 | 准入 | 激励 | 纪律 |
+|-|-|-|-|-|
+| Code contributor | 研发团队 | 历史 PR 质量确认 + 1–2 轮面试 | 高质量者签 paid contractor 协议（投入 ≥50% 时间者值得付费） | 代码质量口子不可轻开，"开了就撤不回来"；拒 PR 时耐心解释清楚，管理预期 |
+| Ambassador 大使 | 运营团队 | 有热情的 believer 即可（代码能力不限） | **不发钱**：产品力本身 + 新功能内测权 + 商业版特殊折扣 | 早期不 push、不分配具体工作，只做良性引导，靠自驱力 |
+
+- 实战结果：14 个国家 34 位大使；第一版官网 6 个语言版本的翻译全部由大使无偿完成。
+- **极速真诚回复 = 社区迁移引擎**：开源初期大量用户从竞品社区跳过来，就因为回复速度极快。回复不等于有求必应——做不了的 feature 解释清楚为什么、大概何时能做，用户就会接受。
+- 用户/大使反馈的 bug 修复后，**1v1 私信通知本人**——"他们都会备受鼓舞"。
+
+> 🇺🇸 **Dual-Track Contributor Ops** (firsthand from AFFiNE): strictly separate code contributors (owned by engineering; entry via PR-quality review + 1–2 interviews; paid contractor deals for those investing 50%+ of their time; never lower the code-quality bar — "once opened, it can't be closed") from ambassadors (owned by ops; unpaid — incentives are the product itself, beta access, and commercial discounts; never assign tasks early, guide gently and rely on self-drive). Results: 34 ambassadors across 14 countries; all 6 language versions of the first website translated by ambassadors at zero cost. Fast, honest replies were the single biggest driver of users migrating from competitor communities — and after fixing a reported bug, DM the reporter personally.
+
+---
+
+*播客增补素材：作者本人访谈口述（AFFiNE 一手实战 + 亲访 Notion 总部）。二手转述与口述数字均已标注，引用前建议核实。*

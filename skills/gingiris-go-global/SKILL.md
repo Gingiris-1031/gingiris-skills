@@ -239,3 +239,74 @@ Insta360 的海外团队建设遵循一个原则：
 - 本地化 PR + 独窶策略
 
 > 🇺🇸 **15% GMV Trigger Rule**: When a single market exceeds 15% of global GMV, it has proven sufficient organic demand to justify localized org investment. Before that threshold: run on global ops + localized landing page. After: hire local, enter local crowdfunding platforms, establish legal entity.
+
+---
+
+## 出海实战增补：转化闸门 / 本土化公式 / 收费与组织纪律（播客一手复盘 2026-07）
+
+> 来源：Iris 2026 年多档播客访谈（AFFiNE 四年复盘 + 150+ AI startup 咨询）。口述回忆数字均标注"播客口径 / ≈"。
+
+### 一、放量闸门：先磨转化，再开流量
+
+**注册→付费转化率达标前，不投放、不发 Product Hunt、不搞红人营销：**
+
+| 产品类型 | 放量基准线（注册→付费） |
+|---|---|
+| ToC AI 软件 | ≥1.5%（做得好 6-8%，顶尖案例 ≈40%，播客口径） |
+| ToB AI 软件 | >10-15% |
+
+- 这套"先跑转化再放量"讲给过 100-200+ 团队（两期播客口径分别为"100+"与"至少 200"），**真正执行完的不到 10 个**；执行者注册→付费转化率普遍做到 **4-8% 甚至更高**，后续融资也更顺。
+- 实证（播客口径）：一个 ToC 产品照做后沉寂约半年，注册→付费转化率达 6-8%，约 1 万注册用户做到 ≈$5,000 MRR，随后放量曲线起飞、融资顺利。
+- 执行动作：耐心和用户聊（同一个用户可以聊 5 次），找出当前阶段付费意愿最高的画像重点深聊；抵抗 FOMO——不要因为竞品天天发 PR 就在产品没 ready 时抢跑宣发。
+
+> 🇺🇸 **Conversion gate before scaling**: do not run ads, launch on Product Hunt, or hire influencers until signup-to-paid conversion clears the bar — ToC AI >=1.5% (good products reach 6-8%, top cases ~40%, self-reported), ToB AI >10-15%. This playbook was taught to 100-200+ teams; fewer than 10 fully executed it. Those who did reached 4-8%+ conversion. One ToC product stayed quiet for ~6 months, hit 6-8% conversion and ~$5,000 MRR on ~10K signups, then scaled and raised smoothly. The gap is never the methodology — it is execution and resisting FOMO.
+
+### 二、80% SOP + 20% 本土化迁移公式
+
+- 出海是**做减法**不是做加法：把解决方案模块化、抽象化 → **80% 标准化 SOP + 20% 本土化迁移**。
+- 本土化的 20% 落在三件事：**集成当地生态合作伙伴、配合当地节假日节奏、按当地文化属性做改造**。
+- 市场认知纠偏（一手观察）：东南亚（马来西亚/越南）甚至欧美的数字化程度**低于中国**——要在对方当前阶段能接受的前提下提供服务，不要把海外想得太发达。
+- 中国团队的天然武器：**24 小时响应 vs 欧美团队约一周回复**——响应速度本身就是差异化竞争力。
+
+> 🇺🇸 **The 80/20 localization formula**: going global is subtraction, not addition — modularize your solution into an 80% standardized SOP plus a 20% local adaptation layer. The 20% covers three things: integrate with the local ecosystem, align with local holidays, adapt to local culture. Reality check from field visits: digital maturity in Southeast Asia (and even in the US/EU) is often LOWER than in China — serve the market at the stage it is actually at. A Chinese team's 24-hour response time vs. the typical one-week reply from US/EU vendors is itself a competitive weapon.
+
+### 三、Showcase-first：先赔本打样，再让客户带客户
+
+- 任何行业验证 PMF（尤其服务型/顾问型出海业务），先**赔本打 1-2 个 showcase**，目的只有一个：确认你的 SOP 完全有效。
+- showcase 跑通后不必主动扩张：客户带客户、投资人转介绍会自然发生。
+- 配套纪律：早期不筛客户会踩坑 → showcase 之后建立客户筛选标准（看项目本身 + 对接人特质：EGO 低、心态开放、有学习能力）。
+
+> 🇺🇸 **Showcase-first PMF**: before selling, run 1-2 showcases at your own cost — even at a loss — with a single goal: prove the SOP works end to end. Once a showcase lands, clients bring clients and investors refer deals; you rarely need outbound. Then add a client filter (project quality + a low-ego, open, fast-learning counterpart) — skipping the filter early is a known failure mode.
+
+### 四、Day-0 收费纪律
+
+- **从 day 0 开始赚钱，勇敢收费**：只有收钱，你才知道这个东西是否真的被需要。
+- 付费客户和免费客户对你的标准不同——付费反馈质量更高；付费用户用脚投票，免费用户"指点江山"。
+- 允许 pricing test 调整期：未来定价 $20 区间的，早期天使用户可先收 $5（打 1-2 折）；**哪怕收 $1 也要让用户付**，种下"这不是免费产品"的心智。
+
+> 🇺🇸 **Day-0 charging discipline**: start charging from day 0 — money is the only signal that proves the product is genuinely needed. Paying customers hold you to a different (higher-quality) feedback standard than free users: paying users vote with their wallet. A pricing-test period is fine (charge $5 early for a future-$20 product), but even $1 matters — it plants the "this is not a free product" expectation.
+
+### 五、组织规模阶梯：8 人以内先做营收
+
+| 团队规模 | 组织要求 |
+|---|---|
+| ~3 人 | 必须有唯一 decision maker（founder 本人） |
+| 6-8 人 | 产品/设计/研发/运营配齐（每方向 1-2 人） |
+| 10-12 人 | 各方向出现 leader 层 |
+
+- 目标纪律：**8 人以内先做营收、先赚钱**——很多时候你不需要那么多人。
+- 人效参照（播客口述口径）：Notion ≈4-8 人时已有百万用户量级；ClickUp 做到百万级 ARR 时 ≈24 人。
+- 不要因为"融了钱就该有某个规模的团队"而招人；唯一标准是这个阶段真的忙不过来。先用工具（LinkedIn/Twitter DM 自动化等）替代 headcount。
+
+> 🇺🇸 **Org-size ladder**: at ~3 people there must be exactly one decision maker (the founder); at 6-8 people, cover product/design/eng/ops with 1-2 each; at 10-12 people, a leader layer emerges per function. Discipline: get to revenue with 8 or fewer people. Reference points (self-reported podcast recollection): Notion had ~1M users at roughly 4-8 people; ClickUp reached ~$1M ARR at ~24 people. Never hire to match a funding round — hire only when the stage genuinely overflows, and automate (LinkedIn/Twitter DM tooling) before adding headcount.
+
+### 六、融资认知速记
+
+- 一手时间线：天使轮见 ≈400 个投资人、耗时一整年才 close；开源 traction 起来后**一个月 close $8M Pre-A**（Iris 本人口径；两年三轮累计约 $10M）。融资难易的分水岭不是 pitch 技巧，而是**可展示的增长信号**。
+- 融资叙事 pivot 三步：查叙事饱和度（该故事投资人是否已投满同类）→ 找赛道公认的技术壁垒 → 把产品拆成可复用 Infra 讲，配一句量化叙事。
+- 排期策略：不是见得越多越好——先安排低优先级投资人"练手"，识别出成功率高的对象后重点突破。
+- 拿钱后三大组织崩坏（反面教训，只留方法论）：**报复性扩张**（前期吃苦后盲目招人烧钱）、**流量最好时不变现**（注意力从用户转向讨好投资人）、**产研运失衡**（运营收集的用户需求进不了产品决策）。
+
+> 🇺🇸 **Fundraising in one breath**: the angel round took ~400 investor meetings over a full year; after open-source traction, the $8M Pre-A closed in one month (founder's own figure; ~$10M total across three rounds in two years). The divide is never pitch craft — it is a demonstrable growth signal. Narrative-pivot framework: check narrative saturation, find the sector's acknowledged technical moat, reframe the product as reusable infra with one quantified line. Sequencing: warm up on low-priority investors first, then concentrate on high-probability targets. After the money lands, the three classic failure modes are revenge over-hiring, failing to monetize at peak traffic, and product/eng/ops imbalance.
+
+完整融资 playbook（流程链 / TS-DD-SPA / 条款避坑 / 资金纪律）→ [references/fundraising-playbook.md](references/fundraising-playbook.md)

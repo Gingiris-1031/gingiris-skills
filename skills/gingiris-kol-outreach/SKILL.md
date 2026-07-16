@@ -268,3 +268,50 @@ Insta360（影石创新）建立了多层级创作者合作体系，官方公开
 ---
 
 *硬件案例数据来源：Kickstarter 官方（Plaud KS: $1,108,181 / 7,564 backers；iZYREC: $208,713 / 2,391 backers）/ Insta360 IPO 招股书 / Forbes / 媒体报道综合整理*
+
+---
+
+## 一线口述实战：价格底表 / 砍价 SOP / 头部长线建联
+
+> 来源：赛博岛屿播客 Vol 27 对谈（2026-04 口述），AFFiNE 时期自谈价实战。以下数字均为 self-reported 口径，非平台报价单。
+
+### 一、红人价格底表（自谈价口径，2026-04 口述，≈值）
+
+| 平台 / 形式 | 量级 | 底价参考 |
+|------|------|----------|
+| Twitter/X thread | 10 万粉以下、单帖曝光 1 万+ | ≈$50–200/条 |
+| YouTube 长视频 | 10 万粉以下、约 1 万播放 | ≈$800–1,200（也有 $300–500 成交） |
+| YouTube 中插 | 同上 | ≈$500–800 |
+| KOC | 3,000 粉 | 最低合作过 $80 |
+| 美国市场 YouTube | 同区间 | 最多上浮至 ≈$1,200–2,000，再贵 = 没砍到位 |
+
+### 二、砍价 SOP：照三折谈 + 制造内卷氛围
+
+1. **锚点**：红人报 $1,000，照三折（$300）开始谈。
+2. **内卷话术**：利用红人抱团心理——"这次合作 20 多个红人，你的朋友都发了"。
+3. **真实案例**（2024-02 首次 PH campaign）：某红人开价过高被晾着，发现同行都发了怕掉队，主动回来免费发布。
+4. **选人看对家**：先查竞品和哪些红人合作过，直接找同一批。
+5. **验真**：观看量 + 互动数 + 点赞放一起交叉对比，逐个扫评论区判断活粉——假数据常见，别只看粉丝数。
+6. **绕开 agency**：海外红人多为个人 / 工作室，直接建联更快，agency 环节有坑。
+
+### 三、建联通道升级路径（防跳票）
+
+- 第一次触达用邮件；来回 2–3 封后要到 WhatsApp / Telegram / LinkedIn，防 delay 和跳票。
+- Twitter 可直接私信；TikTok / YouTube 发邮件并直接附 IM 二维码。
+- 冷启动场景：launch 当天直接私信对标竞品（如 Notion mirror 类产品）的 Twitter follower——AFFiNE 开源日组合拳之一。
+- Content package 增补：录一支产品 onboarding 视频教红人用 + 帮他总结好 1/2/3 卖点，但不限定死模板，让红人结合自己擅长的形式（测评 / 开箱 / 教程）产出。
+- 心态与量级基准（学术申请场景类比，非 KOL 一手数据）：300 封 cold email 换回 20 个 offer（≈6.7%）——"被拒绝非常正常，收到是一种幸运"。
+
+### 四、头部 KOL（不收钱的）长线建联
+
+- 行业头部大 V 靠内容 / affiliate 盈利，给钱不管用——先理解每个红人的商业模式（接广告只是其中一种）。
+- 打法：**每月一封邮件"像给班主任写小作文"**，汇报新功能进展——他们会看邮件，只是不回。
+- 真实结果：坚持约半年后，某生产力赛道头部 KOL 主动通知"我做了一支关于你们的视频"，全程未收费。
+
+### 五、善意流动筛选：后续投入怎么分配
+
+- 先主动释放善意（只给"给得起"的），观察对方是否接住并回流。
+- 关系分"流动 vs 凝固"：凝固（只吸收不回馈）即停止投入。
+- 按远 / 中 / 近距离分层管理，只对有回流的 KOL 加码预算和资源。
+
+> 🇺🇸 **Field notes (AFFiNE-era, self-reported in a 2026-04 podcast)**: Price floors — Twitter thread (<100k followers, 10k+ impressions) ≈$50–200; YouTube dedicated video (<100k subs, ~10k views) ≈$800–1,200 with deals as low as $300–500; mid-roll ≈$500–800; cheapest KOC deal that shipped was $80 at 3k followers; US-market YouTube tops out around ≈$1,200–2,000 — anything above that usually means you didn't negotiate. Negotiation: counter at ~30% of the first quote and create peer momentum ("20+ creators are already in this campaign") — one over-priced creator eventually came back and posted for free. Escalate from email to WhatsApp/Telegram/LinkedIn after 2–3 replies to prevent no-shows. For top creators who monetize via content/affiliate rather than ads, money doesn't work: send a short monthly what's-new email — they read even if they never reply; a free dedicated video landed after ~6 months. Allocate follow-up budget only to creators who reciprocate goodwill; stop investing in one-way relationships.

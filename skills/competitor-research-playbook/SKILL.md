@@ -1,10 +1,12 @@
 ---
 name: competitor-research-playbook
-version: 1.1.0
+version: 1.2.0
 description: |
   Your competitor just launched. You have no idea how they grew so fast. Should you reverse-engineer their website? Track their social media? Map their growth flywheel? This gives you the complete SOP — from Wayback Machine snapshots to X/Twitter propagation analysis to growth flywheel scoring. Built from 150+ AI startup competitive analyses including the Lovable case study (4.3M views, 229K impressions launch day). By @WeiYipei.
 
   Inside: 4-step research framework (website → social → traffic → ad spend) · 3-version Wayback evolution analysis · X/Twitter propagation-chain mapping · growth-flywheel 6-stage scoring · KOL identification · content-effectiveness ranking · ICP + freemium pricing teardown · self-check checklist.
+
+  New in 1.2: time-machine competitor archaeology — Google date-range search back to pre-fame years, star-history launch-day reconstruction (AppFlowy ~40-channel zero-budget launch teardown), competitor funding news as a launch-timing signal, and the "open source alternative" positioning play. Sourced from first-hand founder interviews (AFFiNE co-founder, 2026-04, self-reported figures marked).
 
   🇨🇳 你的竞品刚刚爆了。你完全不知道他们怎么做到的。该拆官网？盯社媒？画增长飞轮？这份 SOP 给你从 Wayback Machine 快照到 X/Twitter 传播链路还原到飞轮六阶段评分的完整方法论。基于 150+ AI 创业公司竞品分析实战，含 Lovable 完整案例。
 
@@ -226,7 +228,48 @@ from:[Handle] since:YYYY-MM-DD until:YYYY-MM-DD -filter:retweets lang:en
 □ ICP覆盖3+类型？
 □ 定价有升级路径分析？
 □ 可行动战术建议？
+□ 用时间限定搜索还原竞品成名前动作？
+□ 定位竞品开源/launch 日并还原当日渠道清单？
 ```
+
+---
+
+## 八、竞品考古法（Time-Machine Research）
+
+> 一手来源：AFFiNE 联创口述访谈（2026-04 记录）。口述数字一律以 ≈ 标注，属 self-reported，引用前建议二次核实。
+
+### 8.1 谷歌时间调回去：看独角兽成名前在干什么
+
+核心原则："所有的独角兽被你看到的时候已经成名了，但你更应该关注它没有成名的时候在发生什么。"
+
+1. Founder 本人定义 TOP3 真竞品（AI 给的答案和你以为的往往不一样），拉清单。
+2. 用谷歌搜索工具的**时间范围筛选**调回 2016/2018 年，看 Notion/ClickUp 当年成名前的动作。
+3. 重点对比**竞品不同时期的 tagline**（Notion 早期 = "Evernote alternative"，GitHub 早期 = "GitLab alternative"——做大之后才改掉）。
+4. 挖竞品官网存档里的**早期 user case/user story**（Notion、ClickUp 官网迭代多次但保留了早期 user case）：
+   - ClickUp 早期只服务 ≈10 家 marketing consultancy 客户，选定一个行业做穿，靠这些客户的 SMB 人脉裂变（口述转述）。
+   - 早期资金路径对照（口述转述，引用前核实）：Notion 早期借了他妈妈 ≈15 万美金；ClickUp 早期借款 ≈2,000 万美金——两条截然不同的破釜沉舟路线。
+5. 信息来源配比：≈一半靠 research（官网考古），≈一半靠人脉建联（竞品社区大使、从业者）；聊人之前必须先有 background information，"不然你也不知道聊啥"。
+
+### 8.2 star-history 定位竞品开源日 + 还原当天动作
+
+1. 在 [star-history](https://star-history.com/) / OSS Insight 上查最强开源竞品的**开源日期**。
+2. 用 Google **日期限定搜索**把范围锁到那一天/那一周，还原竞品当天发了哪些帖子/文章/渠道。
+3. 案例（口述，self-reported）：AppFlowy 开源日总共只铺了 ≈40 个渠道（20+ 导航站如 opensourcealternative.to、Medium/dev.to 等文章站、Reddit 等），内容三件套 = 图文 README + 一篇 "open source Notion alternative" 蹭对标文章 + cover 文档，**零预算一天铺完**。
+4. 复制该 SOP 的效果预期（self-reported）：AFFiNE 照做后开源一周 ≈6,000 star；其他团队复制后 3 个月做到 ≈1,000–3,000 star 相对可复现——不承诺人人一周 6,000。
+5. 竞品选择纪律：别拆 8 年前 launch 的老竞品，找**近 2–3 年、体量"勾勾手够得着"**的对象。
+
+### 8.3 竞品融资新闻 = launch 时机信号
+
+- 案例（口述）：竞品 AppFlowy 融资 ≈640 万美金的新闻，直接刺激 AFFiNE 一号位**一周内拍板开源**（2022-08）——渠道、内容、demo 已 prepared，接上了就成了。
+- 可提炼规则：把竞品融资新闻纳入监测项，作为自己 launch 时机的 forcing function；launch 时机永远不完美，**就绪度比完美时机重要**。
+
+### 8.4 蹭对标：以"开源替代 / alternative"借势定位
+
+- Tagline 公式：**目标群体熟悉的词 + 比较性优势**；禁忌是太抽象或"世界首创/世界上最好的"。
+- 内容动作：写 "X is an open source [头部竞品] alternative" 文章 + 铺 open-source alternative 类导航站。
+- 种子用户动作：**私信对标产品的 Twitter 粉丝**——竞品粉丝就是最精准的种子用户池。
+- 心态："在我们成长为一头大象之前，大佬们是不会在意我们这些蚂蚁的"——不用怕对标知名竞品、用竞品关键词。
+- ⚠️ 反面警示："你必须 follow 好你的主线。竞品今天发 A 明天发 B，你要是追 A 赶 B 就完蛋了。"考古是为了提炼可复用打法，不是为了实时跟跑竞品 PR。
 
 ---
 

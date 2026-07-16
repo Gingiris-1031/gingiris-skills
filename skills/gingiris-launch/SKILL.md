@@ -126,6 +126,53 @@ Field case (an AI Agent product, 2025-12): 500K launch-day visits = 400K Twitter
 - HN agencies at ~$500/post are poor ROI — skip them.
 - One fish, two meals: translate the same English post straight into Chinese for V2ex / linux.do.
 
+### PH is a paid channel — the free Thu/Fri/Sat play
+
+Treat PH as paid marketing by default: Mon–Wed are high-traffic days you usually only win with paid pushes. The zero-spend alternative (field-tested, took a daily #1 — self-reported):
+
+1. **Decide the goal first**: branding (fight the Mon–Wed vote pool, budget it) vs. a batch of early customers (Thu–Sat is enough).
+2. Launch on **Thursday / Friday / Saturday** — lower traffic, much weaker competition.
+3. Pull votes by hand: LinkedIn groups (e.g. 4 groups, a few hundred to 1,000+ members each) + private communities — **DM members one by one**, never bulk-blast.
+4. Assets fully prepared before posting: 1 video + 5 gallery images.
+
+### Badge-or-relaunch rule
+
+- Daily / weekly / monthly boards each badge the **top 5 only** — if you launch, launch to take a badge.
+- If launch-day competition is too strong for top 5: **email PH support ("we made a mistake"), request removal, relaunch on a quieter day.** Caveat: this trick is now widely used and PH has started pushing back — last resort only.
+- Per-launch yield to expect: low hundreds to high thousands of signups + a few dozen Discord joins + backlinks from media that scrape the boards (self-reported baseline).
+
+### The core formula and the 4-step launch SOP
+
+> Marketing = **precise user-channel matching × high-quality content design.**
+
+| Step | Action |
+|:---|:---|
+| 1. Fill the SOP template | Each launch type has its own template doc; the team fills in the blanks |
+| 2. Channel breakdown → list | Decide in-house vs. agency per channel; make each channel concrete (Reddit: which subreddits, whose DMs, which competitor's users) |
+| 3. Content pack ×3 | Confirmed one-line intro + key feature points + user cases |
+| 4. 80/20 | ~80% of the method repeats across launches; 20% is customized to this product's edge |
+
+- Minimum crew: **1 full-time + 1–2 interns** runs a decent launch; training an in-house team takes ≈1–2 months (self-reported).
+- ROI baseline for a well-run organic-heavy launch: **≈$10–20K budget → hundreds of thousands to ~1M impressions → thousands to 10K+ signups** (self-reported consulting benchmark).
+
+### Launch-day combo (4 parallel actions)
+
+The same-day action set behind a ≈6,000-star first week (open-source launch, 2022 — self-reported):
+
+1. Post in target communities (Reddit etc.).
+2. **DM the follower lists of your named competitors** — this alone converted a few hundred stars.
+3. Publish the launch article + a README a stranger grasps in one pass.
+4. Submit to directory / navigation sites (a competitor's zero-budget launch covered ~40 channels in one day, ~20 of them directories).
+
+### 48-hour timed-vote case (election ≈ leaderboard day)
+
+A 48h student-union election — structurally the same game as a PH launch window:
+
+- **Walk the funnel yourself first**: voting took ~5 min (register → find seat → find candidate → captcha). High friction means casual traffic is worthless — mobilize strong-intent supporters only.
+- **Fight only your base**: target the ~3,600-person core group, not the 10K+ whole campus.
+- **Seed the must-pass spots**: elevators, library entrance, canteen doors; 40+ volunteers in 5 squads, tasks assigned by proximity.
+- Result: **800+ votes in 48h, ≈2× the runner-up** (recalled numbers, self-reported).
+
 ### What to do next
 
 - Launch day + 24h → monitor "`<product> product hunt`" keyword rankings.
@@ -212,6 +259,53 @@ Field case (an AI Agent product, 2025-12): 500K launch-day visits = 400K Twitter
 - 北京时间 18:00–20:00 发（美国上午）。
 - HN agency 约 $500/帖，ROI 差，不推荐。
 - 一鱼两吃：英文稿直译发 V2ex / linux.do。
+
+### PH 本质是付费渠道——周四五六免费打法
+
+默认把 PH 当 paid marketing：周一到周三是高流量日，基本要花钱才打得动。零预算替代方案（实测拿过日榜第一，self-reported）：
+
+1. **先定目标**：要 branding（卷周一到三的票仓，配预算）还是只要一批早期客户（周四五六够用）。
+2. 选**周四 / 周五 / 周六**发布——流量低、竞争弱得多。
+3. 人肉拉票：LinkedIn 社群（如 4 个群、每群几百到 1,000+ 人）+ 私域社群——**逐个 DM**，绝不群发。
+4. 物料发布前全部备齐：1 个视频 + 5 张图。
+
+### Badge 铁律：拿不到就重发
+
+- 日 / 周 / 月榜**各只有前 5 名有 badge**——要发就冲着 badge 发。
+- 发布日竞争太强进不了前五：**给 PH 官方发邮件（"我们犯了个错误"）申请 remove，择低竞争日重发。** 注意：此招用的人多了，官方已开始卡——只当最后手段。
+- 单次发布收益预期：小几百到大几千注册 + Discord 进小几十人 + 自媒体爬榜带来的 backlinks（自述口径基准）。
+
+### 核心公式与发布 SOP 四步
+
+> marketing = **用户渠道的精准匹配 × 高质量的内容设计。**
+
+| 步骤 | 动作 |
+|:---|:---|
+| 1. 填 SOP 模板 | 每种发布类型有专属模板文档，团队往里填空 |
+| 2. 拆渠道 → 拉清单 | 每个渠道决策自营还是外包；渠道要定向落地（Reddit：哪些 subreddit、私信谁、对标哪个竞品的用户） |
+| 3. 内容包三件套 | 一句话介绍确认 + 关键功能点 + 用户案例 |
+| 4. 80/20 | 方法论 ~80% 各发布通用，20% 按产品优势定制 |
+
+- 最小配置：**1 个 full-time + 1–2 个实习生**即可完成一次相对还行的发布；带出 in-house 团队约 1–2 个月（自述口径）。
+- 一场执行到位的 organic 为主发布的 ROI 基准：**≈$1–2 万美金预算 → 几十万到上百万曝光 → 几千到上万注册**（咨询实战自述口径）。
+
+### 发布日组合拳（4 个并行动作）
+
+一周 ≈6,000 star 背后的当日动作组合（开源发布，2022，自述口径）：
+
+1. 目标社区发帖（Reddit 等）。
+2. **私信对标竞品的 follower list**——仅此一项转化了几百个 star。
+3. 发布文章 + 一遍就能看懂的 README。
+4. 提交导航站 / 目录站（某竞品零预算发布一天铺了约 40 个渠道，其中约 20 个是导航站）。
+
+### 48 小时限时打榜案例（竞选 ≈ 榜单日）
+
+一场 48 小时投票窗口的学生会竞选——和 PH 发布日结构同构：
+
+- **先自己走一遍漏斗**：投完一票约 5 分钟（注册 → 找席位 → 找候选人 → 验证码）。高摩擦意味着泛流量无效——只动员强意愿支持者。
+- **只打基本盘**：瞄准 ~3,600 人核心群体，不碰 1 万+ 全体。
+- **铺必经点位**：电梯、图书馆门口、食堂门口；40+ 志愿者分 5 个小队，按就近原则分工。
+- 结果：**48 小时 800+ 票，约为第二名 2 倍**（回忆数字，self-reported）。
 
 ---
 

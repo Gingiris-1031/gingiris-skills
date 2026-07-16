@@ -39,6 +39,46 @@ metadata:
 - 陪跑好的项目节奏参考：至少提前 **2-3 个月**准备；
   爆发期一周 **4000-6000 star**，三周可达 **10000 star**。
 
+### Star 地域分布健康基准
+
+> AFFiNE 开源前一周研究 VSCode / Vue / AppFlowy 等知名开源项目 star 分布总结的基准（口述回忆，数字加 ≈）
+
+| 地区 | 健康占比 |
+|:---|:---|
+| 美国 | ≈19–21% |
+| 中国 | ≈19–21% |
+| 欧洲（法德意英合计） | ≈10–15% |
+| Top 10 常客 | 印度、俄罗斯、巴西通常在列 |
+
+- **硬规则：开源第一周全员禁发朋友圈，内容英文优先**——防止中文圈流量污染全球化分布。AFFiNE 第一周 ≈6,000 star 的分布与知名项目基准吻合（中国 ≈19%）。
+- **反例教训**：第二周团队发朋友圈后，中国占比飙到 ≈35%，此后再没降下来——**分布一旦被污染基本不可逆**。
+- 反模式：呼朋唤友第一二天刷 500-1,000 star 是舒适圈行为，会污染"全球市场试水温"的真实信号。
+
+---
+
+## README 用户路径闭环（Star CTA Loop）
+
+> AFFiNE 开源实战 SOP：任何用户路径跳出去，都要能跳回来点 star。
+
+1. **枚举用户所有出口路径**：README→官网；README→开发者文档；README→社区（Discord 等）。
+2. **每个出口页面都反向链接回 GitHub README**：官网、文档站、社区页全部回链。
+3. **每个回链位置加一句 star CTA**（"If you like us, please give us a star on GitHub"）。
+4. **闭环自检**：沿每条路径走一遍，确认用户从任意出口都能一步跳回 repo 并看到 star 引导。
+5. **README/官网随阶段更新**：策略目标转变（如转向商业化）就即时改版，不要一成不变。
+
+---
+
+## Star 引流漏斗纪律
+
+- **所有渠道统一回溯 GitHub link，而非官网**：Reddit / Twitter / Medium / 目录站发布的链接终点都指向 repo，保证所有流量都会看到 README 里的 star 引导。
+- **README 30 秒内让用户 get 价值**，并直接引导点 star。
+- **首周每个渠道发不同主题的 post**，不是同一篇复制粘贴。
+- **起量第一周每天看 GitHub Insights 的流量来源**，据此决定接下来几天重点维护哪些渠道；"维护"= 去该渠道和潜在用户对话，不是 paid marketing。
+- **私信对标产品的 Twitter follower list**：发布日定向私信 Notion / Miro 类竞品的 follower，AFFiNE 实战转化 ≈几百个 star（口述数字）。
+- **战略转移信号**：star 到 ≈6,000 后不再把精力放在 GitHub 本身，转向 1v1 用户聊天 + 搭建用户社区。
+- **永远不要买 star**：AFFiNE 从未买星，star 涨太快时多家投资人 DD 写爬虫验证 star 来源，完全干净——买星在尽调时必被识破。
+- **看增速不看绝对值**：star 增速（而非总量）才是融资和 Trending 信号；GitHub Trending 有账号权限体系，非唯 star 论。
+
 ---
 
 ## 核心目标
@@ -158,6 +198,21 @@ metadata:
 |:---|:---|:---|:---|
 | AFFiNE | 10K stars in 43 days, 60K+ total | 2023-2026 | Reddit(2000+ stars) + HN + KOL + Contributor体系 |
 | Client Project A | 0→10K stars | 8 个月 | 月度300 SOP + HN Agency + YouTube |
+
+### AFFiNE Star 时间轴（一手口径）
+
+| 节点 | 数据 |
+|:---|:---|
+| 开源日 | 2022-08-03 |
+| 72 小时 | ≈1,000 star |
+| 第一周 | ≈6,000 star（80% 来自海外） |
+| 43 天 | 破 10,000 star |
+| 2022-08 至 2022-12 | ≈28 次登上 GitHub Trending（开源第 5 天登顶） |
+| 24 个月 | 60,000+ star |
+
+- **Reddit 实证**：r/selfhosted、PKM 等子版块带来几万流量，累计转化至少 2,000 star（≈10 帖火 3-4 帖，其余没火或被 remove）。
+- **可信度背书**：全程零 paid marketing、从未买星，多家投资人 DD 时写爬虫验证 star 来源，完全干净。
+- **预期管理**（self-reported）：复制该 SOP 不保证"一周 6,000 star"，但 3 个月做到 1,000–3,000 star 相对容易，已有其他团队按 SOP 复现。
 
 ---
 
