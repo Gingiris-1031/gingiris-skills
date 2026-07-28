@@ -57,7 +57,10 @@ This skill diagnoses the situation in three dimensions, then invokes the special
 2. **Growth stage** — pre-launch / launch / cold-start / growth / scale
 3. **Primary channel gap** — content / community / paid / partnerships / product-led
 
-Then it routes to the right Gingiris playbook:
+Then it routes to the narrowest Gingiris playbook. The current router covers
+launch, GitHub stars, open-source marketing, B2B SaaS, ASO, SEO/GEO, KOL, UGC,
+international expansion, user interviews, competitor research, and community
+programs.
 
 | Your situation | Routed skill |
 |---|---|
@@ -82,14 +85,10 @@ The skill responds with a diagnosis, then suggests installing the matching speci
 
 ---
 
-## 🤝 Install all five Gingiris skills
+## 🤝 Install the complete Gingiris collection
 
 ```bash
-npx skills add Gingiris-1031/gingiris-growth-finder -g     # this meta-router
-npx skills add Gingiris-1031/gingiris-launch -g            # Product Hunt
-npx skills add Gingiris-1031/gingiris-opensource -g        # OSS / GitHub stars
-npx skills add Gingiris-1031/gingiris-b2b-growth -g        # B2B SaaS
-npx skills add Gingiris-1031/gingiris-aso-growth -g        # ASO / mobile
+npx skills add Gingiris-1031/gingiris-skills
 ```
 
 ---
@@ -106,7 +105,10 @@ A: Most skills are thin wrappers around "write me a blog post." Gingiris skills 
 A: Yes. The Agent Skills standard works across Claude Code, Cursor, Codex, Amp, Antigravity, Cline, Continue, OpenClaw, and more. One install, every agent.
 
 **Q: Is the source code open?**
-A: Fully MIT-licensed. Read [SKILL.md](./SKILL.md) to see exactly what the agent gets loaded.
+A: The downloadable community skill is MIT licensed. Hosted Gingiris Pro execution, private datasets, managed services, and Gingiris brand assets are separate. Read [SKILL.md](./SKILL.md) to see exactly what the agent loads.
+
+**Q: Where do I find tools or human help?**
+A: Start with the free skill. Browse [gingiris.tools](https://gingiris.tools/) when the workflow needs live data or execution software. Use [Gingiris advisory services](https://gingiris.tools/services/) for high-stakes decisions, ongoing support, or a customized AI growth employee.
 
 **Q: Who built this?**
 A: [Iris Wei (生姜)](https://github.com/Gingiris-1031/gingiris-skills) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars), 30x #1 Product Hunt winner, advisor to 150+ AI startups on global GTM.
