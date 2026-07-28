@@ -1,6 +1,9 @@
 # Gingiris Skills — AI Growth & Operations Toolkit
 
-> Reusable Claude Code skills for AI startup operators. Open source, MIT licensed.
+> Reusable AI agent skills for startup growth operators. The downloadable
+> community skills are open source under the MIT License. Hosted Gingiris Pro
+> services, private datasets, and managed execution are separate commercial
+> products.
 > 4-language support: 🇺🇸 EN · 🇨🇳 ZH · 🇯🇵 JA · 🇰🇷 KR
 
 ## ⚡ Install All 55+ Skills in One Command
@@ -97,4 +100,24 @@ Built from real operator experience across 14 countries, 34 ambassador programs,
 
 ## License
 
-MIT — free to use, modify, and redistribute.
+Unless a subdirectory states otherwise, the source code, prompts, templates, and
+skill files in this repository are available under the [MIT License](LICENSE).
+You may use, modify, redistribute, and commercially use these repository
+materials under its terms.
+
+The MIT License applies only to materials actually distributed in this
+repository. It does not include:
+
+- hosted Gingiris Pro APIs or managed skill execution;
+- private datasets, credentials, infrastructure, or server-side workflows;
+- paid reports, advisory deliverables, service levels, or customer data;
+- the Gingiris names, logos, domains, or other brand assets.
+
+Use of Gingiris branding is governed separately by the
+[Gingiris Brand and Trademark Policy](TRADEMARKS.md). The license does not imply
+endorsement or permission to present a fork, service, or product as official
+Gingiris.
+
+Commercial licensing for future self-hosted Pro components, white-label use, or
+OEM distribution may be offered separately. Contact Gingiris through
+[gingiris.tools](https://gingiris.tools/).
