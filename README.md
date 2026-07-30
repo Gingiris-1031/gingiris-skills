@@ -79,6 +79,12 @@ Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소�
 | [gr-user-interview](skills/gr-user-interview) | User Interview Execution — PMF validation workflow |
 | [gr-readme](skills/gr-readme) | GitHub README Writing System — 3-Second Conversion Framework (AFFiNE 0→60K Stars) |
 
+### Research Skills
+
+| Skill | Description |
+|-------|-------------|
+| [xquik-social-signal-research](skills/xquik-social-signal-research) | Public X Research: Dated, Cited Social Signals |
+
 ---
 
 ## Tools Used in These Playbooks
