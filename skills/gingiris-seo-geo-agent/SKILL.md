@@ -1,6 +1,6 @@
 ---
 name: gingiris-seo-geo-agent
-version: 2.0.0-draft
+version: 2.0.0
 description: |
   SEO/GEO Agent 运营 SOP v2 — 基于真实运营经验（analook.com 0→建站、GSC 接入踩坑、DataForSEO 监控、gingiris.tools 迁移后权重恢复）大幅升级。
 

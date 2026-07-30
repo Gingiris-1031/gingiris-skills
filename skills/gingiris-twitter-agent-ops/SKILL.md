@@ -1,6 +1,6 @@
 ---
 name: gingiris-twitter-agent-ops
-version: 2.0.0-draft
+version: 2.0.0
 description: |
   Twitter/X Agent 运营 SOP v2 — 基于真实双账号运营经验大幅升级。
 
