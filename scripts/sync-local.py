@@ -23,7 +23,14 @@ import shutil
 import subprocess
 import sys
 
-MONO_SKILLS = "/Users/iriscarrot/Downloads/gingiris-skills/skills"
+
+def repository_skills_dir(script_path: str) -> str:
+    """Return the repository skills directory for a sync script path."""
+    repository_root = os.path.dirname(os.path.dirname(os.path.abspath(script_path)))
+    return os.path.join(repository_root, "skills")
+
+
+MONO_SKILLS = repository_skills_dir(__file__)
 LOCAL_SKILLS = os.path.expanduser("~/.claude/skills")
 
 PARA_LIMIT = 320          # 精简后描述段落的目标字符数（总量目标 <10,000）
