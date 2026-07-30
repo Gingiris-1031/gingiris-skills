@@ -2,21 +2,24 @@
 name: gingiris-twitter-agent-ops
 version: 2.0.0
 description: |
-  Twitter/X Agent 运营 SOP v2 — 基于真实双账号运营经验大幅升级。
+  Twitter/X Agent Operations SOP v2 — Rebuilt from real dual-account operations.
 
-  真实数据背景：
-  • 中文账号：从 1,150 粉开始运营，增长至 3,679 粉（约 14 个月），1条/天，OAuth1 直接发推
-  • 英文账号：Buffer API 发布
-  • 真实事故：cron 超时失败 2 周没人发现、v0.dev 流量数据相差 17 倍被用户公开指出、
-    单一话题反复提及被用户指出蹭热度、thread 效果差于 single post（数据驱动决策）
+  Real data:
+  • CN account: grew from 1,150 → 3,679 followers (~14 months), 1 tweet/day, OAuth1 direct post
+  • EN account: Buffer API
+  • Real incidents: cron silent-failed for 2 weeks unnoticed, analytics data off by 17×, thread performance worse than single posts
 
-  核心升级点：
-  • 开局强制收集用户 context，没有账号状态不开始运营
-  • 强制日报（发推后必填）+ 周报（每周一）双循环
-  • 红线自检 checklist，发推前 agent 必须过完
-  • 素材库状态追踪（已用/未用）+ 剩余 ≤3 条时预警
-  • 双账号双凭证明确区分（中文 OAuth1 直发 / 英文 Buffer API）
-  • MASTER-STATUS.md 是唯一真相来源，每次对话必读必写
+  What's new in v2:
+  • Step-by-step onboarding (Q1→Q6), multiple choice wherever possible — no big forms
+  • Mandatory daily log after every tweet + weekly report every Monday
+  • Pre-publish safety checklist (agent must pass before posting)
+  • Content pool tracker (used/unused) + alert when ≤3 items remain
+  • Dual-account credential separation (CN: OAuth1 / EN: Buffer API)
+  • MASTER-STATUS.md as the single source of truth — read + write every session
+
+  🇨🇳 Twitter/X Agent 运营 SOP v2 — 基于真实双账号运营经验重写。
+  开局对话式收集 context、强制日报+周报、发推前红线自检、素材库追踪、双账号凭证分离、MASTER-STATUS.md 单一真相来源。
+  真实数据：中文账号从 1,150 粉增长至 3,679 粉（约14个月），1条/天。
 
   Triggers: "twitter运营" | "推特agent" | "发推SOP" | "AI代运营" | "推文日报" | "素材库" | "Buffer API" | "OAuth1发推" | "twitter automation" | "tweet sop" | "推特涨粉"
 when_to_use: |
