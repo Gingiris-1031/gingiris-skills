@@ -1,232 +1,657 @@
 ---
 name: gingiris-seo-geo-agent
+version: 2.0.0-draft
 description: |
-  🇺🇸 SEO/GEO Agent Operations SOP — A complete hands-on playbook to run an autonomous SEO Agent that achieves ~32K impressions in one month. Covers Week 0-4 timeline, daily/weekly/monthly SOPs, keyword-to-landing-page mapping, CTA conversion blocks, daily report template, GEO triple combo (IndexNow + robots.txt + AI-friendly format), tool stack selection, and Owner Checklist. Battle-tested with real content site data. **Optimized for dev tools / OSS / B2B SaaS. 2C products: see gingiris-seo-geo/references/2c-adaptation.md for adjusted parameters.**
+  SEO/GEO Agent 运营 SOP v2 — 基于真实运营经验（analook.com 0→建站、GSC 接入踩坑、DataForSEO 监控、gingiris.tools 迁移后权重恢复）大幅升级。
 
-  🇨🇳 SEO/GEO Agent 运营 SOP —— 一份谁都能照着做的手把手手册，用一个 SEO Agent 跑到一个月 ~3.2 万曝光。包含 Week 0-4 时间线、每日/每周/每月 SOP、关键词→落地页映射表、CTA 转化块模板、每日报告模板、GEO 三件套（IndexNow + robots.txt + AI 爬虫开放）、工具链选型、产品负责人任务清单。经真实内容站验证。**默认适用于开发者工具 / 开源 / B2B SaaS，2C 产品请参考 gingiris-seo-geo/references/2c-adaptation.md。**
+  核心升级点：
+  • 开局强制收集用户 context（域名/GSC 状态/DR/竞品/落地页清单/产品类型），没有这些不开始运营
+  • 强制日报循环，每天固定格式，GSC token 状态必须是第一项检查
+  • 数据交叉验证铁律：任何外部数字必须 ≥2 个数据源，单一来源不写进任何地方
+  • 外链进度追踪（6 周等待期 + 未收录预警）
+  • 新老站区分策略（新站 < 6 个月不追高 KD，老站可打 DR 杠杆）
 
-  🇯🇵 SEO/GEO エージェント運用SOP — 1ヶ月で約3.2万インプレッションを達成する自律型SEOエージェントの完全マニュアル。Week 0-4タイムライン、日次/週次/月次SOP、キーワード→LP対応表、CTAテンプレート、デイリーレポート、GEOトリプルセット。**デフォルトは開発者ツール/OSS/B2B SaaS向け。2C製品は gingiris-seo-geo/references/2c-adaptation.md 参照。**
+  实战来源：analook.com（从零建站 + GSC OAuth 断档 2 周教训）、gingiris.tools（新域名迁移后权重恢复记录）
 
-  🇰🇷 SEO/GEO 에이전트 운영 SOP — 한 달 만에 ~3.2만 노출을 달성하는 자율 SEO 에이전트 완전 매뉴얼. Week 0-4 타임라인, 일간/주간/월간 SOP, 키워드→랜딩페이지 매핑, CTA 블록, 일일 보고서, GEO 트리플 콤보. **기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품은 gingiris-seo-geo/references/2c-adaptation.md 참조.**
-
-  Triggers: "SEO agent" | "SEO automation" | "SEO Agent SOP" | "autonomous SEO" | "SEO daily report" | "SEO Agent运营" | "SEO自动化" | "GEO agent" | "32K impressions" | "3.2万曝光" | "keyword mapping" | "CTA conversion SOP" | "SEO报告模板" | "IndexNow setup" | "AI crawler robots.txt" | "DataForSEO" | "SEO工具链" | "SEO Agent 日报"
+  Triggers: "SEO agent" | "SEO日报" | "GSC监控" | "DataForSEO" | "GEO agent" | "外链追踪" | "IndexNow" | "竞品对比页" | "SEO SOP" | "analook SEO" | "SEO自动化" | "GEO三件套" | "关键词落地页"
 when_to_use: |
-  Use to operate an autonomous SEO agent: daily/weekly/monthly SOPs, keyword→landing-page
-  mapping, CTA conversion blocks, IndexNow + robots.txt for AI crawlers, SEO reporting templates.
-  Enforces 2026-06-24 standards: keyword filter volume 300-1000/KD 5-35, internal links
-  ≤2-3 per paragraph, title must contain best/free/top/guide+year, actively cite competitor
-  blogs as external links, BreadcrumbList schema, $20-30 quality backlink outreach SOP,
-  Bing IndexNow for GEO, GA4 AI traffic channel grouping.
+  当用户需要系统性运营一个网站的 SEO/GEO 时使用。适用于：
+  - 新站从 0 开始建立 SEO 体系
+  - 老站重新梳理关键词策略
+  - 想用 AI Agent 自动化日常 SEO 运营（选词/写页/提交/监控/日报）
+  - 需要 GEO 布局（让 AI 搜索引擎引用内容）
+  覆盖 B2B SaaS / 开源工具 / 2C 产品。
+tags:
+  - seo
+  - geo
+  - ai-agent
+  - content-marketing
+  - automation
+  - analytics
+  - gsc
+  - dataforseo
+  - indexnow
+  - backlinks
+  - sop
+  - daily-report
+  - keyword-research
+  - landing-page
 ---
 
-## ⚠️ 使用前：确认你的产品类型
+# SEO/GEO Agent 运营 SOP v2
 
-本 skill 默认场景：**开发者工具 / 开源项目 / B2B SaaS 出海**
-
-如果你的产品是 **2C 消费品 / 教育 / 应用 / 游戏**，关键参数需要调整（如 volume 下限改为 50、E-E-A-T 加载 YMYL 要求、启动渠道换为 Reddit/小红书/Quora 等），详细指南见：[`gingiris-seo-geo/references/2c-adaptation.md`](../gingiris-seo-geo/references/2c-adaptation.md)
-
-> 💡 安装后验证：运行 `ls references/` 确认 `full-sop.md` 存在。若缺失请重装：`npx skills add Gingiris-1031/gingiris-seo-geo-agent`
-
----
-
-# SEO/GEO Agent 运营 SOP
-
-> Language / 语言: [中文](#核心概念) | [English](#english-summary)
->
-> 这是 `gingiris-seo-geo` 的**执行层搭档**：`gingiris-seo-geo` 教你「战略/方法论」，本 skill 教你「每天具体怎么跑」。
-
----
-
-## 核心概念
-
-这份 SOP 让一个 SEO Agent 自动执行**日、周、月**三层运营循环，目标：
-
-1. 让尽可能多的关键词排进 Google 首页（Top 10）
-2. 让 AI 搜索引擎（ChatGPT / Perplexity / Claude / Google AIO）引用你的内容
-3. 把流量转化为注册/付费
-
-### 与 `gingiris-seo-geo` 的关系
-
-| 维度 | `gingiris-seo-geo` | `gingiris-seo-geo-agent`（本 skill） |
-|------|--------------------|------------------------------------|
-| 层次 | 战略 + 方法论 | 执行 + 自动化运营 |
-| 输出 | 知识框架、原则 | 每日报告、关键词表、CTA块、时间线 |
-| 使用者 | 创始人/增长负责人 | AI Agent + 产品负责人协作 |
-| 时间粒度 | 长期指导 | Day-by-day SOP |
+> **版本说明**：这是 v2 草稿，基于 analook.com 和 gingiris.tools 的真实运营经验重写。
+> v1 给了你方法论框架，v2 给你的是「踩过坑之后该怎么跑」。
 
 ---
 
-## 一个月 ~3.2 万曝光：总时间线
+## ⚠️ 开始之前：为什么必须先收集 context
 
-> 📊 实战参照：索引页 8 → 57（覆盖率 86%）；30词宽样本中 8-11 个进 Top 10；主站+分发平台双平台铺词。
+v1 版本最大的问题：agent 不知道你的站是新站还是老站、GSC 有没有接上、已经有哪些落地页——结果给出的策略全是通用建议，落不了地。
 
-### Week 0 — 地基与基线
-- 完成 Owner Checklist（GSC/GA4/API/域名/CTA页）
-- robots.txt 开放 AI 爬虫 + sitemap 提交
-- **Bing IndexNow** 配置（不局限于 Google，让大模型更快 discover/index）
-- 关键词种子表 30-50 词，筛选标准：**volume 300–1,000 / KD 5–35 / traffic potential 300+**
-- 属意图判断：先看 Google top-10（忽略 Sponsored）再写，内容必须对齐意图
-- 扒竞品 blog 最新文找还没被爬到的新词
-- 记录基线
+**真实事故复盘**：
+- analook.com：GSC OAuth token 过期，agent 继续用旧缓存数据跑了 **2 周**，完全是在盲开车。排名在动，我们完全不知道。
+- gingiris.tools：新域名迁移后，P0 关键词全掉出 Top 100，DataForSEO 监控到了，但因为没有系统性的日报，发现时已经过了 10 天。
+- 数据事故：DataForSEO 非品牌有机搜索数字被误当成月有机搜索流量写进推文，与 Semrush 数据相差 **17 倍**，被用户公开指出。
 
-### Week 1 — BOFU 落地页
-- 产品核心页 + 定价页（带 FAQ Schema，FAQPage JSON-LD 5–8 题）
-- 前 3-5 个竞品对比页
-- 每页必带 CTA 块 + Bing IndexNow 推送
-- **标题套路**：必含 best / free / top / guide + 年份
-- **面包屑导航**：BreadcrumbList schema + 页面内可见
-- **Meta description**：关键词 rephrase（不是重复关键词，是改说法）
-
-### Week 2 — 内链结构 + 分发铺面
-- Topic Cluster：1 支柱页 + 4-6 集群页互链
-- **内链密度铁律：每段 ≤ 2-3 个**（达到上限 → Google spam 信号 → 降 ranking）
-- **主动 cite 竞品 blog 外链**（Google 视为客观 → 信用分上升 → ranking 上升）
-- 分发平台同步（dev.to 等，self-canonical，≥7 天后发布 + "Originally published at" 互链——与 gr-blog-post 红线对齐 2026-07-06）
-- 给已有排名页加内链
-
-### Week 3 — GEO 强化
-- FAQPage JSON-LD（5–8题）——问题必须是用户真实搜索句，不是营销话术
-- 文章开头「一句话回答 + Key Stats 表格」
-- 添加/更新【最后更新日期】freshness 标记
-- GA4 配置 AI 来源 channel grouping（ChatGPT/Perplexity/Claude referral 单独追踪）
-- 监控 AI Overview 引用
-
-### Week 4 — CTR 榨取 + 规模化
-- 高曝光低点击页面重写标题/描述，应用 best/free/top/guide+年份 公式
-- 排名 11-20 冲首页
-- **外链建设：向评测/目录站提交 listing（提交费 $20–30/批），获取自然收录外链**——不是购买 dofollow 链接（买链见 gr-backlinks 反模式：数天内被 Google 标记），避开论坛批量外链（penalty 风险）
-- 维持每周 4 篇长尾内容（KD 5–35 区间）
+这三件事告诉我：**没有 context，运营就是在赌。**
 
 ---
 
-## 详细指南
+## 第一步：开局 Context 收集（对话式，必须完成）
 
-| 主题 | 文件 | 说明 |
-|:---|:---|:---|
-| 完整 SOP（全文） | [references/full-sop.md](references/full-sop.md) | 12节完整操作手册，含所有模板和清单 |
+Agent 第一次运行时，**逐步引导用户提供信息，一次只问一个问题，不要一次倒出大表格**。
+
+用户回答后，agent 根据回答调整策略，再问下一个。全部收集完后，给出一份简短的「当前状态判断」再开始运营。
 
 ---
 
-## 每日 SEO 报告模板（核心产出）
+### 对话引导脚本（按顺序执行）
+
+**Q1（先问这个）**
+> 你的网站主域名是什么？大概什么时候建的？
+
+→ 收到后判断：新站（< 6 个月）/ 成长站（6-24 个月）/ 老站（> 24 个月）
+
+---
+
+**Q2**
+> Google Search Console（GSC）接入了吗？
+
+A) 已接入，最近有看数据
+B) 已接入，但很久没看了（可能 token 过期）
+C) 还没接入
+
+→ A：问他粘贴最近 7 天 Top 10 关键词（截图或文字）
+→ B：提醒先验证 token，建议跑一下 `gws auth login`
+→ C：**停！本次第一任务就是接 GSC + GA4，其他全等**
+
+---
+
+**Q3**
+> 网站大概有多少月流量？权重怎么样？
+
+A) 我有 Ahrefs / Semrush 数据，DR 大概是 ___
+B) 我有 Similarweb / 其他估算，月流量大概 ___
+C) 不知道，没有工具
+
+→ A 或 B：记录数字 + 来源，提醒「如果只有一个来源，建议交叉验证」
+→ C：告知「没关系，我们从关键词角度入手，先用 KD ≤ 20 的词」
+
+---
+
+**Q4**
+> 你最直接的竞品是谁？选或填都行：
+
+A) 我知道，URL 是：___（填 2-3 个就够）
+B) 我不确定谁是竞品，你帮我判断
+
+→ A：记录竞品 URL，用于后续竞品对比页策略
+→ B：根据用户的产品描述推荐 3 个最可能的竞品候选，让用户确认
+
+---
+
+**Q5**
+> 网站现在有这些页面吗？（可多选）
+
+☐ 首页
+☐ 定价页
+☐ 竞品对比页（如「XX alternative」）
+☐ 博客 / 内容页
+☐ 其他落地页：___
+
+→ 根据勾选情况判断缺什么，优先补竞品对比页和定价页
+
+---
+
+**Q6（可选）**
+> 有没有最想排上去的关键词？比如你觉得用户搜什么词会找到你？
+
+A) 有，我觉得是：___
+B) 不确定，让你帮我找
+
+→ A：记录为 P0 关键词，日报必须追踪
+→ B：根据竞品和产品描述推荐 3-5 个候选词，让用户选
+
+---
+
+### 全部收集后：输出状态判断
+
+收集完后，agent 给出一段简短的判断，例如：
+
+```
+📊 当前状态：
+- 网站：[域名]，建站约 [X] 个月，属于 [新站/成长站/老站]
+- GSC：[已接入，最近有数据 / 未接入，第一任务是接入]
+- 权重：DR [X]，策略关键词 KD 上限 ≤ [XX]
+- 竞品：[A] / [B] / [C]
+- 当前落地页：[N 页，缺 竞品对比页/定价页...]
+- P0 关键词：[词1] / [词2] / [词3]
+
+→ 接下来做什么：[Agent 给出 3 步以内的下一步]
+```
+
+---
+
+### 判断矩阵（Agent 内部参考）
+
+| 情况 | 判断 | 策略调整 |
+|------|------|---------|
+| 建站 < 6 个月 | 新站 | 专注 KD ≤ 20 的长尾词，不碰主词，先跑页面覆盖率 |
+| 建站 6-24 个月 | 成长站 | 可攻 KD 20-35，竞品对比页优先 |
+| 建站 > 24 个月 | 老站 | 可以挑战 KD 35+ 的词，重点在 CTR 优化 |
+| GSC 未接入 | 🚨 紧急 | 第一周唯一任务：接 GSC + GA4，其他都等 |
+| DR < 10 | 极低权重 | 外链建设是 P0，内容只写竞品对比页 |
+| DR 10-30 | 低权重 | 关键词严格控制 KD ≤ 35 |
+| DR > 30 | 有一定权重 | 可以适当突破 KD 限制 |
+
+
+## 第二步：每日 SEO 日报（强制循环）
+
+**每次 agent 运行，第一件事必须是生成或更新日报。没有日报不执行任何操作。**
+
+### 日报模板（固定格式，不得随意修改）
+
+```
+SEO 日报 · [YYYY-MM-DD] · [网站域名]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【0】GSC 状态检查（必须是第一项）
+  GSC 可用：[ ] ✅ 正常  [ ] ❌ token 过期  [ ] ⚠️ 数据滞后 >48h
+  上次成功拉取数据：[日期]
+  如果 GSC 不可用 → 立即 STOP，提醒用户重新授权，本次日报暂停其他项目
+
+【1】今日排名（P0 关键词）
+  关键词 | 今日排名 | 昨日排名 | 变化 | 数据来源
+  ─────────────────────────────────────────
+  [词1]  |    [X]   |   [Y]   |  [+/-Z] | [GSC/DataForSEO]
+  [词2]  |    [X]   |   [Y]   |  [+/-Z] | [GSC/DataForSEO]
+  ─────────────────────────────────────────
+  首页词数（Top 10）：[N] 个  ← 头条指标
+
+【2】今日操作
+  - [具体做了什么，例如：发布了 "/blog/semrush-alternative"，推送了 IndexNow]
+  - [如果没有操作，写明原因]
+
+【3】IndexNow 推送
+  今日是否推送：[ ] 是  [ ] 否
+  推送的 URL（如有）：
+  - [URL 1]
+  - [URL 2]
+
+【4】数据来源交叉验证
+  今日使用的数据来源：[ ] GSC  [ ] DataForSEO  [ ] Semrush  [ ] Ahrefs  [ ] Similarweb
+  ⚠️ 任何外部数据是否同时有 ≥2 个来源确认：[ ] 是  [ ] 否（如否，不得写入任何文档）
+
+【5】外链状态
+  本周新提交外链数：[N] 条
+  等待收录中：[N] 条（预计 4-6 周）
+  已确认收录：[N] 条
+  ⚠️ 提交超过 6 周未收录的外链：[如有，列出]
+
+【6】异常告警
+  [ ] 有排名骤降（单词跌幅 > 10 位）→ [说明]
+  [ ] GSC token 过期 → 已提醒用户
+  [ ] 数据滞后超过 48 小时 → [说明]
+  [ ] 外链提交 6 周+ 无进展 → [说明]
+  [ ] 迁移后权重异常 → [说明]
+  无异常：[ ] ✅
+
+【7】明日计划
+  优先级 1：[具体动作]
+  优先级 2：[具体动作]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+### GSC Token 管理专项提醒
+
+**每次日报开头必须检查 GSC 状态。** 这是从 analook.com 运营事故里学到的：
+
+> analook.com 案例：GSC OAuth token 在某天静默过期，agent 继续用缓存数据跑了整整 2 周。期间排名有实质变化，我们完全不知道。等发现时，已经错过了最佳干预窗口。
+
+**GSC 不可用时的强制流程**：
+1. 日报中标注 ❌，不继续执行其他检查项
+2. 输出提醒：「⚠️ GSC 连接异常，请重新授权。授权步骤：[GSC 控制台链接] → 设置 → 用户权限。在 GSC 恢复可用之前，不以旧数据做任何排名判断。」
+3. 今日所有基于排名的决策（更新页面、调整关键词优先级）一律暂停
+4. 可以执行的操作：写新内容、推送 IndexNow、整理外链、更新 sitemap
+
+---
+
+## 第三步：数据交叉验证铁律
+
+**这条规则不容任何例外，来自真实的公开指正事故。**
+
+### 铁律原文
+
+> 任何外部数据（流量、排名、搜索量、DR）必须同时对比 ≥2 个数据源。
+> 只有一个来源的数字，绝不写进日报、不写进文章、不发推文、不提供给任何人。
+
+### 可交叉验证的数据源组合
+
+| 数据类型 | 推荐来源组合 | 注意事项 |
+|---------|------------|---------|
+| 月有机流量 | Semrush + Similarweb | 两者可能相差 3-10 倍，取保守值并标注两个数字 |
+| 关键词搜索量 | DataForSEO + Semrush | DataForSEO 更接近 GSC 真实值 |
+| 关键词排名 | GSC（真实点击）+ DataForSEO（独立爬取）| GSC 是最权威来源 |
+| DR / 权重 | Ahrefs DR + Semrush Authority | 不能只用其中一个 |
+| 竞品流量 | Semrush + Similarweb + Analook | 对外引用时必须注明来源和取值范围 |
+
+### 数据记录格式（日报和文档中统一使用）
+
+```
+✅ 合规写法：
+月有机流量约 8,000-12,000（Semrush: ~8.2K，Similarweb: ~11.7K，2026-07 数据）
+
+❌ 不合规：
+月有机流量约 8,200（来源：Semrush）
+
+❌ 绝对禁止：
+月有机流量约 8,200（无来源标注）
+```
+
+### 特别注意：DataForSEO 的坑
+
+DataForSEO API 返回的「非品牌有机搜索」数字 ≠ 月有机搜索流量总量。
+- 「非品牌有机搜索」= 某一批关键词的预估流量，不是全站总流量
+- 全站月流量需要 Semrush/Similarweb 的 site overview 数据
+- **这个错误已经造成过 17 倍数据偏差的公开事故，必须严格区分**
+
+---
+
+## 第四步：关键词与落地页策略
+
+### 选词标准（2026 版）
+
+| 参数 | 目标范围 | 说明 |
+|-----|---------|-----|
+| 搜索量 Volume | 300 – 1,000/月 | 太低没流量，太高竞争太强 |
+| 关键词难度 KD | 5 – 35 | 新站严控 ≤ 20 |
+| Traffic Potential | ≥ 300 | 单个词带来的预估总流量 |
+| 意图 Intent | 商业 + 信息 | BOFU 优先，TOFU 其次 |
+
+**新站特别规则**（建站 < 6 个月）：
+- KD 严格控制在 ≤ 20
+- 不要追品牌词、行业大词
+- 专注长尾竞品对比词（如 "[竞品名] alternative for [场景]"）
+
+### 落地页优先级
+
+```
+P0（最先做，离钱最近）：
+  1. 竞品对比页（[你的产品] vs [竞品]）
+  2. Alternative 页（[竞品] alternative）
+  3. 定价页（带 FAQ Schema）
+
+P1（接下来做）：
+  4. 场景化功能页（[功能] for [行业/角色]）
+  5. 最佳工具榜单页（best [类别] tools）
+
+P2（有余力再做）：
+  6. 博客内容（MOFU/TOFU）
+  7. 对比合集页（[你的产品] vs [竞品1] vs [竞品2]）
+```
+
+**来自 analook.com 的实战经验**：
+- 竞品对比页（ahrefs alternative / similarweb alternative / brand24 alternative / semrush alternative）是带来第一批真实自然流量的页面
+- 在 DR < 15 时，这些页面能靠竞品品牌词的低 KD 特性拿到排名
+
+### 关键词→落地页映射表（必须维护）
+
+| 关键词 | 意图 | Volume | KD | 数据来源 | 落地页 URL | 当前排名 | 排名来源 | 首页? | 上次更新 |
+|--------|------|--------|----|---------|-----------|---------|---------|------|---------|
+| （每个关键词只绑定一个主落地页，避免关键词互啃）| | | | | | | | | |
+
+---
+
+## 第五步：外链建设与进度追踪
+
+**背景**：analook.com 向 SubmitDirs 和 SubmitSaaS 提交外链后，6 周内没有 DR 变化。6 周是正常等待周期，但必须有追踪机制，不然等到第 10 周才发现没被收录。
+
+### 外链提交追踪表
+
+| 提交日期 | 来源平台 | 提交 URL | 状态 | 收录确认日期 | 收录后 DR 变化 | 备注 |
+|---------|---------|---------|------|------------|--------------|------|
+| | SubmitDirs | | [ ] 已提交 / [ ] 等待 / [ ] 已收录 / [ ] 未收录 | | | |
+| | SubmitSaaS | | [ ] 已提交 / [ ] 等待 / [ ] 已收录 / [ ] 未收录 | | | |
+| | 其他 | | | | | |
+
+### 外链状态检查规则
+
+```
+每周检查一次外链状态：
+
+IF 提交时间 < 6 周：
+  → 标注「等待中」，不用担心
+
+IF 提交时间 = 6-8 周 且 未收录：
+  → 提醒：「[平台名] 提交已超 6 周，建议手动检查是否真实收录。
+            验证方法：在 Google 搜索 site:[提交平台域名] [你的域名]」
+
+IF 提交时间 > 8 周 且 未收录：
+  → 警告：「[平台名] 可能未收录。建议：1) 检查提交格式是否正确；
+            2) 联系平台确认；3) 考虑换其他外链来源」
+
+IF 提交 6 周+ 且 DR 无变化：
+  → 不一定是问题（DR 更新频率低），但需要确认外链是否真实存在
+  → 验证：用 Ahrefs / Semrush backlink checker 搜索是否出现了新外链
+```
+
+### 外链建设注意事项
+
+- **SubmitDirs / SubmitSaaS**：适合快速铺初始外链，但收录率约 40-60%，不要期望 100%
+- **$20-30 质量外链**：联系评测站、目录站、相关博主。比批量目录站效果更持久
+- **避开**：论坛批量外链、链接交换农场、PBN（私人博客网络）——Google 惩罚风险高
+- **IndexNow 配合**：提交新外链页面后，同时用 IndexNow 推送，加速 Bing/Yandex 发现
+
+---
+
+## 第六步：GEO 三件套（让 AI 搜索引擎引用你）
+
+### 三件套清单
+
+**1. IndexNow 配置**（每次发布新页面后必推送）
+
+```bash
+# 推送示例（Bing IndexNow API）
+POST https://api.indexnow.org/indexnow
+{
+  "host": "你的域名",
+  "key": "你的 IndexNow key",
+  "keyLocation": "https://你的域名/IndexNow-key.txt",
+  "urlList": ["https://你的域名/新页面-URL"]
+}
+```
+
+日报中必须记录今日是否推送了 IndexNow，以及推送了哪些 URL。
+
+**2. robots.txt 开放 AI 爬虫**（一次配置，长期有效）
+
+```
+# robots.txt 中需要允许的 AI 爬虫
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+```
+
+**3. AI-Friendly 内容格式**（每篇文章必须有）
 
 ```markdown
-# [PRODUCT] SEO 日报 — YYYY-MM-DD
+# [关键词标题]
 
-## 🏆 首页战况
-- **Google 首页关键词数 (Top 10)：N 个** ← 头条指标
-- Top 3：n 个 | Top 30：M 个 | Top 100：K 个
-- 索引页数：xx / sitemap总数（覆盖率%）
+**一句话回答**（AI 最爱引用这种格式）：
+[30字以内直接回答搜索意图]
 
-## 📋 关键词明细
-| 关键词 | 落地页 | 排名 | 首页? | Δ昨日 | KD | Volume |
-(全部 tracked 词)
+## 核心对比 / 关键数据
 
-## 🤖 GEO / AI 搜索战况
-- AI Overview 引用情况
-- AI 引流量（GA4）
+| 维度 | [你的产品] | [竞品] |
+|------|-----------|-------|
+| [维度1] | [值] | [值] |
+| [维度2] | [值] | [值] |
 
-## 📈 转化漏斗
-- SEO自然流量 → CTA点击 → 注册
+（正文内容）
 
-## 🔧 今日动作
-## 🚩 需要产品负责人处理的
+## 常见问题 FAQ（FAQPage JSON-LD 必须包含）
+
+**Q：[用户真实搜索的问题]？**
+A：[直接回答，不要废话]
+
+**Q：[用户真实搜索的问题]？**
+A：[直接回答]
+
+最后更新：[日期]
 ```
 
 ---
 
-## Agent 角色设定
+## 第七步：每周 SEO 周报
+
+每周一生成周报，用于复盘和调整策略。
+
+### 周报模板
 
 ```
-你是 [PRODUCT] 的 SEO/GEO 运营 Agent。唯一北极星指标：
-让尽可能多的关键词排进 Google 首页（Top 10），并把曝光转化为 [CTA_GOAL]。
+SEO 周报 · [周期，如 2026-W31]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【本周核心指标】
+首页词数（Top 10）：[N] 个（上周 [N] 个，变化 [+/-N]）
+本周 GSC 总曝光：[N]（环比 [+/-%]）
+本周 GSC 总点击：[N]（环比 [+/-%]）
+平均 CTR：[%]
+本周新收录页面：[N] 个
 
-工作循环：
-- 每天：排名监控 → 日报 → 1-2个优化动作
-- 每周：GSC新词盘点 + CTR优化 + 内链加固
-- 每月：11-20位冲首页 + CTA漏斗复盘
+【排名变化明细】
+本周进首页的词：[列出，如有]
+本周跌出首页的词：[列出，如有]
+排名 11-20 的词（冲首页候选）：[列出]
 
-铁律：
-1. 先做 BOFU，再做 MOFU/TOFU
-2. 每篇都必须带 CTA 块
-3. 日报头条必须是「首页关键词数」
-4. 关键词/落地页/排名永远绑在一张表追踪
-5. 做不了的交给产品负责人，不假装做了
-6. 内容用真实创始人声音，不要写得像 AI
+【本周操作回顾】
+- 发布的新页面：[列出 URL]
+- IndexNow 推送次数：[N]
+- 外链新增：[N] 条
+
+【数据来源核查】
+本周使用的数据来源：
+  - GSC 可用：[ ] 是  [ ] 否（如否，数据来源说明）
+  - DataForSEO 排名数据：[ ] 已用
+  - 流量估算交叉验证：[ ] 已用 ≥2 来源
+
+【外链追踪更新】
+新提交：[N] 条
+等待中（< 6 周）：[N] 条
+需要核查（> 6 周未收录）：[N] 条，[列出来源平台]
+本周新收录确认：[N] 条
+
+【下周计划】
+优先级 1：[具体任务]
+优先级 2：[具体任务]
+优先级 3：[具体任务]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 ---
 
-## 关键词→落地页主映射表（核心产出）
+## Agent 系统提示词（完整版）
 
-| 关键词 | 意图 | Volume | KD | 对应落地页 | 当前排名 | 首页? | CTA目标 | 状态 |
-|--------|------|--------|----|-----------:|---------|------|---------|------|
-| （每个词只绑一个主落地页，避免自相残杀） | | | | | | | | |
+以下是给 AI Agent 的 system prompt，可以直接复制使用：
 
----
-
-## CTA Convert Block 模板
-
-```markdown
----
-> **试试 [PRODUCT]** — [一句话价值主张]。
-> [具体到本文场景的钩子]。
->
-> 👉 [CTA按钮文案]([CTA_URL]?utm_source=blog&utm_medium=organic&utm_campaign=seo-[slug])
----
 ```
+你是 [网站名] 的 SEO/GEO 运营 Agent。
 
-CTA 4要素：承接上文 / 降低门槛 / 明确动作 / 可追踪
+## 角色定义
+你的唯一北极星指标：让尽可能多的关键词排进 Google 首页（Top 10），
+并把流量转化为 [填写：注册/购买/联系]。
 
----
+## 硬规则（不得违反）
 
-## GEO 三件套
+规则 1 - GSC 优先：每次运行，先检查 GSC 是否可用。
+不可用 → 只输出提醒，不做任何排名判断。
 
-1. **IndexNow** — 秒级推送新内容
-2. **robots.txt 开放 AI 爬虫** — GPTBot / OAI-SearchBot / ChatGPT-User / Claude-Web / PerplexityBot
-3. **AI-Friendly 格式** — 一句话回答 + 对比表 + FAQ + 最后更新日期
+规则 2 - 数据交叉验证：任何外部数字（流量/排名/搜索量/DR）
+必须来自 ≥2 个数据源。只有一个来源的数字，不写进任何地方。
+
+规则 3 - 日报必须完成：每次运行必须生成日报，格式固定，不得简化。
+
+规则 4 - 新老站区分：
+  - 新站（< 6 个月）：KD 严控 ≤ 20，不碰行业大词
+  - 老站（> 12 个月）：可以挑战 KD ≤ 35
+
+规则 5 - 落地页优先级：竞品对比页 > Alternative 页 > 定价页 > 功能页 > 博客
+
+规则 6 - 外链追踪：每周更新外链状态表。提交 > 6 周未收录必须提醒。
+
+规则 7 - 做不了的事交给人：不假装完成。
+  需要人处理的事情直接说：「需要你登录 [工具] 执行 [具体操作]」。
+
+## 工作循环
+
+每日：
+  1. 检查 GSC 状态
+  2. 生成日报（填写昨日排名变化）
+  3. 执行 1-2 个优化动作
+  4. 如有新页面，推送 IndexNow
+
+每周（周一）：
+  1. 生成周报
+  2. 盘点 GSC 新词
+  3. 检查外链状态
+  4. CTR 优化（找高曝光低点击页面）
+
+## 工具链
+- 必备：Google Search Console、DataForSEO（排名/Volume/KD）、GA4
+- 推荐：Semrush 或 Ahrefs（用于交叉验证流量数据）
+- GEO：Bing IndexNow API
+
+## 上下文
+- 网站域名：[填写]
+- 建站时间：[填写]
+- 产品类型：[填写]
+- GSC 接入状态：[填写]
+- P0 关键词（最重要的 3-5 个词）：[填写]
+- 主要竞品：[填写]
+```
 
 ---
 
 ## 工具链推荐
 
-| 工具 | 用途 | 必要性 |
-|------|------|--------|
-| **DataForSEO** | Volume/KD/排名/AIO | ⭐必备 |
-| **Google Search Console** | 真实曝光/点击/CTR | ⭐必备 |
-| **GA4** | 流量/转化漏斗 | ⭐必备 |
-| SerpApi | SERP/索引计数 | 可选 |
-| SEO Review Tools | 外链/DA | 可选 |
-| Brave Search API | GEO/AI摘要 | 可选 |
+| 工具 | 用途 | 必要性 | 费用参考 |
+|------|------|-------|---------|
+| **Google Search Console** | 真实曝光/点击/CTR，是唯一权威来源 | ⭐⭐⭐ 必备 | 免费 |
+| **DataForSEO** | 关键词 Volume/KD/实时排名监控 | ⭐⭐⭐ 必备 | 按调用付费，约 $50-200/月 |
+| **GA4** | 流量/转化漏斗/AI 来源分组 | ⭐⭐⭐ 必备 | 免费 |
+| **Semrush** | 流量估算（用于交叉验证）、竞品分析 | ⭐⭐ 强烈推荐 | $99-229/月，可用免费额度 |
+| **Ahrefs** | DR 监控、外链分析 | ⭐⭐ 强烈推荐 | $99+/月 |
+| **Similarweb** | 流量估算（第三方视角）| ⭐ 推荐 | 有免费版 |
+| **Analook** | 竞品增长信号监控 | ⭐ 推荐 | analook.com |
+| **IndexNow API** | 推送新页面到 Bing/Yandex/其他引擎 | ⭐⭐ 强烈推荐 | 免费 |
+| **SubmitDirs / SubmitSaaS** | 初始外链提交 | ⭐ 适合新站 | 有免费版 |
 
 ---
 
-## Platform Description
+## 常见错误与修复
 
-**EN:** SEO/GEO Agent Operations SOP — Day-by-day autonomous agent SOP for ~32K impressions/month. Optimized for dev tools / OSS / B2B SaaS. 2C products: see gingiris-seo-geo/references/2c-adaptation.md. Enforces 2026-06-24 standards: keyword filter volume 300–1,000 / KD 5–35 / traffic potential 300+, internal links ≤2–3 per paragraph, actively cite competitor blogs as external links, title must contain best/free/top/guide+year, meta description keyword rephrase, BreadcrumbList schema, $20–30 quality backlink outreach (avoid forum bulk links), Bing IndexNow for GEO indexing, GA4 AI traffic channel grouping.
-
-**ZH:** SEO/GEO Agent 运营 SOP（2026-06-24 标准）——一个 agent 跑到一个月 ~3.2 万曝光的逐日执行手册。内嵌标准：关键词 volume 300–1,000 / KD 5–35 / traffic potential 300+，内链每段 ≤2–3 个，主动 cite 竞品外链，标题必含 best/free/top/guide+年份，meta description 关键词 rephrase，面包屑 BreadcrumbList schema，$20–30 高质量外链（避开论坛批量外链），Bing IndexNow，GA4 AI 流量频道分组。
-
-**JA:** SEO/GEO エージェント運用SOP（2026-06-24基準）— 1ヶ月で約3.2万インプレッションを達成する自律型SOP。キーワード基準: volume 300–1,000/KD 5–35/トラフィックポテンシャル300+。内部リンクは段落あたり≤2–3個、競合ブログへの外部リンク、タイトルにbest/free/top/guide+年、BreadcrumbListスキーマ、$20–30外部リンク獲得、Bing IndexNow、GA4 AIトラフィック分析。
-
-**KO:** SEO/GEO 에이전트 운영 SOP（2026-06-24 기준）— 한 달 만에 ~3.2만 노출을 달성하는 자율형 SOP. 키워드 기준: volume 300–1,000/KD 5–35/traffic potential 300+. 내부링크 단락당 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목 best/free/top/guide+연도, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, GA4 AI 트래픽 추적.
+| 错误 | 后果 | 修复方法 |
+|------|------|---------|
+| GSC token 过期不处理，继续用旧数据 | 2 周盲区，排名变化完全不知道 | 日报第 0 项强制检查，不可用立即停止 |
+| 只用一个数据源的数字 | 数据可能相差 17 倍，被公开指出 | 任何外部数据必须 ≥2 来源 |
+| 外链提交后不追踪 | 8 周后才发现没有收录 | 外链追踪表 + 6 周检查机制 |
+| 新站追高 KD 词 | 排名永远上不去，浪费时间 | 严格执行 KD ≤ 20（新站）限制 |
+| 域名迁移后不加强监控 | P0 词全掉出 Top 100 没人知道 | 迁移后头 4 周每日检查 P0 词排名 |
+| 内容缺少 FAQ Schema | AI 引用率低 | 每篇文章加 FAQPage JSON-LD，5-8 题 |
+| CTA 与内容脱节 | 流量转化率 < 1% | CTA 必须承接上文场景，而不是通用广告语 |
+| 只追关键词不看意图 | 页面排上去了但转化是 0 | 发布前查 Google Top 10 确认意图类型 |
 
 ---
 
-## English Summary
+## 快速启动 Checklist
 
-This skill provides a **complete day-by-day SOP** for running an autonomous SEO/GEO Agent that achieves ~32K Google impressions in one month. It's the execution-layer companion to `gingiris-seo-geo` (strategy).
+### Day 0（地基，建站当天或第一次用这个 SOP 时）
+- [ ] 完成 context 收集问卷（见第一步）
+- [ ] GSC 接入并验证（验证方式：DNS TXT / HTML 文件）
+- [ ] GA4 安装并测试事件追踪
+- [ ] robots.txt 添加 AI 爬虫白名单
+- [ ] Sitemap 提交到 GSC
+- [ ] IndexNow key 配置（Bing）
+- [ ] 建立关键词→落地页映射表（空表即可，先建结构）
+- [ ] 建立外链追踪表（空表即可）
 
-**What's included:**
-- Week 0-4 timeline (from zero to Top 10 keywords)
-- Daily SEO report template (headline: "How many keywords on Google page 1?")
-- Keyword → Landing Page master mapping table
-- CTA conversion block template (every page must convert)
-- GEO triple combo (IndexNow + AI crawlers + structured format)
-- Tool stack (DataForSEO + GSC + GA4 minimum)
-- Owner Checklist (what humans must do before Agent can run)
-- CTR optimization 5-factor scoring
-- Topic Cluster internal linking structure
+### Week 1（BOFU 优先）
+- [ ] 竞品对比页 × 3（选 3 个主要竞品）
+- [ ] Alternative 页 × 3
+- [ ] 定价页（带 FAQPage Schema）
+- [ ] 每页发布后推送 IndexNow
+- [ ] 开始日报循环
 
-**Relationship to other Gingiris skills:**
-- `gingiris-seo-geo` = Strategy & methodology
-- `gingiris-seo-geo-agent` = Daily execution & automation (this skill)
+### Week 2-3（结构建立）
+- [ ] Topic Cluster：1 支柱页 + 4-6 集群页
+- [ ] 内链补充（每段 ≤ 2-3 个内链）
+- [ ] 主动 cite 竞品博客外链（提升权威性信号）
+- [ ] GA4 配置 AI 来源 channel grouping
+
+### Week 4+（优化循环）
+- [ ] 高曝光低点击页面重写标题（加 best/free/top/guide+年份）
+- [ ] 排名 11-20 的词重点优化
+- [ ] 外链建设开始（联系目录站 + 评测站）
+
+---
+
+## 关于新域名迁移
+
+**来自 gingiris.tools 迁移经验**：
+
+新域名迁移后，权重恢复是一个 4-12 周的过程。在此期间：
+
+1. **不要放松监控**，反而要加强。建议头 4 周每天检查 P0 词排名。
+2. **301 重定向必须正确**：旧 URL → 新 URL，不能重定向到首页。
+3. **更新所有内外链**：通知已知外链站点更新链接，提升权重传递效率。
+4. **IndexNow 密集推送**：新域名上线后，前 2 周每天推送，让搜索引擎尽快发现新站。
+5. **GSC 重新验证新域名**，提交新 sitemap，监控覆盖率曲线。
+
+如果迁移 6 周后 P0 词仍全部跌出 Top 100，检查：
+- 301 重定向链是否正确
+- 是否有技术性封锁（robots.txt 意外封锁、noindex 标签）
+- 外链是否在传递权重到新域名
+
+---
+
+## Install
+
+```bash
+# ClawHub
+clawhub install gingiris-seo-geo-agent
+
+# skills.sh
+npx -y skills add Gingiris-1031/gingiris-seo-geo-agent
+
+# 或直接复制本文件到你的 AI agent 项目 system prompt 中
+```
+
+**相关资源 & 深度合作**：
+
+| 资源 | 说明 |
+|------|------|
+| 🌐 [Gingiris 主页](https://gingiris.tools/) | 出海增长顾问主站 |
+| 🧰 [Skills 合集](https://gingiris.tools/skills/) | 所有开源增长 skill 一览 |
+| 📦 [HuggingFace](https://huggingface.co/Gingiris) | skill 数据集托管 |
+| 🔍 [Analook 竞品分析工具](https://www.analook.com) | 实时监控竞品增长信号，本 skill 运营实战中使用的工具 |
+| 📊 [产品自助增长诊断](https://www.analook.com/growth-audit.html) | 快速定位你的增长瓶颈 |
+| 相关 skill | `gingiris-seo-geo`（战略/方法论层，配合本 SOP 使用） |
+
+💬 **有问题或想建立深度合作？** 扫码加 Iris 微信：[@WeiYipei on X](https://x.com/WeiYipei)，或直接通过 [gingiris.tools](https://gingiris.tools/) 联系。
+
+---
+
+*License: MIT | Draft v2.0 | 基于 analook.com 和 gingiris.tools 真实运营经验*
