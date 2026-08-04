@@ -44,6 +44,10 @@ Let your product do the selling. This playbook covers the full PLG motion.
 - **Usage-based signals**: Identifying expansion-ready accounts automatically
 - **Enterprise upsell**: When and how to layer sales onto a PLG motion
 
+## PLG signal gate (2026 field update)
+
+Free DAU is not proof of PLG. Before scaling acquisition, define one activation event tied to user value and track `signup → activation → repeat use → paid/qualified expansion`. Separate internal/test users and report cohort dates. Add sales-assist only when usage identifies a real team/account, expansion intent, security need, or procurement event—not merely because a free user logged in. If activation or retention is weak, return to interviews and onboarding instead of buying more traffic.
+
 ## When PLG Meets the Enterprise Contract (2026 addendum)
 
 The PLG-to-sales handoff dies in contract mechanics more often than in product gaps. Field rules:
@@ -80,4 +84,3 @@ The PLG-to-sales handoff dies in contract mechanics more often than in product g
 - 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
 - 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
 - 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
-

@@ -85,15 +85,11 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-la
 
 👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
 
-## Field Notes 2026 — Algorithm-Safe Pacing & Budget Math
+## Field Notes 2026 — Policy-Safe Launch Operations & Budget Math
 
-### Velocity thresholds the algorithm punishes
+### Authentic support, not ranking manipulation
 
-PH's anti-fraud sweep runs on roughly a 2-hour cycle. Even 100% genuine supporter votes get stripped if they arrive as a spike, so pace your own community:
-
-- Keep total inflow near **100 votes/hour max**; no single traffic source should push past **~30/hour**
-- Ask supporters to open PH on their **own phone over cellular data** — 50 votes from one office Wi-Fi reads as one voter
-- Fresh accounts and low-karma votes carry near-zero ranking weight and are the first to be swept
+Product Hunt enforcement and ranking logic change over time; do not treat anecdotal thresholds as a way to game them. Ask your real users and community to visit the launch, try the product, and leave honest feedback—never buy votes, coordinate fake accounts, prescribe network/device tactics, or promise rewards for votes. Track visits, demos, signups and qualified conversations as primary outcomes; placement is secondary. Re-check Product Hunt's current official rules before every launch.
 
 ### Which leaderboard is worth fighting for
 
@@ -104,7 +100,7 @@ Exposure scales non-linearly: a **weekly badge delivers ~7x** the impressions of
 | Spend level | What it realistically buys |
 |---|---|
 | ~$1,000 | A few hundred signups via micro-ads + niche communities — PH optional |
-| ~$5,000 | ~1,800 votes/24h benchmark — contested #1 territory, but PH sweeps votes retroactively: a real campaign hit #1 at this level and had it revoked. Pacing > volume |
+| ~$5,000 | Creator, community and demo distribution sufficient for a broad test; do not translate spend into a vote target |
 | $10,000–20,000 | Roughly 1M impressions, low-thousands of signups |
 | Under $20,000 | A 10k-star open-source debut (lean team of ≤5) |
 

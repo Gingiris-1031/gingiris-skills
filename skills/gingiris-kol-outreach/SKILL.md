@@ -314,4 +314,11 @@ Insta360（影石创新）建立了多层级创作者合作体系，官方公开
 - 关系分"流动 vs 凝固"：凝固（只吸收不回馈）即停止投入。
 - 按远 / 中 / 近距离分层管理，只对有回流的 KOL 加码预算和资源。
 
+### 六、合作安全与真实 ROI
+
+- 合同中写清广告披露、素材授权范围、二次剪辑、白名单投放期限与撤稿机制；未经书面许可不克隆声音、换脸或冒充创作者。
+- 验收不止看截图：记录发布链接、发布时间、UTM/优惠码、24h/72h/7d 的曝光、点击、激活、付费与退款。
+- 报价、播放量和案例结论标注市场、日期、样本量及是否 self-reported。单次爆款（曾出现接近 70 万曝光的 quote post）只说明创意可复用，不代表稳定均值。
+- 不用虚构“同行都已发布”施压；可以如实说明 campaign 规模、排期和预算边界。
+
 > 🇺🇸 **Field notes (AFFiNE-era, self-reported in a 2026-04 podcast)**: Price floors — Twitter thread (<100k followers, 10k+ impressions) ≈$50–200; YouTube dedicated video (<100k subs, ~10k views) ≈$800–1,200 with deals as low as $300–500; mid-roll ≈$500–800; cheapest KOC deal that shipped was $80 at 3k followers; US-market YouTube tops out around ≈$1,200–2,000 — anything above that usually means you didn't negotiate. Negotiation: counter at ~30% of the first quote and create peer momentum ("20+ creators are already in this campaign") — one over-priced creator eventually came back and posted for free. Escalate from email to WhatsApp/Telegram/LinkedIn after 2–3 replies to prevent no-shows. For top creators who monetize via content/affiliate rather than ads, money doesn't work: send a short monthly what's-new email — they read even if they never reply; a free dedicated video landed after ~6 months. Allocate follow-up budget only to creators who reciprocate goodwill; stop investing in one-way relationships.

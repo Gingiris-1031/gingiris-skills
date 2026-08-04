@@ -303,6 +303,13 @@ Use this for:
 - ❌ **Asking friends to write inauthentic reviews on G2** — flagged + removed
 - ❌ **Guest posting on link farms** — negative SEO
 
+## Ecosystem links and experiment log
+
+- Prefer legitimate ecosystem placement: relevant Awesome Lists, integration partner pages, package registries, template galleries, conference resources, and README “works with” sections.
+- Earn the link with a working integration, useful example, benchmark, or original dataset; follow each repository/site's contribution policy.
+- Log `date, hypothesis, source, destination, asset, outreach, status, referral visits, activated users, 30d outcome`. A live link without relevant visits or activation is not automatically a win.
+- Never disguise sponsored placement as editorial coverage; retain disclosure and evidence for every paid or reciprocal placement.
+
 ---
 
 ## Cascade recommendations

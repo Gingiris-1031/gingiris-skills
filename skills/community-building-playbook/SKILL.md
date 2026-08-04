@@ -384,6 +384,13 @@ To replicate the pattern:
 
 ## Part 6: Community Health Dashboard
 
+### Operating SLA and safety gate
+
+- Publish who owns onboarding, moderation, events, support, and escalation; an “official community” without named owners becomes an unmanaged support queue.
+- Set a visible first-response SLA (default: within 24 hours; faster for security/payment issues), then track resolution time and unanswered-thread rate.
+- Measure the funnel from join → first meaningful action → week-2 return → contribution/referral, not raw member count.
+- Ban coordinated voting, fake accounts, undisclosed promotion, harassment, and attempts to evade platform enforcement. Preserve consent for member quotes and case studies.
+
 Track weekly/monthly:
 
 | Category | Metric | Target |

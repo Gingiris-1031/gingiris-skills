@@ -659,6 +659,10 @@ Run before every README publish or major update.
 
 ## 快速诊断 / Quick Diagnosis
 
+### 2026 activation gate
+
+A README is an activation surface, not a brochure. The first screen should connect a crisp promise to a visible demo and the shortest runnable path. Track `README visit → install/start → first successful outcome → return`, with dated cohorts. If users star but cannot reach the first outcome in roughly three minutes, improve prerequisites, copy-paste commands, expected output, troubleshooting, and integration examples before adding more launch traffic. Keep benchmarks dated and label self-reported evidence.
+
 When someone sends you a README to review, run through this in order:
 
 1. **Read only the first screen (simulate no scroll).** What do you know about the product? Who it's for? Why it matters? If you can't answer all three, the tagline or hero section needs rewriting.
