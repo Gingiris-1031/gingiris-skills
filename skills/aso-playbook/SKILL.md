@@ -29,8 +29,8 @@ clawhub install aso-playbook
 
 **What you get after installing:**
 - Keyword research methodology for finding low-competition, high-intent terms
-- Screenshot design principles proven to increase conversion 2-3x
-- A/B testing framework with localization priorities for iOS and Android
+- Screenshot hypothesis and message-hierarchy framework
+- A/B testing and evidence-capture framework for iOS and Android
 
 ---
 
@@ -41,10 +41,30 @@ clawhub install aso-playbook
 The fundamentals of ASO for developers who'd rather build than market — but need downloads.
 
 - **Keyword research**: Finding low-competition, high-intent keywords for your category
-- **Screenshot optimization**: Design principles that increase conversion rate 2-3x
+- **Screenshot optimization**: Turn user intent into testable screenshot hypotheses
 - **Rating strategy**: How to ask for reviews without annoying users
 - **Localization basics**: Which markets to target first and how to test
 - **A/B testing**: What to test, how long to run, and interpreting results
+
+## Minimum viable ASO workflow
+
+1. Export the last 28 days by country and traffic source: impressions, product-page views, first-time downloads, conversion rate, proceeds, D1/D7/D30 retention.
+2. Build a keyword sheet with relevance, current rank, search popularity, competition, destination locale and target page.
+3. Change one variable family at a time: metadata, icon, first three screenshots, preview video, rating prompt or localization.
+4. Record the exact before/after version, release date, storefront and external UA activity.
+5. Keep a test only when conversion improves without a material decline in retained users, rating quality or revenue.
+
+### Evidence gate
+
+Do not claim an ASO win from downloads alone. A valid case needs, at minimum:
+
+- keyword rank or search-impression change;
+- impression → product-page-view rate;
+- product-page-view → first-time-download rate;
+- D7 or D30 retained-user outcome;
+- dates, storefronts, app version and paid-campaign overlap.
+
+No controlled Gingiris App Store before/after dataset is bundled with this skill yet. The workflow is executable; any uplift claim must come from the user's own App Store Connect or Play Console export.
 
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth

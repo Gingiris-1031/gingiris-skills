@@ -25,7 +25,7 @@ CASES = {
   "seed_growth" => ["attribution-over-applause", "Growth must be stage-gated and cohort-attributed", [/first 10|first.ten|前10|前十/i, /activation|激活/i, /source.{0,8}signup.{0,8}activated/i]],
   "zero_budget" => ["1k-launch-recipe", "Zero-budget motion starts with targeted outreach and activation", [/200.{0,16}(outreach|message|私信|外联)/i, /Reddit/i, /activation|激活/i]],
   "viral" => ["anti-paid-growth-plan", "¥1M budget target: 500K registrations, implied CAC ¥2", [/CAC|获客成本/i, /referral|邀请|裂变/i, /UGC|ambassador|大使/i]],
-  "ai_twin" => ["ai-twin-10k-stars-3-weeks", "~6K stars week one; 10K in three weeks; hackathon 0→2K", [/KOL|creator|influencer|红人/i, /hackathon|黑客松/i, /product|demo|产品/i]],
+  "agent_workflow" => ["agent-workflow-15-people-to-5-days", "15 people × 3–4 weeks reduced to one strategist + AI in 5 days", [/15.{0,12}(people|人).{0,16}3.{0,4}4.{0,8}(week|周)/i, /strategist|策略师/i, /harness|评测|evaluation/i]],
   "b2b" => ["b2b-0-to-500k-arr", "Founder-led B2B motion reached $500K ARR", [/founder|创始人/i, /PLG|SLG|sales/i, /ARR|revenue|收入/i]],
   "seo" => ["attribution-over-applause", "Channel attribution changed spend decisions", [/canonical|schema|结构化/i, /citation|GEO|引用/i, /measure|track|监控|日志/i]]
 }.freeze
@@ -51,7 +51,7 @@ TESTS = {
   "startup-consultant" => "consulting", "startup-growth-playbook" => "seed_growth",
   "startup-marketing-playbook" => "zero_budget", "viral-marketing-playbook" => "viral",
   "growth-hacking-playbook" => "viral", "gingiris-growth-finder" => "b2b",
-  "agent-workflow-playbook" => "ai_twin"
+  "agent-workflow-playbook" => "agent_workflow"
 }.freeze
 
 def case_exists?(slug)
