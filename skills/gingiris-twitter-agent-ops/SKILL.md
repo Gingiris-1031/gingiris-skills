@@ -670,6 +670,10 @@ CTA 目标：[填写主 CTA 链接]
 | `gingiris-ugc-matrix` | UGC 素材可以补充进 SOURCE-INDEX |
 | `gingiris-kol-outreach` | KOL 合作案例是高质量推文素材来源 |
 
+### Scope boundary
+
+This skill operates an owned account's daily editorial calendar, publishing controls and reporting. A coordinated creator/KOL launch—multiple creators, quote-post waves, YouTube amplification, campaign attribution or paid briefs—must be handed to `gingiris-kol-outreach` plus `gingiris-launch`. Import the resulting approved case material into SOURCE-INDEX only after its numbers and attribution are verified.
+
 ---
 
 ## Install

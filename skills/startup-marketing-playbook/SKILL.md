@@ -51,6 +51,29 @@ No money? No problem. Every tactic here costs $0 — just your time and creativi
 - **Word-of-mouth engineering**: How to make your product naturally shareable
 - **Guerrilla tactics**: Creative, scrappy approaches that punch above their weight
 
+## $0 execution plan
+
+### Week 1: positioning and first list
+
+- Compare the top three alternatives' earliest, beta and current messaging; write one benefit-led sentence for your product.
+- Build a 200-person prospect sheet from competitor followers, LinkedIn keyword/job-title searches, Reddit/X intent conversations and relevant service marketplaces.
+- Define one activation event and one retained-use event before posting.
+
+### Week 2: conversations, not broadcasting
+
+- Send personalized outreach in small batches; record source, segment, reply, interview, activation and paid outcome.
+- Conduct screen-share interviews; let users speak most of the time and ask what they already pay for.
+- Reply to live intent in communities with a useful answer first. Disclose affiliation; do not impersonate a user or paste identical promotional copy.
+
+### Week 3: reusable proof asset
+
+- Turn the most repeated problem into one comparison page, tutorial, demo or case note.
+- Distribute channel-native excerpts and close every link back to the same measurable activation path.
+
+### Week 4: keep, fix or kill
+
+Keep a channel only if it creates activated/retained users, not just visits. If acquisition works but activation does not, pause distribution and fix the product. Publish a cohort table: `source → contacted → replies → interviews → signups → activated → retained → paid`.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-launch
 - All skills: https://clawhub.ai/gingiris-1031
@@ -67,4 +90,3 @@ No money? No problem. Every tactic here costs $0 — just your time and creativi
 - 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
 - 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
 - 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
-

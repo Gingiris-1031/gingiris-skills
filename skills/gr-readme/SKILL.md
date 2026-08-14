@@ -24,6 +24,12 @@ when_to_use: |
     gr-readme = writing/editing the document itself
     gr-oss-marketing / gingiris-opensource = the entire growth strategy the document lives inside
 
+  Handoff rule:
+    If the request also asks for competitor research, comparison content, launch distribution,
+    partner/sponsor outreach, or backlinks, finish the README artifact here and route those
+    deliverables to gr-competitor, gr-oss-marketing, or gr-backlinks. Do not pretend the README
+    alone produced campaign reach.
+
 tags:
   - github-readme
   - open-source

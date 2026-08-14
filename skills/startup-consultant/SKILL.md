@@ -49,6 +49,28 @@ On-demand consulting for the three highest-leverage startup growth challenges.
 - **Sprint planning**: Prioritized 2-week growth sprints with clear deliverables
 - **Fractional growth lead**: Ongoing strategic guidance without a full-time hire
 
+## Required diagnostic contract
+
+Do not start with channel advice. Return a one-page diagnosis in this order:
+
+1. **Stage:** idea / first 10 users / activation repair / PMF validation / repeatable growth / scale.
+2. **Segment:** B2B, professional consumer or broad consumer; buyer, user and community may differ.
+3. **Evidence:** current visits, signup, activation, retention, paid conversion and source attribution. Mark unknowns explicitly.
+4. **Constraint:** product, positioning, distribution, trust, localization, payment/compliance or team capacity.
+5. **Decision:** one primary two-week experiment, one guardrail, one kill/continue threshold.
+
+### Stop-growth rule
+
+If acquisition grows but activation/retention is weak, recommend pausing amplification. The supplied Gamma case grew weekly signups from roughly 100 to 2,000–3,000 while activation remained under 10%; the correct intervention was product work, not more traffic.
+
+### First-user and interview prescription
+
+- Build the first list from competitor followers, LinkedIn job/keyword searches, Reddit/X intent conversations and service marketplaces.
+- Track 200 personalized outreach attempts before declaring a channel ineffective; segment reply, interview, activation and paid results.
+- In interviews, let the user speak about 80% of the time, ask for screen-share, and verify existing paid behavior.
+
+Never present historical conversion thresholds as universal benchmarks; label source, segment and cohort.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder
 - All skills: https://clawhub.ai/gingiris-1031

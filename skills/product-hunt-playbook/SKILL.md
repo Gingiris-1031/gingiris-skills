@@ -1,6 +1,6 @@
 ---
 name: product-hunt-playbook
-version: 1.6.0
+version: 1.7.0
 description: |
   It's 11pm before your launch. Your PH page is ready but you have no idea what actually moves the ranking algorithm. Upvotes? Comments? Time-of-day? This is the hour-by-hour operations manual from someone who's coached 30+ #1 finishes.
 
@@ -97,25 +97,37 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-sk
 
 ## Launch-Day Ops Addendum (2026 field data)
 
-### Hour-by-hour vote hygiene
+### Hour-by-hour support hygiene
 
-1. Watch your inflow **rate**, not just the total. Healthy pattern: a steady ~50 votes/hour. Danger pattern: bursts past 100/hour overall, or any one channel dumping 30+/hour.
-2. Expect the platform to prune votes about every two hours — if your count suddenly dips, that's the sweep, not a bug. Don't panic-blast your mailing list to compensate; that creates exactly the spike that gets pruned.
-3. Brief supporters *before* launch day: vote from their own device on mobile data, comment in their own words. A wall of same-minute votes from one network erases itself.
+1. Watch support **quality and rate**, not just the total. Historical launches were reviewed in roughly two-hour windows; abrupt bursts and low-context accounts were more likely to be removed. Treat ~100 upvotes/hour as an operational warning line, not an algorithm guarantee.
+2. If the count drops, pause amplification and audit sources. Do not compensate with another blast.
+3. Ask only real users and existing community members to visit voluntarily and leave an authentic comment. Never buy accounts or votes, coordinate vote exchanges, conceal identity/network origin, or instruct supporters to evade platform controls.
 
 ### Decide which badge you're buying before you spend
 
 Daily, weekly and monthly are not the same prize: weekly exposure ≈ 7x daily, monthly ≈ 30x. Aiming monthly → launch the second or third Tuesday of the month. Only need the daily badge → Friday–Sunday competition is thinner.
 
-### Budget reality check
+### Budget and fit reality check
 
-- ~$5K is the floor at which ~1,800 votes/24h becomes reachable — but volume without pacing is a trap: one campaign hit daily #1 at that level and had the badge revoked in a retroactive vote sweep.
-- Below that, redirect the money: ~10 Twitter KOC collabs beat a PH campaign on signups — PH exposure→upvote runs about 1%, while Reddit open-source promo converts exposure→stars at 5–8%.
+- Do not infer a universal spend-to-vote rate. Historical outcomes varied by audience fit, account quality, assets, timing and platform review.
+- With a small budget, redirect effort: the field notes found that roughly ten relevant X KOC collaborations often beat a PH-only push on registrations. Historical directional benchmarks were PH exposure→upvote around 1% and Reddit OSS exposure→star around 5–8%; validate against your own cohort before budgeting.
 - One anonymized field case (an AI Agent product, 2025-12): a 500K-visit launch day engineered across Twitter/Reddit/YouTube/groups produced ~800 signups at $6.25 CAC. Traffic ≠ conversion — plan the funnel, not just the spike.
 
 ### Split launch day and leaderboard day
 
 Route half your amplifiers to the website on announcement day, the other half to PH on badge day. Cramming both goals into 24 hours makes each dilute the other.
+
+## Evidence-backed operating sequence
+
+1. **T−21 to T−14:** make the maker profile credible through normal participation; finalize positioning and audience fit.
+2. **T−14 to T−7:** create Coming Soon, select a hunter only if their audience/feature access helps, and review every asset yourself. A hunter is not a source of votes.
+3. **T−7 to T−1:** observe recent competition for 1–3 weeks; prepare the maker comment, FAQ, demo, community destination and per-channel UTMs.
+4. **Launch day:** publish the first maker comment with the offer and community destination; answer questions; monitor source-level visits, activations and suspicious spikes every two hours.
+5. **T+1 to T+7:** move B2C leads into Discord/forum and B2B leads into Slack/community or a qualified demo flow. Report visits → signup → activation → retained/paid, not badge alone.
+
+Historical planning heuristics: weekly visibility was roughly 7× daily and monthly roughly 30×; use the second/third Tuesday when attempting a monthly run, or Friday–Sunday when the goal is a less competitive daily launch. These are case observations, not current PH guarantees.
+
+Source notes and field-case boundaries: `references/iris-field-notes.md`.
 
 ## Related Skills
 
