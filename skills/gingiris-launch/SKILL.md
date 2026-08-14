@@ -20,6 +20,8 @@ when_to_use: |
 
 # Product Launch — GTM Strategy & Product Hunt #1 Playbook
 
+> Case-number and citation boundaries: `references/podcast-evidence.md`.
+
 > 🌍 **Language / 语言**: [English](#english-version) | [中文](#中文版)
 
 ## 产品类型分岔：先选你的路径

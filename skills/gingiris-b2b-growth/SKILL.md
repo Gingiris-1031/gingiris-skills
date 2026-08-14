@@ -37,6 +37,8 @@ tags:
 
 # B2B SaaS Growth — PLG / SLG Playbook
 
+Podcast-derived stage evidence and claim boundaries: `references/podcast-evidence.md`.
+
 > 🌍 **Language / 语言**: [English](#english-version) | [中文](#中文版)
 
 "People like it but revenue isn't growing" is rarely one problem. It's usually a **mis-matched motion**: a PLG product run with an SLG playbook, or vice versa. Start by diagnosing the motion, then walk the staged path.

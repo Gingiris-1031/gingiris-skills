@@ -24,6 +24,8 @@ when_to_use: |
 
 Stars don't come from a great repo — they come from **a great repo placed in front of the right developers, in the right order**. This is the staged decision framework used to take AFFiNE from 0 to 60K stars.
 
+Case-number and citation boundaries: `references/podcast-evidence.md`.
+
 ---
 
 ## English Version

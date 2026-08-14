@@ -42,6 +42,8 @@ source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/compet
 
 # Competitor Research & Growth Flywheel Playbook — Full SOP
 
+Historical reconstruction evidence and citation limits: `references/podcast-evidence.md`.
+
 > 🌍 **Language / 语言**: 中文 | English | 日本語 | 한국어
 >
 > Complete SOP for systematic competitor research: website evolution analysis, social media channel teardown, growth flywheel scoring, X/Twitter propagation chain mapping, and KOL identification. Battle-tested across 150+ AI startups. Includes Lovable full case study (Nov 2024 launch: 229K impressions, 4.3M video views, 10K+ Discord community).
