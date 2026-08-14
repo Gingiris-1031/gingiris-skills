@@ -17,6 +17,7 @@
 改 skills/<name>/ 下的源文件
   → bash scripts/sync-nested.sh    # 重建嵌套打包副本（字节级一致校验）
   → python3 scripts/sync-local.py  # 重建本机精简副本（幂等）
+  → ruby scripts/validate-skills.rb # 全量结构、引用、隐私与打包校验
 完成
 ```
 
@@ -31,3 +32,16 @@
 - 本机孤儿 skill（monorepo 没有的，如 gingiris-reddit-marketing）：
   sync-local.py 不覆盖、只精简 description（原文备份为 `SKILL.md.orig`）；
   源码防丢备份在本仓 `archive/`（不在 skills/ 内，不进分发）。
+
+## 全量执行验收
+
+每次发布不抽查旗舰 skill，而是对 `skills/*/SKILL.md` 全量验收。发布数以实际顶层目录为准，不手填在多个平台。发布前依次运行：
+
+```bash
+bash scripts/sync-nested.sh
+ruby scripts/validate-skills.rb
+bash scripts/check-dead-refs.sh
+GINGIRIS_SKILL_REPORT=/tmp/gingiris-skill-report.json ruby scripts/validate-skills.rb
+```
+
+`validate-skills.rb` 会逐个解析 frontmatter、核对目录名与 `name`、检查嵌套安装包字节一致性、阻止私有文件进入公开包，并扫描旧 GitHub 身份、旧站点和错误 ClawHub handle。非零退出码即禁止发布到 GitHub、Hugging Face、ClawHub、gingiris.tools 或 skills.sh。
