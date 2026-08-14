@@ -7,6 +7,8 @@ Internal source synthesis from the Product Hunt experience wiki supplied by Iris
 - 30 daily #1 launches, 10 weekly top-three launches, and 2 monthly top-five launches, including one monthly #1.
 - Only top-five day/week/month finishes receive the corresponding badge.
 - Historical exposure multipliers were approximately 7× for weekly and 30× for monthly compared with daily.
+- Apple Notes record `项目名称：AFFiNE Product Hunt发布` (created 2024-03-04): a three-person operations team coordinated 30 Twitter/LinkedIn KOLs and continuous multi-channel distribution; the note reports 700K+ impressions and 1,000+ Product Hunt upvotes in 24 hours, then monthly #8 within 96 hours, plus daily #2 and weekly #2. These are self-reported project figures, not an independent audit.
+- Apple Notes record `Product hunt actions Review` (created 2024-03-10) observed periodic removal of low-quality/new-account support. Its references to vote pools are retained only as historical risk evidence and are excluded from execution guidance.
 
 ## Decision rules
 

@@ -112,6 +112,7 @@ Daily, weekly and monthly are not the same prize: weekly exposure ≈ 7x daily, 
 - Do not infer a universal spend-to-vote rate. Historical outcomes varied by audience fit, account quality, assets, timing and platform review.
 - With a small budget, redirect effort: the field notes found that roughly ten relevant X KOC collaborations often beat a PH-only push on registrations. Historical directional benchmarks were PH exposure→upvote around 1% and Reddit OSS exposure→star around 5–8%; validate against your own cohort before budgeting.
 - One anonymized field case (an AI Agent product, 2025-12): a 500K-visit launch day engineered across Twitter/Reddit/YouTube/groups produced ~800 signups at $6.25 CAC. Traffic ≠ conversion — plan the funnel, not just the spike.
+- AFFiNE Apple Notes case (2024-02 launch): a three-person operations team coordinated 30 Twitter/LinkedIn KOLs and 24-hour multi-channel distribution. The project note reports 700K+ impressions and 1,000+ upvotes in 24 hours, monthly #8 within 96 hours, plus daily #2 and weekly #2. Treat these as self-reported historical figures—not a vote-per-KOL benchmark or causal guarantee.
 
 ### Split launch day and leaderboard day
 

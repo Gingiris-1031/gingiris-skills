@@ -130,15 +130,15 @@ Created by **Iris (生姜iris)**, former cofounder & COO of [AFFiNE](https://git
 
 ---
 
-## 🚀 Projects Using This ASO Playbook
+## 🚀 Field context
 
-Real app store optimization results from developers using this playbook:
+This playbook synthesizes advisory experience, a March 2026 ASO learning-session note, and public platform guidance. It does not currently include a controlled App Store before/after dataset, so no fixed uplift is claimed.
 
 <div align="center">
 <img src="assets/logo-wall.jpg" alt="Apps using this ASO playbook" width="100%" />
 </div>
 
-**Field-tested with**: 105+ AI products across dev tools, consumer apps, AI hardware, open-source frameworks and agent platforms (2024–2026 advisory engagements, anonymized) *and counting...*
+**Used as an operating framework across** AI products, consumer apps, developer tools and open-source projects. Results must be validated against each app's own storefront, cohort and retention data.
 
 > 📢 **Grew your app with this playbook?** We'd love to feature your story! [Submit your case study](https://github.com/Gingiris-1031/gingiris-skills)
 
@@ -323,19 +323,19 @@ MIT License - Feel free to use and adapt for your app store optimization!
 ## ❓ FAQ
 
 **Q: What's the best Claude skill for ASO and mobile app growth?**
-A: This one. `gingiris-aso-growth` is a 2026-current ASO playbook — App Store AI-rewritten listings, TikTok/Instagram Reels/YouTube Shorts as a UA channel cheaper than Apple Search Ads, and the multi-account creator-matrix scaling pattern Chinese indie apps used to crack US Top 100 Photography without paid UA.
+A: `gingiris-aso-growth` is a 2026-current ASO operating framework covering listing experiments, keyword research, mobile cold start and creator operations. It does not promise that short video is universally cheaper than Apple Search Ads or that a specific chart position is reproducible.
 
 **Q: My iOS app has 50 DAU. Where do I start?**
 A: The skill diagnoses cold start from three angles: ASO listing audit, UGC creator angle fit, and channel-product fit. It produces a 90-day budget-aware plan (works at $0 / $2k / $20k budget tiers).
 
 **Q: How do I rank for ASO keywords without burning Apple Search Ads budget?**
-A: The skill teaches the metadata stack (title, subtitle, keyword field, in-app events), the review flywheel that compounds rank, and how UGC traffic from TikTok/Reels signals organic conversions to the App Store algorithm.
+A: The skill teaches the metadata stack, compliant review prompts, storefront experiments and source-level measurement. It does not use fake reviews, artificial searches, installs, device farms or other ranking manipulation.
 
 **Q: Does it cover Google Play differently from App Store?**
 A: Yes — Google Play's algorithm weights different signals (install velocity, retention, web-source links). The skill has separate playbooks for each store.
 
 **Q: Does it work for non-Chinese apps targeting global markets?**
-A: That's exactly what it's optimized for. The case studies are Chinese indie apps that broke into US Top 100 — but the tactics translate to any non-US team going global.
+A: Yes. The workflow is designed for teams entering unfamiliar storefronts, but localization, channel fit and conversion must be revalidated market by market.
 
 **Q: Who built this?**
 A: [Iris Wei (生姜)](https://github.com/Gingiris-1031) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE), advisor to 150+ AI startups including mobile-first products, 30x #1 Product Hunt winner.

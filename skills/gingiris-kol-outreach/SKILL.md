@@ -106,6 +106,10 @@ Content Package 必须包含：Product Overview、Brand Assets、Key Talking Poi
 - 确认按时发布 → 第一时间互动激活 → 要求24h/48h/72h数据截图
 - UTM追踪转化 → 计算ROI：`(KOL带来收入 - 合作成本) / 合作成本`
 
+### Apple Notes 真实项目记录：AFFiNE Product Hunt
+
+2024-03-04 的项目笔记记录：3 人运营小队在 24 小时内协调 30 位 Twitter/LinkedIn KOL 与多渠道连续发布，报告获得 70 万+ 全网曝光和 1,000+ Product Hunt upvotes，并在 96 小时内进入当月第 8。该记录验证了“少团队也需要明确分工、素材包、发布节奏和集中监控”；它不能证明每位 KOL 的固定曝光或投票产出，也不能替代 UTM、注册、激活和付费归因。
+
 ---
 
 ## 数据评估体系

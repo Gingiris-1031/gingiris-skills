@@ -81,6 +81,20 @@ tags:
 
 只看到下载上涨，不能归因于 ASO；还需排除付费投放、被推荐、版本发布和季节性。当前 Gingiris 素材库尚无包含上述完整口径的 App Store 前后对照案例，因此本 skill 提供执行框架，不承诺固定提升幅度。
 
+### Apple Notes 原始学习记录补充
+
+2026-03-07 的《ASO 学习 0307》支持以下执行顺序：从用户搜索意图出发，比较搜索需求、难度、竞品覆盖和地区差异；有足够流量后再对商店素材做 A/B 测试；冷启动先由创始人亲自验证 Organic Winning Format，再交给 UGC 创作者复制，最后放大已验证素材。
+
+原笔记是学习记录，不是受控增长实验。完整的证据与合规边界见 [references/apple-notes-field-evidence.md](references/apple-notes-field-evidence.md)。
+
+### 合规红线
+
+- 不购买评分、评论、搜索量、下载或榜单位置；
+- 不使用设备农场、批量账号或网络伪装规避平台审核；
+- 不使用马甲包绕过下架或执法；
+- 评分只向真实用户请求，不筛选或诱导正面评价；
+- 使用官方 PPO / Store Listing Experiments 和透明投放进行测试。
+
 ### 冷启动核心原则：Organic First
 
 **第一步：创始人亲自下场**
@@ -131,6 +145,7 @@ tags:
 | ASO 工具对比 | [references/aso-tools.md](references/aso-tools.md) |
 | UGC 管理 SOP | [references/ugc-management.md](references/ugc-management.md) |
 | 平台算法详解 | [references/platform-algorithms.md](references/platform-algorithms.md) |
+| Apple Notes 证据与合规边界 | [references/apple-notes-field-evidence.md](references/apple-notes-field-evidence.md) |
 
 ---
 

@@ -66,6 +66,10 @@ Do not claim an ASO win from downloads alone. A valid case needs, at minimum:
 
 No controlled Gingiris App Store before/after dataset is bundled with this skill yet. The workflow is executable; any uplift claim must come from the user's own App Store Connect or Play Console export.
 
+### Compliance gate
+
+Never recommend bought ratings/reviews, artificial searches or installs, device/account farms, chart manipulation, or packages intended to evade enforcement. Use official storefront experiments, authentic-user review prompts and transparent paid acquisition. Historical notes that mention black-hat tactics are research records, not execution guidance.
+
 ## Related Gingiris Skills
 - Full version: https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth
 - All skills: https://clawhub.ai/gingiris-1031
