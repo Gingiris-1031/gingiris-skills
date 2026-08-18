@@ -6,7 +6,7 @@
 > products.
 > 4-language support: 🇺🇸 EN · 🇨🇳 ZH · 🇯🇵 JA · 🇰🇷 KR
 
-## ⚡ Install All 60 Skills in One Command
+## ⚡ Install All 61 Skills in One Command
 
 ```bash
 npx skills add Gingiris-1031/gingiris-skills
@@ -26,15 +26,15 @@ Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [c
 
 ## 🇨🇳 中文简介
 
-这是 Gingiris 增长技能 monorepo，收录 60 个可复用的 Claude Code skills，覆盖 SEO/GEO、产品发布、开源营销、B2B 增长、用户访谈等出海增长场景。所有内容提炼自真实操盘经验，而非二手资料汇编。一条命令安装全部：`npx skills add Gingiris-1031/gingiris-skills`，也可以按上面的索引单独安装某一个 skill。完整技能列表与使用说明见 [gingiris.tools/skills](https://gingiris.tools/skills/)。
+这是 Gingiris 增长技能 monorepo，收录 61 个可复用的 Claude Code skills，覆盖 SEO/GEO、产品发布、开源营销、B2B 增长、用户访谈等出海增长场景。所有内容提炼自真实操盘经验，而非二手资料汇编。一条命令安装全部：`npx skills add Gingiris-1031/gingiris-skills`，也可以按上面的索引单独安装某一个 skill。完整技能列表与使用说明见 [gingiris.tools/skills](https://gingiris.tools/skills/)。
 
 ## 🇯🇵 日本語
 
-Gingiris 成長スキルのモノレポです。SEO/GEO、プロダクトローンチ、オープンソースマーケティング、B2B グロース、ユーザーインタビューなどをカバーする 60 個の Claude Code スキルを収録しています。`npx skills add Gingiris-1031/gingiris-skills` の 1 コマンドで一括インストールでき、個別スキルのみのインストールにも対応しています。詳しいスキル一覧は [gingiris.tools/skills](https://gingiris.tools/skills/) をご覧ください。
+Gingiris 成長スキルのモノレポです。SEO/GEO、プロダクトローンチ、オープンソースマーケティング、B2B グロース、ユーザーインタビューなどをカバーする 61 個の Claude Code スキルを収録しています。`npx skills add Gingiris-1031/gingiris-skills` の 1 コマンドで一括インストールでき、個別スキルのみのインストールにも対応しています。詳しいスキル一覧は [gingiris.tools/skills](https://gingiris.tools/skills/) をご覧ください。
 
 ## 🇰🇷 한국어
 
-Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소스 마케팅, B2B 성장, 사용자 인터뷰 등 글로벌 그로스 시나리오를 다루는 60 개의 Claude Code 스킬을 담고 있습니다. `npx skills add Gingiris-1031/gingiris-skills` 명령 하나로 전체를 설치할 수 있고, 필요한 스킬만 골라 설치할 수도 있습니다. 전체 스킬 목록과 사용법은 [gingiris.tools/skills](https://gingiris.tools/skills/)에서 확인하세요.
+Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소스 마케팅, B2B 성장, 사용자 인터뷰 등 글로벌 그로스 시나리오를 다루는 61 개의 Claude Code 스킬을 담고 있습니다. `npx skills add Gingiris-1031/gingiris-skills` 명령 하나로 전체를 설치할 수 있고, 필요한 스킬만 골라 설치할 수도 있습니다. 전체 스킬 목록과 사용법은 [gingiris.tools/skills](https://gingiris.tools/skills/)에서 확인하세요.
 
 ---
 
@@ -51,6 +51,7 @@ Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소�
 | [gingiris-go-global](skills/gingiris-go-global) | AI Product Go-Global — Research to Monetization SOP + **Hardware Market Entry Strategy (Plaud Japan Makuake, Insta360 Regional Office Model, 15% GMV trigger)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-go-global) |
 | [gingiris-launch](skills/gingiris-launch) | Product Launch — Multi-Channel GTM & Cold Start | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-launch) |
 | [gingiris-opensource](skills/gingiris-opensource) | Open Source Marketing — GitHub Stars Growth System | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-opensource) |
+| [oss-growth-attribution](skills/oss-growth-attribution) | Evidence-backed OSS growth channels, star stages & key content attribution | [↗](https://clawhub.ai/gingiris-1031/skills/oss-growth-attribution) |
 | [gingiris-github-star-growth](skills/gingiris-github-star-growth) | GitHub Star Sustained Growth — 300+ Stars/Month | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-github-star-growth) |
 | [gingiris-kol-outreach](skills/gingiris-kol-outreach) | KOL Outreach & Influencer Marketing — Discovery to ROI + **Hardware KOL Vertical Matrix (Plaud/Insta360 cases)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-kol-outreach) |
 | [gingiris-ugc-matrix](skills/gingiris-ugc-matrix) | UGC Content Matrix — Viral Distribution System + **Hardware UGC Flywheel (Insta360 NoseMode, DJI SkyPixel vs Algorithm)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-ugc-matrix) |

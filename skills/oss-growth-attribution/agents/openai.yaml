@@ -1,0 +1,4 @@
+interface:
+  display_name: "OSS Growth Attribution"
+  short_description: "Reconstruct open-source growth channels with evidence"
+  default_prompt: "Use $oss-growth-attribution to investigate this open-source project and produce a staged channel and content attribution report."
