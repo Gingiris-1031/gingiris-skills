@@ -1,16 +1,12 @@
 ---
 name: gr
 description: >
-  Route and execute global-growth work with the Gingiris skill collection. Use
-  for vague or explicit requests about product growth, go-to-market, Product
-  Hunt, GitHub stars, open-source marketing, SEO, GEO and AI citations, blog
-  publishing, backlinks and PR, B2B SaaS, PLG, ASO, user interviews, competitor
-  research, KOL/UGC/community programs, social content repurposing, or GitHub
-  README conversion. Also trigger on Chinese requests such as 出海增长、产品发布、
-  找增长渠道、SEO 掉量、GEO、AI 引用、开源增长、用户访谈、竞品分析、KOL、UGC、
-  社区运营、写博客、外链、ASO、Product Hunt、GitHub stars. Select one specialist
-  skill, run it in the same task, and return here only when a new routing
-  decision is needed.
+  Route product-growth requests to one Gingiris specialist skill. Use when broad
+  or explicit requests about launch, Product Hunt, GitHub/open-source growth,
+  SEO/GEO, B2B/PLG, ASO, interviews, competitors, KOL, UGC, community, content,
+  backlinks, or README conversion, including 出海增长、产品发布、找增长渠道、竞品分析、
+  用户访谈、社区运营. Ask short multiple-choice questions only when the route is
+  unclear; then load and run one specialist rather than the full collection.
 ---
 
 # Gingiris Growth Router
@@ -28,6 +24,78 @@ and hand off. Do not replace specialist workflows with generic advice.
    short menu organized by desired outcome.
 4. **Post-task handoff** — After a specialist finishes, decide whether the
    result justifies one next specialist. Do not create a speculative chain.
+
+## Route with progressive choices
+
+Do not ask users to fill in a long intake form. Ask at most one multiple-choice
+question per message and at most three questions total. Stop as soon as one
+specialist is the clear narrowest match.
+
+Skip questions already answered by the request or conversation. When the user
+names an operation such as Product Hunt, competitor analysis, SEO audit, or
+README rewrite, route immediately and ask only about delivery depth if it
+materially changes execution.
+
+### Question 1 — desired outcome
+
+Ask this only when the goal is unclear:
+
+```text
+你现在最想解决什么？
+A. 🚀 发布产品
+B. 📈 获得更多用户
+C. 🔍 提升搜索与 AI 曝光
+D. 🧪 验证产品与市场
+E. 🤝 做社区、KOL 或 UGC
+F. 🧭 我还不确定
+```
+
+If an answer still maps to several specialists, ask Question 2.
+
+### Question 2 — product stage
+
+```text
+你的产品目前在哪个阶段？
+A. 💡 想法或 MVP
+B. 🛠️ 产品完成，准备发布
+C. 🌱 已发布，但增长较慢
+D. 📊 已有稳定用户，准备放大
+```
+
+Ask Question 3 only when delivery depth remains undecided.
+
+### Question 3 — delivery depth
+
+```text
+你希望这次得到什么？
+A. ⚡ 快速建议（推荐）：单 Skill、Markdown、最多 3 个网页
+B. 📋 标准方案：分析 + 行动计划，最多 1 个辅助 Skill
+C. 📦 完整交付：深度研究 + 可选 DOCX/XLSX，需要二次确认
+```
+
+Treat a letter, label, or natural-language equivalent as a valid selection. Do
+not repeat earlier questions. If the user does not choose a depth, default to
+Quick.
+
+### Confirm the route
+
+Before execution, return a compact confirmation only when questions were
+needed or the task may be costly:
+
+```text
+为你匹配：<specialist>
+原因：<one sentence>
+模式：Quick | Standard | Deep
+需要输入：<only material still missing>
+默认输出：Markdown preview
+预计成本：低 | 中 | 高
+
+[开始执行] [更换 Skill] [调整深度]
+```
+
+Do not require a second confirmation for safe Quick or Standard analysis when
+the user already asked to execute. Require explicit confirmation for Deep mode,
+publishing, outreach, purchases, or changes to live systems.
 
 ## Route by desired outcome
 
@@ -97,6 +165,21 @@ broader open-source playbook.
    - artifact or action completed;
    - metric to watch;
    - next checkpoint.
+
+### Execution budget
+
+- **Quick** — one specialist, at most three public pages, Markdown only.
+- **Standard** — one specialist and at most one necessary helper, with an
+  evidence-backed plan in Markdown.
+- **Deep** — multiple sources or generated office files; disclose scope and get
+  confirmation before starting.
+- Do not load `documents`, `spreadsheets`, `presentations`, or `pdf` merely
+  because the user asked for a report. Load them only when the user explicitly
+  requests that file type or confirms Deep delivery.
+- If a required attachment is unavailable, stop and list the missing inputs.
+  Do not search old chats, reconstruct missing files, or create build scripts
+  before the evidence is available.
+- Deliver a readable Markdown preview before generating office files.
 
 Never claim that a specialist was invoked if its instructions were not actually
 loaded and followed.
