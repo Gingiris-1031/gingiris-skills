@@ -153,13 +153,18 @@ broader open-source playbook.
 ## Dispatch contract
 
 1. State the selected specialist and the reason in one sentence.
-2. Read that specialist's `SKILL.md` completely before acting.
-3. Follow its workflow and load only the references needed for the task.
-4. Execute in the same task when safe and authorized. Do not pause merely to ask
+2. Check whether that specialist is installed. If it is missing, return only
+   the route card and this exact single-skill command, then pause:
+   `npx skills add Gingiris-1031/gingiris-skills --skill <specialist>`.
+   Do not scan other installed skills for a substitute and do not install it
+   without the user's authorization.
+3. After the specialist is available, read its `SKILL.md` completely.
+4. Follow its workflow and load only the references needed for the task.
+5. Execute in the same task when safe and authorized. Do not pause merely to ask
    whether the user wants the selected skill to run.
-5. If the specialist is unavailable, continue with the closest installed
-   specialist and disclose the substitution.
-6. Return a compact result containing:
+6. Substitute only when the canonical specialist no longer exists in the
+   Gingiris source collection; disclose the substitution.
+7. Return a compact result containing:
    - outcome or diagnosis;
    - evidence and assumptions;
    - artifact or action completed;
