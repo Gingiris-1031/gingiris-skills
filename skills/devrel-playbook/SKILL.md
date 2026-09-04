@@ -1,48 +1,104 @@
 ---
 name: devrel-playbook
-description: |
-  Complete Developer Relations playbook — from community building to documentation strategy to event planning. Covers Discord/Slack management, conference speaking, hackathon sponsorship, and measuring DevRel ROI. By @WeiYipei.
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/devrel-playbook
-tags:
-  - developer-relations
-  - devrel
-  - developer-community
-  - technical-content
-  - open-source
-  - documentation
-  - api
-  - sdk
-  - developer-experience
-  - developer-marketing
-  - claude-code
-  - ai-agent-skill
-  - conference
-  - hackathon
-  - latest
+description: Build and measure Developer Relations programs across documentation, community, technical content, integrations, events and developer advocacy. Use when designing DevRel strategy, improving developer activation, launching an API/SDK, evaluating sponsorships, or connecting community activity to product adoption and revenue.
 ---
-# DevRel Playbook — Developer Relations: Community, Docs & Events SOP
 
-> 🌍 **Language / 语言**: [中文](#中文版) | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
+# DevRel Playbook — Developer Activation, Community and Revenue
 
-## 📦 Install
+DevRel exists to reduce the distance between a developer's first exposure and sustained product value. Do not optimize only for members, event attendance or impressions.
 
-```bash
-clawhub install devrel-playbook
+## Diagnose the bottleneck
+
+Choose one primary problem:
+
+| Problem | Evidence | First intervention |
+|---|---|---|
+| Discovery | ICP developers do not know the project | technical content and ecosystem distribution |
+| Understanding | Docs traffic is high, quickstart completion is low | README/docs usability tests |
+| Activation | Keys/SDK installed, first successful call is low | sample app and error-path repair |
+| Retention | Developers try once and disappear | use-case education, office hours, lifecycle prompts |
+| Contribution | Users want changes but do not contribute | issue design, maintainer SLA, contributor onboarding |
+| Enterprise pull | Teams use product but procurement is invisible | usage-qualified account handoff to sales |
+
+## Developer journey instrumentation
+
+Track:
+
+```text
+source → docs/README visit → quickstart start → first success → second session → production use → contribution/qualified account
 ```
 
-**What you get after installing:**
-- Community architecture setup (Discord/Slack moderation & engagement loops)
-- Event playbook with ROI tracking (meetups, conferences, hackathons)
-- DevRel metrics & reporting framework (DORA, community health, attribution)
+Define each event and cohort window. Separate employees, bots, test accounts and event attendees who never touched the product.
 
----
+## Documentation system
 
-- Community architecture (Discord/Slack setup, moderation, engagement loops)
-- Documentation strategy (API docs, tutorials, quickstarts that convert)
-- Event playbook (meetups, conferences, hackathons — ROI tracking)
-- Developer advocacy (content creation, social presence, thought leadership)
-- Metrics & reporting (DORA, community health, attribution to revenue)
+Maintain four layers:
 
-## Related Gingiris Skills
-- Full collection: https://clawhub.ai/gingiris-1031
-- Follow: [@WeiYipei on X](https://x.com/WeiYipei)
+1. **README**: outcome, demo, quickstart, license and support path;
+2. **Tutorial**: one job completed end to end;
+3. **How-to**: focused operational tasks and integrations;
+4. **Reference**: complete APIs, errors, limits and versions.
+
+Run five-developer task tests quarterly. Record completion time, failure step, search terms and recovery success. Documentation is a product surface, not a publishing queue.
+
+## Community operating model
+
+- Assign owner and response SLA for support, bugs and feature discussions.
+- Separate announcements, help, showcase and contributor channels.
+- Turn repeated questions into docs; turn reproducible bugs into issues.
+- Recognize substantive help, not message volume.
+- Publish moderation and escalation rules before growth.
+
+Weekly review: unanswered questions, median time to useful answer, activated community members, recurring friction and contributions merged.
+
+## Technical content and comparison assets
+
+Prioritize content a developer can verify:
+
+- reproducible benchmark with methodology;
+- architecture/deep-dive explaining tradeoffs;
+- migration or integration tutorial;
+- honest comparison page stating where each option wins;
+- user build story with repo or demo.
+
+The anonymized Apache-ecosystem campaign in the Gingiris case library combined README repair, comparison content and backlinks/sponsor distribution; it reported 200K impressions and +401 stars in 10 days. Treat this as historical evidence, not guaranteed lift.
+
+## Events, hackathons and sponsorships
+
+Approve only when the event reaches the target developer and has a post-event activation path.
+
+Before: define build prompt, sample app, mentor coverage, attribution and success event.
+During: measure builders who reach first success, not registrations.
+After: route viable projects to showcase, contributor or customer tracks and measure D7/D30 continuation.
+
+Event scorecard:
+
+```text
+qualified registrants | builders started | first success | demos completed | D7 active | contributions | opportunities | total cost
+```
+
+## Ecosystem and backlink program
+
+- Maintain official integration pages and reciprocal technical documentation.
+- Contribute useful examples to ecosystem repositories before requesting promotion.
+- Use sponsor/newsletter placements only with source-tagged links and a relevant developer offer.
+- Reject paid link schemes and irrelevant directory volume.
+
+## DevRel-to-sales boundary
+
+DevRel educates and earns trust; it does not disguise sales outreach as community help. Hand off an account only when product usage, team expansion, security/procurement questions or explicit intent creates a qualified signal. Tell the developer when a commercial teammate is joining.
+
+## 30-day operating plan
+
+- Week 1: baseline journey, interview five developers, identify one bottleneck.
+- Week 2: repair the highest-frequency docs/product failure and ship one proof asset.
+- Week 3: distribute through two relevant communities or ecosystem partners.
+- Week 4: compare activation/retention against baseline and decide keep, change or stop.
+
+## Required output
+
+Return a developer journey, bottleneck diagnosis, 30-day plan, channel owners, measurement schema, community escalation rules and a monthly executive report connecting activity to activated/retained developers.
+
+## Compliance
+
+Never buy stars, fake community activity, conceal sponsorship, scrape private member data or manufacture benchmarks. Obtain consent before using developer stories or code.

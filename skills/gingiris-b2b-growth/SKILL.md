@@ -107,6 +107,14 @@ Unit economics, both ends:
 - Lean-team bar (podcast-recalled figures, treat as approximate): Notion ~4-8 people at million-user scale; ClickUp ~24 people at $1M ARR; several 8-10 person teams in the same space at $1M revenue. Operator rule: **over 25 people without $1M revenue = the org is the problem, not the market.**
 - Inbound-heavy SLG pattern (founder's own account, self-reported): Mattermost's community edition drives search ranking, self-serve trials, then inbound deals - growing from ~$100k contracts to ~$1M contracts without a large sales team. Dify sells a standardized on-prem edition at ~$30-50k per deal with a single deploy engineer, routing custom work to partner vendors.
 
+### Pre-product B2B outreach gate
+
+- Do not wait for prospects to prepare perfect workflow documents. Build a rough demo from public evidence, ask for whatever artifacts already exist during the call, and refine after observing the real workflow.
+- Segment each request into **standard product / guided setup / paid customization**. If setup quality affects the product experience, publish minimum standards and an evaluation checklist instead of leaving the buyer to improvise.
+- Start with reachable operators and smaller accounts; test roughly ten named enterprise accounts separately because procurement and internal politics make them a different motion.
+- Before outreach, remove or replace every broken CTA with a waitlist or explicit beta path. Outreach may precede a finished product; a dead first step may not.
+- Measure the funnel as `contacted -> replied -> meeting -> qualified test -> activated -> paid`, and reuse winning messages across owners.
+
 ### Enterprise deal execution (private deployment & custom 2B)
 
 Winning the contract is half the job — getting paid in full is the other half. Distilled from a Multi-Agent open-source commercialization project retro.
@@ -239,6 +247,14 @@ SOP（200+ 团队听过，真正执行完的不到 10 个）：
 - **~$1M ARR 以下**：PLG + organic + 常规投放足够；~$1M ARR 以上（及多数 ToB）：必须配 SLG / 本地 KA 渠道才能持续规模化。
 - 人效基准（播客口述回忆，按约数看）：Notion 约 4–8 人时已达百万用户量级；ClickUp 约 24 人做到 $1M ARR；同赛道多个 8–10 人团队做到百万美金营收。操盘铁律：**超过 25 人还没到 $1M 营收 = 组织有问题，不是市场有问题。**
 - Inbound 型 SLG 范式（founder 面授口述）：Mattermost 社区版带搜索排名→用户自助试用→主动 inbound，从 ~$10 万一单做到 ~$100 万一单，无需养大型销售团队。Dify 只卖标准化私有部署版（~$3–5 万美金/单，派一个工程师部署），定制需求全部转给合作 vendor。
+
+### 产品未完全就绪时的 B2B 外联门槛
+
+- 不等客户把工作流资料准备齐：先用公开信息做粗版 demo，在会上直接索取已有材料，再基于真实流程迭代。
+- 把需求拆成 **标准产品 / 引导式配置 / 付费定制**；凡是会影响产品体验的配置，都提供最低质量标准与验收清单，不能完全交给客户自行摸索。
+- 优先从更容易触达的小型客户和一线操作者开始；大型企业单独抽样约 10 家验证，避免把采购流程和内部协同难度误判成产品需求。
+- 外联前逐个检查 CTA：未完成的登录或试用入口改成 waitlist / Beta 申请，不能让潜客第一步就卡死。
+- 漏斗统一记录为 `触达 -> 回复 -> 会议 -> 合格测试 -> 激活 -> 付费`，跨负责人复用已验证的文案和异议处理。
 
 ### 2B 打单与交付（私有化 & 定制）
 
