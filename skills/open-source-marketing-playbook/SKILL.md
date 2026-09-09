@@ -54,6 +54,10 @@ Before planning distribution, answer four questions:
 
 If any answer is unclear, return a readiness-gap table before proposing launch channels.
 
+Score the result as `Go`, `Fix`, or `No-Go` for positioning, clean-machine quickstart,
+reproducible proof, license/security/privacy, launch-week ownership, and post-star
+conversion. A `No-Go` blocks concentrated distribution.
+
 ## 1. Required launch packet
 
 Produce these assets together:
@@ -71,6 +75,20 @@ Produce these assets together:
 - Publish where the comparator/category is already discussed, including relevant news communities.
 - Track `source → repo visit → star/install → activated user → qualified lead → paid`.
 - Route non-code contributors to translation, documentation, community moderation and global operations instead of losing them.
+
+Use one row per channel:
+
+```text
+channel | ICP | channel-native angle | CTA | UTM/source | owner | local time + timezone |
+success threshold | stop condition | evidence URL
+```
+
+Review at 2h (operations only), 24h (continue/change/pause), 72h (second wave), and
+7d (reuse/budget). Mark unavailable native metrics as `data unavailable`.
+
+Never buy stars or accounts, coordinate fake/incentivized votes, conceal sponsorships,
+bulk-scrape and spam users, or use AI to impersonate authentic participation. Re-check
+current community rules, creator metrics, rates and contacts before use.
 
 ## 3. Post-launch operating loop
 

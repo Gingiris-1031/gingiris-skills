@@ -18,6 +18,27 @@ metadata:
 
 # gr-oss-marketing — 开源营销
 
+## 先执行：发布契约
+
+在给渠道建议前，输出 `Go / Fix / No-Go` 表，检查：定位、陌生人 Quick Start、
+可复现 Demo、License/安全/隐私、发布周响应 owner、Star 之后的激活与商业承接。
+任何关键项为 No-Go 时先修复，不用铺量掩盖产品问题。
+
+把源 TODO 表统一成 5 个视图：
+
+1. 研究表：ICP、社区规则、近期高质量内容、风险、核验日期。
+2. 内容表：原生角度、证据、素材、CTA、审批、状态。
+3. 分发表：Owner、账号、当地时间与时区、UTM/source、实际链接。
+4. 数据表：基线、2h、24h、72h、7d、成本、结论。
+5. 总控表：依赖、Go/No-Go、事故 owner、停止条件、复盘日期。
+
+统一漏斗为 `曝光 → repo 访问 → install/quickstart → activation → D7 →
+contributor/qualified lead → paid`。Star 只是开发者兴趣信号。原生指标缺失时写
+`数据不可用`，不得从曝光或互动推算。
+
+红线：不买 Star/账号、不刷榜或协调虚假 Upvote、不隐藏付费合作、不批量骚扰、
+不让 AI 冒充真人参与社区。Reddit/HN/Discord/群组逐个核对规则并披露关联。
+
 ## 什么时候用
 
 - "我要发一个开源项目，从 0 怎么起"
@@ -39,7 +60,7 @@ metadata:
 
 ### 阶段 2：Launch（T-0 到 T+14）
 - [ ] Product Hunt 发（联动 `gr-ph-launch`）
-- [ ] Hacker News Show HN（周二美东 9am 或周六）
+- [ ] Hacker News Show HN（只有真实技术新意且团队能在线答疑时；发布时间按近期同类帖验证）
 - [ ] Reddit：选 3 个相关 sub（r/selfhosted / r/programming / 细分技术 sub）
 - [ ] Dev.to / Zenn / CSDN 发技术深度文
 - [ ] 找 3-5 个 KOL 转（优先活跃度 > follower 数）

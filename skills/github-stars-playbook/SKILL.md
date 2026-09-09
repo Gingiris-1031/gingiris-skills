@@ -30,6 +30,15 @@ date | source | post URL | repo views | stars | clones | installs | activated | 
 
 Report `view → star`, `star → install`, `install → activation`, and `activation → D7 retained`. Do not attribute organic GitHub traffic to a campaign without source evidence.
 
+Use 2h only to catch broken links and unanswered discussion. At 24h decide
+continue/change/pause, at 72h select the second wave, and at 7d decide which content and
+channels deserve reuse. Mark unavailable native metrics as `data unavailable` rather
+than estimating them from impressions.
+
+Keep a dated evidence label on benchmarks and cases: `verified`, `self-reported`,
+`inferred`, or `unverified`. Re-check platform rules and community policies during the
+launch week.
+
 ## Competitor-window scan
 
 Before selecting the launch date:
@@ -68,6 +77,8 @@ Ask five unfamiliar developers to explain the product and run the quickstart. Fi
 - Participate with useful answers before sharing the repository.
 - Draft channel-native posts: problem/lesson for Reddit, technical novelty for Show HN, demo/proof for X.
 - Ask existing users for honest feedback, never coordinated stars.
+- Disclose affiliation and paid relationships. Do not buy accounts, automate fake
+  participation, bulk-message scraped users, or coordinate/incentivize votes.
 
 ### Day 7 — release
 

@@ -26,6 +26,34 @@ Stars don't come from a great repo — they come from **a great repo placed in f
 
 Case-number and citation boundaries: `references/podcast-evidence.md`.
 
+## 2026 launch contract (run before any channel plan)
+
+Classify every input as `Go`, `Fix`, or `No-Go` across six gates: positioning,
+clean-machine quickstart, reproducible proof, license/security/privacy, response
+ownership, and business conversion. Do not compensate for a failed product or
+documentation gate with more distribution.
+
+Build one operating row per channel:
+
+```text
+channel | ICP | native angle | CTA | source/UTM | owner | local time + timezone |
+success threshold | stop condition | evidence URL
+```
+
+Use the source-sheet workflow as five linked views: research, content, distribution,
+measurement, and launch control. Keep platform rules, prices, account status, creator
+metrics, and contact lists date-stamped and re-verify them in launch week.
+
+Track the complete funnel:
+`impression -> repo visit -> install/quickstart -> activation -> D7 retained ->
+contribution/qualified lead -> paid`. At 2h check only operational anomalies; at 24h
+continue/change/pause; at 72h choose the second wave; at 7d decide reuse and budget.
+Mark unavailable native metrics as `data unavailable`; never infer them from views.
+
+Hard boundaries: never buy stars/accounts, coordinate fake or incentivized votes,
+hide paid relationships, scrape private data, mass-spam DMs/comments, or use AI to
+impersonate genuine community participation. Disclose affiliation on community posts.
+
 ---
 
 ## English Version
@@ -52,13 +80,15 @@ Case-number and citation boundaries: `references/podcast-evidence.md`.
 - [ ] Monthly update (mailing list + Discord).
 - [ ] Localize for going global (Japan/Korea first).
 
-### Star Region Distribution (GitHub Trending unlock)
+### Star region distribution (diagnostic, not a Trending rule)
 
-- No single country/region should exceed **20%** of your total stars.
-- Global healthy split reference: China 19-21%, US 19-21%, rest scattered across Europe / Russia / Canada / Indonesia.
+- Use geography to diagnose whether distribution matches the intended market; GitHub
+  does not publish a country-share threshold for Trending.
+- Historical project distributions are dated case evidence, not universal targets.
 - Finer benchmark (from studying VSCode / Vue / AppFlowy the week before AFFiNE's launch): US 19-21%, China ~19-21%, FR+DE+IT+UK combined 10-15%; Russia and Brazil usually appear in the Top-10 countries. Week-1 stars matching this curve = healthy global cold start.
 - Tools: **star-history.com** (trend chart) · **oss.cool / OSS Insight** (per-country breakdown, built by Chinese devs)
-- **Launch sequence**: Week 1 → overseas-only outreach. Week 2 → domestic (Chinese) outreach. Reversing this breaks the distribution and kills Trending eligibility.
+- **Launch sequence**: choose waves from ICP, support coverage and local time zones.
+  An overseas-first sequence is one testable option, not a Trending eligibility rule.
 - AFFiNE real case: deliberately skipped WeChat Moments / Chinese community posts in week 1.
 
 ### README essentials (conversion checklist)
@@ -74,10 +104,13 @@ Case-number and citation boundaries: `references/podcast-evidence.md`.
 - Purpose: give anyone who wants to spread your project a ready-made script. They will use it without asking.
 - AFFiNE case: a German user independently posted to 40+ forums with no prior contact — only possible because a clear reference article existed.
 
-### Competitor follower DMs
+### Relationship-based outreach
 
-- DM followers of your top competitors on Twitter/X (Notion, Miro, etc.).
-- Real benchmark: ~hundreds of DMs → ~hundreds of star conversions.
+- Contact only relevant people where the platform permits it and where the message is
+  personalized, truthful and easy to decline. Prefer people who have publicly discussed
+  the problem or opted into product discovery; do not bulk-scrape competitor followers.
+- Treat historical response/conversion claims as self-reported unless a dated source and
+  source-to-activation evidence are available.
 - Target: users who actively complain about the competitor — they already have switching intent.
 
 ### Channel order that works
