@@ -138,3 +138,39 @@ Track per-sub:
 - Which content types performed best
 
 This list compounds: 6 months in, you'll have a 10-sub portfolio where each sub generates 200-2000 view sources per post organically.
+
+## Two more validation gates
+
+Additions to the checklist above, both cheap and both failure-avoiding.
+
+### Paid-tier check (run alongside the rules check)
+
+If the product you will eventually mention has a paid tier, search the sidebar for rules about
+paid, commercial, or "free tools only" content. A sub can welcome tool recommendations and still
+auto-remove anything with a price, and the removal usually arrives after you have already spent
+weeks of Karma building there. This costs 30 seconds and removes the most expensive kind of
+surprise.
+
+### Match the persona to the sub's expertise level
+
+The same product gets three different credible voices: in a professional sub you are a working
+practitioner, in the adjacent craft sub you are a specialist in one part of the pipeline, in the
+hobbyist sub you are an enthusiast. Pick the one you can actually sustain through the comment
+replies — a claimed expertise that collapses on the first follow-up question does more damage
+than no post at all.
+
+### Make the "does promotion survive here" test verifiable
+
+The sidebar tells you the door is unlocked. Precedent tells you whether anyone is in the room.
+Reddit's public API answers it without a login:
+
+```bash
+# does this sub actually keep posts like the one you want to write?
+curl -s -H 'User-Agent: research/0.1' \
+  'https://www.reddit.com/r/<sub>/search.json?q=%22I+built%22&restrict_sr=1&sort=new&limit=25' \
+  | jq -r '.data.children[] | [.data.removed_by_category // "live", .data.score, .data.title] | @tsv'
+```
+
+`removed_by_category` is `null` on a post that is still publicly visible, and set (`moderator`,
+`automod_filtered`, `reddit`) on one that was taken down. A page of `live` rows with positive
+scores is real tolerance; a page of removals is a sub that looks open in the sidebar and is not.

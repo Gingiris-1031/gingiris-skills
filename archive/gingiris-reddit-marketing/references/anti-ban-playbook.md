@@ -166,3 +166,31 @@ Thank you for the work you do moderating this community.
 | 1000+ | High-trust, can post in r/ProgrammerHumor, r/programming, etc. |
 
 **Karma stat citations** (you can quote these): Most r/SaaS active members have 1,000+ Karma. r/MachineLearning effective contributors average 5,000+. Karma is the trust currency of Reddit.
+
+## CQS in detail (the invisible gate)
+
+The table above flags CQS. It is worth expanding, because it is the one account property that
+can auto-remove everything you post while age and Karma both look fine.
+
+Reddit scores every account on five tiers — **lowest / low / moderate / high / highest** — from
+prior actions on the account, network and location signals, and account-security steps such as
+email verification ([Reddit Help][cqs]). Moderators read it directly in AutoModerator:
+
+```yaml
+# a rule many industry subs run
+author:
+    contributor_quality: ["lowest", "low"]
+action: filter
+```
+
+Practical consequences:
+
+- **There is no API and no dashboard.** You cannot query your own CQS, so it never shows up in an
+  account-health check built on `/user/<name>/about`.
+- **The symptom is removals across *multiple unrelated* subs**, not one. A single sub removing you
+  is that sub's rules; four unrelated subs filtering the same account in the same week is CQS.
+- **Verify email on every account.** It is the one input on the list you control directly.
+- **When an account starts showing the pattern, stop spending content on it.** Idle it and let the
+  signals age out. Posting more from a low-CQS account is how you confirm it as low.
+
+[cqs]: https://support.reddithelp.com/hc/en-us/articles/19023371170196-What-is-the-Contributor-Quality-Score
