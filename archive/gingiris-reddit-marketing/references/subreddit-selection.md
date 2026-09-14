@@ -159,18 +159,37 @@ hobbyist sub you are an enthusiast. Pick the one you can actually sustain throug
 replies — a claimed expertise that collapses on the first follow-up question does more damage
 than no post at all.
 
-### Make the "does promotion survive here" test verifiable
+### Count the surviving precedent
 
 The sidebar tells you the door is unlocked. Precedent tells you whether anyone is in the room.
-Reddit's public API answers it without a login:
+
+Reddit's search needs an OAuth token — `www.reddit.com/*.json` without one returns 403 ("log in
+... or use your developer token"). Create a script-type app at
+https://www.reddit.com/prefs/apps, then:
 
 ```bash
-# does this sub actually keep posts like the one you want to write?
-curl -s -H 'User-Agent: research/0.1' \
-  'https://www.reddit.com/r/<sub>/search.json?q=%22I+built%22&restrict_sr=1&sort=new&limit=25' \
-  | jq -r '.data.children[] | [.data.removed_by_category // "live", .data.score, .data.title] | @tsv'
+# one-time: client id + secret from your script app
+export REDDIT_CLIENT_ID=... REDDIT_CLIENT_SECRET=...
+
+TOKEN=$(curl -sf -A 'research/0.1 by /u/<your-username>' \
+  -u "$REDDIT_CLIENT_ID:$REDDIT_CLIENT_SECRET" \
+  -d grant_type=client_credentials \
+  https://www.reddit.com/api/v1/access_token | jq -er .access_token) \
+  || { echo "auth failed: check credentials / app type is 'script'"; exit 1; }
+
+# how many posts of the shape you want to write are publicly standing in this sub?
+curl -sf -H "Authorization: bearer $TOKEN" -A 'research/0.1 by /u/<your-username>' \
+  'https://oauth.reddit.com/r/<sub>/search.json?q=%22I+built%22&restrict_sr=1&sort=new&limit=25' \
+  | jq -r '.data.children[] | [.data.score, .data.num_comments, .data.title] | @tsv'
 ```
 
-`removed_by_category` is `null` on a post that is still publicly visible, and set (`moderator`,
-`automod_filtered`, `reddit`) on one that was taken down. A page of `live` rows with positive
-scores is real tolerance; a page of removals is a sub that looks open in the sidebar and is not.
+Tokens last an hour; a 401 means re-run the token step. An empty `children` array is a real
+answer, not an error.
+
+**Read it as visible precedent only.** Search returns what is currently public, so removed and
+filtered posts are absent from the result set — this sample cannot measure a removal rate, and
+you should not compute one from it. What it does tell you: whether posts of your intended shape
+are standing in this sub at all, how many, and what engagement they get. A page of them with
+positive scores and real comment counts is precedent worth following. Nothing at all means either
+the format is absent or it does not survive here, and the two look identical from outside — treat
+it as "unknown, no precedent to lean on" and pick a sub where there is some.
