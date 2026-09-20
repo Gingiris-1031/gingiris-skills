@@ -138,3 +138,58 @@ Track per-sub:
 - Which content types performed best
 
 This list compounds: 6 months in, you'll have a 10-sub portfolio where each sub generates 200-2000 view sources per post organically.
+
+## Two more validation gates
+
+Additions to the checklist above, both cheap and both failure-avoiding.
+
+### Paid-tier check (run alongside the rules check)
+
+If the product you will eventually mention has a paid tier, search the sidebar for rules about
+paid, commercial, or "free tools only" content. A sub can welcome tool recommendations and still
+auto-remove anything with a price, and the removal usually arrives after you have already spent
+weeks of Karma building there. This costs 30 seconds and removes the most expensive kind of
+surprise.
+
+### Match the persona to the sub's expertise level
+
+The same product gets three different credible voices: in a professional sub you are a working
+practitioner, in the adjacent craft sub you are a specialist in one part of the pipeline, in the
+hobbyist sub you are an enthusiast. Pick the one you can actually sustain through the comment
+replies — a claimed expertise that collapses on the first follow-up question does more damage
+than no post at all.
+
+### Count the surviving precedent
+
+The sidebar tells you the door is unlocked. Precedent tells you whether anyone is in the room.
+
+Reddit's search needs an OAuth token — `www.reddit.com/*.json` without one returns 403 ("log in
+... or use your developer token"). Create a script-type app at
+https://www.reddit.com/prefs/apps, then:
+
+```bash
+# one-time: client id + secret from your script app
+export REDDIT_CLIENT_ID=... REDDIT_CLIENT_SECRET=...
+
+TOKEN=$(curl -sf -A 'research/0.1 by /u/<your-username>' \
+  -u "$REDDIT_CLIENT_ID:$REDDIT_CLIENT_SECRET" \
+  -d grant_type=client_credentials \
+  https://www.reddit.com/api/v1/access_token | jq -er .access_token) \
+  || { echo "auth failed: check credentials / app type is 'script'"; exit 1; }
+
+# how many posts of the shape you want to write are publicly standing in this sub?
+curl -sf -H "Authorization: bearer $TOKEN" -A 'research/0.1 by /u/<your-username>' \
+  'https://oauth.reddit.com/r/<sub>/search.json?q=%22I+built%22&restrict_sr=1&sort=new&limit=25' \
+  | jq -r '.data.children[] | [.data.score, .data.num_comments, .data.title] | @tsv'
+```
+
+Tokens last an hour; a 401 means re-run the token step. An empty `children` array is a real
+answer, not an error.
+
+**Read it as visible precedent only.** Search returns what is currently public, so removed and
+filtered posts are absent from the result set — this sample cannot measure a removal rate, and
+you should not compute one from it. What it does tell you: whether posts of your intended shape
+are standing in this sub at all, how many, and what engagement they get. A page of them with
+positive scores and real comment counts is precedent worth following. Nothing at all means either
+the format is absent or it does not survive here, and the two look identical from outside — treat
+it as "unknown, no precedent to lean on" and pick a sub where there is some.

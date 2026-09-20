@@ -232,3 +232,34 @@ Continue this list with industry-specific variations.
 - ❌ Coupon codes, discount codes (commercial intent)
 - ❌ "I'm doing AMA" before earning a reason to be asked
 - ❌ Anything with `<200` words in r/SaaS or industry subs (auto-removed for "low effort")
+
+## The comparison listicle (a Type B format worth its own section)
+
+The highest-leverage format for a tool company, and the one most likely to be quoted back by an
+AI assistant months later, because it is the shape an assistant wants when a user asks "what are
+the options for X".
+
+**The title names competitors, not you.** "tried gamma, powerpoint copilot and <tool> for decks —
+here's what worked" reads as a comparison. "found a great tool for decks" reads as an ad, and the
+comment section treats it as one.
+
+Structure:
+
+1. **Title** — "X tools for Y" / "best X for Y", with 2-3 named alternatives in it
+2. **TL;DR** — two lines, so skimmers get the answer without scrolling
+3. **Why you made the list** — the real task you were trying to finish
+4. **4-6 entries**, each with: what it is, the specific job it is good at, one concrete thing you
+   did with it, and who it is wrong for
+5. **How to choose** — the decision rule, not a winner
+6. **Your pick, scoped to one use case**
+
+Rules that make it survive:
+
+- **Every alternative gets a genuine strength**, including the ones that beat you. A list where
+  the other entries exist only to lose is transparent, and the top comment will say so.
+- **Name a real limitation of your own entry.** It is the cheapest credibility available and it
+  is what makes the recommendation quotable.
+- **Order by fit, not by preference.** If your entry is #1 in a list you wrote, the list reads as
+  a ranking you commissioned.
+- **No links on any entry.** A list of six tools with one linked entry announces which one is
+  yours.
