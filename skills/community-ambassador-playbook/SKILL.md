@@ -108,7 +108,7 @@ Use [contributor-tracks.md](references/contributor-tracks.md) for selection, del
 
 ## 四、大使招募与管理
 
-### 4.1 准入标准（同时满足A+B）
+### 4.1 社区活动型大使的案例准入标准（A+B；不适用于只交付教程的创作者）
 
 - **A：** 有活动组织能力
 - **B：** 有内容产出能力（视频/写作/模板 三选一）
@@ -338,11 +338,11 @@ Insta360（影石创新）建立了一套从普通用户到官方大使的渐进
 
 1. **从数据里挑大使**：观测谁用得最深 + 谁在社交媒体自发传播（自来水），每个国家选出第一位大使——如 Notion's first China ambassador 自带约 3 万人的 designer 社区。
 2. **Founder 亲自植入愿景**：创始人 2020 年飞遍全球，逐一见每个国家的第一位大使，**每人深谈约 4 小时**。
-3. **让大使能赚钱**：affiliate 转化年付用户给推荐人**约 50% 分成**（口述口径，为行业最高档；一般产品给 10–20% 即可）；模板经济——template gallery、Fiverr 定制模板卖 300–800 美金、东南亚头部大使靠教学+卖模板**月入约 2 万新币**。用户变成不发工资的 sales："用户就是他的 SLG"。
+3. **让大使能赚钱**：affiliate 转化年付用户给推荐人**约 50% 分成**（口述案例，非通用报价；实际比例按交付、毛利与预算确定）；模板经济——template gallery、Fiverr 定制模板卖 300–800 美金、东南亚头部大使靠教学+卖模板**月入约 2 万新币**。用户变成不发工资的 sales："用户就是他的 SLG"。
 4. **内测特权**：大使提前约半年使用内测功能（口述案例：2022 年 8 月大使已用上 Notion AI，2023 年 2 月才公测）；每个功能面世前都过一遍高质量用户验证与反馈打磨。
 5. **超级用户杠杆**：单个超级用户一人可转化约 1 万注册用户，且这类用户内部有 50–100 个（口述口径）。
 
-> 🇺🇸 **Notion Ecosystem Playbook** (firsthand from the author's visit to Notion HQ and co-founder conversations; figures are as-spoken, not audited): pick each country's first ambassador from usage data + organic advocacy; the founder flew around the world in 2020 and spent ~4 hours with each one to instill the vision; make ambassadors money — ~50% affiliate revenue share on converted annual users (industry-high; 10–20% is enough for most products) plus a template economy (Fiverr custom templates at $300–800, top Southeast Asia ambassadors earning ~SGD 20K/month); give ambassadors beta access ~6 months early; one super user can convert ~10K signups, and there are reportedly 50–100 such users.
+> 🇺🇸 **Notion Ecosystem Playbook** (firsthand from the author's visit to Notion HQ and co-founder conversations; figures are as-spoken, not audited): pick each country's first ambassador from usage data + organic advocacy; the founder flew around the world in 2020 and spent ~4 hours with each one to instill the vision; make ambassadors money — ~50% affiliate revenue share on converted annual users (reported case, not a universal rate; set terms from scope, margins and budget) plus a template economy (Fiverr custom templates at $300–800, top Southeast Asia ambassadors earning ~SGD 20K/month); give ambassadors beta access ~6 months early; one super user can convert ~10K signups, and there are reportedly 50–100 such users.
 
 ### 三、Social Listening Bot：全网提及即抓取
 
