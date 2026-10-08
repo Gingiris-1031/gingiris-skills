@@ -1,7 +1,7 @@
 ---
 name: gr-oss-marketing
 description: >
-  开源项目发布整合营销。覆盖 GitHub star 增长、KOL 合作、Reddit / HN / Discord / Telegram 社群分发、
+  开源项目发布与场景主题营销，含 Web/CLI 数据采集验证。覆盖 GitHub star 增长、KOL 合作、Reddit / HN / Discord / Telegram 社群分发、
   多语言落地（中英日韩）。从 gingiris-opensource 提炼。适用场景：要发布一个开源项目，
   想在 6 个月内冲 10k star，或已发布但流量卡住要破局。
 when_to_use: |
@@ -12,7 +12,7 @@ when_to_use: |
   "OSS marketing" | "dev.to" | "开发者KOL" | "open source growth" | "HN怎么发"
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
   source: https://skills.sh/Gingiris-1031
 ---
 
@@ -72,6 +72,10 @@ contributor/qualified lead → paid`。Star 只是开发者兴趣信号。原生
 - [ ] 出海本地化（日韩先，联动 gr-blog-post i18n 流程）
 
 ---
+
+## 场景主题与采集验证
+
+发布后内容零散、无法复盘时，使用 [场景 campaign 与 Web/CLI 采集表](references/scenario-campaigns.md)。围绕一个用户任务串联官号、创作者和社区，保留主题与渠道标识，按真实转化和成本决定继续、调整或停止。现有漏斗口径不变；新增的是数据采集测试与可观察范围，不能从未埋点的 CLI 推算留存。
 
 ## 深度参考
 

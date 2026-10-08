@@ -1,6 +1,6 @@
 ---
 name: gingiris-kol-outreach
-version: 1.0.11
+version: 1.1.0
 description: |
   🇺🇸 KOL Outreach & Influencer Marketing Playbook — Complete SOP from discovery to ROI tracking. Battle-tested with 200+ KOL campaigns at AFFiNE (60k stars). Includes pricing benchmarks, email templates, content packages, platform algorithm guides, and data-driven evaluation frameworks.
 
@@ -161,7 +161,11 @@ Content Package 必须包含：Product Overview、Brand Assets、Key Talking Poi
 
 > 引证：超线性（Superlinear）Seven 王跃访谈（Monica出海说，2026-07）。超线性 = Lessie（~10万用户的找人 AI Agent）+ DeepLink（红人营销服务），服务 100+ 出海品牌，$700-800 万美金 ARR，付费达人履约率 90%+。
 
-### 一、内容策略反模式：别把 10 个卖点塞进 15 秒视频
+### Outreach and beta handoff
+
+When a campaign also invites creators to test the product, use [outreach-and-beta-handoff.md](references/outreach-and-beta-handoff.md). Separate connection acceptance, replies, invitations, actual use and completed tests; compare channel performance from observed cohorts rather than universal reply-rate claims.
+
+## 一、内容策略反模式：别把 10 个卖点塞进 15 秒视频
 
 短视频 15-60 秒，塞进 6-8 个卖点 = 每个卖点不足 4 秒，碎片化刷视频的用户什么都记不住——这是中国品牌出海最常见也最昂贵的误区。根因是认知错位：只在乎"我想告诉用户什么"，而不是"用户想得到什么"。产品井喷且同质化的今天，平铺直叙的功能宣发打不动任何人。
 

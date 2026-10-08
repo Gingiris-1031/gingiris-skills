@@ -1,12 +1,12 @@
 ---
 name: gr-b2b-growth
 description: >
-  B2B SaaS 全生命周期增长。从 PMF 验证到 $10M ARR 的完整路径。覆盖 PLG / SLG 选型、
+  B2B SaaS 全生命周期增长，含首单阻塞诊断与定价承诺验收。从 PMF 验证到 $10M ARR 的完整路径。覆盖 PLG / SLG 选型、
   客户访谈、联盟营销、渠道合作、Enterprise sales。整合 HeyGen、Deel、Vercel、Supabase、AWS 案例。
   从 gingiris-b2b-growth 提炼。
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-b2b-growth
 tags:
   - b2b-growth
@@ -39,6 +39,12 @@ tags:
 - "客户需求蔓延怎么管（SOW / 变更）"
 
 ---
+
+## 首单与定价准备度
+
+已有意向客户却迟迟未付费时，先读取 [首单阻塞与定价验收](references/first-paid-customer.md)。判断瓶颈是买方/需求、产品主流程、套餐承诺还是付款准备，再决定是否暂停新增线索。输出本周瓶颈、负责人、下一客户里程碑和验证证据；不以固定名单人数判断“线索足够”。
+
+定价页上线前逐项核对计费单位、额度、超量规则和产品实现，不能把尚不可用的功能写成已提供服务。
 
 ## 增长飞轮（4 象限）
 

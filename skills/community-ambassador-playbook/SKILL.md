@@ -1,8 +1,8 @@
 ---
 name: community-ambassador-playbook
-version: 1.2.8
+version: 1.3.0
 description: |
-  You launched an ambassador program. 3 applications. One ghosted after week 2. Should you lower the bar? Offer more perks? Spam influencers? This gives you the complete community & ambassador operations SOP — from pre-launch checklist to recruitment to tiered management to retention to governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K stars), Asana, and ClickUp programs. By @WeiYipei.
+  You launched an ambassador program. 3 applications. One ghosted after week 2. Should you lower the bar? Offer more perks? Spam influencers? This gives you the community & ambassador operations SOP with volunteer, paid tutorial creator and code-contributor tracks — from pre-launch checklist to recruitment to tiered management to retention to governance. Built from Notion (20M users, real ambassador interviews), AFFiNE (60K stars), Asana, and ClickUp programs. By @WeiYipei.
 
   🇨🇳 你搞了个大使计划。来了3个申请。一个第二周就消失了。该降门槛？加福利？群发KOL？这份SOP给你从启动前置条件到招募到留存到治理的完整社区/大使运营方法论。基于 Notion（2000万用户，大使真实访谈）、AFFiNE（60K stars）、Asana、ClickUp 实战案例。
 
@@ -40,6 +40,12 @@ when_to_use: |
 
 ---
 
+## 先选合作轨道 / Choose the track
+
+区分志愿社区大使、付费教程创作者、代码贡献者。志愿大使案例中的“不发钱”只适用于双方自愿、无强制交付的合作；教程创作者可采用基础费用＋可归因转化奖励，代码贡献者由研发按 PR 质量管理。启动小规模教程试点不必等到完整大使体系成熟，但产品流程应可用、有人承接反馈。
+
+Use [contributor-tracks.md](references/contributor-tracks.md) for selection, deliverables, compensation and attribution. It applies before the historical case studies below; those cases illustrate particular programs rather than a universal unpaid model.
+
 ## 一、核心目标与价值主张
 
 | 维度 | 描述 |
@@ -53,14 +59,14 @@ when_to_use: |
 
 | 传统认知 | 真实本质 |
 |-|-|
-| 品牌宣传员 | 免费外包/CSM/经销商 |
+| 品牌宣传员 | 按角色约定的社区伙伴、教程创作者或渠道伙伴 |
 | 物质奖励驱动 | 成为KOL的机会 + 创始人直接对话 + 变现路径 |
 
 ---
 
 ## 二、启动前置条件
 
-### Checklist（全部满足才启动）
+### Checklist（规模化社区计划；小规模教程试点按合作轨道评估）
 
 | ☐ | 条件 |
 |-|-|
@@ -75,7 +81,7 @@ when_to_use: |
 
 | 阶段 | 适合？ | 策略 |
 |-|-|-|
-| 冷启动（<PMF） | ❌ | 先找100个深度用户 |
+| 冷启动（<PMF） | 小规模验证 | 先验证可用流程与真实深度用户；合适的教程创作者可试点，不设统一人数门槛 |
 | 成长期 | ⚠️ | 5-10名种子大使，无考核 |
 | 增长期 | ✅ | 正式计划+积分体系 |
 | 成熟期 | ✅✅ | 全生态+Affiliate |
@@ -197,7 +203,7 @@ when_to_use: |
 
 1. 产品未可用前不推广大使计划
 2. 内部全员使用 = 商业化起步信号
-3. 大使本质是"免费外包"但有价值观包装
+3. 志愿社区贡献与约定交付的创作工作分开管理，按角色明确权益与报酬
 4. Roadmap可画饼但必须按时完成
 5. 所有品牌提及都应转推/关注
 6. 做爬虫自动监测品牌提及
@@ -316,17 +322,17 @@ Insta360（影石创新）建立了一套从普通用户到官方大使的渐进
 
 > 来源：作者播客访谈实录（2023–2024 口述）。Notion 部分基于作者亲访 Notion 总部与 co-founder 对谈的一手信息，具体数字为口述口径；标注"二手转述"处为播客中的转述，引用前建议核实。
 
-### 一、社区冷启动三前提（顺序不可乱）
+### 一、规模化社区计划准备度参考
 
-做社区/大使计划之前，必须按顺序满足三个前提（师承 Notion 早期大使体系）：
+以下是规模化社区计划的准备度参考（来自 Notion 早期大使体系经验），不是所有教程创作者试点的硬性前置：
 
 1. **全员自己重度使用产品**；
 2. **产品已经足够好用**；
 3. **好用到用户开始口口相传**（出现自来水口碑）。
 
-成体系的大使计划 + 分润永远是**最后一步**。时间线佐证（二手转述，年份建议核实）：Notion 2018 年拿 Product Hunt 年榜第一时团队不到 10 人、没有专门运营部门，全员做运营；直到 2020 年才启动成体系的大使计划和分润。
+大规模社区计划与分润体系应在产品和运营承接能力就绪后推进；可先试点少量有交付约定的教程创作者。时间线佐证（二手转述，年份建议核实）：Notion 2018 年拿 Product Hunt 年榜第一时团队不到 10 人、没有专门运营部门，全员做运营；直到 2020 年才启动成体系的大使计划和分润。
 
-> 🇺🇸 **Three Preconditions (in strict order)**: (1) the whole team heavily uses its own product daily; (2) the product is genuinely good; (3) it is so good that word-of-mouth has already started. A formal ambassador program with revenue share is always the LAST step. Secondhand timeline (verify before citing): when Notion won Product Hunt's product of the year in 2018, the team was reportedly under 10 people with no ops department; the formal ambassador program only launched in 2020.
+> 🇺🇸 **Readiness for a scaled community program**: (1) the whole team heavily uses its own product daily; (2) the product is genuinely good; (3) it is so good that word-of-mouth has already started. Scale a formal community program when the product and support capacity are ready; a scoped tutorial-creator pilot can start earlier once its workflow works. Secondhand timeline (verify before citing): when Notion won Product Hunt's product of the year in 2018, the team was reportedly under 10 people with no ops department; the formal ambassador program only launched in 2020.
 
 ### 二、Notion 大使/生态全案（亲访总部一手信息，数字为口述口径）
 
@@ -353,13 +359,13 @@ Insta360（影石创新）建立了一套从普通用户到官方大使的渐进
 | 轨道 | 归属 | 准入 | 激励 | 纪律 |
 |-|-|-|-|-|
 | Code contributor | 研发团队 | 历史 PR 质量确认 + 1–2 轮面试 | 高质量者签 paid contractor 协议（投入 ≥50% 时间者值得付费） | 代码质量口子不可轻开，"开了就撤不回来"；拒 PR 时耐心解释清楚，管理预期 |
-| Ambassador 大使 | 运营团队 | 有热情的 believer 即可（代码能力不限） | **不发钱**：产品力本身 + 新功能内测权 + 商业版特殊折扣 | 早期不 push、不分配具体工作，只做良性引导，靠自驱力 |
+| 志愿社区大使（此 AFFiNE 案例） | 运营团队 | 有热情的 believer（代码能力不限） | 此案例未付报酬：产品力 + 内测权 + 折扣；不适用于有交付约定的教程创作者 | 自愿参与，不分配强制交付任务 |
 
 - 实战结果：14 个国家 34 位大使；第一版官网 6 个语言版本的翻译全部由大使无偿完成。
 - **极速真诚回复 = 社区迁移引擎**：开源初期大量用户从竞品社区跳过来，就因为回复速度极快。回复不等于有求必应——做不了的 feature 解释清楚为什么、大概何时能做，用户就会接受。
 - 用户/大使反馈的 bug 修复后，**1v1 私信通知本人**——"他们都会备受鼓舞"。
 
-> 🇺🇸 **Dual-Track Contributor Ops** (firsthand from AFFiNE): strictly separate code contributors (owned by engineering; entry via PR-quality review + 1–2 interviews; paid contractor deals for those investing 50%+ of their time; never lower the code-quality bar — "once opened, it can't be closed") from ambassadors (owned by ops; unpaid — incentives are the product itself, beta access, and commercial discounts; never assign tasks early, guide gently and rely on self-drive). Results: 34 ambassadors across 14 countries; all 6 language versions of the first website translated by ambassadors at zero cost. Fast, honest replies were the single biggest driver of users migrating from competitor communities — and after fixing a reported bug, DM the reporter personally.
+> 🇺🇸 **Dual-Track Contributor Ops** (firsthand from AFFiNE): strictly separate code contributors (owned by engineering; entry via PR-quality review + 1–2 interviews; paid contractor deals for those investing 50%+ of their time; never lower the code-quality bar — "once opened, it can't be closed") from volunteer ambassadors in this case (owned by ops; unpaid, without mandatory deliverables — incentives are the product itself, beta access, and commercial discounts; never assign tasks early, guide gently and rely on self-drive). Results: 34 ambassadors across 14 countries; all 6 language versions of the first website translated by ambassadors at zero cost. Fast, honest replies were the single biggest driver of users migrating from competitor communities — and after fixing a reported bug, DM the reporter personally.
 
 ---
 

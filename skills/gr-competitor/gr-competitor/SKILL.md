@@ -1,12 +1,12 @@
 ---
 name: gr-competitor
 description: >
-  竞品深度扫描。批量抓取对手落地页（title/h1/intro/pricing）、定价页、博客 top 10、
+  竞品深度扫描与早期付费客户证据研究；输出行业画像假设和可验收需求交接。批量抓取对手落地页（title/h1/intro/pricing）、定价页、博客 top 10、
   变更历史（Wayback）。底层调 actionbook（并发 30 tab + 省 90% token）。
   当用户说"分析对手"、"看看竞品在做啥"、"找对标"、"扫一下 top 10"时调用。
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
   underlying: actionbook
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor
 tags:
@@ -34,6 +34,12 @@ tags:
 - "对标一下产品的 features"
 
 ---
+
+## 早期客户与产品交接
+
+当问题是“谁会付费”时，读取 [早期客户证据表](references/early-customer-evidence.md)，核对竞品案例的日期和付费证据，收敛行业/角色/任务假设，再用访谈验证。公开客户案例不自动等于早期付费客户。
+
+需要把研究变成需求时，同一参考文件提供“痛点 → 方案与 benchmark → 优先级 → 验收”交接表。抓到吐槽不代表已经找到解法。
 
 ## 底层：actionbook
 

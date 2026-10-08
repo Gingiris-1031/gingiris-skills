@@ -1,11 +1,11 @@
 ---
 name: gr-user-interview
 description: >
-  用户访谈框架。HeyGen 做 937 次访谈找到 PMF 的完整方法论。覆盖访谈招募、问题设计、
+  用户访谈与需求验收框架，覆盖原始证据、方案、优先级及回访交接。HeyGen 做 937 次访谈找到 PMF 的完整方法论。覆盖访谈招募、问题设计、
   访谈执行、数据合成、决策驱动。从 gingiris-user-interview 提炼。
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: "0.2.0"
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-user-interview
 tags:
   - user-interview
@@ -41,6 +41,10 @@ tags:
 - "激活率、付费率该怎么定义和对标"
 
 ---
+
+## 从访谈到上线验收
+
+访谈之后需要与产研协作时，读取 [需求交接与回访模板](references/research-to-acceptance.md)：分开原始证据和拟议方案，按基础能力、onboarding、商业化归类，给出优先级理由、负责人、可观察的验收结果和回访对象。bug 与 feature request 使用不同视图，不能把收集到的意见直接当成交付承诺。
 
 ## 核心原则（5 条）
 

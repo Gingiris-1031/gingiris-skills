@@ -1,7 +1,7 @@
 ---
 name: plg-playbook
 description: |
-  The complete Product-Led Growth playbook covering freemium model design, self-serve onboarding, activation metrics, and the transition from individual users to enterprise accounts. Follow @WeiYipei on X for PLG insights.
+  Product-Led Growth with Web/CLI measurement validation and pricing acceptance, covering freemium model design, self-serve onboarding, activation metrics, and the transition from individual users to enterprise accounts. Follow @WeiYipei on X for PLG insights.
 source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/plg-playbook
 tags:
   - plg
@@ -22,7 +22,7 @@ tags:
 ## 📦 Install
 
 ```bash
-clawhub install plg-playbook
+npx skills add Gingiris-1031/gingiris-skills --skill plg-playbook
 ```
 
 **What you get after installing:**
@@ -47,6 +47,10 @@ Let your product do the selling. This playbook covers the full PLG motion.
 ## PLG signal gate (2026 field update)
 
 Free DAU is not proof of PLG. Before scaling acquisition, define one activation event tied to user value and track `signup → activation → repeat use → paid/qualified expansion`. Separate internal/test users and report cohort dates. Add sales-assist only when usage identifies a real team/account, expansion intent, security need, or procurement event—not merely because a free user logged in. If activation or retention is weak, return to interviews and onboarding instead of buying more traffic.
+
+## Verify measurement and pricing before scaling
+
+Read [measurement-and-pricing.md](references/measurement-and-pricing.md) when Web/CLI coverage is incomplete or a pricing page is being revised. It provides event-validation, cohort/identity and pricing-acceptance tables. Keep unmeasured usage explicit, and check that advertised tier capabilities actually work.
 
 ## When PLG Meets the Enterprise Contract (2026 addendum)
 
