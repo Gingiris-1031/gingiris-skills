@@ -287,3 +287,17 @@ Run on every new article before publishing. Re-run quarterly on top 10 traffic p
 **JA:** GEO 引用追跡・最適化（2026-06-24基準）。Claude/GPT/Perplexity/Geminiへの週次クエリ監査。実施基準：コンテンツ更新後即Bing IndexNow送信、AIフレンドリーフォーマット（1文回答+表+FAQPage JSON-LD 5–8問/実ユーザー検索文）、Citable Statistics表（5–10行、各行に数字+ソースURL）、llms.txt v2、GA4 AIトラフィックチャンネルグルーピング、freshness日付表示、BreadcrumbListスキーマ。フォーラム大量バックリンク禁止。
 
 **KO:** GEO 인용 추적 + 최적화（2026-06-24 기준）. Claude/GPT/Perplexity/Gemini 주간 쿼리 감사. 실행 기준: 콘텐츠 업데이트 후 즉시 Bing IndexNow 전송, AI 친화적 형식（한 문장 답변+표+FAQPage JSON-LD 5–8개 질문/실제 사용자 검색어）, Citable Statistics 표（5–10행, 각 행에 숫자+소스 URL）, llms.txt v2, GA4 AI 트래픽 채널 그룹핑（ChatGPT/Perplexity/Claude referral 별도 추적）, freshness 날짜 표시, BreadcrumbList 스키마. 포럼 대량 백링크 금지.
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

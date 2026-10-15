@@ -264,3 +264,17 @@ Install as a complementary skill if you want client-presentable per-page audits.
 **JA:** デイリーSEO/GEOパトロールskill（2026-06-24基準）。SERPランキング追跡（DataForSEO、volume 300–1,000/KD 5–35フィルター）、Googleインデックス数、llms.txt確認、GA4タグ+AIトラフィックチャンネル設定。スノーアバランシュ記事の救援：タイトルにbest/free/top/guide+年、meta descriptionキーワードrephrase、内部リンク密度≤2–3/段落、競合ブログ外部リンク挿入、BreadcrumbListスキーマ、freshness日付更新、canonical修正。
 
 **KO:** 일일 SEO/GEO 순찰 skill（2026-06-24 기준）. SERP 순위 추적（DataForSEO, volume 300–1,000/KD 5–35 필터）, Google 인덱스 수, llms.txt 접근성, GA4 태그 + AI 트래픽 채널 그룹 확인. 부진 게시물 복구: 제목 best/free/top/guide+연도 적용, meta description 키워드 rephrase, 내부 링크 밀도 ≤2–3/단락, 경쟁사 블로그 외부링크 삽입, BreadcrumbList 스키마, freshness 날짜 업데이트, canonical 수정.
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

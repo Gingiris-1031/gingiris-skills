@@ -193,3 +193,17 @@ Claude 把 30 个 JSON 合成：
 - `scripts/scan-serp.sh` —— 输入关键词，自动 SERP → top 10 → actionbook extract
 - `scripts/pricing-diff.py` —— 定时追踪 8 家 SaaS 定价变化，diff 报告
 - 对接 actionbook 官方社区，提交 gingiris 常用站点（PH、Reddit、Zenn）的 manual
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

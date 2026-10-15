@@ -330,3 +330,17 @@ Insta360（影石创新）建立了多层级创作者合作体系，官方公开
 - 不用虚构“同行都已发布”施压；可以如实说明 campaign 规模、排期和预算边界。
 
 > 🇺🇸 **Field notes (AFFiNE-era, self-reported in a 2026-04 podcast)**: Price floors — Twitter thread (<100k followers, 10k+ impressions) ≈$50–200; YouTube dedicated video (<100k subs, ~10k views) ≈$800–1,200 with deals as low as $300–500; mid-roll ≈$500–800; cheapest KOC deal that shipped was $80 at 3k followers; US-market YouTube tops out around ≈$1,200–2,000 — anything above that usually means you didn't negotiate. Negotiation: counter at ~30% of the first quote and create peer momentum ("20+ creators are already in this campaign") — one over-priced creator eventually came back and posted for free. Escalate from email to WhatsApp/Telegram/LinkedIn after 2–3 replies to prevent no-shows. For top creators who monetize via content/affiliate rather than ads, money doesn't work: send a short monthly what's-new email — they read even if they never reply; a free dedicated video landed after ~6 months. Allocate follow-up budget only to creators who reciprocate goodwill; stop investing in one-way relationships.
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

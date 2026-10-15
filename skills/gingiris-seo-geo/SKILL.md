@@ -262,3 +262,17 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 **JA:** SEO & GEO デュアルエンジン成長プレイブック（2026-06-24基準）— Google検索とAI検索（ChatGPT、Perplexity、Claude）の両方を攻略。キーワード選定基準：volume 300–1,000 / KD 5–35 / traffic potential 300+。実行ルール：内部リンクは段落あたり≤2–3個、競合ブログへの外部リンク、タイトルにbest/free/top/guide+年、meta descriptionのキーワードrephrase、BreadcrumbListスキーマ、$20–30外部リンク獲得、Bing IndexNow、AI対応フォーマット（一文回答+表+FAQ）、GA4 AIトラフィック追跡。
 
 **KO:** SEO & GEO 듀얼 엔진 성장 플레이북（2026-06-24 기준）— 구글과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 동시 공략. 기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품은 references/2c-adaptation.md 참조. 키워드 선정 기준: volume 300–1,000 / KD 5–35 / traffic potential 300+. 실행 규칙: 단락당 내부링크 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목에 best/free/top/guide+연도, meta description 키워드 rephrase, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, AI 친화적 포맷(한 문장 답변+표+FAQ), GA4 AI 트래픽 추적.
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

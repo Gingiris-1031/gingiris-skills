@@ -216,3 +216,17 @@ GA4 Referral 报告里按 `utm_source` 分组，判断每个渠道 ROI。
 - ❌ **LinkedIn 发 ToC 内容** —— 严重不匹配平台受众
 - ❌ **小红书加外链**（平台严重降权 —— 把 URL 改成"主页简介找链接"）
 - ❌ **一次拆完 10 篇**，堆积在 draft 里不发 —— 宁可 1 篇完整分发 > 10 篇半成品
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

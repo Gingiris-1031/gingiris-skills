@@ -310,3 +310,17 @@ Insta360 的海外团队建设遵循一个原则：
 > 🇺🇸 **Fundraising in one breath**: the angel round took ~400 investor meetings over a full year; after open-source traction, the $8M Pre-A closed in one month (founder's own figure; ~$10M total across three rounds in two years). The divide is never pitch craft — it is a demonstrable growth signal. Narrative-pivot framework: check narrative saturation, find the sector's acknowledged technical moat, reframe the product as reusable infra with one quantified line. Sequencing: warm up on low-priority investors first, then concentrate on high-probability targets. After the money lands, the three classic failure modes are revenge over-hiring, failing to monetize at peak traffic, and product/eng/ops imbalance.
 
 完整融资 playbook（流程链 / TS-DD-SPA / 条款避坑 / 资金纪律）→ [references/fundraising-playbook.md](references/fundraising-playbook.md)
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

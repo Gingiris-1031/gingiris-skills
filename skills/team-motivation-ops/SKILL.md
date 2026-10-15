@@ -211,3 +211,17 @@ Standup 的本质不是汇报，是一种强迫自己想清楚的仪式。写得
 3. **防止反弹的护栏**：一两条 COO 需要先做到的前置条件
 
 不要给通用的「建议加强沟通」，要给「把这个问题从例会板块挪到 1:1，因为它需要的是……」这种具体的操作建议。
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->

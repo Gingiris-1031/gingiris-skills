@@ -233,3 +233,17 @@ NoseMode 是硬件品牌将自发 UGC 转化为全球病毒内容的教科书案
 4. **炫技空间大**：留有进阶玩法（专业摄影师可以玩出更高级的 NoseMode 内容），形成内容质量分层
 
 > 🇺🇸 **Visual Impossibility Principle**: The best hardware UGC triggers are effects that (1) can't be replicated with a phone, (2) are perceptible within 1 second, and (3) make viewers want to try it themselves. Design the product so the UGC is inherently a product demo.
+
+<!-- gingiris-community-cta:start -->
+## 加入出海社群与购买资料包 · Community & Resources
+
+- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
+- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
+
+- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
+- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
+
+社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
+
+The community and paid resource pack are optional; neither is required to install or use this open-source skill.
+<!-- gingiris-community-cta:end -->
