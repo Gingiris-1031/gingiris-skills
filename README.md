@@ -76,7 +76,7 @@ npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration
 | [gingiris-kol-outreach](skills/gingiris-kol-outreach) | KOL Outreach & Influencer Marketing — Discovery to ROI + **Hardware KOL Vertical Matrix (Plaud/Insta360 cases)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-kol-outreach) |
 | [gingiris-ugc-matrix](skills/gingiris-ugc-matrix) | UGC Content Matrix — Viral Distribution System + **Hardware UGC Flywheel (Insta360 NoseMode, DJI SkyPixel vs Algorithm)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-ugc-matrix) |
 | [gingiris-growth-finder](skills/gingiris-growth-finder) | Growth Finder — AI Strategy Router for Startups | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder) |
-| [gingiris-user-interview](skills/gingiris-user-interview) | User Interview & PMF Validation — JTBD Framework (937 Interviews) | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-user-interview) |
+| [gingiris-user-interview](skills/gingiris-user-interview) | User Interview & PMF Validation — Real-task Research, Recovery and Follow-up | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-user-interview) |
 | [community-ambassador-playbook](skills/community-ambassador-playbook) | Community Ambassador Playbook — Recruitment to Retention SOP + **Hardware Brand Cases (Insta360 4-tier creator system, DJI 3-track model, Official Takeover mechanism)** | [↗](https://clawhub.ai/gingiris-1031/skills/community-ambassador-playbook) |
 | [competitor-research-playbook](skills/competitor-research-playbook) | Competitor Research Playbook — CI to GTM | [↗](https://clawhub.ai/gingiris-1031/skills/competitor-research-playbook) |
 | [product-hunt-launch-playbook-win-1-daily](skills/product-hunt-launch-playbook-win-1-daily) | Product Hunt Launch Playbook — Win #1 Daily | [↗](https://clawhub.ai/gingiris-1031/skills/product-hunt-launch-playbook-win-1-daily) |
@@ -117,7 +117,7 @@ npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration
 
 **Iris Wei** · [GitHub](https://github.com/Gingiris-1031) · [Twitter @WeiYipei](https://x.com/WeiYipei) · [gingiris.tools](https://gingiris.tools)
 
-Built from real operator experience across 14 countries, 34 ambassador programs, and 937 user interviews.
+Built from operator experience; research methods emphasize observed behavior, counterexamples and follow-up rather than interview-count thresholds.
 
 ## License
 

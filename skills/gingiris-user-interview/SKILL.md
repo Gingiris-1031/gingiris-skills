@@ -1,23 +1,40 @@
 ---
 name: gingiris-user-interview
-description: |
-  🇺🇸 User Interview & Cold-Start Operations Playbook — Battle-tested framework from HeyGen's 937 interviews to PMF. Complete SOP for user screening, interview execution, Beta testing methodology, cold-start user operations, churn analysis, and user grading systems.
+description: '🇺🇸 User Interview & Cold-Start Operations Playbook — Evidence-led research, usability testing and
+  follow-up. Complete SOP for user screening, interview execution, Beta testing methodology, cold-start user operations,
+  churn analysis, and user grading systems.
 
-  🇨🇳 用户访谈与冷启动运营实战手册 — 基于 HeyGen 937 场访谈验证的 PMF 方法论。包含用户筛选、访谈执行、Beta 测试设计、冷启动用户运营、流失分析、用户分级体系完整 SOP。
 
-  🇯🇵 ユーザーインタビュー＆コールドスタート運営プレイブック — HeyGenの937回インタビューで検証されたPMF方法論。ユーザースクリーニング、インタビュー実行、Betaテスト設計、コールドスタートユーザー運営、離脱分析、ユーザーグレーディング。
+  🇨🇳 用户访谈与冷启动运营实战手册 — 基于真实行为、可用性观察与回访验证需求。包含用户筛选、访谈执行、Beta 测试设计、冷启动用户运营、流失分析、用户分级体系完整 SOP。
 
-  🇰🇷 사용자 인터뷰 & 콜드 스타트 운영 플레이북 — HeyGen 937회 인터뷰로 검증된 PMF 방법론. 사용자 스크리닝, 인터뷰 실행, Beta 테스트 설계, 콜드 스타트 사용자 운영, 이탈 분석, 사용자 등급 시스템.
 
-  Triggers: "user interview" | "user research" | "customer discovery" | "PMF" | "product-market fit" | "beta test" | "beta testing" | "cold start users" | "cold start operations" | "churn analysis" | "user grading" | "用户访谈" | "用户调研" | "冷启动" | "冷启动运营" | "Beta测试" | "流失分析" | "用户分级"
-when_to_use: |
-  Use this skill when you need to: conduct user interviews to find PMF, design Beta testing
-  methodology, operate cold-start user cohorts, analyze churn, build user grading systems,
-  or apply JTBD framework to validate product direction.
-  Trigger phrases: "user interview" | "PMF" | "customer discovery" | "beta test" |
-  "用户访谈" | "冷启动运营" | "PMF验证" | "流失分析" | "JTBD"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview
-tags:
+  🇯🇵 ユーザーインタビュー＆コールドスタート運営プレイブック — 実際の行動とユーザビリティテストに基づく需要検証。ユーザースクリーニング、インタビュー実行、Betaテスト設計、コールドスタートユーザー運営、離脱分析、ユーザーグレーディング。
+
+
+  🇰🇷 사용자 인터뷰 & 콜드 스타트 운영 플레이북 — 실제 행동과 사용성 관찰에 기반한 수요 검증. 사용자 스크리닝, 인터뷰 실행, Beta 테스트 설계, 콜드 스타트 사용자 운영, 이탈 분석, 사용자
+  등급 시스템.
+
+
+  Triggers: "user interview" | "user research" | "customer discovery" | "PMF" | "product-market fit" | "beta test"
+  | "beta testing" | "cold start users" | "cold start operations" | "churn analysis" | "user grading" | "用户访谈" |
+  "用户调研" | "冷启动" | "冷启动运营" | "Beta测试" | "流失分析" | "用户分级"
+
+  '
+metadata:
+  version: 1.1.0
+  when_to_use: 'Use this skill when you need to: conduct user interviews to find PMF, design Beta testing
+
+    methodology, operate cold-start user cohorts, analyze churn, build user grading systems,
+
+    or apply JTBD framework to validate product direction.
+
+    Trigger phrases: "user interview" | "PMF" | "customer discovery" | "beta test" |
+
+    "用户访谈" | "冷启动运营" | "PMF验证" | "流失分析" | "JTBD"
+
+    '
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-user-interview
+  tags:
   - user-interview
   - user-research
   - pmf
@@ -51,9 +68,7 @@ tags:
 
 ## 核心原则
 
-> "产品的 founder，在刚开始的前半年都会密集的做大量的用户访谈。像 HeyGen 就是半年，founder 自己做了 937 场；Wisperflow 和 Higgsfield 都做了 500 场以上——就是不断做访谈，不断改。" —— 生姜iris
-
-**关键洞察**：用户访谈不是调研工具，是 PMF 发现引擎。访谈频率与产品成功率正相关。
+围绕当前决策观察真实任务，记录反证，修改后回访验证。访谈数量与频率由样本差异、问题复杂度和团队资源决定，不是成功率或 PMF 的证明。
 
 ---
 
@@ -62,30 +77,25 @@ tags:
 把访谈从"调研动作"变成"日常运营循环"的最短路径，已在多个 AI Agent 项目全线复用：
 
 1. 后台按 token 消耗 / 用量拉 **Top10 用户 list**（每周刷新）
-2. 约**共享屏幕访谈，必须录屏**——看真实操作 > 听口述
-3. **Transcript 喂 AI**，自动提取 feature request / bug 直接进 Linear（或任意 issue 工具）
-4. **次日回访**：告知"你提的 X 已修/已排期"——反馈闭环本身就是留存杠杆
-5. 节奏：**每天至少 2 场**；访谈后截 5-10 分钟关键片段直接给产研
+2. 约**共享屏幕访谈；录制需同意，可不录制**——看真实操作 > 听口述
+3. **脱敏 transcript**：确认接收服务、数据范围与同意后生成需求草稿，审阅后再按授权写入 Linear
+4. **次日回访**：告知"你提的 X 已修/已排期"，仅在状态已经核实后告知；排期不等于修复
+5. 节奏按研究问题与团队复盘能力安排；仅向获准的产研成员分享已同意录制且脱敏的片段
 
 **配套动作**：
 - 新访谈员先 mock interview + 全程录屏 + 复盘 highlight，再上真实用户
 - **KOL 访谈二合一**：合作 YouTuber 顺便做用户访谈 + 可用性测试，一次合作拿两份价值；视频访谈 20-30 分钟 ROI 最高
-- 访谈资产化：一场付费用户访谈可同时产出功能需求 + SEO 素材 + reseller 线索三件套
+- 访谈资产化：访谈可产出需求证据；将内容用于SEO公开引用或商业线索需另行许可，不默认改变研究数据用途
 
 ### 邀约触达节奏（2026 更新）
 
-- **1/3/7/14 天四次触达**：Day 1 首发 → Day 3 → Day 7 → Day 14 各跟进一次
-- **双通道**：邮件模板 + 邮箱反查 LinkedIn 私信；邮件无回复转 LinkedIn 补一轮
+- 只向同意接收研究邀请的人发送邀请；未回复或拒绝后停止，不按固定次数追访。
+- **访谈邀请**：使用用户同意的联系渠道；不反查其他账号追访，未回复或拒绝后停止跟进
 - 话术用宽泛理由（"团队早期想做用户访谈"），**不暴露真实筛选原因**，避免用户带着预设表演
 
-### 标杆锚点
+### 案例使用边界
 
-Wisprflow：launch 前人工 onboard 前 500 名用户、逐个视频访谈，用积累的势能带 launch；HuggingFace：scale up 前 8 个月调研 + 500 场用户访谈。
-
-**2026-07 增补（播客一手提炼）**：
-- 据转述（AFFiNE 前 COO 口径）：Gamma / Notion / HeyGen 均在半年内做了约 1,000 场用户访谈，"用户提到的不好的点就真的去解"。
-- Gamma / HeyGen / Lovable 等成功产品的共同路径：半年 500-1,000 场访谈打磨产品细节，才有资格谈增长——"大量的人忽视了前面这半年到一年脏活累活的过程"。
-- 反例（匿名项目，reported）：跳过访谈打磨直接烧钱投放，单个注册成本高达几十美金、单个付费用户成本几百美金——"没有逻辑，但有钱"。
+历史案例中的访谈场数属于来源口述，口径未统一，不用作增长资格门槛。可迁移的是观察问题、修正产品、复测真实任务的过程。
 
 ---
 
@@ -104,13 +114,13 @@ Wisprflow：launch 前人工 onboard 前 500 名用户、逐个视频访谈，�
 
 ### Step 2：邀约与排期
 
-**跟进节奏**：Day 1 → Day 3 → Day 7 → Day 10（全渠道：LinkedIn/Email/Telegram/Discord）
+**跟进节奏**：使用参与者同意的渠道与频次；无回复或拒绝后停止，不跨渠道追访。
 
 **邀约话术核心**：说明目的 + 时长承诺（30分钟）+ 录屏说明 + 价值交换
 
 ### Step 3：访谈执行（30-45分钟）
 
-**必须**：1人主持 + 1人记录 + 必须录屏（含共享屏幕）
+**人员与记录**：1人主持、1人记录；录制和共享屏幕都需自愿同意，可选择口述或笔记，拒绝录制不影响参与。
 
 **核心问题框架**：
 1. **背景了解**：职业、获客渠道、使用时长、核心功能、竞品
@@ -157,7 +167,7 @@ Wisprflow：launch 前人工 onboard 前 500 名用户、逐个视频访谈，�
 1. **第一场访谈可以做满 2 小时**：深度用户往往比你更了解场景、行业和所有竞品，能帮你总结出真正的价值主张和当下最大的比较性优势。
 2. **真诚运营换深度反馈**：一位早期海外深度用户后来主动写了 2,000 字带截图动图的长评，逐条指出"花了太多时间在用户不需要的功能场景上"+ 具体 bug——"如果不是因为你太真诚，我不会花两小时写这个"。
 3. **全员拆解 → 限期修完**：收到长评后全员开会逐条拆解，用 1-2 个月修完其中全部 bug。
-4. **闭环回告**：修完/排期后回访用户"你提的 X 已修"——反馈闭环本身就是留存杠杆（呼应 Token Top10 第 4 步）。
+4. **闭环回告**：修完/排期后回访用户"你提的 X 已修"，仅在状态已经核实后告知；排期不等于修复（呼应 Token Top10 第 4 步）。
 5. **踩坑警示**：访谈反馈上传后若仍由 1 号位单人拍板取舍，大量用户输入会被忽略——产研运必须共同定目标、共同消化访谈精华。
 
 **信任建立速度基准（自述口径）**：无论职级多高，保持每天一线直接和用户聊天，2 个月建立的用户信任可以超过不下场的同事 1 年多——用户会主动掏心掏肺、跨部门为你背书。一线高频直聊是访谈质量的前提。
@@ -241,13 +251,11 @@ Wisprflow：launch 前人工 onboard 前 500 名用户、逐个视频访谈，�
 | 工具类 | 开始跑任务，或单次使用超 5 分钟 |
 | DAU 口径 | 以 unique message send 计，剔除内部用户 |
 
-**转化合格线**：
-- 注册 → 付费 **>5% 为合格线**：Pro-C 5-8%、SMB 10-15%（大 C 类 1.5-3%）
-- 阶段目标要"够得着"：付费率 0.1% 的产品先定 1%/3 个月，不要直接定 5%
+**目标与口径**：按产品阶段、渠道、用户 cohort 和观察窗口设目标，保留基线和假设；不使用固定注册付费比例认定合格或 PMF。
 
-**流失可运营化**：两次对话后 24h 不回访 = 流失，自动触发挽回邮件——流失定义一旦行为化，挽回就能自动化。
+**流失**：按产品自然使用周期定义，短期未回访先作为信号。是否发送挽回消息按用户授权和联系偏好处理，不因一个时间阈值自动外发。
 
-**付费归因四时间戳**：注册时间 × 激活时间 × 支付时间 × 最近登录，四点交叉判定真实付费驱动（是哪个功能、哪场访谈、哪次触达带来的付费）。
+**付费时间线**：注册、激活、付款、最近使用时间用于整理先后顺序；时间相邻不能单独证明某次访谈或功能导致付款。
 
 ---
 
@@ -307,9 +315,14 @@ Wisprflow：launch 前人工 onboard 前 500 名用户、逐个视频访谈，�
 
 | 文档 | 内容 |
 |------|------|
-| [references/interview-guide.md](references/interview-guide.md) | 完整用户访谈指南（HeyGen 937场方法论、问题框架、模板、FAQ） |
+| [references/interview-guide.md](references/interview-guide.md) | 完整用户访谈指南（证据与抽样、问题框架、模板、FAQ） |
 | [references/cold-start-ops.md](references/cold-start-ops.md) | Beta测试设计框架、冷启动用户运营、流失分析、可复用模板 |
 | [references/templates.md](references/templates.md) | 访谈复盘模板、用户画像表、Feature Request Tracker |
+
+
+## 访谈纠偏与冷启验收
+
+访谈变推销、用户反向提问或主持人代操作时，读取 [纠偏与交接](references/interview-recovery.md)。研究要转为获客计划时，读取 [冷启动目标与成本卡](references/cold-start-decision-card.md)。按决策选择样本，不用访谈场数、问价或某个固定付费率证明 PMF。
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

@@ -1,15 +1,15 @@
 ---
 name: gr-social-distill
-description: >
-  把一篇已发布的博客拆成 4 个社媒变体：X thread（10-15 推）、小红书笔记（3-5 图）、LinkedIn carousel、
-  dev.to / Zenn 二发。目标：在不新写博客的前提下激活 Organic Social 分发渠道。
-  当用户说"把这篇博客改成推特"、"做小红书版本"、"社媒分发"、"复用博客到多平台"时调用。
+description: '把一篇已发布的博客拆成 4 个社媒变体：X 单帖或 thread（按内容与账号选择）、小红书笔记（3-5 图）、LinkedIn carousel、 dev.to / Zenn 二发。目标：在不新写博客的前提下激活
+  Organic Social 分发渠道。 当用户说"把这篇博客改成推特"、"做小红书版本"、"社媒分发"、"复用博客到多平台"时调用。
+
+  '
 metadata:
   author: Iris / Gingiris
-  version: "0.1.0"
+  version: 0.2.0
   companion-to: gr-blog-post
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
-tags:
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
+  tags:
   - social-media
   - content-repurposing
   - twitter
@@ -36,7 +36,7 @@ tags:
 
 **复用 > 新创**。已发 60 篇博客，但社媒只用了一次的话，下一步 ROI 最高的不是写新文，是拆变体（来源：原子库 2026Q2_016）。
 
-一篇 2000-3500 字的博客 → 4 种社媒格式 → **4x 流量放大**，而且不需要新内容灵感。
+一篇 2000-3500 字的博客 → 4 种社媒格式 → 增加分发触点（不保证流量倍增），而且不需要新内容灵感。
 
 ---
 
@@ -65,26 +65,11 @@ tags:
 
 ## 4 渠道模板
 
-### 1️⃣ X thread（10-15 推）
+### 1️⃣ X 单帖或 thread（按内容与账号选择）
 
-**结构**：
-```
-[推 1 — HOOK] 一个反常识 / 数据 / 问题引入（≤ 280 字，是否有吸引力决定全盘）
-[推 2 — STAKES] 我 X 个月踩过 Y 个坑，结论是...
-[推 3-12 — BODY] 每推一个要点。每推 ≤ 280 字。用短句。
-[推 13 — TL;DR] 回到 HOOK 的答案
-[推 14 — LINK] 链接到原博客 + 1 句 why it's worth clicking
-[推 15 — CTA] @WeiYipei if you want the template
-```
+**单帖**：一个有来源的判断 + 支持证据/可用动作 + 合适的下一步。
 
-**原则**：
-- 每推独立成立，单独截图也能被转发
-- 用具体数字代替形容词（"30 天内" vs "很快"）
-- 每 3-4 推插 1 张截图 / 表格
-- Hook 句型参考：
-  - "Here's what 60 blog posts taught me about X:"
-  - "I analyzed 27 X tools. 22 of them aren't worth $0."
-  - "Stop doing X. I tried it for 90 days. Data:"
+**Thread（明确需要时）**：首条说清问题与读者收获；正文每条展开一个必要要点；结尾回到结论和来源。长度按内容需要，不凑固定条数。只使用有依据的数字和本人的经历，截图与素材须可使用。发布前按账号与工具验证长度支持。
 
 详细例句库见 `templates/x-thread.md`。
 
@@ -175,7 +160,7 @@ tags:
 产出 4 变体（X / xhs / LinkedIn / dev.to）
     ↓
 分散发布：
-- 周一：X thread
+- 周一：X（按本次格式选择）
 - 周三：小红书笔记
 - 周五：LinkedIn carousel（如 B2B）
 - 次周周一：dev.to / Zenn 二发（延迟 7 天）
@@ -183,7 +168,7 @@ tags:
 下周一：复盘
 - 哪个渠道带回了多少 GA4 referral？
 - 哪个变体互动率最高？
-- 更新 MEMORY 里的分发 playbook
+- 更新本次运营记录；长期记忆仅在用户明确要求时修改
 ```
 
 ---
@@ -216,6 +201,11 @@ GA4 Referral 报告里按 `utm_source` 分组，判断每个渠道 ROI。
 - ❌ **LinkedIn 发 ToC 内容** —— 严重不匹配平台受众
 - ❌ **小红书加外链**（平台严重降权 —— 把 URL 改成"主页简介找链接"）
 - ❌ **一次拆完 10 篇**，堆积在 draft 里不发 —— 宁可 1 篇完整分发 > 10 篇半成品
+
+
+## 来源、文风与格式选择
+
+读取作者已认可的 voice-guide；没有时从有归属的原始样本提炼暂定规则，不把别人的经历写成自己的。最好/最差样本要区分主题、语言、时效与格式，规则带适用范围和复查条件。按用户要求、内容结构、受众和已验证的发布能力选择 single post / thread，不固定条数。只交付草稿不自动发布。
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

@@ -1,12 +1,12 @@
 ---
 name: gr-brand-voice-calibration
-description: >
-  Use this skill to calibrate an author's or brand's writing voice from original samples and edits,
-  separate authentic expression from AI rewrites, and validate a reusable voice guide in Chinese or English.
-  适用于文风校准、原声分析、去模板化与中英文声音迁移；输出来源索引、文风指南和试写复核。
+description: 'Use this skill to calibrate an author''s or brand''s writing voice from original samples and edits,
+  separate authentic expression from AI rewrites, and validate a reusable voice guide in Chinese or English. 适用于文风校准、原声分析、去模板化与中英文声音迁移；输出来源索引、文风指南和试写复核。
+
+  '
 metadata:
   author: Iris / Gingiris
-  version: "1.0.0"
+  version: 1.1.0
 ---
 
 # Brand Voice Calibration / 文风校准
@@ -64,3 +64,7 @@ Preserve stance, specificity, warmth, uncertainty and degree of endorsement. Reb
 Source inventory + compact voice guide + source-backed trial + differences/feedback log. Only publish the general method or explicitly authorized guide; private samples and sensitive details stay in the user's approved storage. Downstream WeChat/blog/social workflows consume the guide but must independently verify facts, format and publication authorization.
 
 交付来源索引、简明文风指南、有来源试稿及修改记录。公开 Skill 只含通用方法，私人样本不随包分发；下游公众号/博客/社媒流程仍需独立核实事实、排版和发布授权。
+
+## Performance samples / 表现样本
+
+When deriving rules from high/low-performing posts, use [performance hypotheses](references/performance-hypotheses.md). 区分本人偏好与分发表现；语言、主题与时效同时变化时，不归因给单一文风因素。

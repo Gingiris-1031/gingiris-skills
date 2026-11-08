@@ -1,24 +1,39 @@
 ---
 name: gingiris-ugc-matrix
-version: 1.0.10
-description: |
-  🇺🇸 UGC Matrix Growth Playbook — Scale user-generated content with AI + real creators. Complete SOP for UGC flywheel, creator recruitment, incentive design, multi-platform publishing. Proven at CPM $0.5, $10M ARR in 60 days with 70M impressions. Includes a full anonymized client case study.
+description: '🇺🇸 UGC Matrix Growth Playbook — Scale user-generated content with AI + real creators. Complete SOP
+  for UGC flywheel, creator recruitment, incentive design, multi-platform publishing. Proven at CPM $0.5, $10M ARR
+  in 60 days with 70M impressions. Includes a full anonymized client case study.
+
 
   🇨🇳 UGC矩阵号增长实操手册 — AI+真人创作者规模化用户生成内容。完整的UGC飞轮SOP、创作者招募、激励机制设计、多平台分发策略。已验证CPM $0.5，60天$1000万ARR，7000万曝光。含完整客户案例拆解（已脱敏）。
 
+
   🇯🇵 UGCマトリックス成長プレイブック — AI＋リアルクリエイターでUGCをスケール。フライホイールSOP、クリエイター採用、インセンティブ設計、マルチプラットフォーム配信。CPM $0.5、60日で$10M ARR、7000万インプレッション実証済み。匿名化クライアント事例付き。
 
-  🇰🇷 UGC 매트릭스 성장 플레이북 — AI + 실제 크리에이터로 UGC 스케일링. 플라이휠 SOP, 크리에이터 모집, 인센티브 설계, 멀티플랫폼 배포. CPM $0.5, 60일 $10M ARR, 7000만 노출 검증 완료. 익명화된 클라이언트 사례 포함.
 
-  Triggers: "UGC" | "UGC matrix" | "user generated content" | "creator program" | "creator economy" | "AI UGC" | "matrix accounts" | "矩阵号" | "UGC运营" | "创作者招募" | "UGC Program" | "content matrix" | "TikTok UGC" | "Instagram UGC"
-when_to_use: |
-  Use this skill when you need to: scale user-generated content with AI + real creators,
-  build UGC flywheel, recruit and incentivize creators, run matrix account strategy,
-  distribute content across TikTok/Instagram/YouTube, or hit viral growth targets.
-  Trigger phrases: "UGC matrix" | "creator program" | "user generated content" |
-  "矩阵号" | "UGC运营" | "创作者招募" | "内容矩阵" | "病毒传播"
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-ugc-matrix
-tags:
+  🇰🇷 UGC 매트릭스 성장 플레이북 — AI + 실제 크리에이터로 UGC 스케일링. 플라이휠 SOP, 크리에이터 모집, 인센티브 설계, 멀티플랫폼 배포. CPM $0.5, 60일 $10M ARR,
+  7000만 노출 검증 완료. 익명화된 클라이언트 사례 포함.
+
+
+  Triggers: "UGC" | "UGC matrix" | "user generated content" | "creator program" | "creator economy" | "AI UGC" |
+  "matrix accounts" | "矩阵号" | "UGC运营" | "创作者招募" | "UGC Program" | "content matrix" | "TikTok UGC" | "Instagram UGC"
+
+  '
+metadata:
+  version: 1.1.0
+  when_to_use: 'Use this skill when you need to: scale user-generated content with AI + real creators,
+
+    build UGC flywheel, recruit and incentivize creators, run matrix account strategy,
+
+    distribute content across TikTok/Instagram/YouTube, or hit viral growth targets.
+
+    Trigger phrases: "UGC matrix" | "creator program" | "user generated content" |
+
+    "矩阵号" | "UGC运营" | "创作者招募" | "内容矩阵" | "病毒传播"
+
+    '
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-ugc-matrix
+  tags:
   - ugc
   - user-generated-content
   - creator-program
@@ -55,7 +70,7 @@ tags:
 ```
 IP号（立人设、建信任）
     → 吸引高质量Creator主动加入
-        → UGC矩阵号（50-500个账号批量产出）
+        → 独立创作者合作（真实身份、授权素材、原创内容）
             → 规模化曝光放大IP声量
                 → 更多人加入 → 飞轮加速
 ```
@@ -84,16 +99,16 @@ IP号（立人设、建信任）
 
 ### 2. 激励机制设计
 
-- 阶梯式播放量Bonus（1万→+$20，5万→+$30，10万→+$50）
-- 只付最高流量平台费用，其余平台白嫖
-- 全员奖金池机制（达标后按贡献比例分配）
+- 根据传播、激活或付费目标选择交付费、奖励或分佣
+- 预先约定平台、授权范围、归因窗口、去重、退款与上限
+- 多平台复用和奖金池均按双方约定，不默认免费复用
 
-### 3. AI矩阵号运营
+### 3. 授权且披露的 AI 内容运营
 
 - AI UGC三段式结构：Hook（5秒AI数字人）→ Use Case Demo → CTA
-- 单AI账号每条帖子：十几万~20万播放
-- 发布频率：一天2-3条（避免被封）
-- 可灵(Kling)换脸批量生成不同人物版本
+- 按真实账号记录播放与转化，不保证单条结果
+- 频率依据内容质量、团队回复能力与平台规则制定；没有保证不被处罚的频次
+- 使用获授权的素材和肖像制作创意变体，标注 AI 内容；不得伪造多个独立用户或使用未授权肖像
 
 ### 4. 多平台策略
 
@@ -121,7 +136,7 @@ IP号（立人设、建信任）
 
 1. 确认人物肖像、声音、音乐、素材和品牌标识的授权范围，并保存可追溯记录。
 2. AI 生成或付费合作按平台和当地法规清晰披露；不做未授权换脸、内容洗稿或多账号规避处罚。
-3. 先用 3–5 个账号验证“发布后 24 小时存活 + 有效互动 + 激活”，再扩矩阵；账号数量不是成功指标。
+3. 先与少量独立创作者试点，检查授权、披露、原创质量和真实激活；以平台允许与用户价值决定是否扩大，不能以躲过审核作为门槛。
 4. 每周记录素材假设、平台、版本、发布时间、24h/7d 数据和复用决定，淘汰高曝光低激活内容。
 
 详细操作手册见 [references/full-sop.md](references/full-sop.md)，包含：
@@ -130,7 +145,7 @@ IP号（立人设、建信任）
 - 完整招募渠道与管理SOP
 - 激励机制设计（固定费用+阶梯Bonus+奖金池）
 - AI-Assisted Multi-Platform Content Strategy
-- Launch Week发布计划（每天20条×60创作者）
+- Launch Week 发布计划（按许可、原创产能和用户反馈安排）
 - 平台冷启动路径（Reddit/YouTube/小红书）
 - 社区体系建设（品牌挚友计划）
 - 内容制作方法论（拆竞品+AI批量生产）
@@ -233,6 +248,11 @@ NoseMode 是硬件品牌将自发 UGC 转化为全球病毒内容的教科书案
 4. **炫技空间大**：留有进阶玩法（专业摄影师可以玩出更高级的 NoseMode 内容），形成内容质量分层
 
 > 🇺🇸 **Visual Impossibility Principle**: The best hardware UGC triggers are effects that (1) can't be replicated with a phone, (2) are perceptible within 1 second, and (3) make viewers want to try it themselves. Design the product so the UGC is inherently a product demo.
+
+
+## 按目标选激励与素材实验
+
+先区分传播、激活和付费，再定激励与归因口径；使用 [创作者目标与素材实验](references/outcome-and-variants.md)。播放量奖励是可选机制，不是所有项目的默认最优解。
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

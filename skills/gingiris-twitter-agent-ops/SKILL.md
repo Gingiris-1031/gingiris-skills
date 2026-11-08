@@ -1,35 +1,24 @@
 ---
 name: gingiris-twitter-agent-ops
-version: 2.0.0
-description: |
-  Twitter/X Agent Operations SOP v2 — Rebuilt from real dual-account operations.
+description: 'Operate evidence-led X/Twitter and related social workflows: original-source intake, voice calibration,
+  single-post or thread selection, reviewed drafts, authorized publishing, delivery readback and measured follow-up.
+  Use for social operations, content planning, publishing checks, analytics and cross-platform adaptation. 适用于社媒运营、文风校准、内容规划、发布回读与数据复盘；区分草稿、发布授权和真实结果，按账号与任务选择格式，不把历史经验当通用平台规则。'
+metadata:
+  version: 2.3.0
+  when_to_use: '当用户需要系统性运营 Twitter/X 账号时使用。适用于：
 
-  Real data:
-  • CN account: grew from 1,150 → 3,679 followers (~14 months), 1 tweet/day, OAuth1 direct post
-  • EN account: Buffer API
-  • Real incidents: cron silent-failed for 2 weeks unnoticed, analytics data off by 17×, thread performance worse than single posts
+    - 用 AI Agent 代写/代发推文
 
-  What's new in v2:
-  • Step-by-step onboarding (Q1→Q6), multiple choice wherever possible — no big forms
-  • Mandatory daily log after every tweet + weekly report every Monday
-  • Pre-publish safety checklist (agent must pass before posting)
-  • Content pool tracker (used/unused) + alert when ≤3 items remain
-  • Dual-account credential separation (CN: OAuth1 / EN: Buffer API)
-  • MASTER-STATUS.md as the single source of truth — read + write every session
+    - 建立可持续的推文内容系统（素材库 + 排期）
 
-  🇨🇳 Twitter/X Agent 运营 SOP v2 — 基于真实双账号运营经验重写。
-  开局对话式收集 context、强制日报+周报、发推前红线自检、素材库追踪、双账号凭证分离、MASTER-STATUS.md 单一真相来源。
-  真实数据：中文账号从 1,150 粉增长至 3,679 粉（约14个月），1条/天。
+    - 同时运营中文和英文账号
 
-  Triggers: "twitter运营" | "推特agent" | "发推SOP" | "AI代运营" | "推文日报" | "素材库" | "Buffer API" | "OAuth1发推" | "twitter automation" | "tweet sop" | "推特涨粉"
-when_to_use: |
-  当用户需要系统性运营 Twitter/X 账号时使用。适用于：
-  - 用 AI Agent 代写/代发推文
-  - 建立可持续的推文内容系统（素材库 + 排期）
-  - 同时运营中文和英文账号
-  - 需要数据追踪（粉丝变化/互动分析/内容复盘）
-  - 防止 AI 代运营中的常见事故（数据不准、断更、风格漂移）
-tags:
+    - 需要数据追踪（粉丝变化/互动分析/内容复盘）
+
+    - 防止 AI 代运营中的常见事故（数据不准、断更、风格漂移）
+
+    '
+  tags:
   - twitter
   - x-twitter
   - social-media
@@ -47,7 +36,12 @@ tags:
   - oauth1
 ---
 
-# Twitter/X Agent 运营 SOP v2
+## 当前任务权限边界
+
+分析、诊断、策划或草稿请求只产出报告、草稿和建议。连接账号、读取私有分析、启用付费 API、设置定时任务、发布/删除内容、修改站点或 IndexNow 提交，须在当前会话已授权的账号、目标和范围内进行；已有授权无需重复确认。凭证存在不等于操作或计费授权。故障恢复也遵循同一边界，先检查发送/发布状态，避免重试造成重复。对外数据发送前明确接收服务、内容范围和必要性，不把私有日志或用户原文自动转给其他服务。
+
+
+# Twitter/X Agent 运营 SOP v2.2
 
 > **版本说明**：v2 草稿。v1 给了你整套方法论框架，v2 的重点是：
 > 「已经在跑了，怎么确保不出事、出了事怎么发现、发现了怎么处理」。
@@ -151,7 +145,7 @@ B) 引流到某个链接（是哪个链接？___）
 C) 建立信任感 / 个人品牌
 D) 以上都有，但最重要的是 ___
 
-→ CTA 链接写进每条推文的 reply 策略，不放正文（正文带链接算法惩罚展示量 30-90%）
+→ 先读取发布器能力。只有发布器已验证能创建并核验 reply 时，才允许采用 reply CTA；否则 CTA 必须放根帖正文。正文链接可能影响分发，但这是需要实测的权衡，不得写成未经当前账号验证的固定降权比例。
 
 ---
 
@@ -261,6 +255,53 @@ AI 的上下文会被压缩、重置、遗忘。压缩后的记忆摘要不可�
 
 ---
 
+## 2.5 英文三平台配图发布流水线
+
+英文三平台内容还必须通过“证据与平台适配门”：真实素材优先，保留原文、上下文、归属、时间范围、隐私与核验状态；内容组合覆盖个人认知、脱敏顾问案例、开源/全球 GTM、Tools & Skills 四条主线。四条主线是组合约束，不是机械轮换，也不要求每条内容都植入 Skill。
+
+内容审与发布审分开：前者检查来源、归属、隐私、人声化与平台原生改写；后者检查渠道健康、自然日日锁、CTA、附件、最终页面与发布回执。同一来源可以共用证据卡和视觉，但 X、LinkedIn、Threads 不得复制同一正文。
+
+CTA 默认放根帖正文。不得继承“统一放首评”的旧规则，也不得堆叠不相关入口。精确时间地点、括号、破折号、数字和表格均为可选表达工具，不设机械数量，不为满足文风模式补造细节。历史数字、第三方案例和平台规律须重新核验来源、日期、归属及公开权限。
+
+详细门禁见 [三平台配图发布参考](references/three-platform-visual-publishing.md)。
+
+当任务同时运营 X、LinkedIn、Threads 时，按以下闭环执行。更详细的发布与故障处理见 [三平台配图发布参考](references/three-platform-visual-publishing.md)。
+
+### 一个证据卡，三份平台原生文案
+
+- X：具体、紧凑，先验证当前发布器实际字数能力。
+- LinkedIn：独立长文，补足真实背景、已验证数据、判断过程、适用边界和执行动作；禁止把 X 文案机械拉长。
+- Threads：默认控制在 500 字符以内，让视觉承担一部分解释。
+- 三个平台可共用同一张核心视觉，但正文不得直接复制。
+- CTA、URL、Skill 安装命令必须保留在根帖正文；图片里的命令只用于识别和保存，不能替代可复制文本。
+
+### 三平台默认配图
+
+1. 默认制作 4:5 竖图，优先 1080×1350 或等比例输出。
+2. 图片必须对应当日证据卡，可使用证据卡、简洁流程图、案例拆解卡或原创编辑插画。
+3. Skill 内容的图片可加入核心观点、Skill 名称和逐字准确的 `npx -y skills add ...` 指令。
+4. 发布前核对拼写、命令、裁切、移动端可读性、事实一致性和脱敏边界。
+5. 图片不得包含未经验证的数据、客户标识、内部截图、私密界面或可反向识别组合。
+
+### Buffer 图片资产与发布门
+
+- 本地文件不能直接证明 Buffer 能附图。API 图片必须使用稳定、公开且无需登录的 URL。
+- 先验证 URL 最终响应为 HTTP 200 且 `Content-Type` 是目标图片类型；重定向后 404 视为失败。
+- 使用 `assets: [{ image: { url } }]` 创建 X、LinkedIn、Threads 三个平台的图片帖。
+- 发布前必须依次完成：读取 `MASTER-STATUS.md` → Buffer 只读巡检 → Asia/Shanghai 日锁 dry-run → 字数与 CTA 检查 → 图片 URL 检查 → 发布脚本 dry-run。
+- 只有用户明确授权发布后才能执行写入。一次写入后，不因 `sending` 再建重复帖子。
+- `error` 只记录，不自动重试、不改期；发生部分成功时停止并逐平台报告。
+
+### 完成标准
+
+只有同时满足以下条件才可报告“已发布”：
+
+1. Buffer 回读状态为 `sent`，不是 `scheduled` 或 `sending`；
+2. 回读的附件 MIME 类型与目标图片一致；
+3. 得到真实 `externalLink`；
+4. 五分钟内更新 `MASTER-STATUS.md` 和素材状态；
+5. 10–15 分钟、2h、24h、7d 的检查进入运营日志。
+
 ## 第三步：推文日报（每次发推后必填）
 
 **强制规则：推文发出后 5 分钟内完成日报，不得拖延。**
@@ -320,13 +361,13 @@ AI 的上下文会被压缩、重置、遗忘。压缩后的记忆摘要不可�
 发推前红线自检 · [YYYY-MM-DD]
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 【格式红线】
-☐ 是否是 single post？（不是 thread）
-   → 如果是 thread，需要有充分理由，且本周只能有 1 个 thread
-   → 来源：数据显示 thread 整体效果差于优质 single post
+☐ 格式是否符合本次要求、内容结构、账号证据及发布器能力？single post / thread 均可
+   → 说明本次格式选择；频率遵循当前账号计划与用户要求，不设通用每周 thread 配额
+   → 历史账号样本只是参考，不证明 thread 普遍较差
 
 ☐ 推文字数建议（基于真实账号后台数据）
    实测数据：≤120 字平均曝光 393；121-220 字平均曝光 1,890（差距约 5 倍）
-   → ⭐ 如果账号有 Twitter 会员（无字数限制），建议写 150-280 字充分展开内容，亲测更高转化
+   → 如果账号有 Premium 长帖能力，仍需确认当前发布器/API 实际接受的长度；账号能力不等于 Buffer、脚本或 API 能力
    → 如果没有会员，目标 120-220 字，在字数限制内把内容说透
    → 不要为了凑字数压缩内容——宁可写短，也不要写废话
 
@@ -347,8 +388,18 @@ AI 的上下文会被压缩、重置、遗忘。压缩后的记忆摘要不可�
    如果无法确认来源 → 删除数字，或换成「大约」并加括号说明「来源待核实」
 
 【CTA 红线】
-☐ CTA 是否在第一条 reply，而不是在推文正文？
-   → 正文带链接会被 X 算法惩罚展示量 30-90%
+☐ CTA 是否能由当前发布器完整交付并在发布后核验？
+   → 发布器不能创建 reply：把链接、安装指令或行动提示放进根帖正文
+   → 发布器已验证能创建 reply：正文 CTA 与 reply CTA 作为实验变量，不把历史经验写成平台固定规则
+   → 安装指令发布前先验证仓库/包存在；附件发布前验证上传成功或公开 URL 返回 200 和正确 Content-Type
+   → 禁止写“见首条评论/回复”，然后只发布根帖
+
+【英文人声化红线】（英文账号必查）
+☐ 是否从原始事件和动作重新写成英文，而不是逐句翻译中文框架？
+   → 删除 `useful signal`、`current option`、`core insight` 等不必要的抽象名词
+   → 优先写人做了什么、看到了什么、下一步改了什么
+   → 大声读一遍；像咨询报告、PPT 标题或“语法正确但没人这样说”的句子必须重写
+   → CTA 也必须像正文的一部分，不能在结尾突然切换成营销口号
 
 【频率红线】
 ☐ 今天已经发过原创推文了吗？
@@ -495,7 +546,7 @@ API 调用方式：POST https://api.twitter.com/2/tweets
 
 ```
 发布方式：Buffer API
-API 调用：POST https://api.bufferapp.com/1/updates/create.json
+API 调用：使用当前已配置且经过验证的 Buffer API/GraphQL 集成；不要从旧文档假设固定 endpoint
 
 必须携带的参数：
 - access_token（Buffer 账号的访问令牌）
@@ -506,6 +557,10 @@ API 调用：POST https://api.bufferapp.com/1/updates/create.json
 - Buffer 发布有调度延迟，不适合需要精确时间控制的发布
 - ⚠️ profile_ids 必须对应正确的账号，不能用错
 - 英文推文发布后，在 MASTER-STATUS.md 记录的是 Buffer 返回的 update_id
+- 发布前生成一份能力清单：根帖、reply、长帖、图片、PDF/Document 分别标记 `verified / unsupported / unknown`
+- `unknown` 按不可用处理。不得让文案依赖尚未验证的能力
+- 当前集成只能创建根帖时，所有 CTA 必须进入根帖正文
+- 本地文件存在不等于附件可发布；必须在最终平台或 Buffer 返回结果中核验附件
 ```
 
 ### 凭证混用预防规则
@@ -571,14 +626,14 @@ IF 目标账号是英文账号（Buffer 发布）：
 
 **废弃类型**（数据验证无效）：
 - 哲理金句短文（进 Top 10% 概率仅 ~7%，周均展示量废弃后 +266%）
-- Thread 式长帖（整体效果差于高质量 single post，已改为谨慎使用）
+- 无依据地固定 thread 或 single post；按当前任务与账号样本选择
 
 ### 黄金区间
 
-- **字数**：120-220 字（实测平均曝光 1,890 vs ≤120 字的 393，差距约 5 倍）；有 Twitter 会员可写到 280 字，充分展开效果更好
+- **字数**：120-220 字可作为历史样本参考，不是平台上限；Premium 长帖先验证账号和发布器能力，再决定长度
 - **开头**：「我」+ 具体经历/数字/瞬间（6 条爆款全部第一人称）
 - **时间**：固定时段，北京时间 14:00-15:00 或 17:00-18:00
-- **CTA**：放在第一条 reply（不在正文，正文带链接算法惩罚 30-90%）
+- **CTA**：必须匹配发布器能力。不能可靠创建 reply 时放在根帖正文；能创建 reply 时再把位置作为 A/B 测试变量
 
 ### 死亡开头黑名单
 
@@ -599,6 +654,9 @@ IF 目标账号是英文账号（Buffer 发布）：
 
 ```
 你是 @[账号名] 的 Twitter/X 运营 Agent，你的主人是 [名字]。
+
+## 权限边界
+仅在用户授权的账号、日期和发布范围内执行；分析或草稿请求不得发布。凭证不等于授权。恢复任务先检查真实发布状态，不盲目重试。删除或勘误同样须在授权范围。
 
 ## 角色定义
 帮主人每天发出 1 条像主人本人写的推文。
@@ -627,7 +685,9 @@ IF 目标账号是英文账号（Buffer 发布）：
   来源不明的数字 → 删除，不用。
   单一数据源的流量类数字 → 不用，除非已交叉验证。
 
-规则 3：CTA 放第一条 reply，不放正文。
+规则 3：CTA 必须由当前发布器完整交付。发布器不能创建 reply 时，CTA 放根帖正文；禁止承诺不存在的首条评论/回复。
+
+规则 3.1：英文稿必须从事件、动作和可见证据重新创作，不逐句翻译中文方法论。语法正确但不自然也视为未通过。
 
 规则 4：发推后立即更新 MASTER-STATUS.md（Section 1 + Section 2）。
   没有更新 → 下次运营时的起点是错误的。
@@ -651,12 +711,16 @@ CTA 目标：[填写主 CTA 链接]
 
 | 现象 | 可能原因 | 检查和修复 |
 |------|---------|---------|
-| 连续 2 天没有推文发出 | cron 超时/失败 | 检查 cron logs；手动运行一次确认 |
+| 连续 2 天没有推文发出 | cron 超时/失败 | 检查 cron logs 和实际发布状态；仅在授权范围用 dry-run 诊断，不盲目补发 |
 | 推文发出了但 MASTER-STATUS.md 没更新 | agent 忘记更新 | 手动补录；下次日报前先补全 |
 | 中文账号发推失败 | OAuth1 token 过期或权限问题 | 去 Twitter Developer Portal 重新生成 access_token |
 | 英文账号 Buffer 发布失败 | access_token 过期 / profile_id 错误 | 登录 Buffer 检查 token；确认 profile_id |
+| 根帖写了“见首条回复”但没有回复 | 发布器不支持或未实现 reply 创建 | 停止依赖 reply；把 CTA 放回根帖正文，并更新能力清单 |
+| Premium 账号长帖仍被脚本拒绝 | 发布脚本写死 280 字或当前 API 不支持 | 区分账号能力与发布器能力；先 dry-run，再按已验证上限调整 guard |
+| PDF/Document 在排期中缺失 | 本地文件未上传，或公开 URL 404/类型错误 | 验证 Buffer 原生上传或 URL 200 + Content-Type；失败则阻止发布，不退化成错误格式 |
+| 英文语法正确但读起来很怪 | 从中文框架逐句翻译，抽象名词过多 | 回到原始事件，用“人做了什么→看见什么→改变什么”重写并朗读 |
 | 发布了重复内容 | 没有查 MASTER-STATUS.md | 启用强制 Section 1 查询流程 |
-| 推文被用户指出数据不准 | 单一来源未交叉验证 | 立即删推；更新素材库标注「数据存疑」；发勘误 |
+| 推文被用户指出数据不准 | 单一来源未交叉验证 | 先标注数据存疑并准备纠正方案；只有已有删除/勘误授权时执行，记录操作结果 |
 | 粉丝涨幅突然停滞 | 可能是断更/内容质量下滑/算法冷却 | 查 MASTER-STATUS.md 确认是否有发布中断；回顾最近 7 条推文开头质量 |
 | 某话题提及被用户指出频率过高 | 本月同一话题提及超过 2 次 | 检查 Section 4 计数；本月停止提及该话题 |
 
@@ -704,7 +768,12 @@ npx -y skills add Gingiris-1031/gingiris-twitter-agent-ops
 
 ---
 
-*License: MIT | Draft v2.0 | 基于真实双账号运营经验*
+*License: MIT | Draft v2.2 | 基于真实双账号运营经验与三平台配图发布闭环*
+
+
+## Voice and format calibration / 文风与格式
+
+For best/worst sample analysis or single-post/thread decisions, read [voice and format](references/voice-and-format.md). 现有账号经验有适用范围，不覆盖用户本次语言、平台或格式要求。
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

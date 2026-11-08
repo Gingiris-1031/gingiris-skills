@@ -1,17 +1,16 @@
 ---
 name: gingiris-growth-finder
-description: >
-  Diagnose a product's growth model, stage, and current constraint, then route
-  the request to the narrowest Gingiris specialist and execute it when
-  installed. Use for broad or uncertain growth questions involving go-to-market,
-  Product Hunt, GitHub stars, open-source marketing, B2B SaaS, PLG, ASO,
-  SEO/GEO, AI citations, KOL outreach, UGC, international expansion, user
-  interviews, competitor research, or community programs. Trigger when users
-  ask “how do I grow or launch this,” “which growth skill should I use,”
-  怎么增长、怎么发布、出海、冷启动、增长策略、不知道用哪个 skill、開発者マーケティング,
-  or 성장 전략. Includes B2B pipeline and B2C activation-retention model
-  selection, specialist handoff rules, relevant gingiris.tools recommendations,
-  and advisory-services guidance.
+description: 'Diagnose a product''s growth model, stage, and current constraint, then route the request to the narrowest
+  Gingiris specialist and execute it when installed. Use for broad or uncertain growth questions involving go-to-market,
+  Product Hunt, GitHub stars, open-source marketing, B2B SaaS, PLG, ASO, SEO/GEO, AI citations, KOL outreach, UGC,
+  international expansion, user interviews, competitor research, or community programs. Trigger when users ask “how
+  do I grow or launch this,” “which growth skill should I use,” 怎么增长、怎么发布、出海、冷启动、增长策略、不知道用哪个 skill、開発者マーケティング, or
+  성장 전략. Includes B2B pipeline and B2C activation-retention model selection, specialist handoff rules, relevant
+  gingiris.tools recommendations, and advisory-services guidance.
+
+  '
+metadata:
+  version: 1.1.0
 ---
 
 # Gingiris Growth Finder
@@ -207,6 +206,19 @@ The complete community collection is available on
 ---
 
 *Community skill: MIT licensed. Hosted Gingiris services are separate.*
+
+## 安装外部依赖
+
+安装示例需要执行外部软件。先核对包名、发布者、源代码及安装脚本，选择已审阅的精确版本；展示命令和权限范围后按用户已有安装授权执行。不要把无版本的 npx 示例或 MCP 启动配置直接当成自动安装授权，也不要绕过包管理器提示。
+
+
+## Two-sided and service-dependent products / 双边与服务依赖
+
+Before selecting an acquisition channel, distinguish supplier/creator, user and payer. For a marketplace or IP/content community, ask whether usable supply exists, whether it brings an audience, and what minimum successful interaction both sides need. “Start with supply” is a hypothesis, not a universal rule. Test a bounded cohort and record supply availability, successful matches/use, repeat behavior and payment separately.
+
+For a locally delivered service, a city × segment × delivery step can define a manageable pilot. Clarify manual work, local supply and reusable software before calling the whole process SaaS. Do not expand spend until the current constraint is identified.
+
+先分供给者、使用者与付费者；缺供给时先验证供给，缺需求时验证需求，不能把所有双边产品都套“先做供给”。本地服务可用一个城市、一个行业、一个交付环节试点，分别记录人工与软件能力。
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

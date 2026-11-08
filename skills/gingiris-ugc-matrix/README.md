@@ -88,15 +88,15 @@ IP Account (build persona, earn trust)
 - Priority channels: Inner circle > Micro-creator DMs > Community > Cold email
 
 #### 2. Incentive Mechanism Design
-- Tiered view-count bonuses: 10K views → +$20, 50K → +$30, 100K → +$50
-- Pay only for highest-performing platform; other platforms = free exposure
+- Choose delivery fees and optional reach, activation or paid-conversion incentives for the actual goal
+- Agree platform scope, reuse rights, attribution window, deduplication and refunds before production
 - Team bonus pool: Hit collective target → distribute by contribution %
 
-#### 3. AI Matrix Operations
+#### 3. Disclosed AI Content Operations
 - Three-part AI UGC structure: Hook (5s AI avatar) → Use Case Demo → CTA
-- Per-post performance: 100K-200K views per AI account
-- Frequency: 2-3 posts/day (avoid bans)
-- Kling face-swap for multi-persona batch generation
+- Measure actual views and conversions; no guaranteed reach
+- Schedule for content quality and response capacity under platform rules; no frequency guarantees immunity from enforcement
+- Use licensed assets and consenting creators; disclose AI edits and never fabricate independent personas
 
 #### 4. Multi-Platform Strategy
 | Platform | Audience | Conversion | Key Factor |
@@ -120,7 +120,7 @@ IP Account (build persona, earn trust)
 - **品牌大使思维**：找的不是UGC创作者，而是真正热爱产品的Brand Ambassadors
 - **IP号+矩阵号飞轮**：IP号立人设招人 → 矩阵号打量 → 飞轮自转
 - **AI+真人混合**：6:4比例，逐步向AI倾斜，突破人的瓶颈
-- **CPM $0.5的秘诀**：多平台分发同一内容，只付最高流量平台费用
+- **CPM $0.5的秘诀**：历史案例的分发安排；跨平台授权和费用须明确约定，不能默认免费复用
 - **全员奖金池**：取代PK机制，优秀Creator主动帮新人
 
 ### 客户案例关键数据（某 AI 知识工作产品，团队自报）
@@ -226,7 +226,7 @@ clawhub install gingiris-ugc-matrix
 **A:** For AI/tech products: Threads (algorithm bonus) + Instagram (shared ecosystem). For consumer apps: TikTok (viral potential) + YouTube Shorts (highest conversion). Always multi-platform distribute the same content.
 
 ### Q: How do I avoid getting accounts banned?
-**A:** Limit to 2-3 posts/day per account. Use clean overseas IPs. Don't install domestic SIM cards. Warm up accounts for 2-4 weeks before posting. Keep AI hooks under 5 seconds.
+**A:** Use authentic brand or consenting creator accounts, respect each platform’s rules, disclose AI-generated content and sponsorship, and pause to resolve enforcement notices through official appeals. No account warming or network-based evasion.
 
 ### Q: What market should I enter first?
 **A:** Always US first. Content standards and user aesthetics are globally highest → easily replicate downward to Japan → Taiwan/Korea → Southeast Asia. Starting from smaller markets and trying to go up is much harder (proven by costly mistakes).
@@ -335,12 +335,12 @@ MIT License - Feel free to use and adapt for your own UGC growth strategy!
       {
         "@type": "HowToStep",
         "name": "Design Incentives",
-        "text": "Set up tiered view-count bonuses and team bonus pool mechanism"
+        "text": "Choose incentives by awareness, activation or paid outcomes; agree attribution and usage rights"
       },
       {
         "@type": "HowToStep",
-        "name": "Launch AI Matrix",
-        "text": "Deploy AI UGC accounts with 3-part structure: Hook + Demo + CTA"
+        "name": "Publish Disclosed AI Content",
+        "text": "Publish licensed, disclosed AI content on authentic brand or consenting creator accounts: Hook + Demo + CTA"
       },
       {
         "@type": "HowToStep",
@@ -381,3 +381,7 @@ MIT License - Feel free to use and adapt for your own UGC growth strategy!
 
 The community and paid resource pack are optional; neither is required to install or use this open-source skill.
 <!-- gingiris-community-cta:end -->
+
+## Outcome-based update · v1.1.0
+
+Read [creator outcomes and variant tests](references/outcome-and-variants.md) before selecting incentives or scaling content. Historical example budgets and reach figures are not universal benchmarks or guarantees.

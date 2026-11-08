@@ -1,249 +1,50 @@
 ---
 name: gr-competitor-research
-version: 1.2.0
-description: |
-  Your competitor just launched. You have no idea how they grew so fast. Should you reverse-engineer their website? Track their social media? Map their growth flywheel? This gives you the complete SOP — from Wayback Machine snapshots to X/Twitter propagation analysis to growth flywheel scoring. Built from 150+ AI startup competitive analyses including the Lovable case study (4.3M views, 229K impressions launch day). By @WeiYipei.
+description: 'Use this skill for competitor research and competitive analysis: select relevant benchmarks, reconstruct
+  product history, examine customer and channel evidence, and design a bounded experiment. 适用于竞品调研、对标选择、历史阶段分析、博客与合作渠道拆解；输出来源表与我方行动卡。
 
-  What's inside:
-  • 4-step research framework (website teardown → social media → traffic sources → ad spend)
-  • 3-version website evolution analysis (V1 / Beta / Launch via Wayback Machine)
-  • X/Twitter propagation chain mapping (4-phase model + single-post teardown template)
-  • Growth flywheel 6-stage scoring system (Activation → Referral → Acquisition → Retention → Revenue → Product)
-  • KOL identification framework (Traffic King / Topic Starter / Mindset Shifter)
-  • Content effectiveness ranking (validated: Visual Demo > User Story > Competitor Comparison)
-  • ICP deep analysis template + Freemium pricing teardown
-  • Complete self-check checklist
-
-  🇨🇳 你的竞品刚刚爆了。你完全不知道他们怎么做到的。该拆官网？盯社媒？画增长飞轮？这份 SOP 给你从 Wayback Machine 快照到 X/Twitter 传播链路还原到飞轮六阶段评分的完整方法论。基于 150+ AI 创业公司竞品分析实战，含 Lovable 完整案例。
-
-  🇯🇵 競合が突然バズった。どうやって成長したか全く分からない。このSOPは、Waybackスナップショットからツイッター伝播チェーン分析、フライホイール6段階スコアリングまでの完全な競合調査フレームワークを提供します。150以上のAIスタートアップ分析から構築。
-
-  🇰🇷 경쟁사가 갑자기 폭발적으로 성장했습니다. 어떻게 그렇게 빨리 성장했는지 모릅니다. 이 SOP는 Wayback 스냅샷부터 X/Twitter 전파 체인 분석, 플라이휠 6단계 스코어링까지 완전한 경쟁사 조사 프레임워크를 제공합니다. 150개 이상의 AI 스타트업 분석에서 구축.
-
-  Triggers: "competitor research" | "competitive analysis" | "competitor analysis" | "growth flywheel" | "market research" | "竞品调研" | "竞品分析" | "增长飞轮" | "传播链路" | "競合分析" | "경쟁사 분석" | "social media teardown" | "Twitter propagation" | "content strategy analysis"
-tags:
-  - competitor-research
-  - competitive-analysis
-  - growth-flywheel
-  - market-research
-  - growth-hacking
-  - startup-growth
-  - social-media-analysis
-  - twitter-analysis
-  - content-strategy
-  - product-launch
-  - go-to-market
-  - SaaS-growth
-  - indie-hacker
-  - KOL-marketing
-  - SEO
-source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-competitor-research
+  '
+metadata:
+  author: Iris / Gingiris
+  version: 1.4.0
 ---
 
-# Competitor Research & Growth Flywheel Playbook — Full SOP
+# Competitor Research Playbook / 竞品研究
 
-> 🌍 **Language / 语言**: 中文 | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)
->
-> Complete SOP for systematic competitor research: website evolution analysis, social media channel teardown, growth flywheel scoring, X/Twitter propagation chain mapping, and KOL identification. Battle-tested across 150+ AI startups. Includes Lovable full case study (Nov 2024 launch: 229K impressions, 4.3M video views, 10K+ Discord community).
+唯一维护源：`skills/competitor-research-playbook/`。`gr-competitor-research` 是自动生成的兼容名称，带完整本地 references，可独立安装。不要分别编辑；维护者运行 `python3 scripts/sync-competitor.py`，用 `--check` 检测漂移。版本相同意味着正文与方法文件相同（入口名称除外）。
 
----
+## 任务契约 / Research brief
 
-## 一、竞品调研核心框架
+先明确我方产品、用户任务、付费者、商业模式、阶段、市场、要做的决定及时间/预算上限。缺竞品先发现；缺商业模式则分开记录几个可区分假设。轻量研究选择 1–2 个对象和足够支持决策的窗口，深度研究按证据扩展，不强行凑三家或十家。
 
-### 1.1 四步调研法
+开始前写调研停止条件：哪些未知影响决定、可投入多久、什么证据足够设计一次低成本可逆测试。达到条件就交付行动，不无限补表；关键证据缺失仍标未知。
 
-| 步骤 | 内容 | 产出物 |
-|-|-|-|
-| **Step 1** | 拆解竞品**官网**不同阶段版本 | 官网演变路径、Value Proposition演进、获客结构 |
-| **Step 2** | 拆解竞品**社媒渠道**内容策略 | 各渠道内容分类、发布节奏、KOL合作模式 |
-| **Step 3** | **导航站**拆分（按需） | 导航站流量来源、友商投放入口 |
-| **Step 4** | **广告投放**拆分（按需） | 投放渠道、素材策略、流量来源 |
+## 执行 / Workflow
 
-### 1.2 工具清单
+1. **选对标。** 按用户/付费者、任务、商业模式、阶段、市场和产品形态，区分直接竞品、渠道参考、定位参考与不适用对象。知名度不代表适配度；不同商业模式可以借鉴某个渠道，不能据此证明我方增长路径。
+2. **还原阶段。** 比较最早可得版本、Beta/发布与当前页面，记录时间和原始链接。最早存档不等于第一版；Beta、发布、PMF 不等价，疑似收敛只标候选转折。读取 [历史与形态分支](references/history.md)。
+3. **查客户证据。** 案例日期、早期身份与实际付款分别举证；Logo、员工邮箱、免费用户不证明企业采购。使用 [客户证据与需求交接](references/early-customer-evidence.md)。增加“是否改变我方待访谈人群/任务”；无法验证付费时不补猜名单。
+4. **拆内容生产系统。** 按观察窗口与样本方法分析栏目、主题比例、频次、内容结构、作者线索和 CTA。署名不等于雇佣关系，产量不等于成本，没收入和完整成本不能称 ROI。
+5. **分渠道找参考。** 官方、创始人、生态、创作者分别记录；历史发布窗口与近期常态分开。YouTube 中插/整条合作区分，未披露赞助只称提及。传播链路记录时间与链接，不凭转发顺序断言付费或因果。近期可见帖子也不代表平台允许我方复发。
+6. **找伙伴。** 从公开 Partner 页区分经销、实施、集成、推荐及未知，保留地区、人群、层级和公开联系入口。这里只形成线索，研究授权不包含外发邀约。
+7. **回到我方定位与测试。** 从用户现有工具/人工流程出发，使用熟悉词汇和可证明差异；同版本、同条件比较，缺证据不打叉。每条建议连接到我方能力/资源与最小测试。
 
-| 工具 | 用途 |
-|-|-|
-| [Wayback Machine](https://web.archive.org/) | 查看竞品历史官网快照 |
-| [SimilarWeb](https://www.similarweb.com/) | 流量来源分析、渠道分布 |
-| [Semrush](https://www.semrush.com/) | SEO、广告投放分析 |
+按需填写 [研究表与行动卡](references/research-templates.md)，不为填满模板制造数据。
 
----
+## 证据与交付 / Evidence and delivery
 
-## 二、官网拆解方法论
+每项结论记录来源、观察时间、统计窗口、对象范围、事实/公司自报/工具估算/分析假设。观看量、访问、注册、激活、付款不是同一指标；全站规模不能直接归给某条产品线。定价比较写币种、计费单位、周期、税费、席位和版本。工具失效、访问受限、缺存档只说明未知。
 
-### 2.1 三个关键版本节点
+报告必须包含：选择理由、证据表、关键未知、我方行动卡以及反证。反证栏回答“竞品真实优势是什么、哪些水下服务能力不可见、什么证据会推翻我方判断”。不能为支持自己的品牌叙事贬低竞品。
 
-1. **第一版本的官网** — 最小可行版本
-2. **第一阶段Beta Test的官网** — 封闭测试期
-3. **第一阶段正式Launch的官网** — 公开上市
+行动卡包含最小测试、预算/时间上限、负责人、指标分母/窗口、继续/修改/暂停条件。流程诊断或六阶段飞轮评分仅是整理假设的工具，评分不证明 PMF 或因果；内容形式的优劣必须按场景验证，不能宣称固定排行。
 
-### 2.2 每版本记录维度
+工具按可得权限选择搜索、网页提取、存档、浏览器或现有连接器。截图与结构化文字互补，无强制商业工具依赖；付费数据、安装新软件、外发联系和定时监控按用户授权另行处理。
 
-| 维度 | 内容 |
-|-|-|
-| 一句话介绍 | 核心Value Proposition |
-| 官网长度 | 总屏数、落地页结构 |
-| 用户案例 | 行业/场景用例 |
-| 框架结构 | Banner/Pricing/CTA |
-| SEO动作 | 标题/描述变化 |
-| 社区渠道 | Discord/Reddit启动节点 |
-| 集成生态 | 第三方集成 |
+## English operating summary
 
-### 2.3 对比表格模板
+Select benchmarks by buyer, job, business model, stage and market. Distinguish direct competitors from channel or positioning references. Separate historical reconstruction from current execution conditions. Date every observation; label company claims, estimates and hypotheses. Logos do not prove early paid customers. End with a bounded experiment and disconfirming evidence. The linked Chinese worksheets are the authoritative operational detail; legacy translations are not maintained as separate methods.
 
-| 阶段 | 时间节点 | Value Prop | 官网长度 | 主要板块 | 启动渠道 | 关键Feature |
-|-|-|-|-|-|-|-|
-| V1 | YYYY-MM | ... | X屏 | ... | ... | ... |
-| Beta | YYYY-MM | ... | X屏 | ... | ... | ... |
-| Launch | YYYY-MM | ... | X屏 | ... | ... | ... |
+## Decision and evidence review / 决策验收
 
----
-
-## 三、社媒渠道内容拆解
-
-### 3.1 流量来源判断
-
-先用SimilarWeb判断主要流量来源，再针对重点渠道深入拆解。**优先分析对应渠道做得好的竞品。**
-
-### 3.2 Twitter/X 账号矩阵
-
-| 账号类型 | 拆解重点 |
-|-|-|
-| **官媒** | 发布频次/节奏/风格、内容分类比例 |
-| **创始人账号** | 与官媒差异化程度 |
-| **Dev Rel账号** | BD/生态合作内容 |
-| **红人账号** | 不同阶段KOL合作 |
-
-### 3.3 内容发布节奏（四阶段）
-
-```
-内测（封闭测试）→ 大范围发布 → 长线运营 → Launch Week
-```
-
-### 3.4 各平台策略对比
-
-| 维度 | X/Twitter | YouTube | LinkedIn | TikTok |
-|-|-|-|-|-|
-| 定位 | 传播引爆 | 用户激活 | 企业获客 | 破圈拉新 |
-| 频率 | 每日1-3条 | 每周1-3条 | 每周1-2条 | 高 |
-
----
-
-## 四、增长飞轮分析法
-
-### 4.1 飞轮六阶段评分
-
-| 阶段 | 核心问题 |
-|-|-|
-| 创作(Activation) | 如何驱动"Aha Moment"？ |
-| 分享(Referral) | 产品内有病毒传播机制？ |
-| 发现(Acquisition) | 潜在用户如何被吸引？ |
-| 互动(Retention) | 如何构建社区归属感？ |
-| 变现(Revenue) | 免费→付费路径？ |
-| 产品优化 | 反馈如何驱动迭代？ |
-
-### 4.2 强弱判断标准
-
-| 指标 | 强飞轮 | 弱飞轮 |
-|-|-|-|
-| 留存 | Discord DAU高，UGC持续 | 用户流失快 |
-| 口碑 | 有系统化用户故事传播 | 无放大机制 |
-| 付费 | 触发点清晰 | 路径模糊 |
-| 持续性 | 产品与社区闭环 | 依赖外部投放 |
-
----
-
-## 五、传播节点分析法
-
-### 5.1 四阶段传播模型
-
-| 阶段 | 时间 | 核心事件 |
-|-|-|-|
-| 内部点燃 | 发布后数小时 | 团队集体发声 |
-| 生态催化 | 1-2天 | 合作伙伴背书 |
-| KOL引爆 | 2-3天 | 顶级KOL定性 |
-| 广泛渗透 | 持续数周 | 多语种用户参与 |
-
-### 5.2 内容效果排序（数据验证）
-
-| # | 类型 | 效果 |
-|-|-|-|
-| 🥇 | 视觉Demo（视频/动图） | 冲击力最强 |
-| 🥈 | 真实用户成功案例 | 最可信 |
-| 🥉 | 竞品对比内容 | 引发讨论 |
-| 4 | 量化数据展示 | 社交货币 |
-| 5 | 功能公告 | 覆盖窄 |
-
-### 5.3 KOL识别标准
-
-| 类型 | 识别信号 |
-|-|-|
-| 流量王 | 单帖>100K曝光 |
-| 话题发动机 | 评论区深度讨论 |
-| 心智转折点 | "以后都用它了" |
-
----
-
-## 六、X/Twitter 深度分析
-
-### 6.1 搜索语法
-
-```
-from:[Handle] since:YYYY-MM-DD until:YYYY-MM-DD -filter:retweets lang:en
-"[产品名]" OR "[域名]" -from:[官方] since:YYYY-MM-DD -filter:retweets -filter:replies
-```
-
-### 6.2 单帖爆款拆解
-
-| 维度 | 分析 |
-|-|-|
-| Hook | 从哪个角度讲？ |
-| Nugget | 什么让人忍不住转？ |
-| Feeling | 惊叹/好奇/FOMO？ |
-| 视觉 | 降低什么理解成本？ |
-
----
-
-## 七、综合洞察框架
-
-### 五维分析
-
-| 维度 | 输出 |
-|-|-|
-| 市场定位 | 细分、画像、差异化 |
-| 商业模式 | 定价、飞轮 |
-| 执行策略 | AARRR、内容日历 |
-| 可复用策略 | 战术+适用边界 |
-| 风险 | 识别+预警指标 |
-
-### 自检清单
-
-```
-□ 覆盖三版本节点？
-□ 拆解所有主要社媒渠道？
-□ 识别增长飞轮及强弱？
-□ 有传播数据支撑？
-□ 提炼可复用策略+适用边界？
-□ 识别风险+预警指标？
-□ ICP覆盖3+类型？
-□ 定价有升级路径分析？
-□ 可行动战术建议？
-```
-
----
-
-*Built from 150+ AI startup competitive analyses. Includes Lovable full case study (Nov 2024 launch). By @WeiYipei.*
-
-<!-- gingiris-community-cta:start -->
-## 加入出海社群与购买资料包 · Community & Resources
-
-- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
-- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
-
-- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
-- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
-
-社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
-
-The community and paid resource pack are optional; neither is required to install or use this open-source skill.
-<!-- gingiris-community-cta:end -->
+For page-purpose branches, social metric denominators, misleading growth inferences and a one-page action review, read [decision review](references/decision-review.md). 用它检查结论是否能解释、适用并验证，而不只检查报告是否完整。

@@ -5,7 +5,7 @@ language:
 - zh
 - ja
 - ko
-pretty_name: "Gingiris User Interview Playbook — PMF Discovery, HeyGen 937 Interviews Framework"
+pretty_name: "Gingiris User Interview Playbook — PMF Discovery, Evidence-led Research"
 tags:
 - user-research
 - user-interview
@@ -32,7 +32,7 @@ size_categories:
 
 # User Interview Playbook
 
-### Battle-tested framework for user interviews — from HeyGen's 937 interviews to PMF
+### Battle-tested framework for user interviews — from observed behavior to tested improvements
 
 [![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
@@ -47,7 +47,7 @@ size_categories:
 ---
 
 > 💡 **Why Star This?**
-> - **Battle-Tested**: HeyGen did 937 interviews in 6 months to find PMF — this is the same methodology
+> - **Battle-Tested**: Use real tasks, counterexamples and follow-up; interview counts do not certify PMF
 > - **Complete Framework**: End-to-end templates from user screening to post-interview analysis
 > - **Ready to Use**: Question banks, debrief templates, user grading standards
 
@@ -65,7 +65,7 @@ If this playbook helps you, a GitHub Star ⭐ helps others discover it!
 
 ## Why User Interviews?
 
-> "Product founders spend the first 6 months doing intensive user interviews. HeyGen's founder did 937 interviews in 6 months. Wisperflow and Higgsfield both did 500+. It's constant interviewing and iterating."
+> Research should connect observed behavior, product changes and re-testing; historical interview counts are not a success threshold.
 > 
 > — **Iris (生姜iris)**
 
@@ -81,9 +81,9 @@ If this playbook helps you, a GitHub Star ⭐ helps others discover it!
 
 | Metric | Target |
 |--------|--------|
-| Registration to Paid | 5%-8% |
-| Interview Frequency | 3-5 per week minimum |
-| Actionable Insights | 3+ feature requests per interview |
+| Registration to Paid | Defined cohort and window; no universal threshold |
+| Interview Frequency | Match decision, sample diversity and review capacity |
+| Evidence | Actual actions, counterexamples and unresolved questions; no feature quota |
 
 ---
 
@@ -403,7 +403,7 @@ MIT License - Feel free to use and adapt!
 
 **Gingiris 用户访谈剧本** — 系统化用户访谈框架，从用户邀约到 PMF 发现的完整 SOP。
 
-HeyGen 在 6 个月内完成了 937 次用户访谈并找到 PMF，Wisperflow 和 Higgsfield 均做了 500+ 次。这个手册还原了同样的方法论。
+通过真实任务、反证和回访验证需求，访谈次数不是 PMF 或增长资格证明。
 
 **核心内容**：访谈目标设定、候选用户筛选（P0/P1/P2 分层）、邀约模板、开场脚本、核心问题框架（痛点/竞品比较/付费意愿）、屏幕共享技术、访谈后分析 SOP。
 
@@ -411,11 +411,11 @@ HeyGen 在 6 个月内完成了 937 次用户访谈并找到 PMF，Wisperflow �
 
 ### 日本語
 
-**Gingiris ユーザーインタビュープレイブック** — PMF発見のための体系的なユーザーインタビューフレームワーク。HeyGenが6ヶ月で937回のインタビューを行った同じ方法論。招待テンプレート、コア質問フレームワーク、インタビュー後分析SOPを含む。
+**Gingiris ユーザーインタビュープレイブック** — PMF発見のための体系的なユーザーインタビューフレームワーク。行動観察と再検証を重視し、回数を成功条件にしません。招待テンプレート、コア質問フレームワーク、インタビュー後分析SOPを含む。
 
 ### 한국어
 
-**Gingiris 사용자 인터뷰 플레이북** — PMF 발견을 위한 체계적인 사용자 인터뷰 프레임워크. HeyGen이 6개월 동안 937번의 인터뷰를 수행한 동일한 방법론. 초대 템플릿, 핵심 질문 프레임워크, 인터뷰 후 분석 SOP 포함.
+**Gingiris 사용자 인터뷰 플레이북** — PMF 발견을 위한 체계적인 사용자 인터뷰 프레임워크. 행동 관찰과 재검증을 중시하며 횟수를 성공 조건으로 삼지 않습니다. 초대 템플릿, 핵심 질문 프레임워크, 인터뷰 후 분석 SOP 포함.
 
 ---
 
@@ -434,3 +434,7 @@ All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gi
 
 The community and paid resource pack are optional; neither is required to install or use this open-source skill.
 <!-- gingiris-community-cta:end -->
+
+## Updated workflow / 更新流程
+
+Version 1.1.0. Read [SKILL.md](SKILL.md), [interview recovery](references/interview-recovery.md) and [cold-start decision card](references/cold-start-decision-card.md). Distinguish research, usability and sales; cash and time; intent and actual payment.

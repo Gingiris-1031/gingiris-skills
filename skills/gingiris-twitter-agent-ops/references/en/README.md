@@ -141,7 +141,7 @@ Generate next week's schedule every Sunday:
 **Source**: [specific entry in SOURCE-INDEX]
 **5-point self-check**: ✅/❌
 **Triple-translation self-check**: ✅/❌
-**CTA (in replies)**: [link]
+**CTA delivery**: [root body / verified reply flow] + [link or action]
 ```
 
 ### Dedup Mechanism
@@ -171,7 +171,7 @@ Best monthly ranking: 17:00 > 23:00 > 13:00 > 11:00 > 20:00
 |---|------|------|
 | 1 | Never fabricate data | Every number must have a real source; if there's no source, don't write it |
 | 2 | 1 tweet/day | No overposting. The agent must not adjust the frequency on its own |
-| 3 | No CTA in the tweet body | External links go in the 1st reply (the X algorithm penalizes in-body links by 30-90%) |
+| 3 | Match CTA to publisher capability | If the publisher cannot create and verify a reply, put the link, install command, or action in the root-post body. Treat placement as an experiment, not a fixed algorithm claim. |
 | 4 | Data alignment | Dynamic numbers must be fetched fresh before publishing |
 | 5 | Triple translation | Every tweet must pass the triple-translation check (see below) |
 | 6 | 5-point check | Every tweet must pass the 5-point check (at least 4/5) |
@@ -260,7 +260,7 @@ Readers are more willing to trust content that is visible, clickable, and quanti
 | Principle | Examples | Probability of reaching top 10% |
 |------|------|-------------|
 | Visible | Screenshots, screen recordings, comparison charts | — |
-| Clickable | Links, tool names, search paths | ~40% (with "link in replies") |
+| Clickable | Links, tool names, search paths | Verify that the configured publisher can deliver the promised destination |
 | Countable | Numbers, time, cost, steps | ~35% (with resource keywords) |
 
 ### Golden Length
@@ -306,7 +306,7 @@ Week 6 (6/01-6/08): 1,540 → 1,837 (+297)  ← 40-Playbook panorama breakout
 |--------|--------|
 | Long-form + real experience + data | Philosophical one-liners / quoting others |
 | Tool posts + weekend 8 AM | Posting in the dead of night (impressions <200) |
-| CTA in the replies | CTA in the body (cut by 30-90%) |
+| CTA delivered through a verified path | Promising a reply that the publisher never creates |
 | First-person openers | Grand-thesis / preachy openers |
 | Steady 1/day cadence | 3 tweets in one day or 3-day gaps |
 

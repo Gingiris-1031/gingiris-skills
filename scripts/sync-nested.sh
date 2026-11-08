@@ -30,7 +30,7 @@ for dir in "$SKILLS_DIR"/*/; do
 
   # rsync 参数：-a 归档；--delete 清理嵌套层多余文件使其与外层一致；
   # --exclude "/$name/" 防套娃（不把嵌套层自己拷进自己）。
-  args=(-a --delete --exclude "/$name/")
+  args=(-a --delete --exclude "/$name/" --exclude "__pycache__/")
 
   # 本 skill 的私有排除项
   for entry in "${EXCLUDES[@]}"; do
@@ -60,7 +60,7 @@ for dir in "$SKILLS_DIR"/*/; do
   name="$(basename "$dir")"
   nested="$dir$name"
   [ -d "$nested" ] || continue
-  diffout="$(diff -rq "$dir" "$nested" 2>/dev/null | grep -v "^Only in ${dir%/}: $name\$" || true)"
+  diffout="$(diff -rq "$dir" "$nested" 2>/dev/null | grep -v "^Only in ${dir%/}: $name\$" | grep -v ": __pycache__\$" || true)"
   # 私有排除项在外层存在、嵌套层没有，属预期，过滤掉
   for entry in "${EXCLUDES[@]}"; do
     skill="${entry%%:*}"
@@ -81,5 +81,9 @@ done
 if [ "$fail" -eq 1 ]; then
   echo "sync-nested: 校验失败"
   exit 1
+fi
+# gr-core has a historical alias rather than same-name nesting.
+if [ -d "$SKILLS_DIR/gr-core/gr" ]; then
+  sed 's/^name: gr-core$/name: gr/' "$SKILLS_DIR/gr-core/SKILL.md" > "$SKILLS_DIR/gr-core/gr/SKILL.md"
 fi
 echo "✅ sync-nested: 全部嵌套副本与外层字节级一致"

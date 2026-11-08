@@ -19,6 +19,9 @@ PRIVATE_PATHS = {
 }.freeze
 
 errors = []
+unless system("python3", ROOT.join("scripts/sync-competitor.py").to_s, "--check", out: File::NULL)
+  errors << "competitor packages drifted; run python3 scripts/sync-competitor.py"
+end
 warnings = []
 rows = []
 
@@ -49,7 +52,7 @@ SKILLS.children.select(&:directory?).sort.each do |dir|
 
   public_files = dir.glob("**/*").select(&:file?).reject do |path|
     relative = path.relative_path_from(dir).to_s
-    relative.start_with?("#{slug}/") || PRIVATE_PATHS.fetch(slug, []).any? do |private_path|
+    relative.split("/").include?("__pycache__") || relative.end_with?(".pyc", ".orig") || relative.start_with?("#{slug}/") || PRIVATE_PATHS.fetch(slug, []).any? do |private_path|
       relative == private_path || relative.start_with?("#{private_path}/")
     end
   end

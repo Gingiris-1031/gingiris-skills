@@ -75,17 +75,9 @@
 | 稍作改动 | \$20-40/条 | 创作者动一些脑子 |
 | 精品内容 | \$50-200/条 | 高质量原创内容 |
 
-### 播放量Bonus机制（推荐）
+### 按目标选择奖励
 
-纯固定费用很容易让创作者失去动力。建议设置阶梯bonus：
-
-| 播放量节点 | Bonus金额 |
-|-|-|
-| 达到1万播放 | +\$20 |
-| 达到5万播放 | +\$30 |
-| 达到10万播放 | +\$50 |
-
-> **关键洞察**：按播放量给bonus，创作者才有动力做出真正能被传播的内容。
+播放奖励只适合明确的传播目标。激活或成交项目可使用交付费加经过验证的事件奖励，预先约定归因、去重、退款和素材授权。见 [目标与素材实验](outcome-and-variants.md)。历史报价只能作为情境示例，不作为通用行情或保底结果。
 
 ---
 
@@ -108,7 +100,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 ### AI生产内容策略
 
 - **拆分制作**：不做完整的"人手持手机录屏"视频（太假），而是拆分做Hook
-- **藏产品名**：将APP名字藏在字幕/文字中，不直接露出
+- **清晰披露**：明确产品名、品牌关系、赞助和 AI 生成片段；内容应体现真实用途，不隐藏商业身份或伪装独立评价。
 - **工具推荐**：常用Sora 2制作视频，也有in video等视频agent
 
 ---
@@ -117,7 +109,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 
 ### 发布规模参考
 
-**目标**：Launch Week当周每天发20条UGC内容，合作60个UGC创作者，每天1条素材，平台通铺。
+**目标**：按独立创作者的原创产能、平台许可及用户相关性安排发布，逐平台适配；不强制大量账号同步铺稿，也不以每日发布数量替代真实激活。
 
 ### 内容类型分配
 
@@ -204,7 +196,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 **底层架构（决定增长天花板）：**
 
 - **IP号**：立人设、建信任 → 最大杠杆作用是**招人**（好Creator主动找上来）
-- **UGC矩阵号**：打量（50-500个账号同时跑，素人Creator统一SOP批量产出）
+- **创作者合作**：按实际内容价值与团队能力确定规模；不运营账号农场、不统一批量灌水
 - **飞轮效应**：IP号输送高质量Creator → 矩阵规模化曝光 → 放大IP声量 → 吸引更多人加入
 
 ### 平台选择：为什么是Threads？
@@ -279,7 +271,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 **两种AI UGC形态：**
 
 - **Hook UGC**：AI数字人面部+动作作为开头钩子 → 后接真实产品Demo
-- **IP UGC**：可灵(Kling)换脸 → 真人拍一条 → 批量生成不同人物版本 → 分发到不同账号
+- **授权创作者内容**：取得素材与肖像许可 → 制作创意变体 → 标注 AI 及合作关系 → 发布到真实品牌或授权创作者账号
 
 **策略：** 逐平台验证 → AI UGC在哪个平台跑出稳定数据 → 逐步替掉排名靠后的真人Creator
 
@@ -386,7 +378,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 #### Reddit Cold Start (Compliant Approach)
 
 - Create original, value-first content adapted for Reddit's culture (not repurposed marketing copy)
-- Build genuine karma through helpful comments before posting promotional content
+- Participate where you can genuinely help; check current promotion rules without reputation farming
 - Follow subreddit-specific self-promotion rules (typically 10:1 ratio of helpful:promotional)
 - Never use multiple accounts to upvote your own content — Reddit actively detects and bans this
 - **建立 subreddit**：创建自己的 subreddit，让用户有关注点
@@ -544,7 +536,7 @@ Note: Multi-account strategies must comply with platform Terms of Service. Most 
 
 - 单个 AI 账号每条帖子流量：十几万\~20多万播放（实测数据）
 - 同一个 hook、同一个音乐重复发，流量依然跑得好
-- 目前平台未标记为 AI 生成内容（hook 仅约5秒，不易被识别）
+- 是否被平台自动识别不影响披露义务：按平台要求标注 AI 生成片段，不以片段长度规避标注
 #### AI-Assisted Content Production at Scale
 
 When scaling content production:
