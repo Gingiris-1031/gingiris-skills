@@ -7,7 +7,7 @@ Three proven channels woven into one repeatable pipeline for B2B SaaS.
 Build authority and generate inbound leads through consistent LinkedIn presence.
 
 - **Content cadence**: Post 3–5x/week mixing thought leadership, tactical how-tos, and social proof
-- **Engagement pods**: Coordinate with 10–20 peers for early engagement signals
+- **Authentic discussion**: Invite relevant readers to share honest feedback voluntarily; do not coordinate reciprocal likes, comments or artificial engagement signals
 - **DM-to-demo flow**: Warm approach after 3+ touchpoints, offer value before asking for time
 - **Profile optimization**: Headline = outcome you deliver, banner = social proof, featured = lead magnet
 

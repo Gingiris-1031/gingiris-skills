@@ -40,7 +40,7 @@ clawhub install b2b-marketing-playbook
 
 Three proven channels woven into one repeatable pipeline for B2B SaaS.
 
-- **LinkedIn engine**: Content cadence, engagement pods, and DM-to-demo flow
+- **LinkedIn engine**: Content cadence, authentic voluntary discussion, and permission-aware DM-to-demo flow; never coordinate reciprocal likes/comments
 - **Cold email sequences**: Subject lines, personalization, and follow-up timing
 - **Webinar funnel**: Topic selection, promotion, and post-webinar nurture
 - **ABM layer**: Account-based targeting for enterprise deals

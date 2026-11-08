@@ -35,7 +35,7 @@ tags:
   - scrum-master
 metadata:
   category: management
-  source: https://my.feishu.cn/docx/SbSodyg5LolUiqxJWKFch5NPnzc
+  source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/team-motivation-ops
 ---
 
 > 🌍 **Language / 语言**: [中文](#团队-motivation-操作手册) | [English](references/en/README.md) | [日本語](references/ja/README.md) | [한국어](references/ko/README.md)

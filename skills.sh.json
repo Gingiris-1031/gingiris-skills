@@ -1,0 +1,100 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "SEO/GEO",
+      "description": "Improve search discovery, backlinks and AI citations; audit results with defined evidence windows.",
+      "skills": [
+        "gingiris-seo-geo",
+        "gr-backlinks",
+        "gr-geo-cite",
+        "gr-seo-patrol",
+        "gingiris-seo-geo-agent",
+        "gr-seo-geo-agent",
+        "gr-aso",
+        "gingiris-aso-growth",
+        "aso-playbook"
+      ]
+    },
+    {
+      "title": "Research",
+      "description": "Investigate competitors and user tasks, preserve evidence and turn findings into bounded tests.",
+      "skills": [
+        "competitor-research-playbook",
+        "gr-competitor",
+        "gr-competitor-research",
+        "gingiris-user-interview",
+        "gr-user-interview",
+        "oss-growth-attribution"
+      ]
+    },
+    {
+      "title": "Content/Social",
+      "description": "Create source-backed content and coordinate social, creator, community and developer outreach.",
+      "skills": [
+        "gr-brand-voice-calibration",
+        "gr-social-distill",
+        "gingiris-twitter-agent-ops",
+        "gr-blog-post",
+        "gr-wechat-editorial",
+        "gr-readme",
+        "gingiris-ugc-matrix",
+        "gingiris-kol-outreach",
+        "kol-outreach",
+        "community-building-playbook",
+        "community-ambassador-playbook",
+        "gr-community-ambassador",
+        "developer-marketing-playbook",
+        "devrel-playbook"
+      ]
+    },
+    {
+      "title": "Launch",
+      "description": "Plan product launches, open-source distribution and international market entry.",
+      "skills": [
+        "gingiris-launch",
+        "gr-ph-launch",
+        "product-hunt-launch-guide",
+        "product-hunt-launch-playbook-win-1-daily",
+        "product-hunt-playbook",
+        "ai-launch-playbook",
+        "ai-product-launch",
+        "startup-launch",
+        "startup-launch-playbook",
+        "gingiris-go-global",
+        "gingiris-opensource",
+        "gr-oss-marketing",
+        "open-source-marketing-playbook",
+        "gingiris-github-star-growth",
+        "github-stars-playbook"
+      ]
+    },
+    {
+      "title": "Founder/Growth",
+      "description": "Diagnose the next constraint, validate services and improve growth, business and team operations.",
+      "skills": [
+        "gr",
+        "gingiris-growth-finder",
+        "gr-core",
+        "gr-opc-service-validation",
+        "startup-consultant",
+        "go-to-market-playbook",
+        "gingiris-b2b-growth",
+        "gr-b2b-growth",
+        "b2b-marketing-playbook",
+        "plg-playbook",
+        "saas-growth-playbook",
+        "saas-marketing-playbook",
+        "startup-growth-playbook",
+        "startup-marketing-playbook",
+        "growth-hacking-playbook",
+        "viral-marketing-playbook",
+        "hardware-saas-gtm",
+        "gr-product-dev-ops",
+        "agent-workflow-playbook",
+        "team-motivation-ops"
+      ]
+    }
+  ]
+}
