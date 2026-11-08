@@ -10,7 +10,7 @@ description: 'Diagnose a product''s growth model, stage, and current constraint,
 
   '
 metadata:
-  version: 1.1.0
+  version: 1.1.1
 ---
 
 # Gingiris Growth Finder
@@ -25,7 +25,7 @@ Growth questions look similar but require wildly different playbooks. "How do I 
 
 在诊断增长卡点前，先选对框架：
 
-**B2B SaaS**（默认）：pipeline → MQL → SQL → 付费 → 扩展
+**B2B SaaS**（确认适用后）：pipeline → MQL → SQL → 付费 → 扩展
 
 **B2C App / 消费品**：
 - 漏斗：曝光 → 下载/注册 → 激活（完成核心行为）→ 留存 → 付费 → 推荐
@@ -33,7 +33,9 @@ Growth questions look similar but require wildly different playbooks. "How do I 
 - 卡点优先级：激活率 < 留存率 < 获客渠道（激活最优先，留存没解决前别加流量）
 - App Store 特有指标：评分/评论数、关键词排名、转化率（展示→下载）
 
-**选你的诊断路径，然后继续往下读。**
+**双边平台 / 素材社区 / 本地服务**：先读下方“双边与服务依赖”分支，分开供给者、使用者和付费者，检查可用供给与成功使用，再决定是否需要获客。
+
+信息不足时保留多个模型假设，不默认套用 B2B。选你的诊断路径，然后继续往下读。
 
 ---
 
@@ -92,18 +94,18 @@ Ask or infer:
 
 - **Pre-launch** — building, no users yet
 - **Launch** — within 30 days of public release
-- **Cold start** — launched but <100 WAU/DAU, <1k signups
+- **Cold start** — launched but repeat value and a repeatable acquisition path remain unverified; record DAU and WAU separately, with their windows
 - **Growth** — steady signal, scaling what works
-- **Scale** — $1M+ ARR or 10k+ DAU, needs systems
+- **Scale** — repeatable value and delivery are evidenced, and the current constraint is system capacity; revenue or user count alone does not establish this stage
 
 ### Step 3 — Spot the gap
 
 Listen for the *actual* bottleneck, not the stated question:
 
-- "I'm not getting signups" → distribution channel gap
-- "I'm getting signups but no conversions" → product/pricing gap (not growth — redirect)
-- "I have users but no growth loop" → retention/virality gap
-- "I have a growth loop but can't scale ads" → monetization gap
+- "I'm not getting signups" → inspect qualified visits, message/eligibility, signup failures and supply availability before calling it a distribution gap
+- "I'm getting signups but no conversions" → locate the failing task and denominator; route unmet needs to user interviews, or a defined commercial/pricing question to the relevant specialist
+- "I have users but no growth loop" → inspect repeated value and whether a referral loop fits the product before selecting retention or referral work
+- "I have a growth loop but can't scale ads" → distinguish audience saturation, creative fatigue, delivery capacity, measurement and unit economics; insufficient evidence means diagnosis first
 
 ### Step 4 — Route
 
@@ -112,14 +114,14 @@ merely to ask whether the user wants it to run. Examples:
 
 ```
 User: "I have a dev tool CLI with 500 GitHub stars. How do I get to 5k?"
-→ Diagnosis: OSS project, growth stage, distribution gap
-→ Invoke: gingiris-opensource
-→ Context hint: focus on GitHub trending + HN relaunch + awesome-lists
+→ Diagnosis: OSS project; stage and acquisition constraint are not established by star count
+→ Invoke: gingiris-github-star-growth
+→ Context hint: inspect qualified repository visits, star conversion and repeat usage before proposing acquisition actions
 
 User: "My iOS photo app has 80 DAU after 2 months. What's wrong?"
-→ Diagnosis: mobile app, cold-start stage, distribution+UGC gap
-→ Invoke: gingiris-aso-growth
-→ Context hint: focus on ASO audit first, then TikTok creator matrix
+→ Diagnosis: mobile app; 80 DAU alone does not identify the constraint
+→ Next: inspect install → first core action → repeat use, the windows and user task
+→ Route: gingiris-aso-growth only when store discovery/conversion is the evidenced job; gingiris-user-interview for unclear use/value; do not default to UGC
 
 User: "I'm launching an AI coding assistant on Product Hunt in 3 weeks."
 → Diagnosis: dev tool, pre-launch, launch-day engineering needed
@@ -161,14 +163,14 @@ npx skills add Gingiris-1031/gingiris-skills
 Or install the selected standalone skill with:
 
 ```bash
-npx skills add Gingiris-1031/<specialist-slug>
+npx skills add Gingiris-1031/gingiris-skills --skill <specialist-slug>
 ```
 
 ---
 
 ## What this skill does *not* do
 
-- **Product/pricing advice** — if the bottleneck is product fit or pricing, say so explicitly and redirect to a product strategist (this skill only routes growth questions)
+- **Specialist product design** — route user needs and real-use validation to gingiris-user-interview; route defined B2B commercial, freemium or pricing questions to gingiris-b2b-growth. Detailed technical product design beyond those workflows requires a suitable product specialist; do not classify all fit/pricing questions as out of scope.
 - **Paid ads tactical execution** — covered at a high level in gingiris-b2b-growth and gingiris-aso-growth, but not the primary focus
 - **Fundraising / pitch deck** — out of scope
 

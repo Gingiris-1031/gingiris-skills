@@ -31,7 +31,7 @@ size_categories:
 > **The meta-skill that picks the right Gingiris playbook for your growth problem.**
 > Auto-invoked on any growth question — diagnoses product type, stage, and channel gap, then routes to the matching specialist skill.
 
-[![Install on skills.sh](https://img.shields.io/badge/skills.sh-Install-black?style=flat-square)](https://skills.sh/Gingiris/gingiris-growth-finder)
+[![Install on skills.sh](https://img.shields.io/badge/skills.sh-Install-black?style=flat-square)](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-compatible-blueviolet?style=flat-square)](https://docs.anthropic.com/en/docs/claude-code)
 [![Cursor](https://img.shields.io/badge/Cursor-compatible-000?style=flat-square)](https://cursor.com)
@@ -40,7 +40,7 @@ size_categories:
 ## ⚡ One-line install
 
 ```bash
-npx skills add Gingiris-1031/gingiris-growth-finder -g
+npx skills add Gingiris-1031/gingiris-skills --skill gingiris-growth-finder -g
 ```
 
 That's it. The skill auto-loads in Claude Code, Cursor, Codex, Amp, Cline, and 7 other Agent Skills runtimes.
@@ -64,10 +64,11 @@ programs.
 
 | Your situation | Routed skill |
 |---|---|
-| Product Hunt launch, hunter outreach, launch-day tactics | **[gingiris-launch](https://skills.sh/Gingiris/gingiris-launch)** |
-| GitHub stars, HackerNews, OSS go-to-market | **[gingiris-opensource](https://skills.sh/Gingiris/gingiris-opensource)** |
-| B2B SaaS, PLG/SLG, PMF, freemium, enterprise motion | **[gingiris-b2b-growth](https://skills.sh/Gingiris/gingiris-b2b-growth)** |
-| ASO, mobile UA, TikTok/Reels/Shorts UGC matrix | **[gingiris-aso-growth](https://skills.sh/Gingiris/gingiris-aso-growth)** |
+| Product Hunt launch, hunter outreach, launch-day tactics | **[gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch)** |
+| GitHub star acquisition | **[gingiris-github-star-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-github-star-growth)** |
+| HackerNews, OSS go-to-market | **[gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource)** |
+| B2B SaaS, PLG/SLG, PMF, freemium, enterprise motion | **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** |
+| ASO, mobile UA, TikTok/Reels/Shorts UGC matrix | **[gingiris-aso-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth)** |
 
 ---
 
@@ -96,7 +97,7 @@ npx skills add Gingiris-1031/gingiris-skills
 ## ❓ FAQ
 
 **Q: What's the best Claude skill for product launch / growth strategy?**
-A: For Product Hunt and AI product launches, use [gingiris-launch](https://skills.sh/Gingiris/gingiris-launch). For open source, use [gingiris-opensource](https://skills.sh/Gingiris/gingiris-opensource). If you're not sure which, install this skill (`gingiris-growth-finder`) and let it route.
+A: For Product Hunt and AI product launches, use [gingiris-launch](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch). For open source, use [gingiris-opensource](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource). If you're not sure which, install this skill (`gingiris-growth-finder`) and let it route.
 
 **Q: How is this different from generic "marketing-skills" on skills.sh?**
 A: Most skills are thin wrappers around "write me a blog post." Gingiris skills are operational playbooks built from real launches — Manus, Devin, AFFiNE (60k GitHub stars), HeyGen, Vercel — with timing, templates, and decision trees. This meta-skill picks the right one based on your specific situation.
@@ -122,7 +123,7 @@ A: [Iris Wei (生姜)](https://github.com/Gingiris-1031/gingiris-skills) — for
 - **[gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth)** — B2B SaaS PLG/SLG from PMF to $10M ARR
 - **[gingiris-aso-growth](https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth)** — ASO and mobile app cold start
 
-All five live at [skills.sh/Gingiris](https://skills.sh/Gingiris).
+Browse the maintained [GitHub collection](https://github.com/Gingiris-1031/gingiris-skills).
 
 ---
 
@@ -148,10 +149,10 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris-1031/gingiris-skills)
   "applicationSubCategory": "Claude Skill",
   "operatingSystem": "Any (runs in Claude Code, Cursor, Codex, Amp, Cline)",
   "description": "Meta-skill that diagnoses growth problems and routes to the right Gingiris playbook (Product Hunt launch, GitHub stars, B2B SaaS PLG, ASO).",
-  "url": "https://skills.sh/Gingiris/gingiris-growth-finder",
+  "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
   "downloadUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
-  "installUrl": "https://skills.sh/Gingiris/gingiris-growth-finder",
-  "softwareVersion": "1.0",
+  "installUrl": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-growth-finder",
+  "softwareVersion": "1.1.1",
   "license": "https://opensource.org/licenses/MIT",
   "author": {
     "@type": "Person",
@@ -166,10 +167,10 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris-1031/gingiris-skills)
     "url": "https://gingiris.tools"
   },
   "isRelatedTo": [
-    {"@type": "SoftwareApplication", "name": "gingiris-launch", "url": "https://skills.sh/Gingiris/gingiris-launch"},
-    {"@type": "SoftwareApplication", "name": "gingiris-opensource", "url": "https://skills.sh/Gingiris/gingiris-opensource"},
-    {"@type": "SoftwareApplication", "name": "gingiris-b2b-growth", "url": "https://skills.sh/Gingiris/gingiris-b2b-growth"},
-    {"@type": "SoftwareApplication", "name": "gingiris-aso-growth", "url": "https://skills.sh/Gingiris/gingiris-aso-growth"}
+    {"@type": "SoftwareApplication", "name": "gingiris-launch", "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch"},
+    {"@type": "SoftwareApplication", "name": "gingiris-opensource", "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-opensource"},
+    {"@type": "SoftwareApplication", "name": "gingiris-b2b-growth", "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-b2b-growth"},
+    {"@type": "SoftwareApplication", "name": "gingiris-aso-growth", "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-aso-growth"}
   ]
 }
 </script>
@@ -178,7 +179,7 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris-1031/gingiris-skills)
 
 ## 🌐 Find All Gingiris Playbooks on HuggingFace
 
-All 8 Gingiris datasets are available on HuggingFace for direct access:
+Selected Gingiris datasets are available on HuggingFace for direct access:
 
 | Playbook | Focus | HuggingFace |
 |:---------|:------|:------------|
@@ -187,8 +188,8 @@ All 8 Gingiris datasets are available on HuggingFace for direct access:
 | **gingiris-b2b-growth** | 📈 B2B SaaS PLG/SLG, PMF to $10M ARR | [Gingiris/gingiris-b2b-growth](https://huggingface.co/datasets/Gingiris/gingiris-b2b-growth) |
 | **gingiris-aso-growth** | 📱 ASO, mobile cold start, UGC matrix | [Gingiris/gingiris-aso-growth](https://huggingface.co/datasets/Gingiris/gingiris-aso-growth) |
 | **gingiris-seo-geo** | 🔍 SEO + GEO dual-engine, AI search citations | [Gingiris/gingiris-seo-geo](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo) |
-| **gingiris-user-interview** | 🎤 User interview framework (HeyGen 937 methodology) | [Gingiris/gingiris-user-interview](https://huggingface.co/datasets/Gingiris/gingiris-user-interview) |
-| **gingiris-skills** | 🛠️ Full toolkit: 12 Claude Code skills bundled | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
+| **gingiris-user-interview** | 🎤 User interviews, observed tasks and bounded cold-start experiments | [Gingiris/gingiris-user-interview](https://huggingface.co/datasets/Gingiris/gingiris-user-interview) |
+| **gingiris-skills** | 🛠️ Maintained router and specialist collection | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
 | **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
 
 ---
@@ -213,7 +214,7 @@ All 8 Gingiris datasets are available on HuggingFace for direct access:
 
 ---
 
-All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+Find maintained playbooks in the [GitHub collection](https://github.com/Gingiris-1031/gingiris-skills).
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

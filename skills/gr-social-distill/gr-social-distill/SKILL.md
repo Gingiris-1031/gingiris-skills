@@ -1,12 +1,9 @@
 ---
 name: gr-social-distill
-description: '把一篇已发布的博客拆成 4 个社媒变体：X 单帖或 thread（按内容与账号选择）、小红书笔记（3-5 图）、LinkedIn carousel、 dev.to / Zenn 二发。目标：在不新写博客的前提下激活
-  Organic Social 分发渠道。 当用户说"把这篇博客改成推特"、"做小红书版本"、"社媒分发"、"复用博客到多平台"时调用。
-
-  '
+description: 'Adapt a supplied article, draft or text into requested social formats with source attribution and voice checks. Use for X posts or threads, LinkedIn posts or carousels, Xiaohongshu notes and DEV/Zenn drafts; deliver only requested channels without automatic publication. 适用于内容复用、社媒改写与多平台草稿。'
 metadata:
   author: Iris / Gingiris
-  version: 0.2.0
+  version: 0.2.1
   companion-to: gr-blog-post
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gr-social-distill
   tags:
@@ -24,188 +21,41 @@ metadata:
   - latest
 ---
 
-## ⚠️ 2C 产品的渠道调整
+# Source-to-social adaptation / 内容复用
 
-本 skill 默认 dev / B2B 渠道。**2C 消费品 / 教育 / 应用**：获客主战场是 **垂类社区 + 短视频 + 垂直 KOL**，按地区公开数据选第一平台（如印尼/泰国短视频已反超 Facebook）。KOL 优先 nano / micro 垂类——粉丝越多互动率越低，micro > mega 性价比更高。完整 2C 渠道数据库 + 公开来源见 → `gingiris-seo-geo/references/2c-adaptation.md`。
+Turn a supplied article or draft into the requested platform variants. Default to drafts. Do not publish, upload assets, schedule jobs or contact anyone without authorization covering that action.
 
----
+## Start with the user's task
 
-# gr-social-distill — 博客到社媒复用
+Read the supplied URL/file/text and existing voice guide if available. Identify author, date, audience, requested channels and purpose. A draft or third-party article is valid input; mark attribution and reuse boundaries. Do not require an already published personal blog or internal content database.
 
-## 核心理念
+If no channel is given, propose a small relevant set based on the reader and purpose; ask only if that choice blocks useful work. A consumer-facing company can still have a professional audience on LinkedIn. Do not impose a fixed four-channel bundle or exclude a channel based only on B2B/B2C labels.
 
-**复用 > 新创**。已发 60 篇博客，但社媒只用了一次的话，下一步 ROI 最高的不是写新文，是拆变体（来源：原子库 2026Q2_016）。
+## Produce the variants
 
-一篇 2000-3500 字的博客 → 4 种社媒格式 → 增加分发触点（不保证流量倍增），而且不需要新内容灵感。
+1. Extract supported claims and their original ownership. Retain dates, qualifications and sources. Clearly separate an author's experience from the user's own experience.
+2. Pick a channel-native angle, then write usable copy in the requested language and format. Follow explicit single-post/thread instructions; avoid fixed length or first-person storytelling rules.
+3. Use only the relevant template:
+   - [X single post / thread](templates/x-thread.md)
+   - [Xiaohongshu note and visual outline](templates/xhs-note.md)
+   - [LinkedIn post / carousel outline](templates/linkedin-carousel.md)
+   - [DEV / Zenn draft and canonical choice](templates/devto-zenn.md)
+4. Apply the approved voice. If none exists, use a restrained provisional style based on supplied originals. High-performing samples alone do not establish author preference or causality.
+5. Check facts, attribution, CTA and current platform constraints. Missing media is an asset task, not a finished carousel. Unknown publishing capabilities do not block draft delivery.
 
----
+## Deliver
 
-## 什么时候用
+For each requested channel provide: final draft, source links, changes from the source, optional media brief, and unresolved checks. If only X was requested, deliver X rather than mandatory additional formats. Do not introduce an invented personal test, cost, customer result or prior job to fit a template.
 
-| 场景 | 动作 |
-|---|---|
-| "把这篇博客拆成 X thread" | X 模板（见下） |
-| "做小红书版本" | 小红书模板（75 公式标题） |
-| "LinkedIn 怎么发" | LinkedIn carousel 模板（仅 B2B 内容） |
-| "dev.to / Zenn 二发" | 技术博客跨平台模板 |
-| "每周分发节奏" | 完整 workflow（1 篇博客 → 4 变体） |
+## Publishing and measurement
 
----
+A proposed calendar is not a scheduled automation. Choose timing from audience and capacity; there is no universal seven-day cross-posting delay or same-day penalty. For substantial republication, establish the preferred original and choose canonical deliberately; see the DEV reference.
 
-## 输入
+If authorized to publish, verify account and integration, submit once, then read back the public artifact. Otherwise stop at usable drafts.
 
-- 1 个已发布博客 URL 或 `_posts/` 文件名
-- 可选：目标渠道（X / xhs / LinkedIn / dev.to / Zenn / all）
+For links, use distinct `utm_source`, `utm_medium=social` and campaign values as appropriate. Measure session source/medium and defined conversions, not just a Referral default-channel report: social UTMs may fall under Organic Social. Attribute costs and outcomes before discussing ROI. One day's engagement does not establish a winning channel.
 
-## 输出
-
-按渠道产出对应 markdown 或 draft 文本，直接可发。
-
----
-
-## 4 渠道模板
-
-### 1️⃣ X 单帖或 thread（按内容与账号选择）
-
-**单帖**：一个有来源的判断 + 支持证据/可用动作 + 合适的下一步。
-
-**Thread（明确需要时）**：首条说清问题与读者收获；正文每条展开一个必要要点；结尾回到结论和来源。长度按内容需要，不凑固定条数。只使用有依据的数字和本人的经历，截图与素材须可使用。发布前按账号与工具验证长度支持。
-
-详细例句库见 `templates/x-thread.md`。
-
----
-
-### 2️⃣ 小红书笔记（3-5 张图）
-
-**标题公式**（75 爆款公式，抄 dbs-xhs-title）：
-- 数字派："我测了 27 个 XX 工具，只有 4 个真的免费好用"
-- 踩坑派："别再用 XX 了，我花 3 万块换的教训"
-- 教程派："手把手教你 5 步搞定 XX（附工具清单）"
-- 反差派："用了 3 年 XX，结果发现 Y 才是真香"
-- 揭秘派："做 XX 的人不会告诉你的 3 件事"
-
-**内容结构**（每篇 < 1000 字）：
-- 开头 100 字：钩子 + 痛点共鸣
-- 正文 600 字：3-5 个要点，每个 100-200 字
-- 结尾 100 字：TL;DR + 互动问题
-- 加 5-8 个相关 tag：`#出海创业 #SaaS增长 #独立开发者 ...`
-
-**配图**（3-5 张）：
-- 图 1：标题图（大字标题 + 关键数字）
-- 图 2-4：每张 1 个要点（用手机截图 + 红笔框关键词）
-- 图 5（可选）：数据表 / 对比图
-
-详细模板见 `templates/xhs-note.md`。
-
----
-
-### 3️⃣ LinkedIn carousel（仅 B2B / 技术文）
-
-**触发条件**：原博客是 B2B / 企业 / 开发者向内容才发 LinkedIn，ToC 内容跳过。
-
-**10 页 carousel 结构**：
-- 页 1：标题（"How we [result] in [time]"，配 key visual）
-- 页 2：问题定义（读者 why care）
-- 页 3-8：6 个步骤 / 要点，每页 1 个
-- 页 9：数据结果（before/after 对比）
-- 页 10：CTA（关注 + 链接到原博客）
-
-**每页内容**：
-- 大字标题（≤ 40 字）
-- 3-5 条 bullet（≤ 10 字 / 条）
-- 配图 / icon / chart
-
-**正文（caption 500-1000 字）**：
-- 开头 3 行抓住注意（LinkedIn 折叠显示）
-- 正文讲"我学到什么"（不是"工具有什么功能"）
-- 结尾问问题引评论
-
-详细模板见 `templates/linkedin-carousel.md`。
-
----
-
-### 4️⃣ dev.to / Zenn 二发
-
-**适用**：原博客是技术向（SEO / GEO / API / 代码 / 工具）
-
-**关键规则**（从 2026-04-20 dev.to 掉榜事件学到）：
-- ⚠️ **canonical_url 必须指向 dev.to 自身**，不要指向 gingiris.tools
-  - 错误做法：`canonical_url: https://gingiris.tools/...`
-  - 正确做法：`canonical_url: https://dev.to/iris1031/...` 或留空
-  - 原因：canonical 指向主站 → Google 把 dev.to 版视为副本 → 不参与独立 SERP
-- **发布时间差 ≥ 7 天**（不要同天发，避免 Google 认为 copy）
-- **内容做本地化变化**：改开场 hook、加 1-2 段 dev.to 用户视角的评论
-- **末尾加"Originally I wrote this for my blog at gingiris.tools"**（建立双向 reference，但不用 canonical）
-
-**Zenn 特殊**：
-- frontmatter `type: tech` 技术文 / `type: idea` 观点文
-- 日文版本优先，标题用"〜してみた" / "〜の作り方"等日式句型
-- emoji 系统选可爱一点的（📝 / 🚀 / 💡）
-
-详细模板见 `templates/devto-zenn.md`。
-
----
-
-## 每周工作流（Phase 2 主线 2 的节奏）
-
-```
-每周一 10:00
-    ↓
-从 gr-seo-patrol 输出里挑：
-- Organic Search 流量 top 3
-- 或：最近 30 天新发且排名 top 30 的
-    ↓
-选 1 篇"高潜力博客"作为本周分发源
-    ↓
-产出 4 变体（X / xhs / LinkedIn / dev.to）
-    ↓
-分散发布：
-- 周一：X（按本次格式选择）
-- 周三：小红书笔记
-- 周五：LinkedIn carousel（如 B2B）
-- 次周周一：dev.to / Zenn 二发（延迟 7 天）
-    ↓
-下周一：复盘
-- 哪个渠道带回了多少 GA4 referral？
-- 哪个变体互动率最高？
-- 更新本次运营记录；长期记忆仅在用户明确要求时修改
-```
-
----
-
-## 追踪成效
-
-发布后每个变体记录 UTM：
-```
-?utm_source=x|xhs|linkedin|devto&utm_medium=social&utm_campaign=distill_{post-slug}
-```
-
-GA4 Referral 报告里按 `utm_source` 分组，判断每个渠道 ROI。
-
----
-
-## 级联推荐
-
-- 变体发完后 24h → `gr-seo-patrol` 看 Organic Social 占比是否上涨
-- 发现某个渠道 ROI 特别高 → 下周加码（同渠道多发 2 篇）
-- 小红书爆款 → 加大 UGC 创作者合作力度（联动 `gr-aso` UGC 创作者矩阵策略）
-- dev.to 排名上来 → 确认 canonical 配置，避免重蹈覆辙
-
----
-
-## 反模式
-
-- ❌ **同一天 4 渠道齐发** —— 你自己的读者重复看到同内容会反感
-- ❌ **原文复制粘贴** —— X / xhs / LinkedIn 每个渠道有自己的语境，照搬互动率差 10x
-- ❌ **dev.to canonical 指向主站** —— 2026-04-20 血泪教训，永远 self-canonical
-- ❌ **LinkedIn 发 ToC 内容** —— 严重不匹配平台受众
-- ❌ **小红书加外链**（平台严重降权 —— 把 URL 改成"主页简介找链接"）
-- ❌ **一次拆完 10 篇**，堆积在 draft 里不发 —— 宁可 1 篇完整分发 > 10 篇半成品
-
-
-## 来源、文风与格式选择
-
-读取作者已认可的 voice-guide；没有时从有归属的原始样本提炼暂定规则，不把别人的经历写成自己的。最好/最差样本要区分主题、语言、时效与格式，规则带适用范围和复查条件。按用户要求、内容结构、受众和已验证的发布能力选择 single post / thread，不固定条数。只交付草稿不自动发布。
+Optional next step: deeper voice calibration or account operations with the corresponding specialist. If that skill is absent, preserve the completed draft and describe the narrow remaining task instead of failing the entire request.
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources
