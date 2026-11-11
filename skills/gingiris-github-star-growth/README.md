@@ -8,7 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-github-star-growth?style=social)](https://github.com/Gingiris-1031/gingiris-github-star-growth/network/members)
 [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-github-star-growth?style=social)](https://github.com/Gingiris-1031/gingiris-github-star-growth/watchers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://tools.gingiris.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-github-star-growth/pulls)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-github-star-growth?color=blue)](https://github.com/Gingiris-1031/gingiris-github-star-growth/commits/main)
 
@@ -30,7 +30,7 @@
 
 > 💡 **Need a 1-on-1 growth strategy session?** Book for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.tools](https://gingiris.tools)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://tools.gingiris.com)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 ---
 
@@ -249,7 +249,7 @@ clawhub install gingiris-github-star-growth
 - 💼 LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - 💬 Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
 - 📱 即刻: 生姜iris
-- 🌐 Website: [gingiris.tools](https://gingiris.tools)
+- 🌐 Website: [gingiris.tools](https://tools.gingiris.com)
 
 ---
 
@@ -264,7 +264,7 @@ MIT License - Use and adapt for your own open source growth!
 - [gingiris-opensource](https://github.com/Gingiris-1031/gingiris-opensource) — Open Source Launch Playbook (72h burst)
 - [gingiris-seo-geo](https://github.com/Gingiris-1031/gingiris-seo-geo) — SEO & GEO Dual-Engine Playbook
 - [gingiris-b2b-growth](https://github.com/Gingiris-1031/gingiris-b2b-growth) — B2B SaaS Growth Playbook
-- [AFFiNE GitHub Stars: How We Grew from 0 to 60K](https://gingiris.tools/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
+- [AFFiNE GitHub Stars: How We Grew from 0 to 60K](https://tools.gingiris.com/growth-tools/blog/2026/03/25/how-to-get-more-github-stars-the-definitive-guide-33k-stars-case-study/)
 
 ---
 
@@ -278,7 +278,7 @@ MIT License - Use and adapt for your own open source growth!
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜iris",
-    "url": "https://gingiris.tools",
+    "url": "https://tools.gingiris.com",
     "jobTitle": "Open Source Growth Consultant",
     "sameAs": [
       "https://x.com/WeiYipei",

@@ -83,7 +83,7 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-la
 | 60 min session | ¥1500 | Full strategy session |
 | Monthly retainer | ¥7000/mo | Ongoing launch support |
 
-👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
+👉 **Book now: [gingiris.tools/services](https://tools.gingiris.com)**
 
 ## Field Notes 2026 — Policy-Safe Launch Operations & Budget Math
 
@@ -118,7 +118,7 @@ The HN front page is decided fast: you need **~30 points and ~10 comments inside
 
 ---
 
-*Author: Iris (生姜iris) | [gingiris.tools](https://gingiris.tools)*
+*Author: Iris (生姜iris) | [gingiris.tools](https://tools.gingiris.com)*
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

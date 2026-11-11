@@ -94,7 +94,7 @@ Sanity ratio before you allocate: PH exposure→upvote ≈ 1%, while Reddit expo
 - 60 min session: ¥1500
 - Monthly retainer: ¥7000
 
-👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
+👉 **Book now: [gingiris.tools/services](https://tools.gingiris.com)**
 
 ---
 
@@ -110,7 +110,7 @@ Keywords: AI launch, AI product launch, launching AI product, AI startup launch,
 - 🐦 Twitter: [@WeiYipei](https://twitter.com/WeiYipei) — Daily growth tactics
 - 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
 - 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
-- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://tools.gingiris.com/skills/)
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

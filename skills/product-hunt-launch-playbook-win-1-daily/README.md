@@ -55,7 +55,7 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-la
 | 60 min session | ¥1500 | Full strategy session |
 | Monthly retainer | ¥7000/mo | Ongoing launch support |
 
-👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
+👉 **Book now: [gingiris.tools/services](https://tools.gingiris.com)**
 
 ## Related Skills
 
@@ -65,7 +65,7 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-la
 
 ---
 
-*Author: Iris (生姜iris) | [gingiris.tools](https://gingiris.tools)*
+*Author: Iris (生姜iris) | [gingiris.tools](https://tools.gingiris.com)*
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

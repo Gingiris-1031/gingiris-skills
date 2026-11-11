@@ -10,7 +10,7 @@
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/Gingiris/gingiris-seo-geo-agent)
 [![GitHub stars](https://img.shields.io/github/stars/Gingiris-1031/gingiris-seo-geo-agent?style=social)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-seo-geo-agent?style=social)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/network/members)
-[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://tools.gingiris.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-seo-geo-agent/pulls)
 
 **[English](#english) | [中文](#中文版) | [日本語](#日本語版) | [한국어](#한국어판)**
@@ -21,7 +21,7 @@
 
 > **Need a 1-on-1 SEO/GEO strategy call?** Book a session for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.tools](https://gingiris.tools)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://tools.gingiris.com)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 ---
 
@@ -267,11 +267,11 @@ A: An SEO agency costs $3,000-10,000+/month. This SOP + AI agent costs ~$50-100/
 
 **Iris (生姜iris)** — Former cofounder & COO of AFFiNE ($10M raised), Forbes Asia 30 Under 30. Led growth from 0 to 60k GitHub stars across 100+ countries. Consulted 150+ AI startups on SEO/GEO/GTM strategy.
 
-- Website: [gingiris.tools](https://gingiris.tools)
+- Website: [gingiris.tools](https://tools.gingiris.com)
 - Twitter: [@WeiYipei](https://x.com/WeiYipei)
 - LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.tools](https://gingiris.tools/)
+- Blog: [gingiris.tools](https://tools.gingiris.com/)
 
 ---
 
@@ -305,12 +305,12 @@ MIT License — Use and adapt for your own SEO/GEO operations!
     "@type": "Person",
     "name": "Iris Wei",
     "alternateName": "生姜iris",
-    "url": "https://gingiris.tools",
+    "url": "https://tools.gingiris.com",
     "sameAs": [
       "https://github.com/Gingiris-1031",
       "https://x.com/WeiYipei",
       "https://www.linkedin.com/in/yipei-wei-550825105/",
-      "https://gingiris.tools"
+      "https://tools.gingiris.com"
     ]
   },
   "keywords": "SEO agent, SEO automation, SEO SOP, GEO agent, generative engine optimization, AI SEO, autonomous SEO, content SEO, technical SEO, programmatic SEO, Google Search Console automation, AI traffic tracking, ChatGPT SEO, Perplexity SEO, IndexNow, DataForSEO, daily SEO report, keyword mapping, CTA conversion, 32K impressions, AI agent for SEO"

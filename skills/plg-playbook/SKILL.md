@@ -87,7 +87,7 @@ The PLG-to-sales handoff dies in contract mechanics more often than in product g
 - 🐦 Twitter: [@WeiYipei](https://twitter.com/WeiYipei) — Daily growth tactics
 - 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
 - 🛒 Premium Bundle (all 5 playbooks + templates): [Get on Gumroad ($249)](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
-- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://tools.gingiris.com/skills/)
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

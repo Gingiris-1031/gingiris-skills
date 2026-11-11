@@ -50,7 +50,7 @@ title: "主关键词前置，副标题用冒号：不超过 60 字"
 date: 2026-04-15 14:30:00 +0800
 categories: [seo, growth]
 tags: [...]
-canonical_url: https://gingiris.tools/blog/2026/04/15/slug/
+canonical_url: https://tools.gingiris.com/blog/2026/04/15/slug/
 hreflang_ja: /blog/2026/04/15/slug-ja/
 hreflang_ko: /blog/2026/04/15/slug-ko/
 post_description: "150-160 字 meta description，含主关键词"
@@ -124,8 +124,8 @@ curl -s -X PUT \
 > 更新已存在的文件：先 `GET .../contents/{path}` 拿 `sha`，把 `"sha":"..."` 加进 PUT body。
 
 **发布后验证（按顺序全过才算发完）**：
-1. [ ] 等 Vercel 部署完成（~50-90s；可 `curl -sI https://gingiris.tools/` 确认站点存活）
-2. [ ] `curl -sI https://gingiris.tools/blog/{yyyy}/{mm}/{dd}/{slug}/` → **HTTP 200**（404 = permalink/date/`future: true` 配错，先修再往下）
+1. [ ] 等 Vercel 部署完成（~50-90s；可 `curl -sI https://tools.gingiris.com/` 确认站点存活）
+2. [ ] `curl -sI https://tools.gingiris.com/blog/{yyyy}/{mm}/{dd}/{slug}/` → **HTTP 200**（404 = permalink/date/`future: true` 配错，先修再往下）
 3. [ ] GSC 手动 Request Indexing（URL 检查 → 请求编入索引；新域抓取慢，这步不能省）
 4. [ ] IndexNow 推送到 Bing（大模型 discover 主要走 Bing 索引，见 `gr-geo-cite`）
 
@@ -157,7 +157,7 @@ done
 
 - ✅ **dev.to 文章 canonical_url 必须指向 dev.to 自身**（self-canonical），绝不指向 gingiris.tools
   - 正确：`canonical_url: https://dev.to/iris1031/article-slug-xxxx`
-  - 错误：`canonical_url: https://gingiris.tools/blog/...`（会让 dev.to 文章被 Google 视为副本，不参与 SERP）
+  - 错误：`canonical_url: https://tools.gingiris.com/blog/...`（会让 dev.to 文章被 Google 视为副本，不参与 SERP）
 - ✅ **发布时间差 ≥7 天**（不要和 gingiris.tools 同天发）
 - ✅ 末尾加 "Originally published at gingiris.tools" 建立双向 reference
 - ❌ **不要从 Jekyll frontmatter 直接复制 canonical_url 到 dev.to**，那个是 gingiris.tools 的地址

@@ -93,7 +93,7 @@ Or read: [Gingiris Launch Playbook](https://github.com/Gingiris-1031/gingiris-sk
 | 60 min session | ¥1500 | Full strategy session |
 | Monthly retainer | ¥7000/mo | Ongoing launch support |
 
-👉 **Book now: [gingiris.tools/services](https://gingiris.tools)**
+👉 **Book now: [gingiris.tools/services](https://tools.gingiris.com)**
 
 ## Launch-Day Ops Addendum (2026 field data)
 
@@ -138,7 +138,7 @@ Source notes and field-case boundaries: `references/iris-field-notes.md`.
 
 ---
 
-*Author: Iris (生姜iris) | [gingiris.tools](https://gingiris.tools)*
+*Author: Iris (生姜iris) | [gingiris.tools](https://tools.gingiris.com)*
 
 ---
 
@@ -150,7 +150,7 @@ Source notes and field-case boundaries: `references/iris-field-notes.md`.
 - 💬 Consulting: [@Iris_carrot on Telegram](https://t.me/Iris_carrot)
 - 🛒 Premium (templates + case studies): [Get on Gumroad](https://gingiris.gumroad.com/l/zxamur)
 - 📦 Full Bundle ($249): [All 5 Playbooks](https://gingiris.gumroad.com/l/gingiris-complete-global-launch-bundle)
-- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://gingiris.tools/skills/)
+- 📚 40+ Free Playbooks: [gingiris.tools/skills](https://tools.gingiris.com/skills/)
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

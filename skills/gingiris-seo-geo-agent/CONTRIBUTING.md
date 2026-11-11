@@ -5,7 +5,7 @@ Thank you for considering contributing! We welcome all forms of contributions.
 ## How to Contribute
 
 ### Reporting Issues
-- Use the [issue tracker](../../issues) to report bugs or suggest improvements
+- Use the [issue tracker](https://github.com/Gingiris-1031/gingiris-skills/issues) to report bugs or suggest improvements
 - Check existing issues before creating a new one
 
 ### Submitting Changes

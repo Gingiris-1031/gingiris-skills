@@ -165,7 +165,7 @@ Run **once per month** before `phase2-monthly-checkpoint`. Output: HTML report +
 
 ```python
 import urllib.request, re
-sm = urllib.request.urlopen("https://gingiris.tools/sitemap.xml").read().decode()
+sm = urllib.request.urlopen("https://tools.gingiris.com/sitemap.xml").read().decode()
 urls = [u for u in re.findall(r"<loc>([^<]+)</loc>", sm) if "/blog/" in u]
 # typically 50-70 URLs
 ```

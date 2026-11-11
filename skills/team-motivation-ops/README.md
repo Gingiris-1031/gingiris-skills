@@ -1,6 +1,6 @@
 # Team Motivation Ops — Standup + Weekly Meeting + 1:1 System for AI Startup COO
 
-> 🌍 **Language / 语言**: [中文](../../SKILL.md) | [English](README.md) | [日本語](../ja/README.md) | [한국어](../ko/README.md)
+> 🌍 **Language / 语言**: [中文](SKILL.md) | [English](README.md)
 
 > **Core principle**: Freedom and accountability are two sides of the same coin. Standups help people think clearly. Weekly meetings create alignment. 1:1s make people feel seen. When all three work, motivation isn't managed into existence — it grows on its own.
 

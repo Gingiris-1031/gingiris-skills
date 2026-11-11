@@ -38,7 +38,7 @@ size_categories:
 [![GitHub forks](https://img.shields.io/github/forks/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris-1031/gingiris-skills?style=social)](https://github.com/Gingiris-1031/gingiris-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://gingiris.tools)
+[![Website](https://img.shields.io/badge/Website-gingiris.tools-blue)](https://tools.gingiris.com)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris-1031/gingiris-skills)
 [![Last Commit](https://img.shields.io/github/last-commit/Gingiris-1031/gingiris-skills?color=blue)](https://github.com/Gingiris-1031/gingiris-skills)
 
@@ -50,7 +50,7 @@ size_categories:
 
 > **Need a 1-on-1 SEO/GEO strategy call?** Book a session for $200 (Crypto/USDT and Wire Transfer accepted) — [Contact @Iris_carrot on Telegram](https://t.me/Iris_carrot)
 >
-> Or visit **[gingiris.tools](https://gingiris.tools/en/)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
+> Or visit **[gingiris.tools](https://tools.gingiris.com/en/)** — Iris's consulting practice with 1:1 sessions, startup coaching, and enterprise retainer options.
 
 > **Why Star this?**
 > * **Battle-Tested**: Documents strategies behind **60k GitHub stars** and **30+ Product Hunt #1** launches.
@@ -247,7 +247,7 @@ If you find this playbook useful, a GitHub Star helps others discover it!
 - Twitter: [@WeiYipei](https://x.com/WeiYipei)
 - LinkedIn: [Yipei Wei](https://www.linkedin.com/in/yipei-wei-550825105/)
 - Telegram: [@Iris_carrot](https://t.me/Iris_carrot)
-- Blog: [gingiris.tools](https://gingiris.tools/)
+- Blog: [gingiris.tools](https://tools.gingiris.com/)
 
 ---
 
@@ -257,9 +257,9 @@ MIT License - Use and adapt for your own SEO/GEO growth!
 
 ## Full Guides & Blog Posts
 
-- [SaaS Growth Strategy: 0 to $10M ARR Framework](https://gingiris.tools/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/)
-- [B2B SaaS Growth Playbook](https://gingiris.tools/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/)
-- [Go-to-Market Strategy: The Complete 2026 Playbook](https://gingiris.tools/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
+- [SaaS Growth Strategy: 0 to $10M ARR Framework](https://tools.gingiris.com/blog/2026/03/27/saas-gotomarket-strategy-the-complete-framework-from-0-to-10m-arr/)
+- [B2B SaaS Growth Playbook](https://tools.gingiris.com/blog/2026/04/05/b2b-saas-growth-playbook-proven-strategies-2026/)
+- [Go-to-Market Strategy: The Complete 2026 Playbook](https://tools.gingiris.com/blog/2026/04/03/go-to-market-strategy-the-complete-2026-playbook-for-startups/)
 
 ---
 
@@ -311,7 +311,7 @@ All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
     "name": "Iris Wei",
     "alternateName": "生姜",
     "url": "https://github.com/Gingiris-1031/gingiris-skills",
-    "sameAs": ["https://gingiris.tools"]
+    "sameAs": ["https://tools.gingiris.com"]
   },
   "keywords": "SEO, GEO, Generative Engine Optimization, AI search optimization, ChatGPT SEO, Perplexity SEO, JSON-LD schema, E-E-A-T, keyword strategy, comparison page, programmatic SEO, IndexNow, dual engine SEO"
 }
@@ -332,7 +332,7 @@ All six at [skills.sh/Gingiris](https://skills.sh/Gingiris).
 | **gingiris-skills** | 🛠️ Full toolkit: 12 Claude Code skills bundled | [Gingiris/gingiris-skills](https://huggingface.co/datasets/Gingiris/gingiris-skills) |
 | **growth-tools** | 📚 Blog & tools hub | [Gingiris/growth-tools](https://huggingface.co/datasets/Gingiris/growth-tools) |
 
-All playbooks live at [gingiris.tools](https://gingiris.tools) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
+All playbooks live at [gingiris.tools](https://tools.gingiris.com) and [skills.sh/Gingiris](https://skills.sh/Gingiris).
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

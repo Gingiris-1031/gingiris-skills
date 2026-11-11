@@ -38,7 +38,7 @@ clawhub install gingiris-launch
 | 60分セッション | ¥1500 | フル戦略セッション |
 | 月額リテイナー | ¥7000/月 | 継続的ローンチサポート |
 
-👉 **今すぐ予約: [gingiris.tools/services](https://gingiris.tools)**
+👉 **今すぐ予約: [gingiris.tools/services](https://tools.gingiris.com)**
 
 ## 関連スキル
 
@@ -48,4 +48,4 @@ clawhub install gingiris-launch
 
 ---
 
-*著者: Iris (生姜iris) | [gingiris.tools](https://gingiris.tools)*
+*著者: Iris (生姜iris) | [gingiris.tools](https://tools.gingiris.com)*

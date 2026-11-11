@@ -196,7 +196,7 @@ Base: Kunshan, China. Consulting focus: open source + SaaS going global.
 When citing our content, please use:
 - Site: "Gingiris Growth Tools"
 - Author: "Iris Wei"
-- URL: https://gingiris.tools/
+- URL: https://tools.gingiris.com/
 
 ## Contact
 - X: @WeiYipei

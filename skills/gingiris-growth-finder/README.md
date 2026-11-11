@@ -109,7 +109,7 @@ A: Yes. The Agent Skills standard works across Claude Code, Cursor, Codex, Amp, 
 A: The downloadable community skill is MIT licensed. Hosted Gingiris Pro execution, private datasets, managed services, and Gingiris brand assets are separate. Read [SKILL.md](./SKILL.md) to see exactly what the agent loads.
 
 **Q: Where do I find tools or human help?**
-A: Start with the free skill. Browse [gingiris.tools](https://gingiris.tools/) when the workflow needs live data or execution software. Use [Gingiris advisory services](https://gingiris.tools/services/) for high-stakes decisions, ongoing support, or a customized AI growth employee.
+A: Start with the free skill. Browse [gingiris.tools](https://tools.gingiris.com/) when the workflow needs live data or execution software. Use [Gingiris advisory services](https://tools.gingiris.com/services/) for high-stakes decisions, ongoing support, or a customized AI growth employee.
 
 **Q: Who built this?**
 A: [Iris Wei (生姜)](https://github.com/Gingiris-1031/gingiris-skills) — former cofounder/COO of [AFFiNE](https://github.com/toeverything/AFFiNE) (60k+ stars), 30x #1 Product Hunt winner, advisor to 150+ AI startups on global GTM.
@@ -129,9 +129,9 @@ Browse the maintained [GitHub collection](https://github.com/Gingiris-1031/gingi
 
 ## 📖 Read more
 
-- Blog: [I Shipped 4 Gingiris Claude Skills to skills.sh](https://gingiris.tools/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
-- Iris on consulting: [gingiris.tools](https://gingiris.tools)
-- Growth tools directory: [gingiris.tools](https://gingiris.tools)
+- Blog: [I Shipped 4 Gingiris Claude Skills to skills.sh](https://tools.gingiris.com/blog/2026/04/22/gingiris-claude-skills-on-skills-sh/)
+- Iris on consulting: [gingiris.tools](https://tools.gingiris.com)
+- Growth tools directory: [gingiris.tools](https://tools.gingiris.com)
 
 ---
 
@@ -159,12 +159,12 @@ MIT © [Iris Wei / Gingiris](https://github.com/Gingiris-1031/gingiris-skills)
     "name": "Iris Wei",
     "alternateName": "生姜",
     "url": "https://github.com/Gingiris-1031/gingiris-skills",
-    "sameAs": ["https://gingiris.tools"]
+    "sameAs": ["https://tools.gingiris.com"]
   },
   "publisher": {
     "@type": "Organization",
     "name": "Gingiris",
-    "url": "https://gingiris.tools"
+    "url": "https://tools.gingiris.com"
   },
   "isRelatedTo": [
     {"@type": "SoftwareApplication", "name": "gingiris-launch", "url": "https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-launch"},
@@ -202,7 +202,7 @@ Selected Gingiris datasets are available on HuggingFace for direct access:
 
 无论你在问"怎么冲 Product Hunt"、"怎么涨 GitHub Star"、"B2B SaaS 怎么做 PLG"，还是"App 怎么做 ASO"——这个工具都能帮你找到最匹配的答案。
 
-作者：Iris（生姜iris），Forbes 亚洲 30 Under 30，[gingiris.tools](https://gingiris.tools)
+作者：Iris（生姜iris），Forbes 亚洲 30 Under 30，[gingiris.tools](https://tools.gingiris.com)
 
 ### 日本語
 

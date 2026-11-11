@@ -150,7 +150,7 @@ about [topic], here's a 3-sentence answer with concrete data:
 If you need a longer quote or follow-up, happy to share more.
 
 — Iris
-Site: https://gingiris.tools
+Site: https://tools.gingiris.com
 Twitter: @WeiYipei
 
 [Disclosure: I run gingiris.tools — no expectation of a link, just a useful quote.]

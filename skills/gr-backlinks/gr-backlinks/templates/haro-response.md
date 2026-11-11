@@ -25,7 +25,7 @@ our analytics, happy to share.
 
 — Iris Wei
    Ex-COO @ AFFiNE → growth consulting @ Gingiris
-   Site: https://gingiris.tools
+   Site: https://tools.gingiris.com
    X: @WeiYipei
 
 [Disclosure: I run gingiris.tools and analook.com.

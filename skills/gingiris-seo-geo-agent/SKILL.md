@@ -646,14 +646,14 @@ npx -y skills add Gingiris-1031/gingiris-seo-geo-agent
 
 | 资源 | 说明 |
 |------|------|
-| 🌐 [Gingiris 主页](https://gingiris.tools/) | 出海增长顾问主站 |
-| 🧰 [Skills 合集](https://gingiris.tools/skills/) | 所有开源增长 skill 一览 |
+| 🌐 [Gingiris 主页](https://tools.gingiris.com/) | 出海增长顾问主站 |
+| 🧰 [Skills 合集](https://tools.gingiris.com/skills/) | 所有开源增长 skill 一览 |
 | 📦 [HuggingFace](https://huggingface.co/Gingiris) | skill 数据集托管 |
 | 🔍 [Analook 竞品分析工具](https://www.analook.com) | 实时监控竞品增长信号，本 skill 运营实战中使用的工具 |
 | 📊 [产品自助增长诊断](https://www.analook.com/growth-audit.html) | 快速定位你的增长瓶颈 |
 | 相关 skill | `gingiris-seo-geo`（战略/方法论层，配合本 SOP 使用） |
 
-💬 **有问题或想建立深度合作？** 扫码加 Iris 微信：[@WeiYipei on X](https://x.com/WeiYipei)，或直接通过 [gingiris.tools](https://gingiris.tools/) 联系。
+💬 **有问题或想建立深度合作？** 扫码加 Iris 微信：[@WeiYipei on X](https://x.com/WeiYipei)，或直接通过 [gingiris.tools](https://tools.gingiris.com/) 联系。
 
 ---
 
