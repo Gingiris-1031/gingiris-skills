@@ -33,6 +33,7 @@
       "title": "Content/Social",
       "description": "Create source-backed content and coordinate social, creator, community and developer outreach.",
       "skills": [
+        "gr-ai-content-ops",
         "gr-brand-voice-calibration",
         "gr-social-distill",
         "gingiris-twitter-agent-ops",

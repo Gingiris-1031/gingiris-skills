@@ -16,7 +16,7 @@ hits_dead="$(grep -rnE 'gingiris\.github\.io|github\.com/Gingiris([^-[:alnum:]]|
 # 3：gingiris.com 网站引用（先剥掉邮箱 token 再匹配，豁免 *@gingiris.com）
 hits_com="$(grep -rn 'gingiris\.com' "$SKILLS_DIR" 2>/dev/null \
   | sed -E 's/[[:alnum:]._%+-]+@gingiris\.com//g' \
-  | grep 'gingiris\.com')"
+  | grep -E '(^|[^[:alnum:].@_-])gingiris\.com([/:?#[:space:])>]|$)')"
 
 hits="$(printf '%s\n%s\n' "$hits_dead" "$hits_com" | grep -v '^$' | sort -u)"
 
