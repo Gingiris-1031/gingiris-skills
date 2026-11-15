@@ -14,3 +14,5 @@ Generalization decisions:
 - First-person style, title correlations and outlier ratios do not establish causal recommendations.
 
 The skill is a reusable operating method, not a republication of the guide or a claim that its historical outcomes will repeat.
+
+Version 1.5.0 integrates an owner-supplied review of v1.0.0 with subsequent audience-first, competitor, long-form and search-positioning work. Retained retrieval-first diagnosis, persisted state, explicit gaps, template mapping and routing. Adapted suggested fixed thresholds, mutually-exclusive causes, rigid consent-medium rules and fixed receipt deadlines to context. The private review and test outputs are not bundled. Review observations about old releases are not current platform verification.

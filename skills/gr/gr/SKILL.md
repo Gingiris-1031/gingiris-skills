@@ -106,6 +106,7 @@ publishing, outreach, purchases, or changes to live systems.
 | Earn or monitor citations in ChatGPT, Claude, Perplexity, Gemini, AI Overviews, or `llms.txt` | `gr-geo-cite` |
 | Build backlinks through PR, HARO, G2, Wikipedia, media, or community placements | `gr-backlinks` |
 | Research, write, localize, or publish an SEO blog post | `gr-blog-post` |
+| Plan or diagnose content operations, audience-led topics, editorial calendars, source libraries, reuse and review | `gr-ai-content-ops` |
 | Turn one article into X, LinkedIn, Xiaohongshu, dev.to, or Zenn content | `gr-social-distill` |
 | Plan or execute a Product Hunt launch, hunter outreach, maker comment, or post-launch work | `gr-ph-launch` |
 | Plan a broader launch outside Product Hunt, including launch sequencing and channel mix | `gingiris-launch` |
@@ -115,13 +116,17 @@ publishing, outreach, purchases, or changes to live systems.
 | Build a B2B SaaS, PLG, SLG, pipeline, pricing, partnership, or enterprise growth motion | `gr-b2b-growth` |
 | Improve App Store keywords, metadata, reviews, mobile cold start, TikTok, or UGC acquisition | `gr-aso` |
 | Find, qualify, contact, negotiate with, or manage KOLs and creators | `gingiris-kol-outreach` |
-| Design a scalable UGC creator matrix, content matrix, or creator testing system | `gingiris-ugc-matrix` |
+| Design a scalable UGC creator matrix, creator production network, or creator testing system | `gingiris-ugc-matrix` |
 | Choose countries, localize a product, or plan international market entry | `gingiris-go-global` |
 | Recruit users, design interviews, synthesize evidence, or validate PMF/JTBD | `gr-user-interview` |
 | Quickly scan competitor sites, positioning, pricing, traffic, content, or changes | `gr-competitor` |
 | Run a deeper multi-source competitor research project and strategic comparison | `gr-competitor-research` |
 | Design an ambassador, champion, or community-led growth program | `gr-community-ambassador` |
 | Align product, engineering, and growth around launches, feedback, or release operations | `gr-product-dev-ops` |
+
+## Content route boundaries
+
+Whole content operation or weekly/monthly plan → `gr-ai-content-ops`; one supplied article adapted to social → `gr-social-distill`; one WeChat article/draft workflow → `gr-wechat-editorial`; creator recruitment/incentives → `gingiris-ugc-matrix`; voice calibration alone → `gr-brand-voice-calibration`. A multi-channel editorial matrix does not by itself mean a creator program.
 
 ## Resolve ambiguous requests
 

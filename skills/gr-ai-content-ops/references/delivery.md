@@ -37,3 +37,7 @@ For contributors, prepare a message including their approved asset, credit, link
 Compare like windows, formats and audiences; split organic/paid when available. Report sample size, median and meaningful outliers. A high max/median ratio can motivate investigation but does not prove luck, causality or a broken strategy. Historical title analyses and internal rates are account-specific observations, not universal benchmarks.
 
 Review memo: observation → plausible explanation → uncertainty → next controlled change → owner → review date. Do not change several factors and claim the observed result isolates one cause.
+
+## Persistent state and receipt ownership
+
+Use [fields](fields.md) for saved ledger paths/keys and [intake](intake.md) for receipt timing and owners. Authorization scopes are separate: plan/draft, upload a draft, schedule/publish specified content, and contact others. Prior explicit authorization carries forward within scope; these are not mandatory repeated approval steps. Report only completed receipts, with unexecuted targets clearly labeled.

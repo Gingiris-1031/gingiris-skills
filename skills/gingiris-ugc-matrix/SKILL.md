@@ -11,7 +11,7 @@ metadata:
 
     Trigger phrases: "UGC matrix" | "creator program" | "user generated content" |
 
-    "矩阵号" | "UGC运营" | "创作者招募" | "内容矩阵" | "病毒传播"
+    "矩阵号" | "UGC运营" | "创作者招募" | "UGC 矩阵 / 创作者矩阵" | "病毒传播"
 
     '
   source: https://github.com/Gingiris-1031/gingiris-skills/tree/main/skills/gingiris-ugc-matrix

@@ -1,4 +1,4 @@
 interface:
   display_name: "AI Content Operations"
-  short_description: "Plan source-backed content, distribution and weekly reviews"
-  default_prompt: "Use $gr-ai-content-ops to turn my source material and team capacity into a weekly content plan with review gates and delivery tracking."
+  short_description: "Plan audience-first content, SEO briefs and measurable reviews"
+  default_prompt: "Use $gr-ai-content-ops to identify what my audience wants to read, research relevant competitors, and build a feasible content plan with SEO positioning, substantive drafts and measurable next steps."

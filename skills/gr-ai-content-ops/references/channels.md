@@ -25,3 +25,5 @@ Company account: explain capability, changes and proof. Founder/employee account
 A reviewed tutorial might become a short viewpoint, a card set and a demonstration script. Each variant has its own hook, length, evidence mapping, next action and delivery state. Seven formats are a possibility, not a quota. Reuse can span weeks if the claim is still current and the audience/context is distinct.
 
 Keep campaign messaging consistent between social and the relevant landing page. Changing the website requires scope and authorization; do not update it merely because a content plan mentions alignment.
+
+For website-backed campaigns and LinkedIn adaptations, use [website-to-social](website-to-social.md); compare the [Ring2 and Analook planning cases](worked-cases.md).
