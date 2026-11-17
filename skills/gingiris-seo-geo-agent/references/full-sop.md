@@ -93,7 +93,7 @@
 |------|------|------|
 | 完成第 11 节人工清单（GSC/GA4/API/域名/CTA 页） | 你 | 授权就绪 |
 | robots.txt 开放 AI 爬虫 + sitemap.xml 提交 GSC | Agent | 可被抓取 |
-| IndexNow 配置（§9） | Agent | 秒级推送通道 |
+| IndexNow 配置（§9） | Agent | 向支持该协议的引擎提交 URL 更新通知 |
 | 关键词种子表：30–50 个候选词，标注 Volume/KD/意图 | Agent | §4 主表雏形 |
 | 记录基线：当前索引页数、首页关键词数(大概率=0)、GA4 28天用户 | Agent | 对照起点 |
 
@@ -104,7 +104,7 @@
 - 产品核心页 + 定价页（带 FAQ Schema）
 - 前 3–5 个竞品对比页（`[PRODUCT] vs [竞品]`）
 - 每页**必带 CTA 块**指向 `[CTA_URL]`（§5）
-- 每页发布后立刻 IndexNow 推送 + GSC URL Inspection 提交
+- 每页上线并完成 production/canonical/sitemap 验证后，仅在尚未提交或尚未被识别时各执行一次 IndexNow 与 GSC Request Indexing；记录提交状态，但不把提交等同于抓取或收录
 - **预期**：索引页开始增长；BOFU 词进入 Top 100
 
 ### Week 2 —— 内链结构 + 分发铺面
@@ -116,10 +116,10 @@
 
 ### Week 3 —— GEO 强化（让结构化内容可被引用）
 
-- 给每个 BOFU 页 + 高潜力 Blog 补 **FAQPage JSON-LD**（5–8 题，覆盖 People Also Ask）
+- 只在真实用户问题适合 FAQ 时补可见 FAQ；需要 FAQPage 时保证 JSON-LD 与可见内容完全一致，不把题数或 Schema 当作引用公式
 - 文章开头加「一句话直接回答 + Key Stats 表格」（AI 引用友好，§9）
 - 监控 AIO：目标查询里 AI Overview 是否引用 `[PRODUCT]`
-- **预期**：长尾 FAQ 词进入 Top 100；GEO 引用开始零星出现（窗口 7–14 天）
+- **验收**：分开记录已抓取、查询曝光/点击、可复核 AI 引用与 referral；不保证 7–14 天出现排名或引用
 
 ### Week 4 —— CTR 榨取 + 规模化
 
@@ -258,7 +258,7 @@ UTM 标准（所有 CTA 链接必须带）：
 
 ## 🔧 今日动作（做了什么 + 为什么）
 - 动作 A（内链/冲首页）：给 [#4-10 的某页] 加 __ 条内链，目标 #N→Top3
-- 动作 B（GEO/FAQ）：给 [off-100 的高 Volume 词页] 加 FAQPage JSON-LD，预期 7-14 天拾取
+- 动作 B（GEO/结构）：若页面确有真实用户问题，补可见 FAQ 并让 FAQPage JSON-LD 与其一致；否则优先补直接答案、证据表或案例。7–14 天后复查抓取、查询和引用证据，不承诺拾取
 - 动作 C：报告本身
 - 跳过项 + 原因（如「无 #4-10 关键词，动作A跳过」）
 
@@ -367,7 +367,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|copilot\.microsoft\.co
 3. 正文 H2/H3（每个 H2 一个观点，自然嵌入目标词+次级词）
 4. 个人经验 → 普遍洞察（具体数字 + 括号旁白）
 5. Key Takeaways（3-5 条）
-6. FAQ（5+ 题，标 FAQPage Schema）
+6. FAQ（仅在真实用户问题足以形成可见 FAQ 时添加；题数按内容决定，FAQPage Schema 必须与可见内容一致）
 7. Convert Block（§5，CTA 指向 [CTA_GOAL]）
 ```
 
@@ -385,14 +385,14 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|copilot\.microsoft\.co
 ### 8.3 三个检查清单（发布前）
 
 - **SEO**：Title 含目标词 <60 字符 ✓ / Meta <160 含词 ✓ / H2 含次级词 ✓ / 内链 2-3 ✓ / 图片 alt ✓
-- **GEO**：开头一句话直接回答 ✓ / 至少 1 个对比或数据表 ✓ / FAQPage Schema ✓ / Article Schema 含作者+日期 ✓
+- **GEO**：开头直接回答核心问题 ✓ / 至少 1 个可核验表格或案例（适用时）✓ / Schema 与可见内容及页型一致 ✓ / 作者、日期和来源可核验 ✓
 - **CTA**：Convert Block ≥2 处 ✓ / UTM 带齐 ✓ / 钩子承接本文主题 ✓
 
 ---
 
 ## 9. GEO 三件套（速参）
 
-1. **IndexNow**（秒级推送，不等爬虫）：
+1. **IndexNow**（URL 更新通知，不是抓取/收录保证）：
    ```bash
    curl -X POST "https://api.indexnow.org/indexnow" -H "Content-Type: application/json" \
      -d '{"host":"[DOMAIN]","key":"[KEY]","urlList":["https://[DOMAIN]/new-page"]}'
@@ -401,7 +401,7 @@ chatgpt\.com|openai\.com|openai|perplexity\.ai|perplexity|copilot\.microsoft\.co
 
 2. **robots.txt 开放 AI 爬虫**：明确 `Allow` GPTBot / OAI-SearchBot / ChatGPT-User / Claude-Web / PerplexityBot；底部挂 `Sitemap:`。
 
-3. **AI-Friendly 格式**：每页开头一句话回答「这是什么」+ 结构化对比表 + FAQ。带「最后更新」日期（AI 偏好新内容）。
+3. **AI-Friendly 格式**：先直接回答核心问题，再按内容选择步骤、可核验表格、案例或可见 FAQ；「最后更新」日期必须反映真实实质更新。结构与日期都不保证 AI 引用。
 
 ---
 

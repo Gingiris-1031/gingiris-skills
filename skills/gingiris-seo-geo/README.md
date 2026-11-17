@@ -141,9 +141,9 @@ If you find this playbook useful, a GitHub Star helps others discover it!
 
 1. **Start from BOFU, work upward** — High-intent keywords first (pricing, comparisons)
 2. **Authentic voice = best E-E-A-T** — Founder stories, real numbers, first-hand experience
-3. **Structured = Citable** — Key Stats tables, FAQ Schema, comparison matrices
-4. **IndexNow is GEO infrastructure** — Push updates in seconds, don't wait for crawlers
-5. **Comparison pages are SEO gold** — One page per competitor, capture decision-stage users
+3. **One intent cluster, one Page Owner** — avoid thin duplicate pages and cannibalization
+4. **SERP before page type** — validate type, format, angle, and URL overlap before building
+5. **Measure through task completion** — separate rankings, clicks, conversion, and verifiable AI citations
 
 ### Detailed Guides (English)
 
@@ -186,9 +186,9 @@ If you find this playbook useful, a GitHub Star helps others discover it!
 
 1. **从 BOFU 往上做** — 高意向关键词优先（定价、对比）
 2. **真实声音 = 最好的 E-E-A-T** — 创始人故事、真实数字、亲历经验
-3. **结构化 = 可引用** — Key Stats 表格、FAQ Schema、对比矩阵
-4. **IndexNow 是 GEO 的基础设施** — 秒级推送，不等爬虫
-5. **对比页是 SEO 金矿** — 每个竞品一个页面，截获决策期用户
+3. **结构化 = 更易理解与核验** — 按真实内容选择 Key Stats、表格、案例或可见 FAQ；Schema 必须与页面一致，但不保证被引用
+4. **IndexNow 是发现通道之一** — 仅通知支持该协议的引擎 canonical URL 已更新；不等于 Google Request Indexing，也不保证抓取、收录或 AI 引用
+5. **对比页承接决策意图** — 仅为有独立搜索意图和真实差异的竞品建立唯一 Page Owner，避免模板堆页和关键词蚕食
 
 ### 详细指南（中文）
 

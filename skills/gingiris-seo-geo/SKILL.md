@@ -12,10 +12,9 @@ description: |
   Triggers: "SEO" | "GEO" | "Generative Engine Optimization" | "AI search optimization" | "ChatGPT SEO" | "Perplexity SEO" | "Claude SEO" | "search optimization" | "content SEO" | "technical SEO" | "schema markup" | "JSON-LD" | "structured data" | "IndexNow" | "E-E-A-T" | "keyword strategy" | "keyword funnel" | "comparison page" | "programmatic SEO" | "SaaS SEO" | "搜索优化" | "AI 搜索" | "内容 SEO" | "GEO 优化" | "生成式引擎优化"
 when_to_use: |
   Use to rank on Google AND get cited by AI search (ChatGPT / Perplexity / Claude / Gemini):
-  keyword funnel (volume 300-1000 / KD 5-35), JSON-LD schema, E-E-A-T content,
-  comparison pages, IndexNow. Enforces 2026-06-24 execution standards:
-  internal links ≤2-3/para, cite competitor blogs as external links, title contains
-  best/free/top/guide+year, breadcrumb schema, Bing IndexNow for GEO indexing.
+  define the site's entity boundary and search ICP, build a Topic Map, assign each
+  intent cluster to one Page Owner, validate page type against the live SERP, and
+  improve discovery, clicks, task completion, conversion, and verifiable AI citations.
 ---
 
 ## ⚠️ 使用前：确认你的产品类型
@@ -60,20 +59,22 @@ SEO 和 GEO 不是两件事，是一件事的两面。结构化数据同时服�
 | 维度 | SEO（传统搜索） | GEO（AI 搜索） |
 |------|----------------|----------------|
 | 目标 | Google/Bing 排名 | AI 回答中被引用 |
-| 核心信号 | 反向链接 + 关键词匹配 | 结构化数据 + E-E-A-T 真实性 |
-| 内容格式 | H2/H3 层级 + 长尾词覆盖 | 直接回答 + 对比表格 + FAQ Schema |
-| 技术手段 | XML Sitemap + Core Web Vitals | IndexNow + robots.txt 开放 AI 爬虫 |
-| 衡量方式 | GA4 自然流量 + Ahrefs 排名 | 手动检查 AI 引用频率 |
+| 核心信号 | 需求匹配、可抓取、站内结构、内容与产品价值、外部信任 | 实体一致、可读取、可核验证据、明确表达与外部信任 |
+| 内容格式 | 按 SERP 主意图选 Type / Format / Angle | 结论、步骤、表格、案例与来源，但不保证获得引用 |
+| 技术手段 | XML Sitemap、canonical、hreflang、可访问性与页面体验 | 同一套可发现/可读取基建；IndexNow 仅对支持的引擎加速发现 |
+| 衡量方式 | GSC 曝光、点击、CTR、排名 + 真实转化 | 可复核的品牌提及、精确引用 URL 与真实 referral |
 
 ### 五个核心原则（2026-06-24 执行标准）
 
 1. **从 BOFU 往上做** — 先做高意向关键词（定价、对比），再做教育型内容。转化率最高的词优先。
 2. **真实声音是最好的 E-E-A-T** — 不要让 AI 写得像 AI。用创始人声音、真实数字、亲历故事建立可信度。
-3. **结构化 = 可引用** — Key Stats 表格、FAQ Schema、对比矩阵让 AI 引擎直接抓取引用。
-4. **IndexNow 是 GEO 的基础设施** — 内容更新后秒级推送到 Bing/AI 搜索，不等爬虫。
-5. **对比页是 SEO 金矿** — 每个竞品一个独立页面，截获决策期用户。
+3. **先定 Entity 和 Page Owner** — 网站说清自己是什么、服务谁、不覆盖什么；每个主要意图词簇只有一个主承接页。
+4. **SERP 决定页面形态** — 写作前检查当前目标市场 Top 10/20 的 Type、Format、Angle 和 URL 重合，不凭直觉新建页。
+5. **从收录一直验收到任务完成** — 排名不是终点；要跟踪点击、页面内任务完成、CTA 与真实转化。GEO 另记录可复核引用，不从回答出现推断引用。
 
-### 关键词选择标准（Ahrefs 筛选规则）
+### 关键词选择起点（不是通用硬阈值）
+
+Volume / KD / Traffic Potential 只是工具估算和优先级辅助。先确定产品定位与必须存在的页面，再对排名获客型词簇评分；高业务价值的低量词不应被机械过滤。
 
 | 参数 | 标准 | 说明 |
 |------|------|------|
@@ -87,12 +88,11 @@ SEO 和 GEO 不是两件事，是一件事的两面。结构化数据同时服�
 
 | 规则 | 标准 | 原因 |
 |------|------|------|
-| **内链密度** | **每段 ≤ 2-3 个** | 多了 Google 判 spam → 降 ranking |
-| **外链策略** | **主动 cite 竞品 blog** | Google 视为客观 → 提信用分 → 提 ranking |
-| **标题套路** | **best / free / top / guide + 年份** | CTR 提升最显著的公式 |
-| **Meta description** | **关键词 rephrase**（如 "figma alternative" → "the alternative to Figma"）| 提点击率 |
-| **面包屑导航** | **BreadcrumbList schema + 可见** | 结构信号 + SERP 富结果提 CTR |
-| **Freshness** | **标注最后更新日期** | freshness 信号提排名 |
+| **内链** | 优先连向相关 Page Owner / Money Page，anchor 描述目标任务 | 按用户路径和信息层级判断，不设“每段几个”的虚假硬阈值 |
+| **外部来源** | 引用与论点直接相关的一手/权威来源 | 竞品博客可作产品自述，但不存在“引竞品就提排名”的通用规则 |
+| **Title / Meta** | 对齐真实意图、价值和 SERP angle | 只有内容真实符合时才用 best/free/year；不把公式当默认答案 |
+| **面包屑导航** | 站点层级需要时提供可见面包屑 + 匹配的 BreadcrumbList | 帮助导航和理解结构，不保证富结果或 CTR 提升 |
+| **Freshness** | 只在有实质更新时改日期，并说明改了什么 | 不为制造新鲜度而翻日期 |
 | **URL 结构** | **短 + 含词 + 带尾斜杠** | 可读 + 语义信号 |
 
 ### 外链建设标准
@@ -107,10 +107,10 @@ SEO 和 GEO 不是两件事，是一件事的两面。结构化数据同时服�
 
 **完整 SOP（2023 年 2 月起执行，零 paid marketing）：**
 
-1. **基建先行**：SEO 评分工具自查官网跑到 ≥90 分再开始铺内容，否则关键词排位上不去。
+1. **基建先行**：当时团队使用 SEO 评分工具作为发布前清单，将 ≥90 分作为内部目标；这不是 Google 官方排名门槛。
 2. **选词**：用 Ahrefs/Semrush 反查竞品词库，选长尾词（当期参数 KD 30–50 / 搜索量 ≈1,000，见上方口径注意）。
-3. **写前谷歌调研**：把关键词输进 Google，研究首页 5–6 篇现有文章——80% 的结构现成可抄（喂给 AI 可得约 70% 框架）；在此结构上做增量：替换过时数据（两年前的数字换最新）、换更精准的图、加入自家产品动图。
-4. **质量标准**：≈1,500 词、图文 + 动图 + 表格；跳出率是权重信号——驻留时长 + 内链点击提升主站权重。
+3. **写前 SERP 调研**：研究当时首页的意图、页面形态和缺口，再用更新数据、第一方经验、实际截图/动图和产品结果提供信息增量；不复制竞品结构或文案。
+4. **质量标准**：当时团队常用 ≈1,500 词、图文/动图/表格作为生产参考；现在应以用户任务是否完成和转化事件为准，不宣称字数、跳出率或驻留时长是可控排名公式。
 5. **外链互换**：早期没名气就在出海社群互换 backlink，或发邮件给月曝光几十万级（非头部）的站点谈交换。
 6. **关键词矩阵内链**：过往 SEO 文章互相引用（遵守上文内链密度 ≤2–3/段标准）。
 7. **年度维护**：高排名文章每年更新一遍产品图和竞品截图（2022 写的 2023 更新、2024 再更新）；素材库（最新 user case + 竞品最新截图）全员共同维护。
@@ -122,9 +122,9 @@ SEO 和 GEO 不是两件事，是一件事的两面。结构化数据同时服�
 
 ### GEO 执行标准
 
-- **证据层优先（最高杠杆）**：AI 引用最看证据——证据引用层占权重 **43%**（权威引语16%+统计14%+可引用性13%）。每个核心结论配 1 条可核验权威引语或全口径统计，至少引 1 处一手论文（如 Aggarwal *GEO*, KDD 2024 = "up to 40%"）。**绝不编造数据/引用**，查不到标 `[建议补充]`。详见 [references/geo-evidence-standard.md](references/geo-evidence-standard.md)
-- **Bing IndexNow**：内容更新后立即推送（不只是 Google）——让大模型更快 discover/index
-- **AI 友好格式**：一句话答 + 表格 + FAQ Schema（FAQPage JSON-LD 5–8题）
+- **证据层优先**：每个核心结论配可核验的一手来源、完整数据口径、实际操作或明确限制。所谓“43% 证据层”仅是内部编辑检查权重，不是已知的 AI 排名/引用算法权重。**绝不编造数据/引用**，查不到标 `[建议补充]`。详见 [references/geo-evidence-standard.md](references/geo-evidence-standard.md)
+- **IndexNow**：对已发布或实质更新的 canonical URL 提交一次，加速支持该协议的引擎发现；它不是 Google Request Indexing，不保证收录或 AI 引用。
+- **AI 友好表达**：直接结论 + 实操步骤 + 可核验表格/案例 + 一手来源。只在页面确有可见 FAQ 且标记与可见内容一致时使用 FAQPage。
 - **GA4 监控**：配置 AI 来源 channel grouping（ChatGPT/Perplexity/Claude referral 单独追踪）
 
 ### 详细指南
@@ -132,9 +132,10 @@ SEO 和 GEO 不是两件事，是一件事的两面。结构化数据同时服�
 | 主题 | 文件 | 说明 |
 |:---|:---|:---|
 | 关键词漏斗策略 | [references/keyword-strategy.md](references/keyword-strategy.md) | TOFU/MOFU/BOFU 关键词矩阵与优先级 |
+| **Topic Map 与 Page Owner** | [references/topic-map-page-owner.md](references/topic-map-page-owner.md) | Entity、搜索 ICP、词簇、SERP 验证、页面任务与目录级复盘 |
 | SEO 技术基础 | [references/seo-foundations.md](references/seo-foundations.md) | 核心页面优化、Schema、站点架构 |
 | GEO 优化实操 | [references/geo-optimization.md](references/geo-optimization.md) | IndexNow、AI 爬虫、引用优化 |
-| **GEO 证据层标准** | [references/geo-evidence-standard.md](references/geo-evidence-standard.md) | 43% 权重表 + 证据纪律 + 一手论文引用库 |
+| **GEO 证据层标准** | [references/geo-evidence-standard.md](references/geo-evidence-standard.md) | 内部编辑评分 + 证据纪律 + 一手论文引用库 |
 | 内容生产 SOP | [references/content-sop.md](references/content-sop.md) | 从选题到发布的完整流程 |
 | E-E-A-T 写作声音 | [references/writing-voice.md](references/writing-voice.md) | 创始人声音系统，提升真实性信号 |
 | 竞品对比页 SOP | [references/comparison-pages.md](references/comparison-pages.md) | 页面结构、Schema、关键词嵌入 |
@@ -158,12 +159,14 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 | Dimension | SEO (Traditional Search) | GEO (AI Search) |
 |-----------|-------------------------|-----------------|
 | Goal | Google/Bing rankings | Cited in AI answers |
-| Core Signal | Backlinks + keyword match | Structured data + E-E-A-T authenticity |
-| Content Format | H2/H3 hierarchy + long-tail coverage | Direct answers + comparison tables + FAQ Schema |
-| Technical | XML Sitemap + Core Web Vitals | IndexNow + robots.txt allowing AI crawlers |
-| Measurement | GA4 organic traffic + Ahrefs rankings | Manual check of AI citation frequency |
+| Core signals | Intent fit, crawlability, site structure, useful product/content, external trust | Consistent entities, readable text, verifiable evidence, clear expression, external trust |
+| Content format | Match current SERP type, format, and angle | Clear conclusions, steps, tables, cases, and sources; none guarantees citation |
+| Technical | Sitemap, canonical, hreflang, accessibility, and page experience | The same discoverability/readability foundation; IndexNow only accelerates discovery for participating engines |
+| Measurement | GSC impressions, clicks, CTR, position, and real conversion | Reproducible brand mentions, exact cited URLs, and real referral traffic |
 
-### Keyword Selection Standards (2026-06-24)
+### Keyword Selection Starting Point (not a universal gate)
+
+Volume, KD, and Traffic Potential are tool estimates. Establish positioning and must-have product pages first; then use these metrics to prioritize acquisition clusters. Do not mechanically discard a low-volume term with strong business value.
 
 | Parameter | Standard | Why |
 |-----------|----------|-----|
@@ -177,12 +180,11 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 
 | Rule | Standard | Reason |
 |------|----------|--------|
-| **Internal link density** | **≤ 2–3 per paragraph** | More = Google spam signal → ranking drop |
-| **External link strategy** | **Actively cite competitor blogs** | Google reads as objective → trust score up → ranking up |
-| **Title formula** | **best / free / top / guide + year** | Highest CTR lift formula |
-| **Meta description** | **Keyword rephrase** (e.g. "figma alternative" → "the alternative to Figma") | CTR boost |
-| **Breadcrumb nav** | **BreadcrumbList schema + visible** | Structure signal + SERP rich result → CTR |
-| **Freshness** | **Show last-updated date** | Freshness signal improves ranking |
+| **Internal links** | Prioritize relevant Page Owners and money pages; use descriptive anchors | Follow user paths and information hierarchy, not a made-up links-per-paragraph quota |
+| **External sources** | Cite primary or authoritative sources that directly support the claim | Competitor blogs can support product self-claims, but citing them is not a general ranking boost |
+| **Title / meta** | Match the real intent, value, and observed SERP angle | Use best/free/year only when true and useful, never as a default formula |
+| **Breadcrumb nav** | Use visible breadcrumbs plus matching BreadcrumbList when the hierarchy needs them | Helps navigation and structure; does not guarantee a rich result or CTR lift |
+| **Freshness** | Change the date only after a substantive update and describe what changed | Do not manufacture freshness |
 | **URL structure** | **Short + keyword-rich + trailing slash** | Readability + semantic signal |
 
 ### Backlink Standards
@@ -197,10 +199,10 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 
 **Full SOP (executed from Feb 2023, zero paid marketing):**
 
-1. **Infrastructure first**: Run an SEO audit tool on your site until it scores 90+ before producing content — otherwise keywords will not rank.
+1. **Infrastructure first**: The team used a 90+ audit score as an internal release checklist. It was not a Google ranking threshold.
 2. **Keyword selection**: Reverse-mine competitor keyword sets via Ahrefs/Semrush, pick long-tail terms (era parameters KD 30-50 / volume ≈1,000 — see calibration note above).
-3. **Research Google before writing**: Enter the keyword into Google and study the 5-6 existing page-1 articles — 80% of the structure is already there (feeding them to AI yields ~70% of the framework). Then improve on it: replace outdated data (swap two-year-old numbers for current ones), use sharper images, add your own product GIFs.
-4. **Quality bar**: ≈1,500 words with images + GIFs + tables; bounce rate is a ranking signal — dwell time and internal-link clicks lift site-wide authority.
+3. **Research the SERP before writing**: Study the dominant intent, page shape, and gaps. Add information gain with current data, first-hand experience, actual screenshots/GIFs, and product outcomes; do not copy competitor structure or prose.
+4. **Quality bar**: The team often used ≈1,500 words plus visuals and tables as a production reference. Current work should instead pass task-completion and conversion checks; do not present word count, bounce rate, or dwell time as a controllable ranking formula.
 5. **Backlink exchange**: With no brand yet, swap backlinks inside founder communities, or email non-head sites with hundreds of thousands of monthly impressions to negotiate exchanges.
 6. **Keyword-matrix internal linking**: Cross-link all past SEO articles (within the ≤2-3 links/paragraph density standard above).
 7. **Annual maintenance**: Refresh product and competitor screenshots in every high-ranking article each year (2022 articles updated in 2023, again in 2024); the whole team maintains a shared asset library of latest user cases and competitor screenshots.
@@ -212,27 +214,28 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 
 ### GEO Execution Standards
 
-- **Evidence layer first (highest leverage)**: AI citation is won on evidence — the evidence layer is **43%** of GEO weight (quotes 16% + statistics 14% + citability 13%). Give every core claim a verifiable authoritative quote or a full-provenance statistic, and cite at least one primary paper (e.g. Aggarwal *GEO*, KDD 2024 = "up to 40%"). **Never fabricate data/citations**; flag unverifiable claims as `[needs-source]`. See [references/en/geo-evidence-standard.md](references/en/geo-evidence-standard.md)
-- **Bing IndexNow**: Push immediately after every content update (not just Google) — helps LLMs discover/index faster
-- **AI-friendly format**: One-sentence answer + table + FAQ Schema (FAQPage JSON-LD, 5–8 Q&As)
+- **Evidence layer first**: Support core claims with a verifiable primary source, complete data provenance, actual operation, or explicit limitation. The "43% evidence layer" is an internal editorial heuristic, not a known AI ranking/citation algorithm weight. **Never fabricate data/citations**; flag unverifiable claims as `[needs-source]`. See [references/en/geo-evidence-standard.md](references/en/geo-evidence-standard.md)
+- **IndexNow**: Submit a published or substantively updated canonical URL once to accelerate discovery by participating engines. It is not Google Request Indexing and does not guarantee indexing or AI citation.
+- **AI-readable content**: Clear conclusion + executable steps + verifiable table/case + primary sources. Use FAQPage only when a visible FAQ exists and the markup exactly matches it.
 - **GA4 monitoring**: Configure AI source channel grouping (isolate ChatGPT/Perplexity/Claude referral traffic)
 
 ### Five Core Principles
 
 1. **Start from BOFU, work upward** — High-intent keywords first (pricing, comparisons), then educational content. Highest-converting terms get priority.
 2. **Authentic voice is the best E-E-A-T** — Don't let AI write like AI. Use founder voice, real numbers, first-hand stories to build credibility.
-3. **Structured = Citable** — Key Stats tables, FAQ Schema, comparison matrices let AI engines directly extract and cite.
-4. **IndexNow is GEO infrastructure** — Push content updates to Bing/AI search in seconds, don't wait for crawlers.
-5. **Comparison pages are SEO gold mines** — One dedicated page per competitor, capturing decision-stage users.
+3. **Define the entity and Page Owner first** — State what the site is, whom it serves, and what it excludes; give each major-intent cluster one primary canonical page.
+4. **Let the SERP determine page shape** — Inspect the current target-market Top 10/20 for type, format, angle, and URL overlap before creating a page.
+5. **Measure through task completion** — Ranking is not the endpoint. Track clicks, on-page task completion, CTA events, and real conversion. Measure GEO citations separately with reproducible evidence.
 
 ### Detailed Guides
 
 | Topic | File | Description |
 |:---|:---|:---|
 | Keyword Funnel Strategy | [references/en/keyword-strategy.md](references/en/keyword-strategy.md) | TOFU/MOFU/BOFU keyword matrix & prioritization |
+| **Topic Map & Page Ownership** | [references/topic-map-page-owner.md](references/topic-map-page-owner.md) | Entity, search ICP, intent clusters, SERP validation, page tasks, and directory-level review |
 | SEO Technical Foundations | [references/en/seo-foundations.md](references/en/seo-foundations.md) | Core page optimization, Schema, site architecture |
 | GEO Optimization | [references/en/geo-optimization.md](references/en/geo-optimization.md) | IndexNow, AI crawlers, citation optimization |
-| **GEO Evidence-Layer Standard** | [references/en/geo-evidence-standard.md](references/en/geo-evidence-standard.md) | 43% weight table + evidence discipline + primary-source citation library |
+| **GEO Evidence-Layer Standard** | [references/en/geo-evidence-standard.md](references/en/geo-evidence-standard.md) | Internal editorial rubric + evidence discipline + primary-source citation library |
 | Content Production SOP | [references/en/content-sop.md](references/en/content-sop.md) | End-to-end workflow from topic selection to publishing |
 | E-E-A-T Writing Voice | [references/en/writing-voice.md](references/en/writing-voice.md) | Founder voice system for authenticity signals |
 | Comparison Page SOP | [references/en/comparison-pages.md](references/en/comparison-pages.md) | Page structure, Schema, keyword embedding |
@@ -255,13 +258,13 @@ In 2026, search traffic splits into two entry points: Google/Bing rankings, and 
 
 ## Platform Description
 
-**EN:** SEO & GEO Dual-Engine Playbook 2026 — Rank on Google AND get cited by AI search (ChatGPT, Perplexity, Claude, Gemini). Enforces 2026-06-24 execution standards: Ahrefs keyword filter (volume 300–1,000 / KD 5–35 / traffic potential 300+), internal links ≤2–3 per paragraph, cite competitor blogs as external links, title formula best/free/top/guide+year, keyword rephrase in meta description, BreadcrumbList schema, $20–30 quality backlink outreach, Bing IndexNow for GEO, AI-friendly format (1-sentence answer + table + FAQ), GA4 AI traffic tracking.
+**EN:** SEO & GEO Dual-Engine Playbook 2026 — define the entity and search ICP, build a Topic Map, map each intent cluster to one Page Owner, validate the live SERP, improve discoverability and task completion, and measure Google results separately from verifiable AI citations.
 
-**ZH:** SEO & GEO 双引擎增长手册（2026-06-24 标准）—— 同时拿下 Google 排名和 AI 搜索引用。关键词筛选标准：volume 300–1,000 / KD 5–35 / traffic potential 300+。执行规则：内链每段 ≤2–3 个、主动 cite 竞品外链、标题含 best/free/top/guide+年份、meta description 关键词 rephrase、面包屑 BreadcrumbList schema、$20–30 高质量外链、Bing IndexNow 推送、AI 友好格式（一句话答+表格+FAQ）、GA4 AI 流量追踪。
+**ZH:** SEO & GEO 双引擎增长手册：定义 Entity 与搜索 ICP，建立 Topic Map，将每个主意图词簇分配给唯一 Page Owner，用当前 SERP 确认页面形态，再独立跟踪 Google 曝光/点击/转化和可复核 AI 引用。
 
-**JA:** SEO & GEO デュアルエンジン成長プレイブック（2026-06-24基準）— Google検索とAI検索（ChatGPT、Perplexity、Claude）の両方を攻略。キーワード選定基準：volume 300–1,000 / KD 5–35 / traffic potential 300+。実行ルール：内部リンクは段落あたり≤2–3個、競合ブログへの外部リンク、タイトルにbest/free/top/guide+年、meta descriptionのキーワードrephrase、BreadcrumbListスキーマ、$20–30外部リンク獲得、Bing IndexNow、AI対応フォーマット（一文回答+表+FAQ）、GA4 AIトラフィック追跡。
+**JA:** SEO/GEO のために Entity と検索 ICP を定義し、Topic Map を作成、各検索意図クラスターに唯一の Page Owner を割り当てる。現在の SERP でページ形態を検証し、クリック・タスク完了・転換と、再現可能な AI 引用を別々に計測する。
 
-**KO:** SEO & GEO 듀얼 엔진 성장 플레이북（2026-06-24 기준）— 구글과 AI 검색(ChatGPT, Perplexity, Claude) 양쪽 동시 공략. 기본값은 개발자 도구/OSS/B2B SaaS용. 2C 제품은 references/2c-adaptation.md 참조. 키워드 선정 기준: volume 300–1,000 / KD 5–35 / traffic potential 300+. 실행 규칙: 단락당 내부링크 ≤2–3개, 경쟁사 블로그 외부링크 인용, 제목에 best/free/top/guide+연도, meta description 키워드 rephrase, BreadcrumbList 스키마, $20–30 고품질 백링크, Bing IndexNow, AI 친화적 포맷(한 문장 답변+표+FAQ), GA4 AI 트래픽 추적.
+**KO:** SEO/GEO를 위해 Entity와 검색 ICP를 정의하고 Topic Map을 만든 뒤, 각 주요 의도 클러스터에 하나의 Page Owner를 배정한다. 현재 SERP로 페이지 형태를 검증하고 클릭·과업 완료·전환과 재현 가능한 AI 인용을 별도로 측정한다.
 
 <!-- gingiris-community-cta:start -->
 ## 加入出海社群与购买资料包 · Community & Resources

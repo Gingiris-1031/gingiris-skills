@@ -81,14 +81,14 @@ Result: ~32K impressions, 8-11 keywords on Page 1, 86% index coverage
 | SEO Daily Report | Daily | Track "keywords on Page 1" as headline metric |
 | Keyword → Landing Page Map | Continuous | Single source of truth for content SEO strategy |
 | CTA Conversion Blocks | Every page | Convert search traffic to business goals |
-| GEO Triple Combo | Every page | FAQ + Table + Direct-answer for AI search citation |
+| GEO Evidence Blocks | When supported by the page | Direct answer + verifiable table/case + visible FAQ when useful; none guarantees citation |
 | Owner Checklist | One-time | Human tasks the AI Agent can't automate |
 
 ### Key Innovation: Unified SEO + GEO Strategy
 
 This SOP doesn't treat GEO as an afterthought. Every content piece is simultaneously optimized for:
 - **Google Search ranking** (keywords, internal links, Schema markup, technical SEO)
-- **AI search citation** (direct answers, structured tables, FAQ Schema, IndexNow push to ChatGPT/Perplexity/Claude)
+- **AI search citation readiness** (direct answers, verifiable tables/cases, and matching Schema where appropriate; IndexNow only notifies participating engines and does not push content to ChatGPT/Perplexity/Claude)
 - **Conversion** (CTA blocks with UTM tracking, funnel analytics via GA4)
 
 ### AI Traffic Tracking (Original Innovation)
@@ -161,7 +161,7 @@ Week 4: CTR 榨取 + 规模化（高曝光页→点击优化）
 
 每篇内容同时优化三个维度：
 - **Google 排名**（关键词布局、内链架构、Schema 标记、技术 SEO）
-- **AI 搜索引用**（直接回答、结构化表格、FAQ Schema、IndexNow 推送）
+- **AI 搜索引用准备度**（直接回答、可核验表格/案例、按需使用且与可见内容一致的 Schema；IndexNow 仅通知支持该协议的引擎，不会把内容直接推给 ChatGPT/Perplexity/Claude）
 - **转化**（CTA 转化块 + UTM 追踪 + GA4 漏斗分析）
 
 ### AI 引流量追踪（独创方案）
@@ -317,7 +317,7 @@ MIT License — Use and adapt for your own SEO/GEO operations!
 }
 </script>
 
-<!-- FAQ Schema for GEO/AI Search Citation -->
+<!-- FAQ Schema for the visible FAQ below; markup does not guarantee GEO/AI citation -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

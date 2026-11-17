@@ -21,11 +21,11 @@ Shared foundation: Structured content + quality information + technical accessib
 
 ---
 
-## GEO Core Three
+## GEO Discoverability, Readability, and Verifiability
 
 ### 1. IndexNow Real-Time Push
 
-**What is IndexNow:** A protocol that lets you proactively tell search engines "I have new content" instead of waiting for crawlers. Supported by Bing, Yandex, Naver, with data shared to partner AI search engines.
+**What is IndexNow:** A protocol for notifying participating engines that a canonical URL was published, updated, or deleted. It is not Google Request Indexing and does not guarantee indexing, ranking, or AI citation.
 
 **Setup:**
 
@@ -101,7 +101,7 @@ It's used by [user count] to [primary use case].
 
 **Structured comparison tables:**
 
-AI models prefer tabular comparisons:
+When several entities share consistent comparison dimensions, a table improves readability for people and machines:
 
 ```markdown
 | Feature | [Product] | [Competitor A] | [Competitor B] |
@@ -112,7 +112,7 @@ AI models prefer tabular comparisons:
 | Starting Price | $30/mo | $50/mo | $25/mo |
 ```
 
-**FAQ format covering high-frequency questions:**
+**FAQ format (only when real recurring user questions exist):**
 
 ```markdown
 ### How much does [product] cost?
@@ -130,8 +130,8 @@ AI models prefer tabular comparisons:
 
 - [ ] Page opens with one-line direct answer to "what is this"
 - [ ] Contains at least one structured comparison table
-- [ ] FAQ Section covering 5+ common questions
-- [ ] FAQPage Schema markup
+- [ ] If real recurring questions exist, a visible FAQ provides direct answers
+- [ ] Use FAQPage only when the visible FAQ exists and the markup matches it
 - [ ] Data uses precise numbers, not vague language
 - [ ] Includes "Last updated" date (AI prefers fresh content)
 
@@ -178,14 +178,14 @@ Test queries:
 
 If AI cites your product with incorrect information:
 1. Update the corresponding page on your site
-2. IndexNow push immediately
+2. After publishing the correction, submit that canonical URL once through IndexNow and record the response (this does not guarantee an immediate engine or AI update)
 3. Re-check in 1-2 weeks
 
 ---
 
 ## GEO and E-E-A-T
 
-AI models prefer to cite content with these signals:
+Use these trust checks to make claims easier for readers and answer engines to verify; they are not guaranteed citation factors:
 
 | E-E-A-T Signal | How to Build |
 |----------------|-------------|
@@ -194,7 +194,7 @@ AI models prefer to cite content with these signals:
 | **Authoritativeness** | Cited by authoritative sites, media coverage, industry ratings |
 | **Trustworthiness** | HTTPS, privacy policy, contact info, author bios |
 
-**Key insight:** AI models are better at identifying "AI-generated mediocre content" than traditional search engines. Therefore, GEO's core competitive advantage is actually **authentic human experience and unique perspectives**.
+**Editorial principle:** first-hand experience and distinct, sourced observations provide information gain that generic generated copy usually lacks. Treat this as a content-quality rule, not a known model-detection or citation formula.
 
 ---
 

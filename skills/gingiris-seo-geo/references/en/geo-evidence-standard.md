@@ -1,9 +1,11 @@
 # GEO Evidence-Layer Standard (Evidence First, 2026-06)
 
-> One line: **AI citation is won on evidence.** Structure is table stakes; what actually lifts citation rate is authoritative quotes + complete statistics + verifiable sourcing.
+> One line: **Make the content worth citing, then make its evidence readable and verifiable.** Tables, FAQs, and schema do not automatically produce AI citations.
 > Sources: peer-reviewed research (Aggarwal et al., KDD 2024) + Yao GEO weight method (MIT, attributed) + AFFiNE/analook practice.
 
-## 1. GEO Element Weight Table (writing priority)
+## 1. Internal Editorial Rubric (not AI algorithm weights)
+
+> The percentages below are only a Gingiris editorial review heuristic for prioritizing evidence work. They are not published ranking or citation weights from Google, OpenAI, Perplexity, or any other generative engine.
 
 | Layer | Weight | Element | Action |
 |-------|-------:|---------|--------|
@@ -18,9 +20,9 @@
 | Robustness | 5% | Multi-source per claim (data + case + quote) + update date | |
 | Cross-domain links | 4% | Connect to SEO / content marketing / knowledge mgmt | |
 | Readability | 3% | Short sentences, define jargon | |
-| **Penalties** | — | ❌keyword stuffing ❌over-optimization ❌**fabricating data/citations** | Hard lines — instant demotion |
+| **Unacceptable** | — | ❌keyword stuffing ❌over-optimization ❌**fabricating data/citations** | Internal quality red lines; do not represent them as known algorithmic penalties |
 
-> Gingiris status: structure layer (12%) already maxed (FAQ/schema/tables). **Gap = evidence layer (43%) — the highest-leverage lever.**
+> Usage: when a page has a sound hierarchy but lacks verifiable facts, prioritize evidence in the internal review. Do not add FAQs, schema, or tables merely to increase a rubric score.
 
 ## 2. Evidence Discipline (never fabricate, always source)
 
@@ -47,7 +49,7 @@ Source priority: **academic papers > industry reports > authoritative institutio
 - [ ] At least 1 primary-paper citation (use the library above)
 - [ ] Named author + credentials (E-E-A-T) + scope limits
 - [ ] Penalty pass: no stuffing, no fabrication
-- [ ] Structure as usual: summary + FAQ + JSON-LD (Article + FAQPage)
+- [ ] Choose structure from the real content: summary/steps/tables/cases; use Article where appropriate and FAQPage only when a visible FAQ exists and the markup matches it
 
 ## 5. Attribution
 Weight method adapted from Yao's yao-geo-skills (MIT); paper citations follow academic conventions (author + venue). Anonymize consulting-client cases before citing.
