@@ -1,166 +1,83 @@
-# Gingiris Skills — AI Growth & Operations Toolkit
+# Gingiris Skills — AI Agent Workflows for Growth Teams
 
-> Reusable AI agent skills for startup growth operators. The downloadable
-> community skills are open source under the MIT License. Hosted Gingiris Pro
-> services, private datasets, and managed execution are separate commercial
-> products.
-> 4-language support: 🇺🇸 EN · 🇨🇳 ZH · 🇯🇵 JA · 🇰🇷 KR
+Installable workflows for founders and operators working on content, customer research, SEO/GEO, launches and community. Start with one concrete task: provide your product context and evidence, then receive a draft, research report or decision plan you can review.
 
-## ⚡ Install All 65 Skills in One Command
+面向创始人与增长运营团队的 Agent Skills：围绕内容、用户研究、SEO/GEO、发布与社区任务，交付可审阅的草稿、研究和行动方案。
 
-```bash
-npx skills add Gingiris-1031/gingiris-skills
-```
+## Start with one task / 从一个任务开始
 
-Or install a single skill:
+Requires Node.js/npm for this installation route and an agent host that supports Skills. Choose the target agent in the installer.
 
 ```bash
-npx skills add Gingiris-1031/gr-readme
-npx skills add Gingiris-1031/gr-oss-marketing
-# ... any skill from the index below
+npx skills@1.7.4 add Gingiris-1031/gingiris-skills --skill gr
 ```
 
-Browse all skills: [gingiris.tools/skills](https://gingiris.tools/skills/) · [clawhub.ai/gingiris-1031](https://clawhub.ai/gingiris-1031)
+```text
+Use gr. We have an early-stage SaaS and trial signups, but users do not finish setup.
+Choose the next workflow and explain what evidence we need before proposing a campaign.
+```
 
----
-
-## 🇨🇳 中文简介
-
-这是 Gingiris 增长技能 monorepo，收录 65 个可复用的 Claude Code skills，覆盖 SEO/GEO、产品发布、开源营销、B2B 增长、用户访谈等出海增长场景。所有内容提炼自真实操盘经验，而非二手资料汇编。一条命令安装全部：`npx skills add Gingiris-1031/gingiris-skills`，也可以按上面的索引单独安装某一个 skill。完整技能列表与使用说明见 [gingiris.tools/skills](https://gingiris.tools/skills/)。
-
-## 🇯🇵 日本語
-
-Gingiris 成長スキルのモノレポです。SEO/GEO、プロダクトローンチ、オープンソースマーケティング、B2B グロース、ユーザーインタビューなどをカバーする 65 個の Claude Code スキルを収録しています。`npx skills add Gingiris-1031/gingiris-skills` の 1 コマンドで一括インストールでき、個別スキルのみのインストールにも対応しています。詳しいスキル一覧は [gingiris.tools/skills](https://gingiris.tools/skills/) をご覧ください。
-
-## 🇰🇷 한국어
-
-Gingiris 성장 스킬 모노레포입니다. SEO/GEO, 제품 출시, 오픈소스 마케팅, B2B 성장, 사용자 인터뷰 등 글로벌 그로스 시나리오를 다루는 65 개의 Claude Code 스킬을 담고 있습니다. `npx skills add Gingiris-1031/gingiris-skills` 명령 하나로 전체를 설치할 수 있고, 필요한 스킬만 골라 설치할 수도 있습니다. 전체 스킬 목록과 사용법은 [gingiris.tools/skills](https://gingiris.tools/skills/)에서 확인하세요.
-
----
-
-## WeChat Official Account Editorial
-
-Source-grounded Chinese articles, two-stage review, formatting, and verified draft handoff. Includes an offline delivery packager; no automatic publishing or group messaging.
+Already know the task? Install one specialist instead:
 
 ```bash
-npx skills add Gingiris-1031/gingiris-skills --skill gr-wechat-editorial
+npx skills@1.7.4 add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops
 ```
 
-[Workflow and references](skills/gr-wechat-editorial/SKILL.md) · 中文工作流（Chinese-language workflow）
+Ask the agent to use the selected Skill and supply the inputs in its README. If it cannot find the Skill, check the selected agent and install scope, then start a fresh session. Installation does not connect analytics or publish content.
 
-## Service Validation and Voice Calibration
+## Choose by the result you need / 按交付目标选择
 
-- [OPC Service Validation / OPC 服务验证](skills/gr-opc-service-validation/SKILL.md): bounded pilots, buyer fit, capacity and repeat-demand evidence. Complements the broader Solopreneur Coach.
-- [Brand Voice Calibration / 文风校准](skills/gr-brand-voice-calibration/SKILL.md): original samples, contextual rules, Chinese/English adaptation and trial review.
+| Task / 任务 | Skill | Result / 交付 |
+|---|---|---|
+| 增长任务路由 | [gr](skills/gr/README.md) | Route and rationale; minimal missing inputs; one specialist handoff |
+| AI 内容运营 | [gr-ai-content-ops](skills/gr-ai-content-ops/README.md) | Audience and angle brief; SEO/GEO page intent; full drafts; visual briefs; calendar and review ledger |
+| 文章转社媒草稿 | [gr-social-distill](skills/gr-social-distill/README.md) | Requested platform drafts; source links; adaptation notes; optional carousel or image brief |
+| 个人与品牌文风校准 | [gr-brand-voice-calibration](skills/gr-brand-voice-calibration/README.md) | Source index; contextual voice rules; counterexamples; test draft; unresolved preferences |
+| 微信公众号内容工作流 | [gr-wechat-editorial](skills/gr-wechat-editorial/README.md) | Article Markdown and HTML; source map; review notes; asset checklist; draft receipt when access is available |
+| OPC 服务与试单验证 | [gr-opc-service-validation](skills/gr-opc-service-validation/README.md) | Offer definition; client-fit checklist; pilot card; capacity and pricing assumptions; continue/change/stop decision |
+| 竞品研究与决策 | [competitor-research-playbook](skills/competitor-research-playbook/README.md) | Benchmark rationale; historical timeline; evidence register; counterevidence; action card |
+| 竞品分析执行入口 | [gr-competitor](skills/gr-competitor/README.md) | Scope and selection rationale; dated sources; unknowns and counterevidence; experiment handoff |
+| 用户访谈与需求验收 | [gr-user-interview](skills/gr-user-interview/README.md) | Screening and interview plan; evidence synthesis; requirement and acceptance card; follow-up plan |
+| 用户研究与冷启动运营 | [gingiris-user-interview](skills/gingiris-user-interview/README.md) | Research plan; task-based Beta design; adoption barriers; cohort follow-up and cold-start decision card |
+| UGC 创作者与素材实验 | [gingiris-ugc-matrix](skills/gingiris-ugc-matrix/README.md) | Goal card; creator criteria; brief and acceptance rules; asset ledger; attribution and settlement plan |
+| X 与社媒账号运营 | [gingiris-twitter-agent-ops](skills/gingiris-twitter-agent-ops/README.md) | Reviewed draft; media readiness checklist; publication receipt when authorized; measurement and recovery notes |
+| GitHub README 写作 | [gr-readme](skills/gr-readme/README.md) | Positioning sentence; rewritten README; quick-start and expected output; review checklist |
+| 外链研究与合作准备 | [gr-backlinks](skills/gr-backlinks/README.md) | Opportunity shortlist; relevance checks; pitch drafts; submission ledger; measurement plan |
+| 开源增长渠道归因 | [oss-growth-attribution](skills/oss-growth-attribution/README.md) | Stage timeline; original content links; evidence grades; modeled ranges; next-stage research and measurement plan |
+| 开发者与用户社区运营 | [community-building-playbook](skills/community-building-playbook/README.md) | Readiness review; platform and onboarding plan; event brief; content rhythm; community health measures |
 
-```bash
-npx skills add Gingiris-1031/gingiris-skills --skill gr-opc-service-validation
-npx skills add Gingiris-1031/gingiris-skills --skill gr-brand-voice-calibration
-```
+## How the workflows connect
 
-## AI Content Operations
+Research a buyer or competitor → decide what the audience needs → produce a useful source asset → adapt it to selected channels → review delivery and outcomes. Use only the steps relevant to your request.
 
-[AI 内容运营 / AI Content Operations](skills/gr-ai-content-ops/SKILL.md): source libraries, channel roles, weekly calendars, editorial gates, distribution receipts and business measurement.
+- **Content planning vs repurposing:** `gr-ai-content-ops` chooses topics and operating scope; `gr-social-distill` adapts a supplied article.
+- **Voice vs facts:** `gr-brand-voice-calibration` learns expression from originals; it does not supply factual claims.
+- **Research vs execution:** competitor and attribution reports support decisions; they do not automatically contact users or launch campaigns.
+- **Playbook vs compact entry:** some packages share a method or serve as compatibility names. The count below is packages, not independent strategies.
 
-```bash
-npx skills add Gingiris-1031/gingiris-skills --skill gr-ai-content-ops
-```
+## What is in this repository?
 
-## Skills Index
+Each package contains a `SKILL.md` instruction file, with references, templates or scripts where available. The human-readable README explains when to use it, what to provide and what to expect. These are workflows for an agent, not trained models or a hosted automation service.
 
-### Core Growth Playbooks (`gingiris-*`)
+核心说明支持中英使用；部分历史包另有日语、韩语参考，具体以各包文件为准。不会把部分翻译说成全库完整四语覆盖。
 
-| Skill | Description | ClawHub |
-|-------|-------------|---------|
-| [gingiris-b2b-growth](skills/gingiris-b2b-growth) | B2B SaaS Growth — PLG/SLG Playbook, $0→$10M ARR | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-b2b-growth) |
-| [gingiris-aso-growth](skills/gingiris-aso-growth) | ASO & App Cold Start — Organic Discovery & UGC Growth | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-aso-growth) |
-| [gingiris-seo-geo](skills/gingiris-seo-geo) | SEO & GEO 2026 — Rank Google + AI Search | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-seo-geo) |
-| [gingiris-seo-geo-agent](skills/gingiris-seo-geo-agent) | SEO/GEO Agent Ops — 32K Impressions Monthly Autopilot | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-seo-geo-agent) |
-| [gingiris-go-global](skills/gingiris-go-global) | AI Product Go-Global — Research to Monetization SOP + **Hardware Market Entry Strategy (Plaud Japan Makuake, Insta360 Regional Office Model, 15% GMV trigger)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-go-global) |
-| [gingiris-launch](skills/gingiris-launch) | Product Launch — Multi-Channel GTM & Cold Start | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-launch) |
-| [gingiris-opensource](skills/gingiris-opensource) | Open Source Marketing — GitHub Stars Growth System | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-opensource) |
-| [oss-growth-attribution](skills/oss-growth-attribution) | Evidence-backed OSS growth channels, star stages & key content attribution | [↗](https://clawhub.ai/gingiris-1031/skills/oss-growth-attribution) |
-| [gingiris-github-star-growth](skills/gingiris-github-star-growth) | GitHub Star Sustained Growth — 300+ Stars/Month | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-github-star-growth) |
-| [gingiris-kol-outreach](skills/gingiris-kol-outreach) | KOL Outreach & Influencer Marketing — Discovery to ROI + **Hardware KOL Vertical Matrix (Plaud/Insta360 cases)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-kol-outreach) |
-| [gingiris-ugc-matrix](skills/gingiris-ugc-matrix) | UGC Content Matrix — Viral Distribution System + **Hardware UGC Flywheel (Insta360 NoseMode, DJI SkyPixel vs Algorithm)** | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-ugc-matrix) |
-| [gingiris-growth-finder](skills/gingiris-growth-finder) | Growth Finder — AI Strategy Router for Startups | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-growth-finder) |
-| [gingiris-user-interview](skills/gingiris-user-interview) | User Interview & PMF Validation — Real-task Research, Recovery and Follow-up | [↗](https://clawhub.ai/gingiris-1031/skills/gingiris-user-interview) |
-| [community-ambassador-playbook](skills/community-ambassador-playbook) | Community Ambassador Playbook — Recruitment to Retention SOP + **Hardware Brand Cases (Insta360 4-tier creator system, DJI 3-track model, Official Takeover mechanism)** | [↗](https://clawhub.ai/gingiris-1031/skills/community-ambassador-playbook) |
-| [competitor-research-playbook](skills/competitor-research-playbook) | Competitor Research Playbook — CI to GTM | [↗](https://clawhub.ai/gingiris-1031/skills/competitor-research-playbook) |
-| [product-hunt-launch-playbook-win-1-daily](skills/product-hunt-launch-playbook-win-1-daily) | Product Hunt Launch Playbook — Win #1 Daily | [↗](https://clawhub.ai/gingiris-1031/skills/product-hunt-launch-playbook-win-1-daily) |
-| [hardware-saas-gtm](skills/hardware-saas-gtm) | Hardware + SaaS GTM Playbook — Crowdfunding Engineering, KOL Matrix & Device-as-Funnel Subscription (Plaud/Insta360/DJI cases) | [↗](https://clawhub.ai/gingiris-1031/skills/hardware-saas-gtm) |
+## Complete package index
 
-### Execution Skills (`gr-*`)
+**65 source packages**, checked 2026-11-17. Related and compatibility entries are retained; use the task table above to choose a starting point.
 
-| Skill | Description |
-|-------|-------------|
-| [gr](skills/gr) | Growth Router — Entry point for all gr-* skills |
-| [gr-aso](skills/gr-aso) | ASO Execution — App Store keyword & rating optimization |
-| [gr-b2b-growth](skills/gr-b2b-growth) | B2B Growth Execution — PLG funnel & enterprise motion |
-| [gr-backlinks](skills/gr-backlinks) | Backlinks & Link Building — 5-channel SEO authority system |
-| [gr-blog-post](skills/gr-blog-post) | Blog & Content Marketing — SEO-optimized publishing pipeline |
-| [gr-competitor](skills/gr-competitor) | Competitor Analysis Execution — CI workflow |
-| [gr-geo-cite](skills/gr-geo-cite) | GEO & AI Search Citations — Get cited by ChatGPT/Perplexity |
-| [gr-oss-marketing](skills/gr-oss-marketing) | Open Source Marketing Execution — GitHub ecosystem growth |
-| [gr-ph-launch](skills/gr-ph-launch) | Product Hunt Launch Execution — T-14 to T+7 playbook |
-| [gr-seo-patrol](skills/gr-seo-patrol) | SEO Audit & Monitoring — Technical SEO weekly patrol |
-| [gr-social-distill](skills/gr-social-distill) | Social Media Distillation — Content repurposing system |
-| [gr-user-interview](skills/gr-user-interview) | User Interview Execution — PMF validation workflow |
-| [gr-readme](skills/gr-readme) | GitHub README Writing System — 3-Second Conversion Framework (AFFiNE 0→60K Stars) |
+[agent-workflow-playbook](skills/agent-workflow-playbook/SKILL.md) | [ai-launch-playbook](skills/ai-launch-playbook/SKILL.md) | [ai-product-launch](skills/ai-product-launch/SKILL.md) | [aso-playbook](skills/aso-playbook/SKILL.md) | [b2b-marketing-playbook](skills/b2b-marketing-playbook/SKILL.md) | [community-ambassador-playbook](skills/community-ambassador-playbook/README.md) | [community-building-playbook](skills/community-building-playbook/README.md) | [competitor-research-playbook](skills/competitor-research-playbook/README.md) | [developer-marketing-playbook](skills/developer-marketing-playbook/SKILL.md) | [devrel-playbook](skills/devrel-playbook/SKILL.md) | [gingiris-aso-growth](skills/gingiris-aso-growth/README.md) | [gingiris-b2b-growth](skills/gingiris-b2b-growth/README.md) | [gingiris-github-star-growth](skills/gingiris-github-star-growth/README.md) | [gingiris-go-global](skills/gingiris-go-global/README.md) | [gingiris-growth-finder](skills/gingiris-growth-finder/README.md) | [gingiris-kol-outreach](skills/gingiris-kol-outreach/README.md) | [gingiris-launch](skills/gingiris-launch/README.md) | [gingiris-opensource](skills/gingiris-opensource/README.md) | [gingiris-seo-geo](skills/gingiris-seo-geo/README.md) | [gingiris-seo-geo-agent](skills/gingiris-seo-geo-agent/README.md) | [gingiris-twitter-agent-ops](skills/gingiris-twitter-agent-ops/README.md) | [gingiris-ugc-matrix](skills/gingiris-ugc-matrix/README.md) | [gingiris-user-interview](skills/gingiris-user-interview/README.md) | [github-stars-playbook](skills/github-stars-playbook/SKILL.md) | [go-to-market-playbook](skills/go-to-market-playbook/SKILL.md) | [gr](skills/gr/README.md) | [gr-ai-content-ops](skills/gr-ai-content-ops/README.md) | [gr-aso](skills/gr-aso/SKILL.md) | [gr-b2b-growth](skills/gr-b2b-growth/SKILL.md) | [gr-backlinks](skills/gr-backlinks/README.md) | [gr-blog-post](skills/gr-blog-post/SKILL.md) | [gr-brand-voice-calibration](skills/gr-brand-voice-calibration/README.md) | [gr-community-ambassador](skills/gr-community-ambassador/SKILL.md) | [gr-competitor](skills/gr-competitor/README.md) | [gr-competitor-research](skills/gr-competitor-research/README.md) | [gr-core](skills/gr-core/SKILL.md) | [gr-geo-cite](skills/gr-geo-cite/SKILL.md) | [gr-opc-service-validation](skills/gr-opc-service-validation/README.md) | [gr-oss-marketing](skills/gr-oss-marketing/SKILL.md) | [gr-ph-launch](skills/gr-ph-launch/SKILL.md) | [gr-product-dev-ops](skills/gr-product-dev-ops/SKILL.md) | [gr-readme](skills/gr-readme/README.md) | [gr-seo-geo-agent](skills/gr-seo-geo-agent/SKILL.md) | [gr-seo-patrol](skills/gr-seo-patrol/SKILL.md) | [gr-social-distill](skills/gr-social-distill/README.md) | [gr-user-interview](skills/gr-user-interview/README.md) | [gr-wechat-editorial](skills/gr-wechat-editorial/README.md) | [growth-hacking-playbook](skills/growth-hacking-playbook/SKILL.md) | [hardware-saas-gtm](skills/hardware-saas-gtm/SKILL.md) | [kol-outreach](skills/kol-outreach/SKILL.md) | [open-source-marketing-playbook](skills/open-source-marketing-playbook/SKILL.md) | [oss-growth-attribution](skills/oss-growth-attribution/README.md) | [plg-playbook](skills/plg-playbook/SKILL.md) | [product-hunt-launch-guide](skills/product-hunt-launch-guide/SKILL.md) | [product-hunt-launch-playbook-win-1-daily](skills/product-hunt-launch-playbook-win-1-daily/README.md) | [product-hunt-playbook](skills/product-hunt-playbook/SKILL.md) | [saas-growth-playbook](skills/saas-growth-playbook/SKILL.md) | [saas-marketing-playbook](skills/saas-marketing-playbook/SKILL.md) | [startup-consultant](skills/startup-consultant/SKILL.md) | [startup-growth-playbook](skills/startup-growth-playbook/SKILL.md) | [startup-launch](skills/startup-launch/SKILL.md) | [startup-launch-playbook](skills/startup-launch-playbook/SKILL.md) | [startup-marketing-playbook](skills/startup-marketing-playbook/SKILL.md) | [team-motivation-ops](skills/team-motivation-ops/README.md) | [viral-marketing-playbook](skills/viral-marketing-playbook/SKILL.md)
 
----
+## Sources, limits and maintenance
 
-## Tools Used in These Playbooks
+Maintained by Iris Wei / Gingiris. Package examples distinguish observed facts, external claims, assumptions and illustrative outputs. Historical company results are not promises of future performance. Research requires access to its sources; analytics and publishing require the relevant tools and authorization.
 
-| Tool | What It Does | Used In |
-|------|-------------|--------|
-| [Analook](https://www.analook.com) | Competitive intelligence — URL → SEO/traffic/social report in 5 min | gr-competitor, gingiris-growth-finder, competitor-research-playbook |
-| [Analook Growth Audit](https://www.analook.com/growth-audit.html) | Deep growth audit for any product ($29/mo) | gingiris-b2b-growth, gingiris-launch |
+For a reproducible issue, include the package name, agent environment, minimal non-private input, expected artifact and actual behavior in a [GitHub issue](https://github.com/Gingiris-1031/gingiris-skills/issues). Do not include credentials or private customer records.
 
-> Analook is built by Iris Wei. Use code **GINGIRIS20** for 20% off.
+[Browse the website](https://tools.gingiris.com/skills/) · [Hugging Face distribution](https://huggingface.co/Gingiris) · [MIT License](LICENSE)
 
----
+The source repository is the maintenance home. Marketplace indexing, review and version display can lag behind a source release. Check each destination rather than assuming all mirrors are identical.
 
-## Author
+## Community and optional resources / 社群与可选资料
 
-**Iris Wei** · [GitHub](https://github.com/Gingiris-1031) · [Twitter @WeiYipei](https://x.com/WeiYipei) · [gingiris.tools](https://gingiris.tools)
-
-Built from operator experience; research methods emphasize observed behavior, counterexamples and follow-up rather than interview-count thresholds.
-
-## License
-
-Unless a subdirectory states otherwise, the source code, prompts, templates, and
-skill files in this repository are available under the [MIT License](LICENSE).
-You may use, modify, redistribute, and commercially use these repository
-materials under its terms.
-
-The MIT License applies only to materials actually distributed in this
-repository. It does not include:
-
-- hosted Gingiris Pro APIs or managed skill execution;
-- private datasets, credentials, infrastructure, or server-side workflows;
-- paid reports, advisory deliverables, service levels, or customer data;
-- the Gingiris names, logos, domains, or other brand assets.
-
-Use of Gingiris branding is governed separately by the
-[Gingiris Brand and Trademark Policy](TRADEMARKS.md). The license does not imply
-endorsement or permission to present a fork, service, or product as official
-Gingiris.
-
-Commercial licensing for future self-hosted Pro components, white-label use, or
-OEM distribution may be offered separately. Contact Gingiris through
-[gingiris.tools](https://gingiris.tools/).
-
-<!-- gingiris-community-cta:start -->
-## 加入出海社群与购买资料包 · Community & Resources
-
-- **加入出海社群：** 微信添加 **staywildgrow**，留言「**加入社群**」即可。
-- **购买资料包：** 微信添加 **staywildgrow**，咨询购买 Gingiris 出海资料包，价格 **599 元人民币**。
-
-- **Join the global growth community:** Add **staywildgrow** on WeChat and send **“加入社群”** (join the community).
-- **Get the resource pack:** Add **staywildgrow** on WeChat to purchase the Gingiris global growth resource pack for **CNY 599**.
-
-社群与资料包为可选入口，不影响本开源 Skill 的安装和使用。
-
-The community and paid resource pack are optional; neither is required to install or use this open-source skill.
-<!-- gingiris-community-cta:end -->
+微信添加 **staywildgrow**，留言「**加入社群**」；也可咨询 **599 元资料包**。
+Add **staywildgrow** on WeChat and send **“加入社群”**. The separate resource pack costs **CNY 599**. Neither is required to use the open-source Skills; hosted and managed services are separate.
