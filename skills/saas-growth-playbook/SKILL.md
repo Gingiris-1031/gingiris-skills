@@ -45,12 +45,12 @@ Revenue is the only metric that matters. This playbook is organized by MRR miles
 - **Retention levers**: Cohort analysis, NPS-driven improvements, and re-engagement flows
 - **Benchmarks**: Stage-appropriate metrics so you know if you're on track
 
-## Two Roads to $1M ARR (2026 addendum)
+## Illustrative annual revenue arithmetic (corrected 2026-11-17)
 
-Every path to the first $1M reduces to one of two equations — mixing them too early stalls both:
+The following are different revenue scenarios, not equivalent paths to $1M ARR. Check recurring revenue, service revenue and collected cash separately:
 
-- **Enterprise leg:** nine ~$100K accounts per year (a typical composition: $30–50K standard service + $30K implementation + $20K training)
-- **Self-serve leg:** five hundred $200/yr subscriptions
+- **Enterprise illustration:** nine ~$100K accounts per year = approximately $900K annually, not $1M ARR (a typical composition: $30–50K standard service + $30K implementation + $20K training)
+- **Self-serve illustration:** five hundred $200/yr subscriptions = $100K ARR. At that annual price, $1M ARR requires 5,000 active subscriptions, before discounts or churn
 
 Prove each as its own small closed loop before combining them into one forecast.
 

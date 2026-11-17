@@ -63,7 +63,7 @@ Wholesale at 80% of list price, resale capped at 1.2x list. Due-diligence trio f
 
 ### Size the marketing plan against revenue math
 
-Anchor the annual plan to one of two $1M-ARR skeletons: nine ~$100K enterprise engagements, or five hundred $200/yr self-serve subscriptions. The skeleton dictates the stack — the enterprise leg needs ABM tooling and case-study production; the self-serve leg needs SEO, lifecycle email, and conversion instrumentation. Funding both stacks at once is how sub-$1M teams overspend.
+Check the annual-plan arithmetic: nine ~$100K enterprise engagements total about $900K, while five hundred $200/year subscriptions total $100K ARR. The latter needs 5,000 active subscriptions to reach $1M ARR before discounts or churn. Service contract value is not automatically recurring revenue. The skeleton dictates the stack — the enterprise leg needs ABM tooling and case-study production; the self-serve leg needs SEO, lifecycle email, and conversion instrumentation. Funding both stacks at once is how sub-$1M teams overspend.
 
 ### One hard-won pricing note
 
